@@ -7,7 +7,7 @@ Iterate faces and dimensions here. Port strokes back into the game cooker after 
 ## Open the wiki
 
 ```bash
-cd path/to/signage-atlas
+cd path/to/signage-atlas-public
 ./tools/serve.sh
 # http://127.0.0.1:8765/
 ```
@@ -107,4 +107,4 @@ GitHub Pages is not wired. Serve locally.
 
 ## Repo
 
-https://github.com/AI-tainment/signage-atlas
+https://github.com/AI-tainment/signage-atlas-public
