@@ -1,0 +1,4296 @@
+{
+  "country": "uk",
+  "faces": {
+    "furniture/belisha": {
+      "path": "furniture/belisha.svg",
+      "kind": "furniture",
+      "id": "belisha",
+      "name": "Belisha beacon",
+      "glyph": false,
+      "renderer": "belisha",
+      "bytes": 850,
+      "sha256": "773efc71a447cda5f2c61fb32e9bb054d5f7bc033df0c3b331c31feb35ed0bb9"
+    },
+    "furniture/chs-114": {
+      "path": "furniture/chs-114.svg",
+      "kind": "furniture",
+      "id": "chs-114",
+      "name": "114 mm circular post",
+      "glyph": false,
+      "renderer": "chs",
+      "bytes": 357,
+      "sha256": "25eea7ed09f88e00d78f55ad714d99cbd7e2f8af4da2dcd3f33908d07003dbb5"
+    },
+    "furniture/chs-219": {
+      "path": "furniture/chs-219.svg",
+      "kind": "furniture",
+      "id": "chs-219",
+      "name": "219 mm gantry or cantilever leg",
+      "glyph": false,
+      "renderer": "chs",
+      "bytes": 347,
+      "sha256": "fb9a4ab07e9d958a6bf29e398446ae82f95d1520c6a08fe74c337fbb8a98ec30"
+    },
+    "furniture/chs-76": {
+      "path": "furniture/chs-76.svg",
+      "kind": "furniture",
+      "id": "chs-76",
+      "name": "76 mm circular post",
+      "glyph": false,
+      "renderer": "chs",
+      "bytes": 357,
+      "sha256": "5b93a857b8a31adf31c3230d4e3e69033601dac79cf2218fb933fcdd927cb56b"
+    },
+    "furniture/gantry-cantilever": {
+      "path": "furniture/gantry-cantilever.svg",
+      "kind": "furniture",
+      "id": "gantry-cantilever",
+      "name": "Cantilever gantry",
+      "glyph": false,
+      "renderer": "placeholder",
+      "bytes": 3605,
+      "sha256": "cd1b28bbe39661a33728a9fa2acedf5b723f879f56f9e958efde02c04342f51a"
+    },
+    "furniture/gantry-portal": {
+      "path": "furniture/gantry-portal.svg",
+      "kind": "furniture",
+      "id": "gantry-portal",
+      "name": "Portal gantry",
+      "glyph": false,
+      "renderer": "portal",
+      "bytes": 535,
+      "sha256": "6782b7d49394770a420a49b519f28466967dd9f2aea14f871880dd8e59980340"
+    },
+    "furniture/lane-signal": {
+      "path": "furniture/lane-signal.svg",
+      "kind": "furniture",
+      "id": "lane-signal",
+      "name": "Smart motorway lane signal (AMI)",
+      "glyph": false,
+      "renderer": "placeholder",
+      "bytes": 3028,
+      "sha256": "792c349cc6df29a0e7c67fee45e82c42ebba80038ddfe16d265ade3354bc5316"
+    },
+    "furniture/pylon-l12d": {
+      "path": "furniture/pylon-l12d.svg",
+      "kind": "furniture",
+      "id": "pylon-l12d",
+      "name": "Lattice pylon",
+      "glyph": false,
+      "renderer": "pylon",
+      "bytes": 2882,
+      "sha256": "4ab5ea1cab17ec712460bfdf5109fe9bdc3cb12a64c08838fc41b46c406d6d83"
+    },
+    "furniture/street-name-posts": {
+      "path": "furniture/street-name-posts.svg",
+      "kind": "furniture",
+      "id": "street-name-posts",
+      "name": "Street-name posts",
+      "glyph": false,
+      "renderer": "two_post",
+      "bytes": 510,
+      "sha256": "051b5dd3aaa4fde2c0a0de678aa39a52c8079281b12680be9fcb692505d5d855"
+    },
+    "furniture/telegraph": {
+      "path": "furniture/telegraph.svg",
+      "kind": "furniture",
+      "id": "telegraph",
+      "name": "Telegraph pole",
+      "glyph": false,
+      "renderer": "telegraph",
+      "bytes": 797,
+      "sha256": "40b6247cd9df85f9dd137caf21224a40896f71db057011e72d6168a1b8f7146a"
+    },
+    "furniture/two-post": {
+      "path": "furniture/two-post.svg",
+      "kind": "furniture",
+      "id": "two-post",
+      "name": "Two-post direction-sign mount",
+      "glyph": false,
+      "renderer": "two_post",
+      "bytes": 466,
+      "sha256": "9ca5146339295c3f656967f7866cc4084cd747dec123a7e725e255f698541507"
+    },
+    "furniture/verge-ms": {
+      "path": "furniture/verge-ms.svg",
+      "kind": "furniture",
+      "id": "verge-ms",
+      "name": "Verge-mounted message sign",
+      "glyph": false,
+      "renderer": "placeholder",
+      "bytes": 3516,
+      "sha256": "c69b2d128b829937453415a9fc49ba4189624143d26f4bb5a28cb1a6dcd58fba"
+    },
+    "furniture/vms-pictogram": {
+      "path": "furniture/vms-pictogram.svg",
+      "kind": "furniture",
+      "id": "vms-pictogram",
+      "name": "Pictogram variable message sign",
+      "glyph": false,
+      "renderer": "placeholder",
+      "bytes": 3034,
+      "sha256": "5a57e01661d10789fb9de496a71bd9b70d27ae46dc5c624f0127ced7ea66fedf"
+    },
+    "furniture/vms-text": {
+      "path": "furniture/vms-text.svg",
+      "kind": "furniture",
+      "id": "vms-text",
+      "name": "Large text variable message sign",
+      "glyph": false,
+      "renderer": "placeholder",
+      "bytes": 3002,
+      "sha256": "1f406013039d4b7dda43c48b6fe25c017a9ced0676074810e22f6a90029964a4"
+    },
+    "markings/1001": {
+      "path": "markings/1001.svg",
+      "kind": "markings",
+      "id": "1001",
+      "name": "Stop line at signals or police control",
+      "glyph": false,
+      "renderer": "solid",
+      "bytes": 268,
+      "sha256": "2b6754c9fb0eabff5524a758b90cd04707a1ffd94d598f704b6759d92239ff9f"
+    },
+    "markings/1001.3": {
+      "path": "markings/1001.3.svg",
+      "kind": "markings",
+      "id": "1001.3",
+      "name": "Zig-zag lines at a signal crossing",
+      "glyph": false,
+      "renderer": "zigzag",
+      "bytes": 355,
+      "sha256": "a7c302856ae01864aee3e01fbc25292338cc496fe9be084f7275c13c72a39446"
+    },
+    "markings/1001.4": {
+      "path": "markings/1001.4.svg",
+      "kind": "markings",
+      "id": "1001.4",
+      "name": "Zig-zag lines at a zebra",
+      "glyph": false,
+      "renderer": "zigzag",
+      "bytes": 355,
+      "sha256": "a7c302856ae01864aee3e01fbc25292338cc496fe9be084f7275c13c72a39446"
+    },
+    "markings/1002.1": {
+      "path": "markings/1002.1.svg",
+      "kind": "markings",
+      "id": "1002.1",
+      "name": "Stop line at Stop sign",
+      "glyph": false,
+      "renderer": "solid",
+      "bytes": 267,
+      "sha256": "c3f7aec8ee9fdfc6e96cde6e3dbcee90bdb9e60a9df661cafec4e00b7cbe5618"
+    },
+    "markings/1003.1": {
+      "path": "markings/1003.1.svg",
+      "kind": "markings",
+      "id": "1003.1",
+      "name": "Give way to traffic from the right at a roundabout",
+      "glyph": false,
+      "renderer": "dash",
+      "bytes": 928,
+      "sha256": "0bee3f384a69465549492eb4446ed9b455b9667b61eefa05edda6614a2e0bb8d"
+    },
+    "markings/1003.3": {
+      "path": "markings/1003.3.svg",
+      "kind": "markings",
+      "id": "1003.3",
+      "name": "Give way to traffic from the right at a mini-roundabout",
+      "glyph": false,
+      "renderer": "dash",
+      "bytes": 1773,
+      "sha256": "622b6a59aea8c51e546a8d1b6e9259116a546135299fa462bc0608cdacec0fb7"
+    },
+    "markings/1003.4": {
+      "path": "markings/1003.4.svg",
+      "kind": "markings",
+      "id": "1003.4",
+      "name": "Mini-roundabout disc",
+      "glyph": false,
+      "renderer": "mini_disc",
+      "bytes": 866,
+      "sha256": "44bbf8c72ce4ed678594a175373a8c7013f746c0977bdd727edc38084977bb93"
+    },
+    "markings/1003A": {
+      "path": "markings/1003A.svg",
+      "kind": "markings",
+      "id": "1003A",
+      "name": "Give way to traffic on major road",
+      "glyph": false,
+      "renderer": "give_way",
+      "bytes": 857,
+      "sha256": "70bef8a2332ade783a227dd721b1c5fb58b8c4d16e35f4c7628a65415f8f8632"
+    },
+    "markings/1004": {
+      "path": "markings/1004.svg",
+      "kind": "markings",
+      "id": "1004",
+      "name": "Hazard warning line",
+      "glyph": false,
+      "renderer": "dash",
+      "bytes": 413,
+      "sha256": "8382802f634f7b76e1afa311cf23dab82acd5d790188eab6c86735f0f49a61c8"
+    },
+    "markings/1004.1": {
+      "path": "markings/1004.1.svg",
+      "kind": "markings",
+      "id": "1004.1",
+      "name": "Hazard warning line (higher speed)",
+      "glyph": false,
+      "renderer": "dash",
+      "bytes": 383,
+      "sha256": "63b0f188db58ef8012825ec5fea4477fac2aaf5e7721cbf8df0e12bea1ba2453"
+    },
+    "markings/1005": {
+      "path": "markings/1005.svg",
+      "kind": "markings",
+      "id": "1005",
+      "name": "Lane line",
+      "glyph": false,
+      "renderer": "dash",
+      "bytes": 415,
+      "sha256": "fb611f8ab7f784f19fa7bd95d2977b7a1fef5ea9c70d57792fa3ba124df66996"
+    },
+    "markings/1005.1": {
+      "path": "markings/1005.1.svg",
+      "kind": "markings",
+      "id": "1005.1",
+      "name": "Lane line (higher speed)",
+      "glyph": false,
+      "renderer": "dash",
+      "bytes": 414,
+      "sha256": "fb7aba9066dd8cbaf2e4071ff947692818f09a23e64662d7518ee2a45e3f60ea"
+    },
+    "markings/1008": {
+      "path": "markings/1008.svg",
+      "kind": "markings",
+      "id": "1008",
+      "name": "Centre line",
+      "glyph": false,
+      "renderer": "dash",
+      "bytes": 414,
+      "sha256": "10b5ec5dee8c809fe1d1be4e143768b241c33c77fe4ee58dc6ac86156995aceb"
+    },
+    "markings/1008.1": {
+      "path": "markings/1008.1.svg",
+      "kind": "markings",
+      "id": "1008.1",
+      "name": "Centre line (higher speed)",
+      "glyph": false,
+      "renderer": "dash",
+      "bytes": 383,
+      "sha256": "1a6dce659160b5458ebcc01b9aef7f90741d7428a34bce6311440edb03b23a59"
+    },
+    "markings/1010": {
+      "path": "markings/1010.svg",
+      "kind": "markings",
+      "id": "1010",
+      "name": "Edge line across a junction mouth",
+      "glyph": false,
+      "renderer": "dash",
+      "bytes": 934,
+      "sha256": "a2b8ec85c03870a4003662c8df01ffa282eae65c187dbd4ac11a517b379206b3"
+    },
+    "markings/1012.1": {
+      "path": "markings/1012.1.svg",
+      "kind": "markings",
+      "id": "1012.1",
+      "name": "Edge line",
+      "glyph": false,
+      "renderer": "solid",
+      "bytes": 267,
+      "sha256": "74f0479ad55e0650bec599945ecfb90cc0e71e2bba6411a8713913ab08907629"
+    },
+    "markings/1013.1": {
+      "path": "markings/1013.1.svg",
+      "kind": "markings",
+      "id": "1013.1",
+      "name": "Double white lines",
+      "glyph": false,
+      "renderer": "double_solid",
+      "bytes": 352,
+      "sha256": "6054fe71301c3be944bfc2ea3cc5e0aff9f07b9525f44572862607ad2f9599fc"
+    },
+    "markings/1014": {
+      "path": "markings/1014.svg",
+      "kind": "markings",
+      "id": "1014",
+      "name": "Deflection arrow",
+      "glyph": false,
+      "renderer": "deflection",
+      "bytes": 352,
+      "sha256": "ce26dd76d229227502fa165acc6d79d7737c3d2074e5b79d97fa723b0bf91a59"
+    },
+    "markings/1017": {
+      "path": "markings/1017.svg",
+      "kind": "markings",
+      "id": "1017",
+      "name": "No waiting during times shown on sign",
+      "glyph": false,
+      "renderer": "solid_yellow",
+      "bytes": 515,
+      "sha256": "0b5457a004f8b9df92ff19cd0261ea304658b0a739e24e9795ebe88005b20f76"
+    },
+    "markings/1018.1": {
+      "path": "markings/1018.1.svg",
+      "kind": "markings",
+      "id": "1018.1",
+      "name": "No waiting at any time",
+      "glyph": false,
+      "renderer": "double_yellow",
+      "bytes": 326,
+      "sha256": "3b31b688fbd6a519027dc98c1edc2abbdc527b610b7a6bc8a4cfe4f10d9fe57f"
+    },
+    "markings/1022": {
+      "path": "markings/1022.svg",
+      "kind": "markings",
+      "id": "1022",
+      "name": "STOP word marking",
+      "glyph": false,
+      "renderer": "stop_word",
+      "bytes": 1103,
+      "sha256": "9aa5706dd4fa93d8d2e090f07615823ef45477d7499a0c6221a68e48ce15bca0"
+    },
+    "markings/1023A": {
+      "path": "markings/1023A.svg",
+      "kind": "markings",
+      "id": "1023A",
+      "name": "Warning of Give Way just ahead",
+      "glyph": false,
+      "renderer": "gw_triangle",
+      "bytes": 296,
+      "sha256": "e676d40781f622b71e3c8f874ae95c4640eea13931f0c0b4b0e1a1d8cfacc671"
+    },
+    "markings/1038": {
+      "path": "markings/1038.svg",
+      "kind": "markings",
+      "id": "1038",
+      "name": "Indication of traffic lanes",
+      "glyph": false,
+      "renderer": "arrow",
+      "bytes": 301,
+      "sha256": "c45082bb0d7efcb26fc1d64ca002abec30d2aca0be12b99568e77f96278ca59e"
+    },
+    "markings/1055.1": {
+      "path": "markings/1055.1.svg",
+      "kind": "markings",
+      "id": "1055.1",
+      "name": "Crossing studs",
+      "glyph": false,
+      "renderer": "studs",
+      "bytes": 5131,
+      "sha256": "7295530b32222bf75d892250d6b14ab0587b1ae22b1dd5e05055fa2bb8db013f"
+    },
+    "markings/zebra-stripes": {
+      "path": "markings/zebra-stripes.svg",
+      "kind": "markings",
+      "id": "zebra-stripes",
+      "name": "Zebra crossing stripes",
+      "glyph": false,
+      "renderer": "zebra",
+      "bytes": 693,
+      "sha256": "2e2e07d8e2033a8561e451d545f2a34f4a465b3a78df99d683b22962936aeda9"
+    },
+    "signs/2025": {
+      "path": "signs/2025.svg",
+      "kind": "signs",
+      "id": "2025",
+      "name": "Primary-route sign on approaches to junctions (family stand-in)",
+      "glyph": true,
+      "renderer": "2025",
+      "bytes": 374,
+      "sha256": "ef84ff7bddbc9a3e5a082f5b10341b12c11fb6b81f2de9109dd9c7147602cb30"
+    },
+    "signs/2026": {
+      "path": "signs/2026.svg",
+      "kind": "signs",
+      "id": "2026",
+      "name": "Primary-route advance direction (map type)",
+      "glyph": false,
+      "renderer": "family:DirPrimary",
+      "bytes": 2356,
+      "sha256": "62f2709ed7882ce6ec528bffc2a033253d060176843fe7b98042b2d1ec41fe1f"
+    },
+    "signs/2027": {
+      "path": "signs/2027.svg",
+      "kind": "signs",
+      "id": "2027",
+      "name": "Primary-route sign at the junction",
+      "glyph": false,
+      "renderer": "family:DirPrimary",
+      "bytes": 2300,
+      "sha256": "d042c65cf727fa311e907f1c696e9ba9f31be58540b494a53fce5d267aca1c5b"
+    },
+    "signs/2028": {
+      "path": "signs/2028.svg",
+      "kind": "signs",
+      "id": "2028",
+      "name": "Primary-route direction (rectangular)",
+      "glyph": false,
+      "renderer": "family:DirPrimary",
+      "bytes": 2396,
+      "sha256": "1d9a2634a312143bf7eb148287611d7a85a5fabd8c57751dbfcaec5496500bc3"
+    },
+    "signs/2029": {
+      "path": "signs/2029.svg",
+      "kind": "signs",
+      "id": "2029",
+      "name": "Directions to a primary route and a non-primary route",
+      "glyph": false,
+      "renderer": "family:DirPrimary",
+      "bytes": 2357,
+      "sha256": "51a667996782941873a6ef2db608e5592b401cf210d314417ae5c102412d6a1a"
+    },
+    "signs/2030": {
+      "path": "signs/2030.svg",
+      "kind": "signs",
+      "id": "2030",
+      "name": "Primary-route direction at a roundabout",
+      "glyph": false,
+      "renderer": "family:DirPrimary",
+      "bytes": 2253,
+      "sha256": "5472d1712e57eeb608062f460cd2f411a7c7e4c19ba6f05ab0b0ca93646e046e"
+    },
+    "signs/2031": {
+      "path": "signs/2031.svg",
+      "kind": "signs",
+      "id": "2031",
+      "name": "The number of a primary route",
+      "glyph": false,
+      "renderer": "family:DirPrimary",
+      "bytes": 2292,
+      "sha256": "0d1241d8eee6d565db407d5231235b467a88d277cfdbbaa222074bed6cc1d843"
+    },
+    "signs/2032": {
+      "path": "signs/2032.svg",
+      "kind": "signs",
+      "id": "2032",
+      "name": "Primary route forming part of a ring road",
+      "glyph": false,
+      "renderer": "family:DirPrimary",
+      "bytes": 2441,
+      "sha256": "43e4f9cdbaa3bcb654d5a4fdaf67ea271b8ac9b52c1d9fdb3e6651092624537c"
+    },
+    "signs/2033": {
+      "path": "signs/2033.svg",
+      "kind": "signs",
+      "id": "2033",
+      "name": "Primary-route direction to parking",
+      "glyph": false,
+      "renderer": "family:DirPrimary",
+      "bytes": 2431,
+      "sha256": "aae432c72148c9961371126011996933cfb430ad6f522addb6e0400e2828fc41"
+    },
+    "signs/2034": {
+      "path": "signs/2034.svg",
+      "kind": "signs",
+      "id": "2034",
+      "name": "Route to be followed at junction ahead for destinations that are not otherwise shown on signs for that junction",
+      "glyph": false,
+      "renderer": "family:DirPrimary",
+      "bytes": 2365,
+      "sha256": "146484d238109d3298d02380b5d2ff29fdb83b1f95a689d274c055fc2cbfca0d"
+    },
+    "signs/2035": {
+      "path": "signs/2035.svg",
+      "kind": "signs",
+      "id": "2035",
+      "name": "Direction along a primary route to destinations shown via a U-turn at a roundabout ahead",
+      "glyph": false,
+      "renderer": "family:DirPrimary",
+      "bytes": 2428,
+      "sha256": "7157cc075ecd49ef1f57ba49e70b96c224777485d3c34bd5c32456446ac3b373"
+    },
+    "signs/2101": {
+      "path": "signs/2101.svg",
+      "kind": "signs",
+      "id": "2101",
+      "name": "Non-primary sign on approaches to junctions (family stand-in)",
+      "glyph": true,
+      "renderer": "2101",
+      "bytes": 512,
+      "sha256": "748bff33908224dc4e942882baf1a5ec317d9a69db106db3b91b15371947932f"
+    },
+    "signs/2102": {
+      "path": "signs/2102.svg",
+      "kind": "signs",
+      "id": "2102",
+      "name": "Junction ahead of two non-primary routes, one of which leads to a primary route",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2306,
+      "sha256": "3b099b795980e8f1b05c87935633283c5dab15cc22c84a05f32d3b61a33d5b7c"
+    },
+    "signs/2103": {
+      "path": "signs/2103.svg",
+      "kind": "signs",
+      "id": "2103",
+      "name": "Non-primary sign at the junction",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2296,
+      "sha256": "9c7906a41dbc4131f7c1da81906ecdec1001e8b405acd3ec3b310008fe407bd4"
+    },
+    "signs/2104": {
+      "path": "signs/2104.svg",
+      "kind": "signs",
+      "id": "2104",
+      "name": "Non-primary direction at a roundabout",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2230,
+      "sha256": "d19b589c381febbf4c774b61e0a2886e6ae24afdf7977d6ddf88ce07db803c7a"
+    },
+    "signs/2111": {
+      "path": "signs/2111.svg",
+      "kind": "signs",
+      "id": "2111",
+      "name": "Non-primary direction to a place",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2196,
+      "sha256": "3e723db3f88d1db1c532f01e940d604ba2379c3b1f660b69a70ad4060363cc6a"
+    },
+    "signs/2112": {
+      "path": "signs/2112.svg",
+      "kind": "signs",
+      "id": "2112",
+      "name": "Non-primary direction to a facility",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2345,
+      "sha256": "688930ee87ddf6ce92a45890a849163a8285cfd843de45586b5d18ee37c5b666"
+    },
+    "signs/2113": {
+      "path": "signs/2113.svg",
+      "kind": "signs",
+      "id": "2113",
+      "name": "Non-primary confirmatory sign",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2335,
+      "sha256": "24b67a4bee141ca72606cdbbd9a10fec21d39fdc5b023d140e41d20a9dcd225d"
+    },
+    "signs/2114": {
+      "path": "signs/2114.svg",
+      "kind": "signs",
+      "id": "2114",
+      "name": "Junction ahead where one lane of a non-primary route is reserved for traffic turning to the right",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2269,
+      "sha256": "a1ce169ef7c09760055faff3af745ff2d78e369722f9bdb53168ba7939df58cb"
+    },
+    "signs/2115": {
+      "path": "signs/2115.svg",
+      "kind": "signs",
+      "id": "2115",
+      "name": "Non-primary direction with a primary-route panel",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2332,
+      "sha256": "562ce049c9fb602df737247d0ddc19cf0e011d55189003005648815b41dc4c1b"
+    },
+    "signs/2116": {
+      "path": "signs/2116.svg",
+      "kind": "signs",
+      "id": "2116",
+      "name": "Non-primary junction-name sign",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2249,
+      "sha256": "7ef829a226eeb66107a990efd420088d416dc324bbd760a6373723bc7a96c108"
+    },
+    "signs/2117": {
+      "path": "signs/2117.svg",
+      "kind": "signs",
+      "id": "2117",
+      "name": "Non-primary lane-destination sign",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2194,
+      "sha256": "460382a68796585206d67b81d755efaaa7a3d463936b29396533a73bc954bf02"
+    },
+    "signs/2118": {
+      "path": "signs/2118.svg",
+      "kind": "signs",
+      "id": "2118",
+      "name": "Non-primary overhead direction",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2289,
+      "sha256": "180ea0a427c11b1008dc3d3217b03b54f2b08bd825fb8e7391afb1f7488efd26"
+    },
+    "signs/2120": {
+      "path": "signs/2120.svg",
+      "kind": "signs",
+      "id": "2120",
+      "name": "Double mini-roundabout ahead with exits to three non-primary routes, one of which leads to a car ferry and another is an advisory lorry route",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2308,
+      "sha256": "f09524472fe9abd2831c200c306a5bf6b24fd242cc8d43003b2aaa554195150d"
+    },
+    "signs/2121": {
+      "path": "signs/2121.svg",
+      "kind": "signs",
+      "id": "2121",
+      "name": "Junction ahead of a non-primary route with another non-primary route leading to a town or village that has been by-passed",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2345,
+      "sha256": "83013252850d6476b37c5062e99747b3ce7151c8eaa1691a8abcbdfd3111bbf3"
+    },
+    "signs/2122": {
+      "path": "signs/2122.svg",
+      "kind": "signs",
+      "id": "2122",
+      "name": "Sharp bend in main route at a junction ahead with a minor road",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2497,
+      "sha256": "af9412e5971a8bdb43db2b8a5fde407630b5b0e9cab7db71afb2eff33ceb6691"
+    },
+    "signs/2123": {
+      "path": "signs/2123.svg",
+      "kind": "signs",
+      "id": "2123",
+      "name": "Prohibited movement ahead on a non-primary route with an indication of a route avoiding that prohibition",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2487,
+      "sha256": "1f41b661089a63e9b364c47875fe23e31a7ae742e0fa4e974a682279f94d4155"
+    },
+    "signs/2124": {
+      "path": "signs/2124.svg",
+      "kind": "signs",
+      "id": "2124",
+      "name": "Prohibited movement ahead on a non-primary route with an indication of a route avoiding that prohibition",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2421,
+      "sha256": "086073e5ccdd632d904b4e4c66b7b6c5cc4ed019ed539bbe16132ee0bac01861"
+    },
+    "signs/2125": {
+      "path": "signs/2125.svg",
+      "kind": "signs",
+      "id": "2125",
+      "name": "Non-primary ring-road direction",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2484,
+      "sha256": "3cbc5b417d4966361a4665e2d1f83e48b74afe7801d5ee168c757d6b3457bce7"
+    },
+    "signs/2126": {
+      "path": "signs/2126.svg",
+      "kind": "signs",
+      "id": "2126",
+      "name": "Non-primary town-centre direction",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2401,
+      "sha256": "c20d55c02fef4aec3c0c5aec849d09004fe2a0c6c2553b30fc7952618934af45"
+    },
+    "signs/2127": {
+      "path": "signs/2127.svg",
+      "kind": "signs",
+      "id": "2127",
+      "name": "Non-primary diversion direction",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2345,
+      "sha256": "f66ecfca514024b40936155a9d5bfae0824c125163274258d14104349e564989"
+    },
+    "signs/2128": {
+      "path": "signs/2128.svg",
+      "kind": "signs",
+      "id": "2128",
+      "name": "Non-primary distance and destination",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2441,
+      "sha256": "5621c74c6dcaf7f455426e281a96e296b108247be948c26637fca40ef005c626"
+    },
+    "signs/2130": {
+      "path": "signs/2130.svg",
+      "kind": "signs",
+      "id": "2130",
+      "name": "Non-primary route forming part of a ring road",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2296,
+      "sha256": "78fc2a2030f2d2ab91f13e02d23141bfdec77b16890d0dc5d7a1884449c94b3c"
+    },
+    "signs/2201": {
+      "path": "signs/2201.svg",
+      "kind": "signs",
+      "id": "2201",
+      "name": "Distance ahead to a tourist attraction",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2307,
+      "sha256": "59cd1b798d24149d748eab325079012c2158ef51ffc5dfd8f825b6e5b190aa97"
+    },
+    "signs/2202": {
+      "path": "signs/2202.svg",
+      "kind": "signs",
+      "id": "2202",
+      "name": "Tourist attraction (family stand-in)",
+      "glyph": true,
+      "renderer": "2202",
+      "bytes": 327,
+      "sha256": "a9ec6265f79e7b9644726f4966c3dbc9e80b47fa3e7f4d6b86db078f8b445ed7"
+    },
+    "signs/2203": {
+      "path": "signs/2203.svg",
+      "kind": "signs",
+      "id": "2203",
+      "name": "Direction and distance to a tourist attraction",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2446,
+      "sha256": "d426e758d4f48e6099ff3fb79cf46fb71a728f678957679184d73dc17cd30a42"
+    },
+    "signs/2204": {
+      "path": "signs/2204.svg",
+      "kind": "signs",
+      "id": "2204",
+      "name": "Direction and distance to a Tourist Information Point or Centre",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2380,
+      "sha256": "570094aa31f058d59c3da4fab423e76cb0ee09fbc47983766ba82261e7895afb"
+    },
+    "signs/2205": {
+      "path": "signs/2205.svg",
+      "kind": "signs",
+      "id": "2205",
+      "name": "Sign on a primary or non-primary route indicating location of a Tourist Information Centre or Point",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2443,
+      "sha256": "6f674fd05526f1f8cb34a3df18bc4405fa20e36066dd4dc4a5ee66c777274a08"
+    },
+    "signs/2206": {
+      "path": "signs/2206.svg",
+      "kind": "signs",
+      "id": "2206",
+      "name": "Tourist attraction ahead",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2360,
+      "sha256": "dc116f29393fe6e744ebe7fc9b2c8725d84674c7827e32b31f2863f7ef1e59d7"
+    },
+    "signs/2207": {
+      "path": "signs/2207.svg",
+      "kind": "signs",
+      "id": "2207",
+      "name": "Tourist attraction (direction)",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2305,
+      "sha256": "6cf92072cdd239c564058f4b78ec00c321a794e6f4501679342ddd1996ec1e6d"
+    },
+    "signs/2208": {
+      "path": "signs/2208.svg",
+      "kind": "signs",
+      "id": "2208",
+      "name": "Direction to a tourist attraction indicated by a symbol",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2400,
+      "sha256": "81a3a2769e0a67248b727401cbf8d917432315a56902f967e34cff4c64b22e2f"
+    },
+    "signs/2209": {
+      "path": "signs/2209.svg",
+      "kind": "signs",
+      "id": "2209",
+      "name": "Distance ahead to a tourist attraction",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2361,
+      "sha256": "7f90976e5d6b9ff9678606a75cc26d1851a9a533d0531b09d68781990bfa3b29"
+    },
+    "signs/2210": {
+      "path": "signs/2210.svg",
+      "kind": "signs",
+      "id": "2210",
+      "name": "Junction ahead leading to or along a route passing through places of interest",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2307,
+      "sha256": "50c2bb8bb69b6593e4fac1152a14e8f5284d2dfae9daf3d278dfad54c31c7586"
+    },
+    "signs/2301": {
+      "path": "signs/2301.svg",
+      "kind": "signs",
+      "id": "2301",
+      "name": "Picnic site",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2295,
+      "sha256": "24c262cbb8d6fd7baeea2d2a8cbf65ba171d4915e2b6341a28eadb0dab334b78"
+    },
+    "signs/2302": {
+      "path": "signs/2302.svg",
+      "kind": "signs",
+      "id": "2302",
+      "name": "Direction and distance to a camping and caravan site as defined in the caption under diagram 2301",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2444,
+      "sha256": "5b064ed4f0c828e69c46ef4d88844f10233f5cd47498bb4dba6ceb137399b370"
+    },
+    "signs/2303": {
+      "path": "signs/2303.svg",
+      "kind": "signs",
+      "id": "2303",
+      "name": "Sign on a primary or non-primary route indicating distance and direction to a hostel",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2434,
+      "sha256": "6841e25d6d4cec6756f189bc9be96d38af8b964cb491bc7a804e7a5a4a8cb905"
+    },
+    "signs/2304": {
+      "path": "signs/2304.svg",
+      "kind": "signs",
+      "id": "2304",
+      "name": "Direction and distance to a hostel as defined in the caption under diagram 2303",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2368,
+      "sha256": "49a07d175bfb27b9559c4a8ceed01062f7dce8f2213efe0e5cd34d8fe534c584"
+    },
+    "signs/2305": {
+      "path": "signs/2305.svg",
+      "kind": "signs",
+      "id": "2305",
+      "name": "Sign on a primary or non-primary route indicating distance and direction to a picnic area",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2431,
+      "sha256": "c4249761ac8ad5c850b61b96c79f99e39231b48dad9fdebcb6af08e0518f9ddc"
+    },
+    "signs/2306": {
+      "path": "signs/2306.svg",
+      "kind": "signs",
+      "id": "2306",
+      "name": "Direction and distance to a picnic area",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2348,
+      "sha256": "89b5d9f0894fdb63a99e48220acb2bc586f6de1126c11f7330e01a79bf380a6b"
+    },
+    "signs/2307": {
+      "path": "signs/2307.svg",
+      "kind": "signs",
+      "id": "2307",
+      "name": "Sign on a primary or non-primary route indicating distance ahead to a parking place with public toilets that has facilities for disabled persons, Tourist Information Centre or Point, public telephone, picnic area and viewpoint",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2293,
+      "sha256": "8b4eca692c295875364b41f361af8bde818c5cb09a6d7aee17938709ef71657c"
+    },
+    "signs/2308": {
+      "path": "signs/2308.svg",
+      "kind": "signs",
+      "id": "2308",
+      "name": "Nature reserve",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2388,
+      "sha256": "5013784123ddc5046b4d8645d72665b8c7ce739fdbf6c424febfdb1d32031bcd"
+    },
+    "signs/2310": {
+      "path": "signs/2310.svg",
+      "kind": "signs",
+      "id": "2310",
+      "name": "Leisure facility",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2295,
+      "sha256": "182a5cdb0e69cc20bd87aa51ca38686efa862170074e0348dd07ef804e75bacb"
+    },
+    "signs/2311": {
+      "path": "signs/2311.svg",
+      "kind": "signs",
+      "id": "2311",
+      "name": "Sports stadium",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2334,
+      "sha256": "03b1150b9f05a959d96254b7d9edc5112c18eec01d483fcfd202ed6139467228"
+    },
+    "signs/2313": {
+      "path": "signs/2313.svg",
+      "kind": "signs",
+      "id": "2313",
+      "name": "Theme park",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2473,
+      "sha256": "cce5e00b98141d70c1812042ab48b7c71ff444b75e570a1e95356f528d878957"
+    },
+    "signs/2314": {
+      "path": "signs/2314.svg",
+      "kind": "signs",
+      "id": "2314",
+      "name": "Wildlife park",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2407,
+      "sha256": "b1fde39ee5a86ce5efa479753d72e3fb7afe609c6c2aa64f6674c39c125fb381"
+    },
+    "signs/2315": {
+      "path": "signs/2315.svg",
+      "kind": "signs",
+      "id": "2315",
+      "name": "Beach or coastal attraction",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2470,
+      "sha256": "2faa7587f76fbb1a087177e30ff8923b91f76b4c9085968183c967ac02d694cc"
+    },
+    "signs/2316": {
+      "path": "signs/2316.svg",
+      "kind": "signs",
+      "id": "2316",
+      "name": "Tourist trail",
+      "glyph": false,
+      "renderer": "family:TouristBrown",
+      "bytes": 2387,
+      "sha256": "bf114b8b4d7d4aba928ae2c3ac4f7206a363bfbb0befb858dbc26be1d2b686d4"
+    },
+    "signs/2601": {
+      "path": "signs/2601.svg",
+      "kind": "signs",
+      "id": "2601",
+      "name": "Route for pedestrians",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2210,
+      "sha256": "95daf95e4249cf6f1aa9962e8eb616ee09bba3c1c7b546095c55531747c3408f"
+    },
+    "signs/2601.1": {
+      "path": "signs/2601.1.svg",
+      "kind": "signs",
+      "id": "2601.1",
+      "name": "Direction of a numbered route for pedal cycles forming part of a national cycle route network at a junction ahead",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2459,
+      "sha256": "5ee1c410cfd027a7a79f2453a0e741c85e550ff2bba5f047d5faa962ddefac34"
+    },
+    "signs/2602.1": {
+      "path": "signs/2602.1.svg",
+      "kind": "signs",
+      "id": "2602.1",
+      "name": "Cycle direction (variant)",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2609,
+      "sha256": "5ec54e200cc64f482eef0bc8b4f55cf42cad7ff73db31f29ee5ad75ab525e5f8"
+    },
+    "signs/2602.2": {
+      "path": "signs/2602.2.svg",
+      "kind": "signs",
+      "id": "2602.2",
+      "name": "Numbered route for pedal cycles and electric scooters being used in a trial forming part of a regional (blue number patch) or national (red number patch) cycle route network",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2758,
+      "sha256": "12abc90032f3c8320294ca56c8bdba7c3e4e98f1cbed4b792e0bbe7b71d034e0"
+    },
+    "signs/2603": {
+      "path": "signs/2603.svg",
+      "kind": "signs",
+      "id": "2603",
+      "name": "Junction ahead leading to a parking place for pedal cycles",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2349,
+      "sha256": "b5954a209adf678034dc76e03e8b89185f75b4d93b216c43094217fc87c64b09"
+    },
+    "signs/2604": {
+      "path": "signs/2604.svg",
+      "kind": "signs",
+      "id": "2604",
+      "name": "Direction and distance to a free parking place for pedal cycles",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2283,
+      "sha256": "8970f4be95b92daa43afa08ef1ed350eb8289a3ebc6f975d8b05a921fcf908cd"
+    },
+    "signs/2605": {
+      "path": "signs/2605.svg",
+      "kind": "signs",
+      "id": "2605",
+      "name": "Direction to a bridleway",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2346,
+      "sha256": "44a7e91d4961fd525152db73f259f6ae57d91d0f2b6874ea573cf87635cc8639"
+    },
+    "signs/2606": {
+      "path": "signs/2606.svg",
+      "kind": "signs",
+      "id": "2606",
+      "name": "Direction to a byway",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2263,
+      "sha256": "07d7a5aa8409066629f7c49a6ec4d881e84d54ca5d2488aaac914fa1dec62ac7"
+    },
+    "signs/2607": {
+      "path": "signs/2607.svg",
+      "kind": "signs",
+      "id": "2607",
+      "name": "Direction of route to destination shown for pedestrians (as diagram 2605)",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2208,
+      "sha256": "47c081a61fe8b849659f11c509bfc2c3dd8d9f81f9ec8e7fa5e1d883beee1892"
+    },
+    "signs/2608": {
+      "path": "signs/2608.svg",
+      "kind": "signs",
+      "id": "2608",
+      "name": "Direction of route to a tourist attraction for pedestrians",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2303,
+      "sha256": "7491456a092e0f526342f015e220d07935a53584e1e4f29d6734846f3b483a88"
+    },
+    "signs/2609": {
+      "path": "signs/2609.svg",
+      "kind": "signs",
+      "id": "2609",
+      "name": "Direction of route for pedestrians to a parking place associated with a tourist attraction",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2264,
+      "sha256": "a9847c678da9655d1560a9e17d4c99ea94ec3833e7e469f41fad4df098df9817"
+    },
+    "signs/2610": {
+      "path": "signs/2610.svg",
+      "kind": "signs",
+      "id": "2610",
+      "name": "Direction to or along a public footpath",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2210,
+      "sha256": "c560000a52a9636a6fbc822b61ed92e727dd247e6519d45c1aa667fd7bee4f12"
+    },
+    "signs/2610.1": {
+      "path": "signs/2610.1.svg",
+      "kind": "signs",
+      "id": "2610.1",
+      "name": "Direction to or along a public footpath (as diagram 2610)",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2463,
+      "sha256": "8aeb8dd36ffe34e5b56bad875f11a3f9a7771f3341f8f7ee02cb1bfd9a389bf3"
+    },
+    "signs/2610.2": {
+      "path": "signs/2610.2.svg",
+      "kind": "signs",
+      "id": "2610.2",
+      "name": "Direction along a public right of way, concessionary path or permissive path indicated by waymarks",
+      "glyph": false,
+      "renderer": "family:DirLocal",
+      "bytes": 2613,
+      "sha256": "1e4caae5bb2d505d1f6bd315c0be2c7f3f63d02f5a3cbc6b511069c0f0962a02"
+    },
+    "signs/2701": {
+      "path": "signs/2701.svg",
+      "kind": "signs",
+      "id": "2701",
+      "name": "Direction and junction ahead to a new housing development",
+      "glyph": true,
+      "renderer": "2701",
+      "bytes": 4321,
+      "sha256": "2bb008ded21995c3153c18008c9da0aec0e4faf28d32367883e77cbe898a868a"
+    },
+    "signs/2702": {
+      "path": "signs/2702.svg",
+      "kind": "signs",
+      "id": "2702",
+      "name": "Start of temporary diversion route",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2304,
+      "sha256": "af65223486258d6a249628c935a8b2893f12ab5dc20a3339c1f5d6e63d78d227"
+    },
+    "signs/2703": {
+      "path": "signs/2703.svg",
+      "kind": "signs",
+      "id": "2703",
+      "name": "Direction of temporary diversion route from junction ahead",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2294,
+      "sha256": "6cabeda7777d6f9c41834d2014a34329597b0195e7e04108dd7d14a2c450cadc"
+    },
+    "signs/2704": {
+      "path": "signs/2704.svg",
+      "kind": "signs",
+      "id": "2704",
+      "name": "Direction of temporary diversion route",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2228,
+      "sha256": "75d90646ce599189b44974aa7a5026d6b02a8886bf0c476f5489f5066a2aa3f6"
+    },
+    "signs/2705": {
+      "path": "signs/2705.svg",
+      "kind": "signs",
+      "id": "2705",
+      "name": "Junction ahead leading to temporary diversion routes to the destinations shown",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2291,
+      "sha256": "02f263d0376b6a2a80556ca5c35f1e0072861a3c8d7de26a63e4dfa1b2ee218e"
+    },
+    "signs/2706": {
+      "path": "signs/2706.svg",
+      "kind": "signs",
+      "id": "2706",
+      "name": "Roundabout ahead leading to a temporary diversion route to the destination shown",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2208,
+      "sha256": "6631c7b070ad42490bc4b61a129c545cf6ba64e40c2511e438125d652577e6ab"
+    },
+    "signs/2707": {
+      "path": "signs/2707.svg",
+      "kind": "signs",
+      "id": "2707",
+      "name": "Direction of temporary diversion route to destination shown",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2153,
+      "sha256": "2e07da1719ef7bb5c1a675c97cb2af37e966a400e613d830b17c505e379a27cf"
+    },
+    "signs/2708": {
+      "path": "signs/2708.svg",
+      "kind": "signs",
+      "id": "2708",
+      "name": "Junction ahead leading to route for emergency vehicles to a temporary incident control point",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2248,
+      "sha256": "1e1eb1c5372132851902237d51af8e4d1ae79ba99bad4dcf42f59179c2f928b7"
+    },
+    "signs/2710": {
+      "path": "signs/2710.svg",
+      "kind": "signs",
+      "id": "2710",
+      "name": "Permanently mounted sign indicating a route for emergency vehicles to a named emergency services incident point",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2154,
+      "sha256": "87063e56a51415cd5a95a29d16a4c72141a601012f8a7d48ddf00d4e77f864b2"
+    },
+    "signs/2711": {
+      "path": "signs/2711.svg",
+      "kind": "signs",
+      "id": "2711",
+      "name": "Direction to emergency exit for pedestrians from a tunnel",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2192,
+      "sha256": "5148662f27861217e7c60cc2f1ab9fca7fb066f03d1afe433cb3afa711acf7f7"
+    },
+    "signs/2712": {
+      "path": "signs/2712.svg",
+      "kind": "signs",
+      "id": "2712",
+      "name": "Location of fire rendezvous point",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2342,
+      "sha256": "873555bc090e2f2c59416e578ca14242072eb5b5d185ac1fcc0080a04ccc4dc9"
+    },
+    "signs/2713": {
+      "path": "signs/2713.svg",
+      "kind": "signs",
+      "id": "2713",
+      "name": "Direction to nearest emergency telephone on same side of the road(diagram shows blue background \u2013 for use on motorways)",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2332,
+      "sha256": "98229b90e175f4a77b5b5292e5007140346107bb4e480ede0ec00f8f2a1c25cb"
+    },
+    "signs/2713.1": {
+      "path": "signs/2713.1.svg",
+      "kind": "signs",
+      "id": "2713.1",
+      "name": "Distance ahead to emergency telephone in a parking place or emergency lay-by",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2586,
+      "sha256": "4b19de37d528d7c0ba1daf89099589542f880bd89c363bf0a7c4318340b7f07b"
+    },
+    "signs/2714": {
+      "path": "signs/2714.svg",
+      "kind": "signs",
+      "id": "2714",
+      "name": "Side of emergency telephone box",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2266,
+      "sha256": "025a17edaad388908c7c3d28e806649a05fc2e3c54e1bfed924e64cb00028b6c"
+    },
+    "signs/2715": {
+      "path": "signs/2715.svg",
+      "kind": "signs",
+      "id": "2715",
+      "name": "Back of emergency telephone box",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2329,
+      "sha256": "1244e9a9c89d31228f58435d9bc65a979fd77b173a8ec879e7a14e695e465297"
+    },
+    "signs/2716": {
+      "path": "signs/2716.svg",
+      "kind": "signs",
+      "id": "2716",
+      "name": "Junction ahead leading to a temporary diversion route, the direction along which is indicated by a symbol shown in Part VII of Schedule 13",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2246,
+      "sha256": "4c8581bde1d0d985870eb51f6f5754a6b0ec15031dae65707eb6f72fa098c5f3"
+    },
+    "signs/2717": {
+      "path": "signs/2717.svg",
+      "kind": "signs",
+      "id": "2717",
+      "name": "Location on a primary route given by route number and direction of travel, and direction of nearest emergency telephone",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2191,
+      "sha256": "def984150cd7bdbed9d6c819f0aa75b296ae7c80fca9db39089e000619f9a8f5"
+    },
+    "signs/2901": {
+      "path": "signs/2901.svg",
+      "kind": "signs",
+      "id": "2901",
+      "name": "Start of motorway and point from which motorway regulations apply",
+      "glyph": true,
+      "renderer": "2901",
+      "bytes": 1535,
+      "sha256": "5ba117d5cd1ad909ccf4337327fcab12d07ae801792c2712a4f9e72028dd33f0"
+    },
+    "signs/2902": {
+      "path": "signs/2902.svg",
+      "kind": "signs",
+      "id": "2902",
+      "name": "Motorway route confirmatory (with junctions)",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2359,
+      "sha256": "31254770369675ead15f3d1351028a7a91d47255310bc1f19f083ae390cc3d17"
+    },
+    "signs/2902.1": {
+      "path": "signs/2902.1.svg",
+      "kind": "signs",
+      "id": "2902.1",
+      "name": "Motorway route confirmatory (variant)",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2610,
+      "sha256": "5ee0217bb3987ee2f8f0dd79d1cab454898954ebf9d8e30f46b8fbf84e24c4de"
+    },
+    "signs/2903": {
+      "path": "signs/2903.svg",
+      "kind": "signs",
+      "id": "2903",
+      "name": "Motorway junction list",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2349,
+      "sha256": "b69a5fab747b61a517e0a94b6ff16385e6ab1df2ae0c769278bf33d5f6ad642e"
+    },
+    "signs/2904": {
+      "path": "signs/2904.svg",
+      "kind": "signs",
+      "id": "2904",
+      "name": "Motorway junction ahead, identified by the number shown on a black background, where the left hand lane of a motorway leads to another motorway and the other two lanes continue along the main motorway route",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2283,
+      "sha256": "6502a532b503399bfa38f428c8c44e47e3743e4a4011f85cc0facb4210207c9f"
+    },
+    "signs/2904.1": {
+      "path": "signs/2904.1.svg",
+      "kind": "signs",
+      "id": "2904.1",
+      "name": "Motorway junction, identified by the number shown on a black background, where the left hand lane of a motorway leads to another motorway and the other two lanes continue along the main motorway route",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2534,
+      "sha256": "9ccbb4e38e0c5f54e357fb2ed485d4f302080cad33ecfbcbfc29cb04062a970d"
+    },
+    "signs/2905": {
+      "path": "signs/2905.svg",
+      "kind": "signs",
+      "id": "2905",
+      "name": "Two motorway junctions ahead in quick succession, identified by the number shown on a black background, leading to the destinations and routes shown. The number of lanes on the motorway remains the same through the junction",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2346,
+      "sha256": "569f76736d8aa7a7db8ab2b88f8a3c3d72662243dd1b037f3757e42a9263b9f9"
+    },
+    "signs/2908": {
+      "path": "signs/2908.svg",
+      "kind": "signs",
+      "id": "2908",
+      "name": "Motorway junction layout",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2303,
+      "sha256": "6b095e8ff6cec295289de117b2ea6235affc8903e602b8f0b7a408d2cbd6cf5c"
+    },
+    "signs/2908.1": {
+      "path": "signs/2908.1.svg",
+      "kind": "signs",
+      "id": "2908.1",
+      "name": "Motorway junction layout (variant)",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2554,
+      "sha256": "bf7ed1a849d96e76f6341b6b76f24c5c6a2492044537de6d9de4bec5f7f931d5"
+    },
+    "signs/2910": {
+      "path": "signs/2910.svg",
+      "kind": "signs",
+      "id": "2910",
+      "name": "Motorway number confirmatory",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2210,
+      "sha256": "afafe6e6a2c2a2aaa5de7176cde5b4ae8cbe02df8663b2d088a5333a3520b90e"
+    },
+    "signs/2911": {
+      "path": "signs/2911.svg",
+      "kind": "signs",
+      "id": "2911",
+      "name": "Motorway service area",
+      "glyph": true,
+      "renderer": "2911",
+      "bytes": 1994,
+      "sha256": "95c6b1a0922fb13510aa50ccf881b3213c6da79e54edfeaf884893edede0fe9a"
+    },
+    "signs/2913": {
+      "path": "signs/2913.svg",
+      "kind": "signs",
+      "id": "2913",
+      "name": "Roundabout ahead leading from a motorway exit slip road to a primary and a non-primary route",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2388,
+      "sha256": "cbbbb84f92bbd228e0a22c9f044d7fec3fd12af50173c323923e41d21896a8e4"
+    },
+    "signs/2913.1": {
+      "path": "signs/2913.1.svg",
+      "kind": "signs",
+      "id": "2913.1",
+      "name": "Roundabout ahead leading from a motorway exit slip road to another motorway",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2642,
+      "sha256": "9157e283ebe6d4f959e55f108c951a85635c9261f7d4faa4979e6aa9f0b391b5"
+    },
+    "signs/2914": {
+      "path": "signs/2914.svg",
+      "kind": "signs",
+      "id": "2914",
+      "name": "Termination of a motorway at a roundabout ahead leading to two primary routes and a non-primary route",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2322,
+      "sha256": "fc1a5fa9abf1d6fd54b53e27ed75d2ce9f34262ea9d0f4a88b23ae08d5d5bf1e"
+    },
+    "signs/2915": {
+      "path": "signs/2915.svg",
+      "kind": "signs",
+      "id": "2915",
+      "name": "Route to be followed at junction ahead on a motorway for destinations that are not otherwise shown on signs for that junction",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2385,
+      "sha256": "15efb7bac7780f1b049981bf7e631b169cb976634ea2aae66b113db1789cbf6a"
+    },
+    "signs/2920": {
+      "path": "signs/2920.svg",
+      "kind": "signs",
+      "id": "2920",
+      "name": "Motorway hospital",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2359,
+      "sha256": "44932ed5ff9a00ac510ea471ca7a305cb51d7adf93c7b4869ba5d195cc3bfd65"
+    },
+    "signs/2921": {
+      "path": "signs/2921.svg",
+      "kind": "signs",
+      "id": "2921",
+      "name": "Motorway police",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2398,
+      "sha256": "c73a278dc3ed5101eadb9db684b2d444c521b0cf0eace755b95bb7634f71952f"
+    },
+    "signs/2922": {
+      "path": "signs/2922.svg",
+      "kind": "signs",
+      "id": "2922",
+      "name": "Exit from a motorway for works traffic only",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2548,
+      "sha256": "3ec554a0b091df0cf7df8ab1a9f2708f46eb80577ebed01d58384eaa9bd7f303"
+    },
+    "signs/2924": {
+      "path": "signs/2924.svg",
+      "kind": "signs",
+      "id": "2924",
+      "name": "Motorway junction ahead leading to the tourist attractions shown",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2472,
+      "sha256": "44cbb86c205cb25a088fcbbddc1567cf2db3e85bf31e2f5b07f6d428870e1ab3"
+    },
+    "signs/2925": {
+      "path": "signs/2925.svg",
+      "kind": "signs",
+      "id": "2925",
+      "name": "Roundabout ahead leading from a motorway exit slip road to the tourist attractions shown",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2535,
+      "sha256": "eb0c94cf9db33a163e85a291198e6a54148f44f2a234add48dc739f6d18599cf"
+    },
+    "signs/2926": {
+      "path": "signs/2926.svg",
+      "kind": "signs",
+      "id": "2926",
+      "name": "Junction ahead from a motorway exit slip road to the tourist attractions shown",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2452,
+      "sha256": "0d007d680314d511ef36caf2acd8edb5762ddddc0145a70c1b21f614c6291ecb"
+    },
+    "signs/2927": {
+      "path": "signs/2927.svg",
+      "kind": "signs",
+      "id": "2927",
+      "name": "Motorway junction ahead leading to a town or geographical area containing a Tourist Information Point or Centre and several tourist attractions",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2396,
+      "sha256": "db89b031a88d5b5615e3558368af1e892a1157fb529660c83c8f8c2bad5adb4d"
+    },
+    "signs/2928": {
+      "path": "signs/2928.svg",
+      "kind": "signs",
+      "id": "2928",
+      "name": "Motorway sign indicating the boundary of an administrative area, a ceremonial area or an historic county area",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2492,
+      "sha256": "87481608e2d8fa0ae2b5b2171bace9e020e3542b8b66d03c096495ed90eccfb2"
+    },
+    "signs/2929": {
+      "path": "signs/2929.svg",
+      "kind": "signs",
+      "id": "2929",
+      "name": "Motorway junction ahead leading to a route advised for goods vehicles to the destination shown, which may differ from that for other traffic",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2453,
+      "sha256": "f594e25ac349a1af6963a11d4780748b30f278a265c464ce7e3463c0d77b06a5"
+    },
+    "signs/2930": {
+      "path": "signs/2930.svg",
+      "kind": "signs",
+      "id": "2930",
+      "name": "Regulations referred to in this column in respect of item 13 cease to apply ahead",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2349,
+      "sha256": "799e228617ff138c7fe43dd335c172b3698a3c4756c92c10daf00a2371ea469e"
+    },
+    "signs/2931": {
+      "path": "signs/2931.svg",
+      "kind": "signs",
+      "id": "2931",
+      "name": "End of motorway",
+      "glyph": true,
+      "renderer": "2931",
+      "bytes": 692,
+      "sha256": "ec5d70f2b0859c67400d5888c9ff0a634b84ccb7f86b367d3c5ba52ef87f049e"
+    },
+    "signs/2932": {
+      "path": "signs/2932.svg",
+      "kind": "signs",
+      "id": "2932",
+      "name": "Entrance to a motorway service area, maintenance compound or similar facility contained within a length of a motorway and indicating that Regulations in force under section 17 of the 1984 Act cease to apply at this point",
+      "glyph": false,
+      "renderer": "family:DirMotorway",
+      "bytes": 2538,
+      "sha256": "db479a93197e8594b301f75d2d6092b5f341d5a4f5de8c6ef4942353ad660a43"
+    },
+    "signs/3000": {
+      "path": "signs/3000.svg",
+      "kind": "signs",
+      "id": "3000",
+      "name": "Traffic light signals",
+      "glyph": true,
+      "renderer": "3000",
+      "bytes": 344,
+      "sha256": "1c4965e94fd291e666d963aee8ffc580573cb25925e75f4fcf25cf5e87a86475"
+    },
+    "signs/3000.2": {
+      "path": "signs/3000.2.svg",
+      "kind": "signs",
+      "id": "3000.2",
+      "name": "Traffic light signals for the control of vehicular traffic consisting solely of pedal cycles and electric scooters being used in a trial",
+      "glyph": false,
+      "renderer": "family:SignalHead",
+      "bytes": 2462,
+      "sha256": "7c8a4c618f45172110bca1b767ac22f9566cdf89e3ece8b2aefcca972a6124b9"
+    },
+    "signs/3000.7": {
+      "path": "signs/3000.7.svg",
+      "kind": "signs",
+      "id": "3000.7",
+      "name": "Traffic light signals as diagram 3000 with additional signals placed in any of the positions marked 1, 2, 3 and 4",
+      "glyph": false,
+      "renderer": "family:SignalHead",
+      "bytes": 2311,
+      "sha256": "164a52a0590d8436fd2f4dd248e29dd7e8fef04a8476c07bbfd16d82dda82712"
+    },
+    "signs/3001": {
+      "path": "signs/3001.svg",
+      "kind": "signs",
+      "id": "3001",
+      "name": "Traffic signal with a box sign",
+      "glyph": false,
+      "renderer": "family:SignalHead",
+      "bytes": 2102,
+      "sha256": "1f253f674007d0c77d2a8779b302d5f43bb279361d2d938b0b02c416cd8eec14"
+    },
+    "signs/3001.2": {
+      "path": "signs/3001.2.svg",
+      "kind": "signs",
+      "id": "3001.2",
+      "name": "Green arrow to show the direction for vehicular traffic to take for inclusion in traffic light signals as described in Part 1",
+      "glyph": false,
+      "renderer": "family:SignalHead",
+      "bytes": 2501,
+      "sha256": "059ccc08ca27215df255acd82e568b7f86a45e2aad96793748b91cc5c3c60760"
+    },
+    "signs/3013": {
+      "path": "signs/3013.svg",
+      "kind": "signs",
+      "id": "3013",
+      "name": "Light signal for control of tramcars (diagram shows the light signal fully illuminated- see items 3 to 7 for the illumination of the signal to convey particular descriptions)",
+      "glyph": false,
+      "renderer": "family:SignalHead",
+      "bytes": 2280,
+      "sha256": "5a903e779d37379918112f98fdd775618e69582b7aea9723a647e659fcf971ee"
+    },
+    "signs/3013.1": {
+      "path": "signs/3013.1.svg",
+      "kind": "signs",
+      "id": "3013.1",
+      "name": "Tramcar must not proceed beyond the stop line",
+      "glyph": false,
+      "renderer": "family:SignalHead",
+      "bytes": 2533,
+      "sha256": "c47ddf77a42b2b13bfd6f0ef51bf64a7e01d2eb7e30defa73c874889810de03b"
+    },
+    "signs/3013.2": {
+      "path": "signs/3013.2.svg",
+      "kind": "signs",
+      "id": "3013.2",
+      "name": "Tramcar may proceed beyond the stopline and proceed straight ahead",
+      "glyph": false,
+      "renderer": "family:SignalHead",
+      "bytes": 2683,
+      "sha256": "0c64dc7fee13c2f73187e3a095e439dfa061bfee27c2f19b2ab722ee77137e10"
+    },
+    "signs/3013.3": {
+      "path": "signs/3013.3.svg",
+      "kind": "signs",
+      "id": "3013.3",
+      "name": "Tramcar may proceed beyond the stopline and proceed to the left",
+      "glyph": false,
+      "renderer": "family:SignalHead",
+      "bytes": 2673,
+      "sha256": "1ae54bedf1da0db2eb4b1b8b2b8fdab7673c5fd0863ee3fdc6936297ae45ba4f"
+    },
+    "signs/3013.4": {
+      "path": "signs/3013.4.svg",
+      "kind": "signs",
+      "id": "3013.4",
+      "name": "Tramcar may proceed beyond the stopline and proceed to the right",
+      "glyph": false,
+      "renderer": "family:SignalHead",
+      "bytes": 2607,
+      "sha256": "fff9b0cea9e659f3baa70e11984c912ee2a780153c1cf49837a8c8ae66b34813"
+    },
+    "signs/3013.5": {
+      "path": "signs/3013.5.svg",
+      "kind": "signs",
+      "id": "3013.5",
+      "name": "Tramcar must not proceed beyond the stop line except that, as respects a tramcar which is so close to the stop line that it cannot safely be stopped without proceeding beyond the stop line, it conveys the same indication as the aspect which was shown immediately before it",
+      "glyph": false,
+      "renderer": "family:SignalHead",
+      "bytes": 2670,
+      "sha256": "382d8637d76596d9083c3696652eeba569654f955dfc9ea68d8caf5c3c51ef84"
+    },
+    "signs/3014": {
+      "path": "signs/3014.svg",
+      "kind": "signs",
+      "id": "3014",
+      "name": "Flashing red lights at level crossings, airfields or bridges",
+      "glyph": true,
+      "renderer": "3014",
+      "bytes": 1724,
+      "sha256": "da7e4d57752f1671de95b3bf1d48fb7777339c86f042f41b8011f7f16aeaa13a"
+    },
+    "signs/4002": {
+      "path": "signs/4002.svg",
+      "kind": "signs",
+      "id": "4002",
+      "name": "Nearside pedestrian demand unit",
+      "glyph": false,
+      "renderer": "family:PedHead",
+      "bytes": 2187,
+      "sha256": "ec0ed1e88e9361c6e062a857693873a0ed1cce201d18d59a043f97beca69cbab"
+    },
+    "signs/4002.1": {
+      "path": "signs/4002.1.svg",
+      "kind": "signs",
+      "id": "4002.1",
+      "name": "Farside pedestrian signal",
+      "glyph": true,
+      "renderer": "4002.1",
+      "bytes": 2073,
+      "sha256": "0c326df12051ee27a2ebb2706334d83fd0520bfd389c6d1714bbf9929924053a"
+    },
+    "signs/4003": {
+      "path": "signs/4003.svg",
+      "kind": "signs",
+      "id": "4003",
+      "name": "Instructions to pedestrians at the push-button",
+      "glyph": true,
+      "renderer": "4003",
+      "bytes": 1281,
+      "sha256": "0cceeb471142f5d0f802ea6ef68124126b8b815cd69b2fadce4bfb1efc471579"
+    },
+    "signs/4003.1": {
+      "path": "signs/4003.1.svg",
+      "kind": "signs",
+      "id": "4003.1",
+      "name": "Nearside light signals and instructions for pedestrians at a pedestrian facility controlled by traffic light signals",
+      "glyph": false,
+      "renderer": "family:PedHead",
+      "bytes": 2427,
+      "sha256": "94ce4e9b811d136049278e7ccfb5e67abe3f9898533d55fe86d09f1e726cd92f"
+    },
+    "signs/4003.2": {
+      "path": "signs/4003.2.svg",
+      "kind": "signs",
+      "id": "4003.2",
+      "name": "Farside light signals for equestrian traffic",
+      "glyph": false,
+      "renderer": "family:PedHead",
+      "bytes": 2576,
+      "sha256": "ef583d6a9ed79d5717b36c67d80370c3f893248f62ab429ae24f32c1ad463276"
+    },
+    "signs/4003.3": {
+      "path": "signs/4003.3.svg",
+      "kind": "signs",
+      "id": "4003.3",
+      "name": "Instructions to horse riders above the push button control for calling up equestrian traffic phases at traffic light signals",
+      "glyph": false,
+      "renderer": "family:PedHead",
+      "bytes": 2566,
+      "sha256": "fcd858c60cbed8e852d68e5bd90adb7f9105130002c05ab73124137fab464e63"
+    },
+    "signs/4003.4": {
+      "path": "signs/4003.4.svg",
+      "kind": "signs",
+      "id": "4003.4",
+      "name": "Nearside light signals and instructions for horse riders at an equestrian traffic crossing facility controlled by traffic light signals",
+      "glyph": false,
+      "renderer": "family:PedHead",
+      "bytes": 2500,
+      "sha256": "8fcb7c381b71b0ca044f5089267089886233c7cabeda72cc0410e4288b6f589e"
+    },
+    "signs/4003.5": {
+      "path": "signs/4003.5.svg",
+      "kind": "signs",
+      "id": "4003.5",
+      "name": "Farside light signals for pedestrians, drivers of electric scooters being used in a trial and cyclists at a Toucan crossing",
+      "glyph": false,
+      "renderer": "family:PedHead",
+      "bytes": 2563,
+      "sha256": "f5726daaccc068b264d7b7f759236262426cc7f0d9868d87135a0ea42153c3f8"
+    },
+    "signs/4003.6": {
+      "path": "signs/4003.6.svg",
+      "kind": "signs",
+      "id": "4003.6",
+      "name": "(a) instructions to pedestrians, drivers of electric scooters being used in a trial and cyclists above the push button control for calling up pedestrian and cycle phases at a Toucan crossing; or (b) instructions to cyclists above the push button control for calling up cycle phases at a crossing controlled by the traffic light signals provided for at item 3 or 4",
+      "glyph": false,
+      "renderer": "family:PedHead",
+      "bytes": 2480,
+      "sha256": "4de3505690c2100ac03db885657055109a8210c1d540eb9b4f59740a6b056402"
+    },
+    "signs/4003.7": {
+      "path": "signs/4003.7.svg",
+      "kind": "signs",
+      "id": "4003.7",
+      "name": "Nearside light signals and instructions for pedestrians, drivers of electric scooters being used in a trial and cyclists at a Toucan crossing",
+      "glyph": false,
+      "renderer": "family:PedHead",
+      "bytes": 2425,
+      "sha256": "6762d9fca66ca3f81f72da9a880b09b2e5c6aee61bed4f474e98c668ada56e32"
+    },
+    "signs/4007": {
+      "path": "signs/4007.svg",
+      "kind": "signs",
+      "id": "4007",
+      "name": "Belisha beacon",
+      "glyph": true,
+      "renderer": "4007",
+      "bytes": 1013,
+      "sha256": "b45e0b57f7e3764abf146706349367fda4253f06aa0b6bd7fce117ccee1e4892"
+    },
+    "signs/504.1": {
+      "path": "signs/504.1.svg",
+      "kind": "signs",
+      "id": "504.1",
+      "name": "Crossroads",
+      "glyph": true,
+      "renderer": "504.1",
+      "bytes": 740,
+      "sha256": "944abad47a62cd4108747c048adcefb9e835a2655d4ee8fd0fdb1ab47184250b"
+    },
+    "signs/505.1": {
+      "path": "signs/505.1.svg",
+      "kind": "signs",
+      "id": "505.1",
+      "name": "T-junction ahead",
+      "glyph": true,
+      "renderer": "505.1",
+      "bytes": 669,
+      "sha256": "ed1dd2e29e7f26d3ec751b48208f39c17de0f507682198277a7b4cba546e4d6f"
+    },
+    "signs/506.1": {
+      "path": "signs/506.1.svg",
+      "kind": "signs",
+      "id": "506.1",
+      "name": "Side road ahead",
+      "glyph": true,
+      "renderer": "506.1",
+      "bytes": 732,
+      "sha256": "dc9cc945d4eafece39796af079e009ed73c60d266d566e64000cc3aaa89c9783"
+    },
+    "signs/507.1": {
+      "path": "signs/507.1.svg",
+      "kind": "signs",
+      "id": "507.1",
+      "name": "Staggered junction",
+      "glyph": true,
+      "renderer": "507.1",
+      "bytes": 666,
+      "sha256": "e0bba5e8cb3db1fb043aeac9c46283e24615845b546b726993ae8cc0aeb1aebf"
+    },
+    "signs/508.1": {
+      "path": "signs/508.1.svg",
+      "kind": "signs",
+      "id": "508.1",
+      "name": "Traffic merging from the left",
+      "glyph": true,
+      "renderer": "508.1",
+      "bytes": 673,
+      "sha256": "c6bedbb16dbc14968980e3bef7d60ef1d1c4eb442eb32c56dd95f717288639dc"
+    },
+    "signs/509.1": {
+      "path": "signs/509.1.svg",
+      "kind": "signs",
+      "id": "509.1",
+      "name": "Traffic merging onto the main carriageway",
+      "glyph": true,
+      "renderer": "509.1",
+      "bytes": 592,
+      "sha256": "9321f5ff1b7b083728060ba59d08233f6bd9ffd81fd846b19e73c9c92d8fba5c"
+    },
+    "signs/510": {
+      "path": "signs/510.svg",
+      "kind": "signs",
+      "id": "510",
+      "name": "Roundabout",
+      "glyph": true,
+      "renderer": "510",
+      "bytes": 1060,
+      "sha256": "88d99473af0667f713739302bf9f609a5d601f570fb7087d9c94b454beef0814"
+    },
+    "signs/512": {
+      "path": "signs/512.svg",
+      "kind": "signs",
+      "id": "512",
+      "name": "Bend to right (or left if symbol reversed)",
+      "glyph": true,
+      "renderer": "512",
+      "bytes": 621,
+      "sha256": "2a3f699e2e77fe18107f4453eb2f03fde204c5f245899bfca3bdf57ca889caaa"
+    },
+    "signs/512.1": {
+      "path": "signs/512.1.svg",
+      "kind": "signs",
+      "id": "512.1",
+      "name": "Junction on the outside of a bend ahead",
+      "glyph": true,
+      "renderer": "512.1",
+      "bytes": 711,
+      "sha256": "c5cbc883e8ceb90b165cfd51ba17c6ffa5ed21412553c2dd45987c8e603770e3"
+    },
+    "signs/512.2": {
+      "path": "signs/512.2.svg",
+      "kind": "signs",
+      "id": "512.2",
+      "name": "Junction on the inside of a bend ahead",
+      "glyph": true,
+      "renderer": "512.2",
+      "bytes": 714,
+      "sha256": "d979f430d60d13486c65a2099c89641d51031dc7625da66d1cd8af824b2145dd"
+    },
+    "signs/513": {
+      "path": "signs/513.svg",
+      "kind": "signs",
+      "id": "513",
+      "name": "Double bend first to left (symbol may be reversed)",
+      "glyph": true,
+      "renderer": "513",
+      "bytes": 643,
+      "sha256": "b742cd981d1fb134b6ee3cebd48c255bdb3162cf9ff8270416c052bd73a76af5"
+    },
+    "signs/513.1": {
+      "path": "signs/513.1.svg",
+      "kind": "signs",
+      "id": "513.1",
+      "name": "Adverse camber on a bend or roundabout",
+      "glyph": true,
+      "renderer": "513.1",
+      "bytes": 3757,
+      "sha256": "37be784fc7cce70daba4f54d2003bbf487562074a780e00357da5585e40cb601"
+    },
+    "signs/513.2": {
+      "path": "signs/513.2.svg",
+      "kind": "signs",
+      "id": "513.2",
+      "name": "Maximum speed advised at a bend",
+      "glyph": true,
+      "renderer": "513.2",
+      "bytes": 4729,
+      "sha256": "bc3218bdcacb2a57114ef2b984b0cf6d56ae2fa30095d57afd787f27ae897142"
+    },
+    "signs/516": {
+      "path": "signs/516.svg",
+      "kind": "signs",
+      "id": "516",
+      "name": "Road narrows on both sides",
+      "glyph": true,
+      "renderer": "516",
+      "bytes": 675,
+      "sha256": "d4d0172f89144eb7dd1bd8eb214f081919d3a69aa385bbd3073605527125656b"
+    },
+    "signs/517": {
+      "path": "signs/517.svg",
+      "kind": "signs",
+      "id": "517",
+      "name": "Road narrows on right (left if symbol reversed)",
+      "glyph": true,
+      "renderer": "517",
+      "bytes": 687,
+      "sha256": "3b30aab6b7b6e009c0b238ad92b52ceda1b5a487fb184867af6677f724f084ab"
+    },
+    "signs/521": {
+      "path": "signs/521.svg",
+      "kind": "signs",
+      "id": "521",
+      "name": "Two-way traffic straight ahead",
+      "glyph": true,
+      "renderer": "521",
+      "bytes": 880,
+      "sha256": "d8bbea2a83427ba10f6d5db2326bd34812b3a82f7e6353e74b2ac56babd956c6"
+    },
+    "signs/522": {
+      "path": "signs/522.svg",
+      "kind": "signs",
+      "id": "522",
+      "name": "Two-way traffic crosses one-way road",
+      "glyph": true,
+      "renderer": "522",
+      "bytes": 914,
+      "sha256": "e747aefa54c65c3d5e7785958a5d26761bed02d7bb2640f7ed0b3102f920a2b4"
+    },
+    "signs/523.1": {
+      "path": "signs/523.1.svg",
+      "kind": "signs",
+      "id": "523.1",
+      "name": "Steep hill downwards",
+      "glyph": true,
+      "renderer": "523.1",
+      "bytes": 1137,
+      "sha256": "af85fb24015046ad3def25a850af40bcc3a06c3556872bd1f487fbbbcae725b7"
+    },
+    "signs/524.1": {
+      "path": "signs/524.1.svg",
+      "kind": "signs",
+      "id": "524.1",
+      "name": "Steep hill upwards",
+      "glyph": true,
+      "renderer": "524.1",
+      "bytes": 1136,
+      "sha256": "2269442657cdea97e2165d039f1ce5c5145de2640c3e416a2926088adc108881"
+    },
+    "signs/526": {
+      "path": "signs/526.svg",
+      "kind": "signs",
+      "id": "526",
+      "name": "Opening or swing bridge ahead (pre-2016 number)",
+      "glyph": true,
+      "renderer": "526",
+      "bytes": 827,
+      "sha256": "c9c1becee0b89e0e7d909831a96132c5cb24737b39467f5cb214fc10671ddf55"
+    },
+    "signs/528": {
+      "path": "signs/528.svg",
+      "kind": "signs",
+      "id": "528",
+      "name": "Hump bridge",
+      "glyph": true,
+      "renderer": "528",
+      "bytes": 632,
+      "sha256": "6d0eba167d4d857583131f28363ffe9d5b7cd07bd0a68de218bc807b88e2fbe3"
+    },
+    "signs/529": {
+      "path": "signs/529.svg",
+      "kind": "signs",
+      "id": "529",
+      "name": "Opening or swing bridge ahead",
+      "glyph": true,
+      "renderer": "529",
+      "bytes": 827,
+      "sha256": "c9c1becee0b89e0e7d909831a96132c5cb24737b39467f5cb214fc10671ddf55"
+    },
+    "signs/529.1": {
+      "path": "signs/529.1.svg",
+      "kind": "signs",
+      "id": "529.1",
+      "name": "Tunnel ahead",
+      "glyph": true,
+      "renderer": "529.1",
+      "bytes": 641,
+      "sha256": "4f6384b3efd855682d79bb08962b455701b14c26f6a847ae4065b483e00b1741"
+    },
+    "signs/530": {
+      "path": "signs/530.svg",
+      "kind": "signs",
+      "id": "530",
+      "name": "Maximum headroom (pre-2016 number)",
+      "glyph": true,
+      "renderer": "530",
+      "bytes": 1528,
+      "sha256": "2eea8f63769ef3818442fabe15d769c6cd6446e13d99db54a297d39c9eeb6b2a"
+    },
+    "signs/530.1": {
+      "path": "signs/530.1.svg",
+      "kind": "signs",
+      "id": "530.1",
+      "name": "Reduced headroom under an overhanging structure",
+      "glyph": true,
+      "renderer": "530.1",
+      "bytes": 4682,
+      "sha256": "6a2761d50eb8d53fdd19bcfcebe0cd34b8f657662f49b67c72024ab1eb94b771"
+    },
+    "signs/530A": {
+      "path": "signs/530A.svg",
+      "kind": "signs",
+      "id": "530A",
+      "name": "Maximum headroom",
+      "glyph": true,
+      "renderer": "530A",
+      "bytes": 2406,
+      "sha256": "bb04a1708956ea1f3fefacd1f2aafbeab4b717236a8c2596c52c5bb8c1e2f7f5"
+    },
+    "signs/531.1": {
+      "path": "signs/531.1.svg",
+      "kind": "signs",
+      "id": "531.1",
+      "name": "Maximum headroom at an arch bridge (pre-2016 number)",
+      "glyph": true,
+      "renderer": "531.1",
+      "bytes": 2087,
+      "sha256": "7458f6744a6966a29132b534663ff26d1f27677c63d1f71d1917c1a94ced82f3"
+    },
+    "signs/531.1A": {
+      "path": "signs/531.1A.svg",
+      "kind": "signs",
+      "id": "531.1A",
+      "name": "Maximum headroom at an arch bridge",
+      "glyph": true,
+      "renderer": "531.1A",
+      "bytes": 2087,
+      "sha256": "7458f6744a6966a29132b534663ff26d1f27677c63d1f71d1917c1a94ced82f3"
+    },
+    "signs/531.2": {
+      "path": "signs/531.2.svg",
+      "kind": "signs",
+      "id": "531.2",
+      "name": "High vehicles use the middle of the road at an arch bridge",
+      "glyph": true,
+      "renderer": "531.2",
+      "bytes": 9322,
+      "sha256": "21ba2ea156fa0ac83e6ad93b1dd50905f48d17a2bb59e6d7867f1796b8e2f933"
+    },
+    "signs/532.2": {
+      "path": "signs/532.2.svg",
+      "kind": "signs",
+      "id": "532.2",
+      "name": "Arch bridge",
+      "glyph": true,
+      "renderer": "532.2",
+      "bytes": 770,
+      "sha256": "ab1dbec00c5469a60e5474630de0621a4e67be4e00bea3680c6e73844ba74350"
+    },
+    "signs/532.3": {
+      "path": "signs/532.3.svg",
+      "kind": "signs",
+      "id": "532.3",
+      "name": "Available width at an arch bridge",
+      "glyph": true,
+      "renderer": "532.3",
+      "bytes": 3615,
+      "sha256": "a83fa957aa601c7092c8cdc4021635efcb1b1aca6ffcdeaf484857a9ee297c60"
+    },
+    "signs/543": {
+      "path": "signs/543.svg",
+      "kind": "signs",
+      "id": "543",
+      "name": "Traffic signals",
+      "glyph": true,
+      "renderer": "543",
+      "bytes": 642,
+      "sha256": "0c238852aee9e8b63e8d0c366680b81cda0bf92b57218f315f7ee12123dd6f11"
+    },
+    "signs/544": {
+      "path": "signs/544.svg",
+      "kind": "signs",
+      "id": "544",
+      "name": "Zebra crossing",
+      "glyph": true,
+      "renderer": "544",
+      "bytes": 1745,
+      "sha256": "4fcb057ab2e7b032782804084dbd58dd96e7e938fc51d799fa226fd5de93791f"
+    },
+    "signs/544.1": {
+      "path": "signs/544.1.svg",
+      "kind": "signs",
+      "id": "544.1",
+      "name": "Pedestrians in road ahead",
+      "glyph": true,
+      "renderer": "544.1",
+      "bytes": 2449,
+      "sha256": "8e714f862c2917db104e7c0d8d56f91e0f95045dc844bc6e8fc102c4333f7d47"
+    },
+    "signs/544.2": {
+      "path": "signs/544.2.svg",
+      "kind": "signs",
+      "id": "544.2",
+      "name": "Frail pedestrians likely to cross road ahead",
+      "glyph": true,
+      "renderer": "544.2",
+      "bytes": 1719,
+      "sha256": "56bd6fb489a889de7db0fed7ff7cf9e20521b70021dc2b0d0a066d9daaf11277"
+    },
+    "signs/545": {
+      "path": "signs/545.svg",
+      "kind": "signs",
+      "id": "545",
+      "name": "Children going to or from school",
+      "glyph": true,
+      "renderer": "545",
+      "bytes": 2380,
+      "sha256": "2cf3aec332adfb342c9765155a9fbcdb4b329739cdbf3be743e2231862021e4d"
+    },
+    "signs/546": {
+      "path": "signs/546.svg",
+      "kind": "signs",
+      "id": "546",
+      "name": "School ahead (plate)",
+      "glyph": true,
+      "renderer": "546",
+      "bytes": 1321,
+      "sha256": "ad76b7bc19379738a1533c5fad811f81e0d26b08b60e660e33c9ff6f6ace12db"
+    },
+    "signs/548": {
+      "path": "signs/548.svg",
+      "kind": "signs",
+      "id": "548",
+      "name": "Cattle",
+      "glyph": true,
+      "renderer": "548",
+      "bytes": 1319,
+      "sha256": "1a3e8b49dc616e6433af3db9c29e9ba09dee41f081601414b1afff8a4a766b59"
+    },
+    "signs/548.1": {
+      "path": "signs/548.1.svg",
+      "kind": "signs",
+      "id": "548.1",
+      "name": "Supervised cattle crossing",
+      "glyph": true,
+      "renderer": "548.1",
+      "bytes": 5487,
+      "sha256": "725d90214db7fcea61358d3757cc091cf02d6950f391418367e8789003581473"
+    },
+    "signs/549": {
+      "path": "signs/549.svg",
+      "kind": "signs",
+      "id": "549",
+      "name": "Sheep",
+      "glyph": true,
+      "renderer": "549",
+      "bytes": 1544,
+      "sha256": "8943bc8fada8864a956010e9c1080e83001da9b7b8fc24271cbb2511cef41901"
+    },
+    "signs/550": {
+      "path": "signs/550.svg",
+      "kind": "signs",
+      "id": "550",
+      "name": "Wild horses or ponies",
+      "glyph": true,
+      "renderer": "550",
+      "bytes": 1788,
+      "sha256": "7f9a5d7ddb374b195fa5e13ea32e7af93cc50817eae8652d22d9a02f81be76b6"
+    },
+    "signs/550.1": {
+      "path": "signs/550.1.svg",
+      "kind": "signs",
+      "id": "550.1",
+      "name": "Accompanied horses or ponies",
+      "glyph": true,
+      "renderer": "550.1",
+      "bytes": 2648,
+      "sha256": "aa471754fc2e313d51432559f42c82adbf38c177fa179682fc6d215c2168df8d"
+    },
+    "signs/550.2": {
+      "path": "signs/550.2.svg",
+      "kind": "signs",
+      "id": "550.2",
+      "name": "Horse-drawn vehicles",
+      "glyph": true,
+      "renderer": "550.2",
+      "bytes": 1769,
+      "sha256": "ca599abb1a2c20e4e63cee74d5438afe88d08c1440a00d4090f71352b3232446"
+    },
+    "signs/551": {
+      "path": "signs/551.svg",
+      "kind": "signs",
+      "id": "551",
+      "name": "Wild animals",
+      "glyph": true,
+      "renderer": "551",
+      "bytes": 2555,
+      "sha256": "06394c5cc487ac108aaaa85e00000b71593542dbb7e998084fe47ceff60b99b1"
+    },
+    "signs/551.1": {
+      "path": "signs/551.1.svg",
+      "kind": "signs",
+      "id": "551.1",
+      "name": "Migratory toad crossing",
+      "glyph": true,
+      "renderer": "551.1",
+      "bytes": 1720,
+      "sha256": "ff261a4a1b3641bbdcc379fb621fe49c0ab71f061b057c7a6932adedb65b5d57"
+    },
+    "signs/551.2": {
+      "path": "signs/551.2.svg",
+      "kind": "signs",
+      "id": "551.2",
+      "name": "Wild fowl",
+      "glyph": true,
+      "renderer": "551.2",
+      "bytes": 1150,
+      "sha256": "d379b487279c08b7d9a71b75e36791486ab96f2255900e44eaa4a647e557beb2"
+    },
+    "signs/552": {
+      "path": "signs/552.svg",
+      "kind": "signs",
+      "id": "552",
+      "name": "Cattle grid",
+      "glyph": true,
+      "renderer": "552",
+      "bytes": 2173,
+      "sha256": "6222beace7545c50b7dd04ff58cdea0f61fef408e1ea46464a2b462d5fc646d7"
+    },
+    "signs/553.1": {
+      "path": "signs/553.1.svg",
+      "kind": "signs",
+      "id": "553.1",
+      "name": "Agricultural vehicles",
+      "glyph": true,
+      "renderer": "553.1",
+      "bytes": 800,
+      "sha256": "686fefdf3edaa94487dde6be6c943e8d1f76e8a08c1a0c5d6459e23b3912a3d8"
+    },
+    "signs/553.2": {
+      "path": "signs/553.2.svg",
+      "kind": "signs",
+      "id": "553.2",
+      "name": "Agricultural vehicles likely to be in road ahead",
+      "glyph": true,
+      "renderer": "553.2",
+      "bytes": 3044,
+      "sha256": "554b1ff7fa8e0cd2e7ea449b94e27e0cd9e269f128a395082eac3d00454fc903"
+    },
+    "signs/554": {
+      "path": "signs/554.svg",
+      "kind": "signs",
+      "id": "554",
+      "name": "Ford",
+      "glyph": true,
+      "renderer": "554",
+      "bytes": 1127,
+      "sha256": "3fd9f76a6fc64d12678e6b66b4006cd73d89d4e9442df4486ff7ac95752b9682"
+    },
+    "signs/554.1": {
+      "path": "signs/554.1.svg",
+      "kind": "signs",
+      "id": "554.1",
+      "name": "Try your brakes",
+      "glyph": true,
+      "renderer": "554.1",
+      "bytes": 2950,
+      "sha256": "6717c9d05c773f0c00a471cc0deababeea9709c405fbca8d580138fc0e563978"
+    },
+    "signs/554.2": {
+      "path": "signs/554.2.svg",
+      "kind": "signs",
+      "id": "554.2",
+      "name": "Risk of ice",
+      "glyph": true,
+      "renderer": "554.2",
+      "bytes": 2446,
+      "sha256": "4ff501401d2d0210e50e6d77dda01e9beed6b14b5d9098589e8c933e36b07486"
+    },
+    "signs/555": {
+      "path": "signs/555.svg",
+      "kind": "signs",
+      "id": "555",
+      "name": "Quayside or river bank",
+      "glyph": true,
+      "renderer": "555",
+      "bytes": 2696,
+      "sha256": "d4e432984e10866867035add88120ae96cd9554093ac0c2e62543edea3d57a86"
+    },
+    "signs/556": {
+      "path": "signs/556.svg",
+      "kind": "signs",
+      "id": "556",
+      "name": "Uneven road",
+      "glyph": true,
+      "renderer": "556",
+      "bytes": 524,
+      "sha256": "36c257b534333170f4845247cad92f36b78b94a671adfd207c85293963747092"
+    },
+    "signs/556.1": {
+      "path": "signs/556.1.svg",
+      "kind": "signs",
+      "id": "556.1",
+      "name": "Soft verges",
+      "glyph": true,
+      "renderer": "556.1",
+      "bytes": 960,
+      "sha256": "19262d564d5f33e27b34155417d53a36c77578d6569f2bf06ecfdb5e957794ec"
+    },
+    "signs/557": {
+      "path": "signs/557.svg",
+      "kind": "signs",
+      "id": "557",
+      "name": "Slippery road",
+      "glyph": true,
+      "renderer": "557",
+      "bytes": 881,
+      "sha256": "befdad3c4e2a6549c07c653974c8ee082ab61418482812ec28e0dc655a4d2a68"
+    },
+    "signs/558": {
+      "path": "signs/558.svg",
+      "kind": "signs",
+      "id": "558",
+      "name": "Low-flying aircraft or sudden aircraft noise",
+      "glyph": true,
+      "renderer": "558",
+      "bytes": 945,
+      "sha256": "41688492464c2ad1f5a31460c3f242b665315efb2409200e37ed7f2263fff7c9"
+    },
+    "signs/559": {
+      "path": "signs/559.svg",
+      "kind": "signs",
+      "id": "559",
+      "name": "Falling or fallen rocks",
+      "glyph": true,
+      "renderer": "559",
+      "bytes": 688,
+      "sha256": "2e927b94248bcf1513e4a826aebc6129ffd8ac9faaaea055a9de81b46b98b483"
+    },
+    "signs/562": {
+      "path": "signs/562.svg",
+      "kind": "signs",
+      "id": "562",
+      "name": "Other danger; plate indicates nature of danger",
+      "glyph": true,
+      "renderer": "562",
+      "bytes": 564,
+      "sha256": "762cffd7c6e109d2a663c25e51a0edf76f545a5c9a40ce13fe139a62d8c9c918"
+    },
+    "signs/572": {
+      "path": "signs/572.svg",
+      "kind": "signs",
+      "id": "572",
+      "name": "Distance to hazard",
+      "glyph": true,
+      "renderer": "572",
+      "bytes": 2825,
+      "sha256": "94faaa0cb0cf1189ee2eb646f7d27144b5e6e117b9dde3e25c56c0a03fa73119"
+    },
+    "signs/573": {
+      "path": "signs/573.svg",
+      "kind": "signs",
+      "id": "573",
+      "name": "Distance and direction to hazard",
+      "glyph": true,
+      "renderer": "573",
+      "bytes": 2935,
+      "sha256": "4d6522c2385d3303b8e58ecbeced073ddbca013df8d11d2a464dfdeb25a19be1"
+    },
+    "signs/574": {
+      "path": "signs/574.svg",
+      "kind": "signs",
+      "id": "574",
+      "name": "Distance over which hazard extends",
+      "glyph": false,
+      "renderer": "family:WarnTriangle",
+      "bytes": 2078,
+      "sha256": "0aec261fba1c4d7d7dd6b1b4ff16b74b6cc9d46f2cb6683ea2c4f9095ee79f8d"
+    },
+    "signs/575": {
+      "path": "signs/575.svg",
+      "kind": "signs",
+      "id": "575",
+      "name": "Oncoming vehicles in the middle of the road",
+      "glyph": true,
+      "renderer": "575",
+      "bytes": 6795,
+      "sha256": "f7be11765bdd7e64e398d301fd3e0cd35f107763999911cf8a703b774d9dc9c3"
+    },
+    "signs/581": {
+      "path": "signs/581.svg",
+      "kind": "signs",
+      "id": "581",
+      "name": "Side winds",
+      "glyph": true,
+      "renderer": "581",
+      "bytes": 944,
+      "sha256": "c753cc6be12d35ff3f56a76e32d2c7dc578c3c7dfc95f2600ce0aab6b6343d58"
+    },
+    "signs/582": {
+      "path": "signs/582.svg",
+      "kind": "signs",
+      "id": "582",
+      "name": "Slow-moving military vehicles",
+      "glyph": true,
+      "renderer": "582",
+      "bytes": 848,
+      "sha256": "aa1449b9475cd919fed35c746866f7745abab9f3e53819ac2176c9178f4e7575"
+    },
+    "signs/583": {
+      "path": "signs/583.svg",
+      "kind": "signs",
+      "id": "583",
+      "name": "Slow-moving vehicles on an incline",
+      "glyph": true,
+      "renderer": "583",
+      "bytes": 976,
+      "sha256": "8199ddab4eb9d28d63ca1f279dd75f16173374b433dbbbda3732b2b83c502df8"
+    },
+    "signs/584": {
+      "path": "signs/584.svg",
+      "kind": "signs",
+      "id": "584",
+      "name": "Traffic queues likely ahead",
+      "glyph": true,
+      "renderer": "584",
+      "bytes": 1762,
+      "sha256": "a0e877f33969361f7ecaf9fd55b4634e88a482e803762e7cb4ff087377e5a858"
+    },
+    "signs/601.1": {
+      "path": "signs/601.1.svg",
+      "kind": "signs",
+      "id": "601.1",
+      "name": "Stop and give way",
+      "glyph": true,
+      "renderer": "601.1",
+      "bytes": 1328,
+      "sha256": "828e208db1b4167a91b8e07fed9adeb345a95107dce759b33325105bce74af33"
+    },
+    "signs/602": {
+      "path": "signs/602.svg",
+      "kind": "signs",
+      "id": "602",
+      "name": "Give way to traffic on major road",
+      "glyph": true,
+      "renderer": "602",
+      "bytes": 2206,
+      "sha256": "0c1ea113a1b17a5595b2b6f2cb817e9d2d6b7fe5e49126222183a8172086b603"
+    },
+    "signs/605.3": {
+      "path": "signs/605.3.svg",
+      "kind": "signs",
+      "id": "605.3",
+      "name": "School crossing patrol",
+      "glyph": true,
+      "renderer": "605.3",
+      "bytes": 3069,
+      "sha256": "b92041aa27b3f2eff6a1bf4e7e8e49458511cc19b65edca8c63fc95f8d8e836e"
+    },
+    "signs/606": {
+      "path": "signs/606.svg",
+      "kind": "signs",
+      "id": "606",
+      "name": "Ahead only",
+      "glyph": true,
+      "renderer": "606",
+      "bytes": 450,
+      "sha256": "5ecf7b38979f4611c24e60f123c41a360f98803dc68fbd9b5fdbe1a205e0aee7"
+    },
+    "signs/607": {
+      "path": "signs/607.svg",
+      "kind": "signs",
+      "id": "607",
+      "name": "One-way traffic (plate)",
+      "glyph": true,
+      "renderer": "607",
+      "bytes": 1638,
+      "sha256": "113a15dde025b0a643eaa9e9049d9aa3739014ee4b42923015a4de2fd63dfe20"
+    },
+    "signs/608": {
+      "path": "signs/608.svg",
+      "kind": "signs",
+      "id": "608",
+      "name": "Dual carriageway",
+      "glyph": true,
+      "renderer": "608",
+      "bytes": 3477,
+      "sha256": "a6580eb8bb1bbd220eef83a91a34f1a2f8593727d9dcdc87c58328d22e01f609"
+    },
+    "signs/609": {
+      "path": "signs/609.svg",
+      "kind": "signs",
+      "id": "609",
+      "name": "Turn left ahead (right if symbol reversed)",
+      "glyph": true,
+      "renderer": "609",
+      "bytes": 433,
+      "sha256": "fc0aa2db95d5742eaa0aa2ba9b485b97f7412d1ccaa4e9a3d37ca702a2f0ff35"
+    },
+    "signs/610": {
+      "path": "signs/610.svg",
+      "kind": "signs",
+      "id": "610",
+      "name": "Keep left (right if symbol reversed)",
+      "glyph": true,
+      "renderer": "610",
+      "bytes": 437,
+      "sha256": "8d50208cf1519758af358ddecb18223797e9a974d238c54dbfddd504d4f39de1"
+    },
+    "signs/611": {
+      "path": "signs/611.svg",
+      "kind": "signs",
+      "id": "611",
+      "name": "Vehicles may pass either side to reach the same destination",
+      "glyph": true,
+      "renderer": "611",
+      "bytes": 723,
+      "sha256": "cc75f821d9bc34b92bdcb2892ee38b72e150b53c426f0f391abc826bd4a6cb96"
+    },
+    "signs/611.1": {
+      "path": "signs/611.1.svg",
+      "kind": "signs",
+      "id": "611.1",
+      "name": "Mini-roundabout",
+      "glyph": true,
+      "renderer": "611.1",
+      "bytes": 1526,
+      "sha256": "7c01a08e54da3ad3d6e6532d55c52ed23f54c20ff77ce4336a40cc67a9ec535c"
+    },
+    "signs/612": {
+      "path": "signs/612.svg",
+      "kind": "signs",
+      "id": "612",
+      "name": "No right turn",
+      "glyph": true,
+      "renderer": "612",
+      "bytes": 531,
+      "sha256": "7ab600bb24b9a640514c09c40d535709b739616a9c7af8a218f2e75784d54394"
+    },
+    "signs/613": {
+      "path": "signs/613.svg",
+      "kind": "signs",
+      "id": "613",
+      "name": "No left turn",
+      "glyph": true,
+      "renderer": "613",
+      "bytes": 532,
+      "sha256": "5786ee01da53ebbd4ab792f8573c1e25c5424be6d4671758e90eeb9730c50503"
+    },
+    "signs/614": {
+      "path": "signs/614.svg",
+      "kind": "signs",
+      "id": "614",
+      "name": "No U-turns",
+      "glyph": true,
+      "renderer": "614",
+      "bytes": 536,
+      "sha256": "f12bdcf489847474f9228cb6c2ebcf2b2692a062057241173342b76e8a0be194"
+    },
+    "signs/615": {
+      "path": "signs/615.svg",
+      "kind": "signs",
+      "id": "615",
+      "name": "Give priority to vehicles from opposite direction",
+      "glyph": true,
+      "renderer": "615",
+      "bytes": 668,
+      "sha256": "4e2350532215c191ba9022d7d3abe2a404a5c71caea904aaaae5baf423303352"
+    },
+    "signs/616": {
+      "path": "signs/616.svg",
+      "kind": "signs",
+      "id": "616",
+      "name": "No entry for vehicular traffic",
+      "glyph": true,
+      "renderer": "616",
+      "bytes": 290,
+      "sha256": "2f2bc7e5fdf8c679000c5816f61ab8704a1ea8a588f0c294285445dd13e6802d"
+    },
+    "signs/617": {
+      "path": "signs/617.svg",
+      "kind": "signs",
+      "id": "617",
+      "name": "No vehicles except bicycles being pushed",
+      "glyph": true,
+      "renderer": "617",
+      "bytes": 209,
+      "sha256": "b627b178e41951a871a13a28b5afb7e74cc08d4f608363b6a2b62c38a4486657"
+    },
+    "signs/618": {
+      "path": "signs/618.svg",
+      "kind": "signs",
+      "id": "618",
+      "name": "Play street",
+      "glyph": true,
+      "renderer": "618",
+      "bytes": 8432,
+      "sha256": "2b2d8d635901123d93b864c31d070f30f7712090d7ab8fc92ad0dde0c066f509"
+    },
+    "signs/618.1": {
+      "path": "signs/618.1.svg",
+      "kind": "signs",
+      "id": "618.1",
+      "name": "All vehicles prohibited during the period indicated except for access",
+      "glyph": true,
+      "renderer": "618.1",
+      "bytes": 7536,
+      "sha256": "b5faf59f7025cba6a19d5599d6ab3e75b219beb51cc163a9611436416ed00eb1"
+    },
+    "signs/618.2": {
+      "path": "signs/618.2.svg",
+      "kind": "signs",
+      "id": "618.2",
+      "name": "Pedestrian zone (times)",
+      "glyph": true,
+      "renderer": "618.2",
+      "bytes": 3204,
+      "sha256": "8434c187b126eb11948c824cf49dd51ae0d402da004f6b4ac3d12c30df603842"
+    },
+    "signs/618.3": {
+      "path": "signs/618.3.svg",
+      "kind": "signs",
+      "id": "618.3",
+      "name": "Pedestrian zone (except buses)",
+      "glyph": true,
+      "renderer": "618.3",
+      "bytes": 25988,
+      "sha256": "3a5939c542c5de651cd0b4b3a51104afdfeec9b0a95b7d20a03f64cbc97073ce"
+    },
+    "signs/618.3A": {
+      "path": "signs/618.3A.svg",
+      "kind": "signs",
+      "id": "618.3A",
+      "name": "Pedestrian zone (except loading)",
+      "glyph": true,
+      "renderer": "618.3A",
+      "bytes": 16031,
+      "sha256": "6d3c2b96f9bf388f6672865ae2fd7bed987df7e3a1970d1121a0240e0f91a3ed"
+    },
+    "signs/618.3B": {
+      "path": "signs/618.3B.svg",
+      "kind": "signs",
+      "id": "618.3B",
+      "name": "Pedestrian and waiting zone",
+      "glyph": true,
+      "renderer": "618.3B",
+      "bytes": 24629,
+      "sha256": "a3e0b2e9570342ae5e0278a8aebb39115197d1433c24ba94bbca634838d17457"
+    },
+    "signs/618.3C": {
+      "path": "signs/618.3C.svg",
+      "kind": "signs",
+      "id": "618.3C",
+      "name": "Pedestrian and cycle zone",
+      "glyph": true,
+      "renderer": "618.3C",
+      "bytes": 30281,
+      "sha256": "468f9f4ad1ad4650a5d95fee57859a879ff125cdc6485a7297b9ff0b9a37e0fa"
+    },
+    "signs/618.4": {
+      "path": "signs/618.4.svg",
+      "kind": "signs",
+      "id": "618.4",
+      "name": "End of pedestrian zone",
+      "glyph": true,
+      "renderer": "618.4",
+      "bytes": 20110,
+      "sha256": "eccd8f6e482b91815076934f7eaacb7225eab8b115b8b7db9baee0e7f538df7a"
+    },
+    "signs/619": {
+      "path": "signs/619.svg",
+      "kind": "signs",
+      "id": "619",
+      "name": "No motor vehicles",
+      "glyph": true,
+      "renderer": "619",
+      "bytes": 2323,
+      "sha256": "c37734b887dc20742303820f2c1d3763ff310ab7cdf3beb9cc878afdfe862c50"
+    },
+    "signs/619.1": {
+      "path": "signs/619.1.svg",
+      "kind": "signs",
+      "id": "619.1",
+      "name": "No motor vehicles except solo motorcycles",
+      "glyph": true,
+      "renderer": "619.1",
+      "bytes": 1769,
+      "sha256": "53b9f48c74b9af0a162a05a7a43261bc4f04ff9ef5095ad104c11263eca3e6ab"
+    },
+    "signs/619.2": {
+      "path": "signs/619.2.svg",
+      "kind": "signs",
+      "id": "619.2",
+      "name": "No solo motorcycles",
+      "glyph": true,
+      "renderer": "619.2",
+      "bytes": 2254,
+      "sha256": "43de1d347bd8510c2ec0d292eeebd0ab997b3aefdca878860b2057e4e684dc96"
+    },
+    "signs/622.1A": {
+      "path": "signs/622.1A.svg",
+      "kind": "signs",
+      "id": "622.1A",
+      "name": "No goods vehicles over maximum gross weight shown",
+      "glyph": true,
+      "renderer": "622.1A",
+      "bytes": 1190,
+      "sha256": "86745fba7d702f32d4d2f5e5ef62c8d591cdef4350b1e23f79406d7278eea8cf"
+    },
+    "signs/622.2": {
+      "path": "signs/622.2.svg",
+      "kind": "signs",
+      "id": "622.2",
+      "name": "End of goods-vehicle prohibition",
+      "glyph": true,
+      "renderer": "622.2",
+      "bytes": 3385,
+      "sha256": "908e05dcb1f44f7e8894529d68cae6c81f5a1de48a805d12b762d8145e60bc9c"
+    },
+    "signs/622.4": {
+      "path": "signs/622.4.svg",
+      "kind": "signs",
+      "id": "622.4",
+      "name": "No articulated vehicles",
+      "glyph": true,
+      "renderer": "622.4",
+      "bytes": 4225,
+      "sha256": "4f74f752bd4bb7f675a5f8d28eb726344a3d78434d024760f836b9668aabb5e3"
+    },
+    "signs/622.5": {
+      "path": "signs/622.5.svg",
+      "kind": "signs",
+      "id": "622.5",
+      "name": "No horse-drawn vehicles",
+      "glyph": true,
+      "renderer": "622.5",
+      "bytes": 3303,
+      "sha256": "f3e464e00c7192fecb549d13b00dfb31685f7fddb61612609a109595c0940acb"
+    },
+    "signs/622.6": {
+      "path": "signs/622.6.svg",
+      "kind": "signs",
+      "id": "622.6",
+      "name": "No ridden or accompanied horses",
+      "glyph": true,
+      "renderer": "622.6",
+      "bytes": 2482,
+      "sha256": "0072bcb6353e46471c455725c1043ae1fbf59fa0084a4549353b3a5861e8a503"
+    },
+    "signs/622.7": {
+      "path": "signs/622.7.svg",
+      "kind": "signs",
+      "id": "622.7",
+      "name": "No towed caravans",
+      "glyph": true,
+      "renderer": "622.7",
+      "bytes": 764,
+      "sha256": "2ccbc67be3087148b9b4a63ed33a44655053f23d235f42790990e14dbf9c7940"
+    },
+    "signs/622.8": {
+      "path": "signs/622.8.svg",
+      "kind": "signs",
+      "id": "622.8",
+      "name": "No vehicles carrying explosives",
+      "glyph": true,
+      "renderer": "622.8",
+      "bytes": 5764,
+      "sha256": "e680ed7cab9ac026fc61aab2ca1e3eaffe24bac6f8b328e4597b396fadd7b44e"
+    },
+    "signs/622.9": {
+      "path": "signs/622.9.svg",
+      "kind": "signs",
+      "id": "622.9",
+      "name": "Vehicles carrying explosives prohibited (as diagram 622.8)",
+      "glyph": true,
+      "renderer": "622.9",
+      "bytes": 3244,
+      "sha256": "f2c55e89a5c3482f5d7f9d0c0a5a76d9e098ffa50e61d1b6d9eaea7656f8cfcc"
+    },
+    "signs/625.1": {
+      "path": "signs/625.1.svg",
+      "kind": "signs",
+      "id": "625.1",
+      "name": "No pedestrians",
+      "glyph": true,
+      "renderer": "625.1",
+      "bytes": 1351,
+      "sha256": "13af66f333c28e5da20bde0903ab6b73c292003b2d4a2af30eddef4d9c5617bc"
+    },
+    "signs/626.2A": {
+      "path": "signs/626.2A.svg",
+      "kind": "signs",
+      "id": "626.2A",
+      "name": "No vehicles over maximum gross weight shown",
+      "glyph": true,
+      "renderer": "626.2A",
+      "bytes": 9288,
+      "sha256": "34450d854777628db2dd5d79a044036d206b42332dcb517c5c8cd4d4cfb3f4ce"
+    },
+    "signs/627.1": {
+      "path": "signs/627.1.svg",
+      "kind": "signs",
+      "id": "627.1",
+      "name": "Exemption for unladen vehicles from the prohibition conveyed by the sign in diagram 626.2A",
+      "glyph": true,
+      "renderer": "627.1",
+      "bytes": 5240,
+      "sha256": "d971b9ece0a893751a4bfd571b89027dcf4fc9c0afc6a494e742844adbae4a5c"
+    },
+    "signs/629": {
+      "path": "signs/629.svg",
+      "kind": "signs",
+      "id": "629",
+      "name": "No vehicles over width shown (pre-2016 number)",
+      "glyph": true,
+      "renderer": "629",
+      "bytes": 1150,
+      "sha256": "3e346c1d56251f8dc7f3f7d57d5ccca3fa4ff88dfa13ecc1f1a7931b15b83bce"
+    },
+    "signs/629.1": {
+      "path": "signs/629.1.svg",
+      "kind": "signs",
+      "id": "629.1",
+      "name": "No vehicle or combination of vehicles over length shown",
+      "glyph": true,
+      "renderer": "629.1",
+      "bytes": 2295,
+      "sha256": "26c7edf9da39599af5e59b05daa12d13bfe4171cf680bbaa787d2891e88193c1"
+    },
+    "signs/629.2": {
+      "path": "signs/629.2.svg",
+      "kind": "signs",
+      "id": "629.2",
+      "name": "No vehicles over height shown (imperial)",
+      "glyph": true,
+      "renderer": "629.2",
+      "bytes": 1346,
+      "sha256": "af0f51412a5ce1bc75367011adad62e65dc8e84d61cdfb5669ce2d4cecd800c4"
+    },
+    "signs/629.2A": {
+      "path": "signs/629.2A.svg",
+      "kind": "signs",
+      "id": "629.2A",
+      "name": "No vehicles over height shown",
+      "glyph": true,
+      "renderer": "629.2A",
+      "bytes": 2283,
+      "sha256": "16dcfb95fa40681527eafab83578d538fb2e76ae0b153a5126c03f9361c52fbb"
+    },
+    "signs/629A": {
+      "path": "signs/629A.svg",
+      "kind": "signs",
+      "id": "629A",
+      "name": "No vehicles over the width shown",
+      "glyph": true,
+      "renderer": "629A",
+      "bytes": 2056,
+      "sha256": "ba35376d8b10d7371b6353cbfc2764f0d246d558ede1207aaedb9db96d9dbada"
+    },
+    "signs/632": {
+      "path": "signs/632.svg",
+      "kind": "signs",
+      "id": "632",
+      "name": "No overtaking",
+      "glyph": true,
+      "renderer": "632",
+      "bytes": 1136,
+      "sha256": "453ccdd6e82b353c3b6e2793e8b757cd9724a2673f42cddfdbe6bbe1a85003c9"
+    },
+    "signs/636": {
+      "path": "signs/636.svg",
+      "kind": "signs",
+      "id": "636",
+      "name": "Temporary no waiting except loading",
+      "glyph": true,
+      "renderer": "636",
+      "bytes": 5395,
+      "sha256": "70fe8da6fbcb26ab4cdc78db2377c79db9b298d3b37f922d0852cbcd31126b9f"
+    },
+    "signs/637.1": {
+      "path": "signs/637.1.svg",
+      "kind": "signs",
+      "id": "637.1",
+      "name": "No waiting except as shown",
+      "glyph": true,
+      "renderer": "637.1",
+      "bytes": 7856,
+      "sha256": "48a8601df7e2bd75b95ff79fb14378302464015a2400134a836a5be1736ec6e0"
+    },
+    "signs/637.2": {
+      "path": "signs/637.2.svg",
+      "kind": "signs",
+      "id": "637.2",
+      "name": "No waiting (times)",
+      "glyph": true,
+      "renderer": "637.2",
+      "bytes": 7565,
+      "sha256": "1099babbbc2acbc056604e0c4753083d84d7ff4f1da586f8351ab0ebf36b3e08"
+    },
+    "signs/637.3": {
+      "path": "signs/637.3.svg",
+      "kind": "signs",
+      "id": "637.3",
+      "name": "No waiting except loading",
+      "glyph": true,
+      "renderer": "637.3",
+      "bytes": 6254,
+      "sha256": "d3bf7d375a02ab294de335dd535b63bbaecc00dc4d0764212db84a49c58249f6"
+    },
+    "signs/638": {
+      "path": "signs/638.svg",
+      "kind": "signs",
+      "id": "638",
+      "name": "Continuous prohibition on loading and unloading",
+      "glyph": true,
+      "renderer": "638",
+      "bytes": 4344,
+      "sha256": "703984adee3da0f6fd40b2221f8564375abde12c8f34b7561126070562239a80"
+    },
+    "signs/638.1": {
+      "path": "signs/638.1.svg",
+      "kind": "signs",
+      "id": "638.1",
+      "name": "No loading during the times shown",
+      "glyph": true,
+      "renderer": "638.1",
+      "bytes": 9457,
+      "sha256": "edf0cc571a7bff334ea8ca014dc389b1c62d05f55769f85b90c53ae6aa5fec12"
+    },
+    "signs/639": {
+      "path": "signs/639.svg",
+      "kind": "signs",
+      "id": "639",
+      "name": "Waiting limited to the period shown",
+      "glyph": true,
+      "renderer": "639",
+      "bytes": 4370,
+      "sha256": "cc8cacbdbcd75cce888809c54176b2aa01f925a30eddf49686ff5a488ab60b6e"
+    },
+    "signs/639.1B": {
+      "path": "signs/639.1B.svg",
+      "kind": "signs",
+      "id": "639.1B",
+      "name": "Waiting prohibited during the periods indicated on the upper panel and restrictions on waiting during the period indicated on the lower panel",
+      "glyph": true,
+      "renderer": "639.1B",
+      "bytes": 15525,
+      "sha256": "ca299e95743b2f2f4b20b216fbba684899d5d0ae9abb0bc6796ebe4b4f8f4c93"
+    },
+    "signs/640": {
+      "path": "signs/640.svg",
+      "kind": "signs",
+      "id": "640",
+      "name": "No stopping during period indicated except for buses",
+      "glyph": true,
+      "renderer": "640",
+      "bytes": 13863,
+      "sha256": "169f3d92f13ce320c30abb2c470bd17957b8e08761ccc9de729576a95f406ef4"
+    },
+    "signs/640.1": {
+      "path": "signs/640.1.svg",
+      "kind": "signs",
+      "id": "640.1",
+      "name": "No waiting or loading at a parking place",
+      "glyph": true,
+      "renderer": "640.1",
+      "bytes": 5488,
+      "sha256": "20f2246bd4da535d84cb8d1981200dfa618fc5835bf705f0a18497c64c81bf56"
+    },
+    "signs/640.2A": {
+      "path": "signs/640.2A.svg",
+      "kind": "signs",
+      "id": "640.2A",
+      "name": "Waiting by goods vehicles over maximum gross weight shown prohibited during the periods and in the direction indicated",
+      "glyph": true,
+      "renderer": "640.2A",
+      "bytes": 16990,
+      "sha256": "19c0fc65e0aebf42221c1f6c1241a5f027d47c77e81bd26aa0c153f8041bb17f"
+    },
+    "signs/640.3": {
+      "path": "signs/640.3.svg",
+      "kind": "signs",
+      "id": "640.3",
+      "name": "Entrance to a designated off-highway loading area in which waiting restrictions apply",
+      "glyph": true,
+      "renderer": "640.3",
+      "bytes": 13180,
+      "sha256": "8048e963767c119df1a24e02363bde644770a0500a078daa725a4678486cc008"
+    },
+    "signs/640.4": {
+      "path": "signs/640.4.svg",
+      "kind": "signs",
+      "id": "640.4",
+      "name": "Waiting prohibited in a designated off-highway loading area during the period indicated except by permitted vehicles",
+      "glyph": true,
+      "renderer": "640.4",
+      "bytes": 11161,
+      "sha256": "8083dbb87cc94ee17277b9244511018a810684870e74fb1503f6ba9ebf0c8cde"
+    },
+    "signs/640.5": {
+      "path": "signs/640.5.svg",
+      "kind": "signs",
+      "id": "640.5",
+      "name": "End of designated loading area",
+      "glyph": true,
+      "renderer": "640.5",
+      "bytes": 8311,
+      "sha256": "f7060baad7c2735741604bc02a04b9f462b5e3609752e93c48bd1e91522f4908"
+    },
+    "signs/642": {
+      "path": "signs/642.svg",
+      "kind": "signs",
+      "id": "642",
+      "name": "No stopping (Clearway)",
+      "glyph": true,
+      "renderer": "642",
+      "bytes": 406,
+      "sha256": "efa512df83ad6a2a3b3e110f8608a8a70aace2e531c34cdc727c203666935c56"
+    },
+    "signs/642.2": {
+      "path": "signs/642.2.svg",
+      "kind": "signs",
+      "id": "642.2",
+      "name": "School crossing patrol (pre-2016 number)",
+      "glyph": true,
+      "renderer": "642.2",
+      "bytes": 3069,
+      "sha256": "b92041aa27b3f2eff6a1bf4e7e8e49458511cc19b65edca8c63fc95f8d8e836e"
+    },
+    "signs/642.3": {
+      "path": "signs/642.3.svg",
+      "kind": "signs",
+      "id": "642.3",
+      "name": "No stopping in lay-by except in emergency",
+      "glyph": true,
+      "renderer": "642.3",
+      "bytes": 7919,
+      "sha256": "927ae875d4e3c50295a07747f61da4cc803d247fde0ed5f01474a2385f24d838"
+    },
+    "signs/646": {
+      "path": "signs/646.svg",
+      "kind": "signs",
+      "id": "646",
+      "name": "Urban clearway",
+      "glyph": true,
+      "renderer": "646",
+      "bytes": 11384,
+      "sha256": "6da7178ab69a625fedd2d03ee06951ef9b9819febe2f6a01abbe6344cc8d515c"
+    },
+    "signs/647": {
+      "path": "signs/647.svg",
+      "kind": "signs",
+      "id": "647",
+      "name": "End of urban clearway",
+      "glyph": true,
+      "renderer": "647",
+      "bytes": 7120,
+      "sha256": "23652b8a022f67e36dec5481ce2c6b6b5ab9893ee190c84520380c2de114aed1"
+    },
+    "signs/649.2": {
+      "path": "signs/649.2.svg",
+      "kind": "signs",
+      "id": "649.2",
+      "name": "No stopping except taxis (times)",
+      "glyph": false,
+      "renderer": "family:Prohibitory",
+      "bytes": 2453,
+      "sha256": "5118d0c696feb2308826e75732a8722b522f7f5dc5f581636a1f5426b43a32c7"
+    },
+    "signs/650.1": {
+      "path": "signs/650.1.svg",
+      "kind": "signs",
+      "id": "650.1",
+      "name": "Prohibition on stopping by vehicles other than taxis during the period indicated",
+      "glyph": true,
+      "renderer": "650.1",
+      "bytes": 8270,
+      "sha256": "941d2f238351ac752aeb0e557c145de7592dcdf76781364e5a76d5d9e26f6ce6"
+    },
+    "signs/650.2": {
+      "path": "signs/650.2.svg",
+      "kind": "signs",
+      "id": "650.2",
+      "name": "Prohibition on waiting by vehicles other than taxis during the period indicated",
+      "glyph": true,
+      "renderer": "650.2",
+      "bytes": 7920,
+      "sha256": "1f5d60ad52bede8b325be43e2c2393d3c4bfa3d2d8bdf81d349565cbe390e02a"
+    },
+    "signs/650.3": {
+      "path": "signs/650.3.svg",
+      "kind": "signs",
+      "id": "650.3",
+      "name": "Continuous prohibition on waiting by vehicles with an exemption for taxis during the period indicated",
+      "glyph": true,
+      "renderer": "650.3",
+      "bytes": 7984,
+      "sha256": "88a18a7d447c7d694b7d5ed6cebd02dabdfcd9bc60fd6dcc1426cce15771e417"
+    },
+    "signs/651": {
+      "path": "signs/651.svg",
+      "kind": "signs",
+      "id": "651",
+      "name": "Mown-verge use prohibited",
+      "glyph": true,
+      "renderer": "651",
+      "bytes": 29921,
+      "sha256": "a70770edb8d7f4e5e2d101dd6e987aacd71e9341172c4440cb081bd20fe28d43"
+    },
+    "signs/652": {
+      "path": "signs/652.svg",
+      "kind": "signs",
+      "id": "652",
+      "name": "One-way traffic",
+      "glyph": true,
+      "renderer": "652",
+      "bytes": 513,
+      "sha256": "43ec977504e2975d22db14df4c5d8a1ccc8a6bbc08e815678e5c64b60cdf1a40"
+    },
+    "signs/660": {
+      "path": "signs/660.svg",
+      "kind": "signs",
+      "id": "660",
+      "name": "Parking place reserved for permit holders",
+      "glyph": true,
+      "renderer": "660",
+      "bytes": 4016,
+      "sha256": "6ae5bb2e44add73e1a27d32e65eb4e9fd27b97ad099933a1c1c928553a2c92e4"
+    },
+    "signs/660.3": {
+      "path": "signs/660.3.svg",
+      "kind": "signs",
+      "id": "660.3",
+      "name": "Parking place reserved for holders of residents' permits",
+      "glyph": true,
+      "renderer": "660.3",
+      "bytes": 8977,
+      "sha256": "63cebdd9c8ca0525da6c46f89c80dfa9845de891accead5edec358564e4a6404"
+    },
+    "signs/660.4": {
+      "path": "signs/660.4.svg",
+      "kind": "signs",
+      "id": "660.4",
+      "name": "Loading only",
+      "glyph": true,
+      "renderer": "660.4",
+      "bytes": 4859,
+      "sha256": "d45fcd2d5202684dbf0d371e7ed56e7ae875e7b79b223939eccaf2d90fc6af6e"
+    },
+    "signs/660.5": {
+      "path": "signs/660.5.svg",
+      "kind": "signs",
+      "id": "660.5",
+      "name": "Parking for the period shown",
+      "glyph": true,
+      "renderer": "660.5",
+      "bytes": 17482,
+      "sha256": "76da8adc9aeef0aa14807fe307ff3b5bbf85738d94c1450651bf097c4597780a"
+    },
+    "signs/660.6": {
+      "path": "signs/660.6.svg",
+      "kind": "signs",
+      "id": "660.6",
+      "name": "Parking place (ticket)",
+      "glyph": true,
+      "renderer": "660.6",
+      "bytes": 14671,
+      "sha256": "bbe4389ebdf353818c4ebfd0489d114dffc3ad4356489f479c2a63375327c42d"
+    },
+    "signs/660.7": {
+      "path": "signs/660.7.svg",
+      "kind": "signs",
+      "id": "660.7",
+      "name": "Parking place (voucher)",
+      "glyph": true,
+      "renderer": "660.7",
+      "bytes": 29401,
+      "sha256": "3dc66c449c6ae9952e25578b531effcfbb65b21f4083ca7fe55f56dff34d426e"
+    },
+    "signs/661.1": {
+      "path": "signs/661.1.svg",
+      "kind": "signs",
+      "id": "661.1",
+      "name": "Restrictions on length of waiting time and return period",
+      "glyph": true,
+      "renderer": "661.1",
+      "bytes": 10897,
+      "sha256": "f75d6368e7eb04b1574ea66af306efdf4bf971382299ad767252427740ff681a"
+    },
+    "signs/661.2A": {
+      "path": "signs/661.2A.svg",
+      "kind": "signs",
+      "id": "661.2A",
+      "name": "'Pay and Display' ticket-regulated parking place",
+      "glyph": true,
+      "renderer": "661.2A",
+      "bytes": 7927,
+      "sha256": "ca4fabc88981d11b5d36c8608780f2bd9e1db297e5f344d123b18c7e0d95af0f"
+    },
+    "signs/661.3A": {
+      "path": "signs/661.3A.svg",
+      "kind": "signs",
+      "id": "661.3A",
+      "name": "Location of 'Pay and Display' ticket machine",
+      "glyph": true,
+      "renderer": "661.3A",
+      "bytes": 8126,
+      "sha256": "b913c3b4254c69afdded788ce51dbadbf589bd2c14629ca331c66e17eb2cd554"
+    },
+    "signs/661.4": {
+      "path": "signs/661.4.svg",
+      "kind": "signs",
+      "id": "661.4",
+      "name": "Drivers must obtain and display parking tickets",
+      "glyph": true,
+      "renderer": "661.4",
+      "bytes": 6532,
+      "sha256": "dc10b7a886491e5962d5b4d99c3a6283fdfa529d183211cc21857b2bb0635188"
+    },
+    "signs/662": {
+      "path": "signs/662.svg",
+      "kind": "signs",
+      "id": "662",
+      "name": "Period during which waiting is limited and display of a disc is required at a parking place in a disc zone",
+      "glyph": true,
+      "renderer": "662",
+      "bytes": 12317,
+      "sha256": "f77aac76e9af9709012c987a7076d2c1db12c4ed5a7ee6b25438734fcdac75a8"
+    },
+    "signs/667": {
+      "path": "signs/667.svg",
+      "kind": "signs",
+      "id": "667",
+      "name": "Parking partly on the verge or footway",
+      "glyph": true,
+      "renderer": "667",
+      "bytes": 2905,
+      "sha256": "2064526c464d64bbc39eb0cb4ac97eaac562f6e1f9e7a67c46d5faf079906137"
+    },
+    "signs/667.1": {
+      "path": "signs/667.1.svg",
+      "kind": "signs",
+      "id": "667.1",
+      "name": "Parking partly on the verge (times)",
+      "glyph": true,
+      "renderer": "667.1",
+      "bytes": 5591,
+      "sha256": "7609f7428274bd8cd8c13e95fb73b51791916307a14360ca12b64673d08eddf1"
+    },
+    "signs/667.2": {
+      "path": "signs/667.2.svg",
+      "kind": "signs",
+      "id": "667.2",
+      "name": "End of verge parking (part)",
+      "glyph": true,
+      "renderer": "667.2",
+      "bytes": 2975,
+      "sha256": "65a8f27343bf4f0b7138bb31270e8e5c2ed3772a1dffc272cdde51b1742cc2e9"
+    },
+    "signs/668": {
+      "path": "signs/668.svg",
+      "kind": "signs",
+      "id": "668",
+      "name": "Parking wholly on the verge or footway",
+      "glyph": true,
+      "renderer": "668",
+      "bytes": 2733,
+      "sha256": "cf6360aa5eac1b1c163444dcaf6fdb26a33b223dee0b321f87ecdccb1959538f"
+    },
+    "signs/668.1": {
+      "path": "signs/668.1.svg",
+      "kind": "signs",
+      "id": "668.1",
+      "name": "Parking wholly on the verge (times)",
+      "glyph": true,
+      "renderer": "668.1",
+      "bytes": 6146,
+      "sha256": "bc51702c8b4a9d3c6f5b9250452729b78b99073486a0e11109fb62e3e97009fa"
+    },
+    "signs/668.2": {
+      "path": "signs/668.2.svg",
+      "kind": "signs",
+      "id": "668.2",
+      "name": "End of verge parking (whole)",
+      "glyph": true,
+      "renderer": "668.2",
+      "bytes": 2793,
+      "sha256": "b6f5749c3b58ad77106111b43614b7d4e6d9638f29ecf84fd53da97cf92d703b"
+    },
+    "signs/670": {
+      "path": "signs/670.svg",
+      "kind": "signs",
+      "id": "670",
+      "name": "Maximum speed",
+      "glyph": true,
+      "renderer": "670",
+      "bytes": 654,
+      "sha256": "aa5a6c7cebc328ce80765b09c9d7b1b88ea317de531cab23cab115db3fb8659b"
+    },
+    "signs/671": {
+      "path": "signs/671.svg",
+      "kind": "signs",
+      "id": "671",
+      "name": "National speed limit applies",
+      "glyph": true,
+      "renderer": "671",
+      "bytes": 370,
+      "sha256": "0e3c7ffc72ee699cc1c3c43b67f5f0f1b98b9c97e2958bc4e8ec6d76f227ea4f"
+    },
+    "signs/672": {
+      "path": "signs/672.svg",
+      "kind": "signs",
+      "id": "672",
+      "name": "Minimum speed",
+      "glyph": true,
+      "renderer": "672",
+      "bytes": 655,
+      "sha256": "80114ce80ad2a3a40cfb90936fe4cc8f77ba369d33030f1b321ed145a5307713"
+    },
+    "signs/673": {
+      "path": "signs/673.svg",
+      "kind": "signs",
+      "id": "673",
+      "name": "End of minimum speed",
+      "glyph": true,
+      "renderer": "673",
+      "bytes": 754,
+      "sha256": "97ffa73951340fbc9dc102bf54ea2efaa64d22854b83573b29cee26625ea24c3"
+    },
+    "signs/674": {
+      "path": "signs/674.svg",
+      "kind": "signs",
+      "id": "674",
+      "name": "Entry to 20 mph zone",
+      "glyph": true,
+      "renderer": "674",
+      "bytes": 1681,
+      "sha256": "509c4784612cf4543f0d9f0bf069ccc714405a7f51542f78223917b49ce37d23"
+    },
+    "signs/675": {
+      "path": "signs/675.svg",
+      "kind": "signs",
+      "id": "675",
+      "name": "End of 20 mph zone",
+      "glyph": true,
+      "renderer": "675",
+      "bytes": 10805,
+      "sha256": "fb9d916a1697c6ae42183316db2f53391ad00896a054d14cd9924deec312fa64"
+    },
+    "signs/675A": {
+      "path": "signs/675A.svg",
+      "kind": "signs",
+      "id": "675A",
+      "name": "End of 20 mph zone, new limit begins",
+      "glyph": true,
+      "renderer": "675A",
+      "bytes": 10805,
+      "sha256": "fb9d916a1697c6ae42183316db2f53391ad00896a054d14cd9924deec312fa64"
+    },
+    "signs/675B": {
+      "path": "signs/675B.svg",
+      "kind": "signs",
+      "id": "675B",
+      "name": "In relation to England, end of a 20 mph speed limit zone with indication that national speed limits apply",
+      "glyph": true,
+      "renderer": "675B",
+      "bytes": 8679,
+      "sha256": "749a61b19b2bd79c4980e1f712790a94a4d4eb649c5a7d110f6c179cda1737f7"
+    },
+    "signs/770": {
+      "path": "signs/770.svg",
+      "kind": "signs",
+      "id": "770",
+      "name": "Level crossing with barrier or gate ahead",
+      "glyph": true,
+      "renderer": "770",
+      "bytes": 1490,
+      "sha256": "e4d67a1bb306e99307b85fd62631c03ffa85365db4cc0239888897a0a7f1bf78"
+    },
+    "signs/771": {
+      "path": "signs/771.svg",
+      "kind": "signs",
+      "id": "771",
+      "name": "Level crossing without barrier or gate ahead",
+      "glyph": true,
+      "renderer": "771",
+      "bytes": 1821,
+      "sha256": "536bc76a0dc57f902d297030d7b369ac6709587cfc227f199bcea8e1614a1bd8"
+    },
+    "signs/772": {
+      "path": "signs/772.svg",
+      "kind": "signs",
+      "id": "772",
+      "name": "Trams crossing ahead",
+      "glyph": true,
+      "renderer": "772",
+      "bytes": 2050,
+      "sha256": "35e385527a8cf0010902829a658744015940964d17079a1f18340392c8ba7dad"
+    },
+    "signs/773": {
+      "path": "signs/773.svg",
+      "kind": "signs",
+      "id": "773",
+      "name": "Light signals ahead at a level crossing, airfield or bridge",
+      "glyph": true,
+      "renderer": "773",
+      "bytes": 7858,
+      "sha256": "08285026563fd47127ffbd70e1c6147ec9a904727313e21cb427942c82e49a7c"
+    },
+    "signs/774": {
+      "path": "signs/774.svg",
+      "kind": "signs",
+      "id": "774",
+      "name": "Level crossing without barrier",
+      "glyph": true,
+      "renderer": "774",
+      "bytes": 490,
+      "sha256": "49ea3a99d913e6f2b0b4cd64add10091b3f2214d749bac33b99448a04f0ff759"
+    },
+    "signs/775": {
+      "path": "signs/775.svg",
+      "kind": "signs",
+      "id": "775",
+      "name": "Keep the crossing clear",
+      "glyph": true,
+      "renderer": "775",
+      "bytes": 5223,
+      "sha256": "8160d07fa4c7c8238016b3bc67f7a8d3108e0f179ae4ede494558db741558bae"
+    },
+    "signs/776": {
+      "path": "signs/776.svg",
+      "kind": "signs",
+      "id": "776",
+      "name": "Another train or tramcar may be about to pass over the crossing. Level crossing ahead is crossed by more than one railway or tramway track, and more than one train or tramcar may pass over it in quick succession",
+      "glyph": false,
+      "renderer": "family:WarnTriangle",
+      "bytes": 1921,
+      "sha256": "bb3dd68542cb176ea20b47f4b64c8989c691250d1168603b4bf4ec5e82634004"
+    },
+    "signs/777": {
+      "path": "signs/777.svg",
+      "kind": "signs",
+      "id": "777",
+      "name": "Another train coming",
+      "glyph": true,
+      "renderer": "777",
+      "bytes": 4398,
+      "sha256": "79fed7aa130c5d6ec6a08356bfbb63e0d4535f7237b0910619d9ae1ad55d95b6"
+    },
+    "signs/778": {
+      "path": "signs/778.svg",
+      "kind": "signs",
+      "id": "778",
+      "name": "Open level crossing",
+      "glyph": true,
+      "renderer": "778",
+      "bytes": 800,
+      "sha256": "983134aea08ae4f39d36f26f5d40fef346d1fc81802e05d88386b16cf72a695e"
+    },
+    "signs/779": {
+      "path": "signs/779.svg",
+      "kind": "signs",
+      "id": "779",
+      "name": "Overhead electric cable",
+      "glyph": true,
+      "renderer": "779",
+      "bytes": 986,
+      "sha256": "bfeec8d0d1f6da451775fdeb6863466ce5fdb1ca3b248bb1b0c9425fe70b247a"
+    },
+    "signs/780.1": {
+      "path": "signs/780.1.svg",
+      "kind": "signs",
+      "id": "780.1",
+      "name": "Safe height under electrified cables (metric)",
+      "glyph": false,
+      "renderer": "family:WarnTriangle",
+      "bytes": 2172,
+      "sha256": "41bc6fc49bedc129e94a73aa4cfae86e6199b816091503300eab8c58d10539bb"
+    },
+    "signs/780.2": {
+      "path": "signs/780.2.svg",
+      "kind": "signs",
+      "id": "780.2",
+      "name": "Safe height under electrified cables (imperial)",
+      "glyph": false,
+      "renderer": "family:WarnTriangle",
+      "bytes": 2321,
+      "sha256": "cffcad2bfd1cc7b96c419d37100f81f43af770d2ac6529c703391d01f10d73f4"
+    },
+    "signs/781": {
+      "path": "signs/781.svg",
+      "kind": "signs",
+      "id": "781",
+      "name": "Load gauge giving audible warning to drivers where vehicles exceed safe height under electrified overhead cables",
+      "glyph": false,
+      "renderer": "family:WarnTriangle",
+      "bytes": 1960,
+      "sha256": "030cafe9f299cfc48764562e5b16459e1abd2c9ac16884cc5f5a68c00b5c311a"
+    },
+    "signs/782": {
+      "path": "signs/782.svg",
+      "kind": "signs",
+      "id": "782",
+      "name": "Risk of grounding",
+      "glyph": true,
+      "renderer": "782",
+      "bytes": 1628,
+      "sha256": "4a6870fe0d984199823d7690c9bed167417f36d5b8fbb7a152dda94e0c6cd6e7"
+    },
+    "signs/783": {
+      "path": "signs/783.svg",
+      "kind": "signs",
+      "id": "783",
+      "name": "Long, low, large or slow vehicles must telephone before crossing",
+      "glyph": true,
+      "renderer": "783",
+      "bytes": 11469,
+      "sha256": "57a06f61fa2f26659f30c739f2566a821905ccd96450d3c51111fc0ef9a5647c"
+    },
+    "signs/784": {
+      "path": "signs/784.svg",
+      "kind": "signs",
+      "id": "784",
+      "name": "Level-crossing countdown \u2014 2 stripes",
+      "glyph": false,
+      "renderer": "family:WarnTriangle",
+      "bytes": 2035,
+      "sha256": "100137fa0bff7a16b1a8a492256768a9eeea3d9abcc369e85cdfb51518d139cc"
+    },
+    "signs/785": {
+      "path": "signs/785.svg",
+      "kind": "signs",
+      "id": "785",
+      "name": "Level-crossing countdown \u2014 1 stripe",
+      "glyph": false,
+      "renderer": "family:WarnTriangle",
+      "bytes": 2098,
+      "sha256": "a6d5f229a157fbbd02e68bf0f87806ec7e757262b2e3675c02c0270060e2bf1a"
+    },
+    "signs/786": {
+      "path": "signs/786.svg",
+      "kind": "signs",
+      "id": "786",
+      "name": "Waiting place for long or low vehicles",
+      "glyph": true,
+      "renderer": "786",
+      "bytes": 8539,
+      "sha256": "bcb022bfd4805e002db9c7d8de17881c4b448bf9dea27a1fcf27d321c766c553"
+    },
+    "signs/787": {
+      "path": "signs/787.svg",
+      "kind": "signs",
+      "id": "787",
+      "name": "Telephone at a railway or tramway crossing",
+      "glyph": true,
+      "renderer": "787",
+      "bytes": 3356,
+      "sha256": "e5166901f500429e0a6c56f400dd4f9cca517eab6411ea9bd4c6c1289de110c2"
+    },
+    "signs/788": {
+      "path": "signs/788.svg",
+      "kind": "signs",
+      "id": "788",
+      "name": "Direction to a crossing telephone",
+      "glyph": true,
+      "renderer": "788",
+      "bytes": 5209,
+      "sha256": "b561588e427a7463f5e00a8cd6ac1265c1f02eece930d4ed31e9eec497a2ad32"
+    },
+    "signs/801": {
+      "path": "signs/801.svg",
+      "kind": "signs",
+      "id": "801",
+      "name": "Parking place",
+      "glyph": true,
+      "renderer": "801",
+      "bytes": 503,
+      "sha256": "7123666bd1ec7545ada79f90fcb6f2ca27953987646c4a26c2b317cc62a8d3b0"
+    },
+    "signs/804.1": {
+      "path": "signs/804.1.svg",
+      "kind": "signs",
+      "id": "804.1",
+      "name": "Parking place reserved for goods vehicles",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2244,
+      "sha256": "59c8f3641a9426babd274e6ec7de158763b1f00de6da739882156e16fd506c7a"
+    },
+    "signs/804.2": {
+      "path": "signs/804.2.svg",
+      "kind": "signs",
+      "id": "804.2",
+      "name": "Parking place reserved for motor cars",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2393,
+      "sha256": "e93b4a3d33449ed328cb0bf940e6cfedbf2ef9628f6003f0ca333cc96bd2ec8e"
+    },
+    "signs/811": {
+      "path": "signs/811.svg",
+      "kind": "signs",
+      "id": "811",
+      "name": "Traffic has priority over oncoming vehicles (pre-2016 number)",
+      "glyph": true,
+      "renderer": "811",
+      "bytes": 747,
+      "sha256": "ea422163d6a1934c72c1de8c0edf105d15800aba978cad3ceba381fb337d3dfe"
+    },
+    "signs/811.1": {
+      "path": "signs/811.1.svg",
+      "kind": "signs",
+      "id": "811.1",
+      "name": "Priority over oncoming vehicles (plate for diagram 811)",
+      "glyph": true,
+      "renderer": "811.1",
+      "bytes": 5647,
+      "sha256": "d8cb9fe8ff0746c1aac9c8898c89fe6597c5bd363bfec66b4854d69cdb727b5a"
+    },
+    "signs/811A": {
+      "path": "signs/811A.svg",
+      "kind": "signs",
+      "id": "811A",
+      "name": "Priority over oncoming vehicles",
+      "glyph": true,
+      "renderer": "811A",
+      "bytes": 747,
+      "sha256": "ea422163d6a1934c72c1de8c0edf105d15800aba978cad3ceba381fb337d3dfe"
+    },
+    "signs/811B": {
+      "path": "signs/811B.svg",
+      "kind": "signs",
+      "id": "811B",
+      "name": "Beginning and end of section of road where traffic has priority over vehicles from the opposite direction",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2418,
+      "sha256": "50bc52237c305931408220aca5633c9fb70028138df67095b52b773b3acceecc"
+    },
+    "signs/816": {
+      "path": "signs/816.svg",
+      "kind": "signs",
+      "id": "816",
+      "name": "No through road for vehicles",
+      "glyph": true,
+      "renderer": "816",
+      "bytes": 425,
+      "sha256": "7d5e1c152ed623162165b2b6700582e02413a03cd9f560302f04e7d565cae3fa"
+    },
+    "signs/816.1": {
+      "path": "signs/816.1.svg",
+      "kind": "signs",
+      "id": "816.1",
+      "name": "Alternative to the sign shown at item 5 with a street nameplate",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2266,
+      "sha256": "ddb9c9bd4972ef987b8c437c9b0d54159eb033feefddb08f3af21c4ec6c7272f"
+    },
+    "signs/818.1": {
+      "path": "signs/818.1.svg",
+      "kind": "signs",
+      "id": "818.1",
+      "name": "Section of dual carriageway road ahead",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2305,
+      "sha256": "79661e0b52e0b973a237fe877a6c3b7ae0500c76d078257bc266933c97d03c51"
+    },
+    "signs/818.2": {
+      "path": "signs/818.2.svg",
+      "kind": "signs",
+      "id": "818.2",
+      "name": "Worded warning sign",
+      "glyph": true,
+      "renderer": "818.2",
+      "bytes": 1127,
+      "sha256": "38a9c169ec1d391361b96efe26c4f3cd3ae7cb3c11a8fe8431156a281bb553f4"
+    },
+    "signs/818.3": {
+      "path": "signs/818.3.svg",
+      "kind": "signs",
+      "id": "818.3",
+      "name": "Nature of and distance to a prohibition, restriction or requirement ahead (as diagram 818.2)",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2444,
+      "sha256": "dd95853ac39d5c2d2db907fdd7a1c732e16ca612aa51152998458b8206b73741"
+    },
+    "signs/818.4": {
+      "path": "signs/818.4.svg",
+      "kind": "signs",
+      "id": "818.4",
+      "name": "Nature and location of a prohibition, restriction or requirement with indication of alternative route",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2378,
+      "sha256": "296942f151029da56d47afaaab7d298f746e42e1b6f4657233c91a3573272cb8"
+    },
+    "signs/818.5": {
+      "path": "signs/818.5.svg",
+      "kind": "signs",
+      "id": "818.5",
+      "name": "Low bridge \u2014 alternative route",
+      "glyph": true,
+      "renderer": "818.5",
+      "bytes": 13618,
+      "sha256": "cbe3855e1a613cbcccf77a782e1deb1331d1867041623a2c9adaea896e32bf40"
+    },
+    "signs/820": {
+      "path": "signs/820.svg",
+      "kind": "signs",
+      "id": "820",
+      "name": "Route unsuitable for type of vehicle indicated",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2072,
+      "sha256": "71fa98629e43e677005347fcc90dfdbc90aeb406f6522ec15cdf80c5378585ec"
+    },
+    "signs/821": {
+      "path": "signs/821.svg",
+      "kind": "signs",
+      "id": "821",
+      "name": "Road ahead only wide enough for one line of vehicles, and providing information about passing places",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2110,
+      "sha256": "65d3800d4ba2af463e218398c91e3ab6cb1de2ca8faef2acf03ddc75585b9024"
+    },
+    "signs/822": {
+      "path": "signs/822.svg",
+      "kind": "signs",
+      "id": "822",
+      "name": "Passing place on narrow road",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2260,
+      "sha256": "3c941c64181141419dc8c1bf695cef56a6a3a54b65807f3e2ae7251d820a9e20"
+    },
+    "signs/823": {
+      "path": "signs/823.svg",
+      "kind": "signs",
+      "id": "823",
+      "name": "Countdown marker \u2014 300 yards to motorway exit",
+      "glyph": true,
+      "renderer": "823",
+      "bytes": 595,
+      "sha256": "117f5c0e78816e431b44fc466fbeb51bc5e0559680780768382d1cdbf5ebb8d4"
+    },
+    "signs/824": {
+      "path": "signs/824.svg",
+      "kind": "signs",
+      "id": "824",
+      "name": "Countdown marker \u2014 200 yards to motorway exit",
+      "glyph": true,
+      "renderer": "824",
+      "bytes": 466,
+      "sha256": "4e1dafcb0aec3e5ca445c2ded18f0461c8fef39fcd4f16f27ae27ccc83af5b46"
+    },
+    "signs/825": {
+      "path": "signs/825.svg",
+      "kind": "signs",
+      "id": "825",
+      "name": "Countdown marker \u2014 100 yards to motorway exit",
+      "glyph": true,
+      "renderer": "825",
+      "bytes": 323,
+      "sha256": "61874451ba17237d89b3b94ca538ffe3af397a4f29f731f945e5f09f7bce935a"
+    },
+    "signs/827.1": {
+      "path": "signs/827.1.svg",
+      "kind": "signs",
+      "id": "827.1",
+      "name": "Hospital ahead",
+      "glyph": true,
+      "renderer": "827.1",
+      "bytes": 2790,
+      "sha256": "fc2ef2a0fcab8e9f58d161ab1cc238d98eb14515ddd5742c0692758ad17cbc0d"
+    },
+    "signs/829.1": {
+      "path": "signs/829.1.svg",
+      "kind": "signs",
+      "id": "829.1",
+      "name": "Potential danger temporarily ahead and consequent need to proceed with caution",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2417,
+      "sha256": "788998c5390260313f37e51b9f22f171aa1114a3ff534b6df3df78e3e7dba940"
+    },
+    "signs/832": {
+      "path": "signs/832.svg",
+      "kind": "signs",
+      "id": "832",
+      "name": "Location of traffic survey",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2250,
+      "sha256": "f1e2047b9b89caab868d90d4600a84c9770f7aceef7e5c459426287ee7c697d8"
+    },
+    "signs/833": {
+      "path": "signs/833.svg",
+      "kind": "signs",
+      "id": "833",
+      "name": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2240,
+      "sha256": "54dc5ca97e574dfd95337c87c78b9c1b755f71474b259cfe094162530cdb4c65"
+    },
+    "signs/834": {
+      "path": "signs/834.svg",
+      "kind": "signs",
+      "id": "834",
+      "name": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2174,
+      "sha256": "309b82c469e36a352faf72d36cd06e1b8ba4c7fc23642c0e097e41f0d78c315d"
+    },
+    "signs/835": {
+      "path": "signs/835.svg",
+      "kind": "signs",
+      "id": "835",
+      "name": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2237,
+      "sha256": "3492f57138f76fd541fb284468407341f6aa90a30cdf69b5475e968145a00aad"
+    },
+    "signs/836": {
+      "path": "signs/836.svg",
+      "kind": "signs",
+      "id": "836",
+      "name": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2154,
+      "sha256": "a679d156983c980091ca768ec53ac997bf243839989885a11848fc61a10fc7b4"
+    },
+    "signs/837": {
+      "path": "signs/837.svg",
+      "kind": "signs",
+      "id": "837",
+      "name": "Way in and way out",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2099,
+      "sha256": "589d1097f844bac6215c8bd3b4b11783dd72ffb6264c47f555ada9f35969afb9"
+    },
+    "signs/857": {
+      "path": "signs/857.svg",
+      "kind": "signs",
+      "id": "857",
+      "name": "Information for pedestrians about tourist attractions and facilities in a nearby place or area",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2096,
+      "sha256": "a4b72a8c118ff6656bd68b0978be15c6bd1b9a29a67b794b0b2a8f9a1371141d"
+    },
+    "signs/872": {
+      "path": "signs/872.svg",
+      "kind": "signs",
+      "id": "872",
+      "name": "Appropriate traffic lanes at junction ahead",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2108,
+      "sha256": "21eff16a2d2190ffbd419e1b1c7a31c756967bfa5c41372c1c80e5e9f527ca40"
+    },
+    "signs/873": {
+      "path": "signs/873.svg",
+      "kind": "signs",
+      "id": "873",
+      "name": "Additional traffic joining from the left or right ahead (diagram shows blue background \u2013 for use on motorways)",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2098,
+      "sha256": "4f728e80984a3c47e0ef6006e3d356c46f8e29959fcc23e914a36bce3698b0c4"
+    },
+    "signs/878": {
+      "path": "signs/878.svg",
+      "kind": "signs",
+      "id": "878",
+      "name": "Area in which cameras are used to enforce traffic regulations",
+      "glyph": true,
+      "renderer": "878",
+      "bytes": 7895,
+      "sha256": "2f126e101956a5a53463b3ad0dd9dcd76622c3b79600e3d947dc92b42882c7b0"
+    },
+    "signs/880": {
+      "path": "signs/880.svg",
+      "kind": "signs",
+      "id": "880",
+      "name": "Speed camera on a lit road with a 30 mph reminder",
+      "glyph": true,
+      "renderer": "880",
+      "bytes": 7144,
+      "sha256": "c7b30691a6ba38af5080d0c0a4075e4a45fa4733482272b80831406c17033f6e"
+    },
+    "signs/883": {
+      "path": "signs/883.svg",
+      "kind": "signs",
+      "id": "883",
+      "name": "Start of a traffic-calming area",
+      "glyph": true,
+      "renderer": "883",
+      "bytes": 6501,
+      "sha256": "16aad034cbaa5a3b8421c0222ba73c774c50dd9913647ff4c7a9a91ceda42b6b"
+    },
+    "signs/884": {
+      "path": "signs/884.svg",
+      "kind": "signs",
+      "id": "884",
+      "name": "Quiet lane",
+      "glyph": true,
+      "renderer": "884",
+      "bytes": 16218,
+      "sha256": "76cc5139a10212b77a97d8071c15ad94146aebd1294c4364851a9ecf6a89ee81"
+    },
+    "signs/951": {
+      "path": "signs/951.svg",
+      "kind": "signs",
+      "id": "951",
+      "name": "No cycling",
+      "glyph": true,
+      "renderer": "951",
+      "bytes": 976,
+      "sha256": "dba7bb5fd87f5cb18a11da52eddc281927fd1c4bab37457f857696d4fab19a7b"
+    },
+    "signs/952": {
+      "path": "signs/952.svg",
+      "kind": "signs",
+      "id": "952",
+      "name": "No buses (over 8 passenger seats)",
+      "glyph": true,
+      "renderer": "952",
+      "bytes": 1038,
+      "sha256": "48c59e913bf986499cb2557ea53e974d3e21458e3dde7cc891eae37b0aef0b7f"
+    },
+    "signs/953": {
+      "path": "signs/953.svg",
+      "kind": "signs",
+      "id": "953",
+      "name": "Buses, pedal cycles and taxis only",
+      "glyph": true,
+      "renderer": "953",
+      "bytes": 2251,
+      "sha256": "94adbf701e48a85426806cf6391615daa540a1b213d7e9add716e71616a89c1d"
+    },
+    "signs/953.1": {
+      "path": "signs/953.1.svg",
+      "kind": "signs",
+      "id": "953.1",
+      "name": "Trams only",
+      "glyph": true,
+      "renderer": "953.1",
+      "bytes": 2068,
+      "sha256": "949fc36478c252f01673b3bd9ebb1fd1f1353b56aab60041b6029991679c1b76"
+    },
+    "signs/953.2": {
+      "path": "signs/953.2.svg",
+      "kind": "signs",
+      "id": "953.2",
+      "name": "Pedestrian crossing point over tramway",
+      "glyph": true,
+      "renderer": "953.2",
+      "bytes": 592,
+      "sha256": "ac18631c9cd94a4a63df7884e55650530fe4038092b149e7debec3940518137c"
+    },
+    "signs/954": {
+      "path": "signs/954.svg",
+      "kind": "signs",
+      "id": "954",
+      "name": "Except buses",
+      "glyph": true,
+      "renderer": "954",
+      "bytes": 3267,
+      "sha256": "ee1c4a1bb18685932d684e9b604e23e3bdb5b08a306dfe025b975e892ee2e475"
+    },
+    "signs/954.2": {
+      "path": "signs/954.2.svg",
+      "kind": "signs",
+      "id": "954.2",
+      "name": "Local buses excluded from restriction or prohibition conveyed by associated sign",
+      "glyph": true,
+      "renderer": "954.2",
+      "bytes": 3955,
+      "sha256": "bba3088d531b16056808b06c0a6c2f62cae039e1e00d92e11ee42579f99d2b86"
+    },
+    "signs/954.5": {
+      "path": "signs/954.5.svg",
+      "kind": "signs",
+      "id": "954.5",
+      "name": "Classes of vehicle excluded from restriction or prohibition conveyed by associated sign . Where the word \u2018cycles\u2019 is used on the sign, this also represents, where relevant, electric scooters being used in a trial",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2522,
+      "sha256": "ea7ea8496aee2d83aa8e89fcf40c9fd4fe901de0c97c23fbf0cef36cba32d8c1"
+    },
+    "signs/955": {
+      "path": "signs/955.svg",
+      "kind": "signs",
+      "id": "955",
+      "name": "Route to be used by pedal cycles only",
+      "glyph": true,
+      "renderer": "955",
+      "bytes": 848,
+      "sha256": "e8dc8830325d48e6541bb40fda9f74b7c2b6d702d41ad107f1a29ae9a5872e8b"
+    },
+    "signs/956": {
+      "path": "signs/956.svg",
+      "kind": "signs",
+      "id": "956",
+      "name": "Route for use by pedal cycles and pedestrians only",
+      "glyph": true,
+      "renderer": "956",
+      "bytes": 1918,
+      "sha256": "82b0e1ad8d0c6d23ca9815ca98e70d73a4cf4909bab771b2c9d679f58856bfab"
+    },
+    "signs/957": {
+      "path": "signs/957.svg",
+      "kind": "signs",
+      "id": "957",
+      "name": "Segregated cycle and pedestrian route",
+      "glyph": true,
+      "renderer": "957",
+      "bytes": 3028,
+      "sha256": "8829560bdd28fcf2b75abc75b5d2a90db4e61c29f7ba4554b67d43f79bc6e73c"
+    },
+    "signs/958": {
+      "path": "signs/958.svg",
+      "kind": "signs",
+      "id": "958",
+      "name": "With-flow bus lane ahead which pedal cycles and taxis may also use",
+      "glyph": true,
+      "renderer": "958",
+      "bytes": 17307,
+      "sha256": "54550d672ec2b168b5459cfa0c0c095093f1ad1fc6bb6446dc124dbd34431099"
+    },
+    "signs/958.1": {
+      "path": "signs/958.1.svg",
+      "kind": "signs",
+      "id": "958.1",
+      "name": "With-flow mandatory cycle lane ahead, with indication of times of operation",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2404,
+      "sha256": "19a26e82d22b2ab4341cebe9f4ab9c2e3051328ccf26895ed3731e7341117c0f"
+    },
+    "signs/959": {
+      "path": "signs/959.svg",
+      "kind": "signs",
+      "id": "959",
+      "name": "With-flow bus and cycle lane (pre-2016 number)",
+      "glyph": true,
+      "renderer": "959",
+      "bytes": 17353,
+      "sha256": "83375cf8134de1a0ea53cf6a27a2c6a2f634f11933ee49072a9da6f0431a05c8"
+    },
+    "signs/959.1": {
+      "path": "signs/959.1.svg",
+      "kind": "signs",
+      "id": "959.1",
+      "name": "With-flow cycle lane with indication of times of operation",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2365,
+      "sha256": "15c8f5286517f17b57f0a779c85c5e19a661ec1fb0d46291c7d06b41bcbbb7e6"
+    },
+    "signs/959B": {
+      "path": "signs/959B.svg",
+      "kind": "signs",
+      "id": "959B",
+      "name": "With-flow bus and cycle lane",
+      "glyph": true,
+      "renderer": "959B",
+      "bytes": 17353,
+      "sha256": "83375cf8134de1a0ea53cf6a27a2c6a2f634f11933ee49072a9da6f0431a05c8"
+    },
+    "signs/960": {
+      "path": "signs/960.svg",
+      "kind": "signs",
+      "id": "960",
+      "name": "Contra-flow bus lane",
+      "glyph": true,
+      "renderer": "960",
+      "bytes": 6207,
+      "sha256": "4126bb056405dcf5cb846ec5c37b04150dccb00e535db37e7b480b228cee3a54"
+    },
+    "signs/960.1": {
+      "path": "signs/960.1.svg",
+      "kind": "signs",
+      "id": "960.1",
+      "name": "One-way road with a mandatory contraflow cycle lane",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2190,
+      "sha256": "8e9166cc0be6c3c5bb6f085163bdd9184827f1ca84bcdfb38a9ff448054d9a8c"
+    },
+    "signs/962": {
+      "path": "signs/962.svg",
+      "kind": "signs",
+      "id": "962",
+      "name": "Bus lane or lanes on a road at junction ahead, with indication of times of operation",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2126,
+      "sha256": "eb66d8e65dac55ea4f82e801a88933c559d7f6bad60f78ccd4a4bfe06e3da8ea"
+    },
+    "signs/962.1": {
+      "path": "signs/962.1.svg",
+      "kind": "signs",
+      "id": "962.1",
+      "name": "Cycle lane on a road at junction ahead or, if applicable, a cycle track crossing road, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial, with indication of times of operation",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2379,
+      "sha256": "b241e32921f9d1a93f485378fff609f11ef6c484b825c5d9503809e55ec1fa8f"
+    },
+    "signs/962.2": {
+      "path": "signs/962.2.svg",
+      "kind": "signs",
+      "id": "962.2",
+      "name": "Contraflow bus lane ahead on a road at a junction which pedal cycles and electric scooters being used in a trial may also use",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2530,
+      "sha256": "51cb0c9c2ea27be81f8355c89ba52182722063d5ed733e524ed257d66e33d76a"
+    },
+    "signs/963": {
+      "path": "signs/963.svg",
+      "kind": "signs",
+      "id": "963",
+      "name": "Direction in which pedestrians should look for approaching traffic when crossing a bus lane",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2116,
+      "sha256": "5e0dfaf92f94d9954c429e74ebcabe311388b55340f8a9bc53e6e07209e9ac23"
+    },
+    "signs/964": {
+      "path": "signs/964.svg",
+      "kind": "signs",
+      "id": "964",
+      "name": "End of with-flow bus lane",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2051,
+      "sha256": "c7b42d0b38a20977d32c5adbeee2843dd6d7e7fc215a0bc779143c267eec3868"
+    },
+    "signs/965": {
+      "path": "signs/965.svg",
+      "kind": "signs",
+      "id": "965",
+      "name": "End of cycle lane, track or route",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2113,
+      "sha256": "fa249e7e832b89ab74877f1a352649e3b4d0d9023af77a48a2e0a75fb59ec4d3"
+    },
+    "signs/967": {
+      "path": "signs/967.svg",
+      "kind": "signs",
+      "id": "967",
+      "name": "Recommended route for pedal cycles",
+      "glyph": true,
+      "renderer": "967",
+      "bytes": 949,
+      "sha256": "d36e87deb13cfc4e1e992a20b51a60ab91c60fc37dac757d1a1a548fcaa5aca2"
+    },
+    "signs/968": {
+      "path": "signs/968.svg",
+      "kind": "signs",
+      "id": "968",
+      "name": "Parking place for pedal cycles",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2071,
+      "sha256": "716b11667333f9a9d466d8593b052ebe674d0cf70db4c5748a9700147cea771c"
+    },
+    "signs/968.1": {
+      "path": "signs/968.1.svg",
+      "kind": "signs",
+      "id": "968.1",
+      "name": "Parking place for pedal cycles",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2322,
+      "sha256": "1bcc06695def8991c3568245fed917063a56ec0da1d268822a5b582cd96760e5"
+    },
+    "signs/969": {
+      "path": "signs/969.svg",
+      "kind": "signs",
+      "id": "969",
+      "name": "Parking place reserved for buses",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2032,
+      "sha256": "8e9adfe5669de81e1a077d7d982d3c15b4276e7d1168af977378290ee0ea010e"
+    },
+    "signs/974": {
+      "path": "signs/974.svg",
+      "kind": "signs",
+      "id": "974",
+      "name": "Stopping by vehicles other than buses prohibited during the period indicated",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 1996,
+      "sha256": "60e5baed9ece7233c5670282a15fb3135bf047b04b965b762a8c4b82d8361d6f"
+    },
+    "signs/975": {
+      "path": "signs/975.svg",
+      "kind": "signs",
+      "id": "975",
+      "name": "Place where buses may stand and the stopping of other vehicles is prohibited during the period indicated",
+      "glyph": false,
+      "renderer": "family:InfoBlue",
+      "bytes": 2059,
+      "sha256": "7731f54a3b3312df64b1ecb5a3c84edae0b52ddeefcbe0145cdfa4d28b3e72b1"
+    },
+    "signs/BELISHA": {
+      "path": "signs/BELISHA.svg",
+      "kind": "signs",
+      "id": "BELISHA",
+      "name": "Belisha beacon (pre-2016 id)",
+      "glyph": true,
+      "renderer": "BELISHA",
+      "bytes": 1013,
+      "sha256": "b45e0b57f7e3764abf146706349367fda4253f06aa0b6bd7fce117ccee1e4892"
+    },
+    "signs/GANTRY_ADS": {
+      "path": "signs/GANTRY_ADS.svg",
+      "kind": "signs",
+      "id": "GANTRY_ADS",
+      "name": "Motorway overhead direction panel (family stand-in)",
+      "glyph": true,
+      "renderer": "GANTRY_ADS",
+      "bytes": 374,
+      "sha256": "fa97e633efcf472faffcc796485df00c52b93b2cde66a4bd3b605fdfdc9ca1e8"
+    },
+    "signs/MARKER": {
+      "path": "signs/MARKER.svg",
+      "kind": "signs",
+      "id": "MARKER",
+      "name": "Driver location marker",
+      "glyph": true,
+      "renderer": "MARKER",
+      "bytes": 2587,
+      "sha256": "c7a4231b66b2b3822712dadc6d0dd356a9225ab033a1d6785772b162ff5d019e"
+    },
+    "signs/MS4": {
+      "path": "signs/MS4.svg",
+      "kind": "signs",
+      "id": "MS4",
+      "name": "Motorway matrix signal",
+      "glyph": true,
+      "renderer": "MS4",
+      "bytes": 1660,
+      "sha256": "14d276171144daf07d7df30d0afdf0c9a290817c52041109416a91feb979cac4"
+    },
+    "signs/STREET_NAME": {
+      "path": "signs/STREET_NAME.svg",
+      "kind": "signs",
+      "id": "STREET_NAME",
+      "name": "Street-name plate",
+      "glyph": true,
+      "renderer": "STREET_NAME",
+      "bytes": 476,
+      "sha256": "92a775b6e9e083bdbdfc2644fb5aaa5bdd26a864da86ccd9160889f213bff625"
+    },
+    "signs/XING_PAR": {
+      "path": "signs/XING_PAR.svg",
+      "kind": "signs",
+      "id": "XING_PAR",
+      "name": "Belisha beacon (diagram 4007) at a parallel crossing",
+      "glyph": true,
+      "renderer": "XING_PAR",
+      "bytes": 1013,
+      "sha256": "b45e0b57f7e3764abf146706349367fda4253f06aa0b6bd7fce117ccee1e4892"
+    }
+  },
+  "count": 429
+}

@@ -1,0 +1,280 @@
+{
+  "_meta": {
+    "note": "r3: exact legislation.gov.uk sources for drawn values. The files were checked byte-for-byte (Content-Length) against the URLs below on 2026-11-10. Page refs (r8): \"printed pN\" is the number printed on the SI page and is the same in every copy; a bare \"pN\" also means printed. Each PDF page names its file: refs/si2016.pdf (the legislation.gov.uk SI 2016 file, PDF = printed); refs/tsrgd2016.pdf (a local copy with an extra cover note, PDF = printed + 1); refs/si2002.pdf (PDF = printed = si2002-pages/p-NNN.png).",
+    "si2016_pdf": "https://www.legislation.gov.uk/uksi/2016/362/pdfs/uksi_20160362_en.pdf",
+    "si2002_pdf": "https://www.legislation.gov.uk/uksi/2002/3113/pdfs/uksi_20023113_en.pdf",
+    "local_files": {
+      "si2016": "refs/si2016.pdf (547 pp, PDF = printed; legislation.gov.uk file, not committed)",
+      "tsrgd2016": "refs/tsrgd2016.pdf (548 pp, cover note, PDF = printed + 1; not committed)",
+      "si2002": "refs/si2002.pdf (447 pp, PDF = printed; page images si2002-pages/p-NNN.png; not committed)"
+    }
+  },
+  "refs": {
+    "530": {
+      "si": "2002/3113",
+      "where": "Sch 1, diagram 530, printed p57 = refs/si2002.pdf PDF p57",
+      "shows": "imperial sign 14'-6\" (large down arrow above, small up arrow below) and metric sign 4.4 m",
+      "item4": "Metric sign may be omitted or placed to the right of the imperial sign",
+      "used": "imperial sign only (a permitted variant)",
+      "also": [
+        "SI 2002 pp60-61: 4.4 m paired with 14'-6\"; metric may be omitted"
+      ]
+    },
+    "530A": {
+      "si": "2016/362",
+      "where": "Sch 2 Pt 4 item 2, diagram 530A, printed p55 (refs/si2016.pdf PDF p55; tsrgd2016.pdf PDF p56)",
+      "shows": "4.4 m over 14'6\", one down arrow above",
+      "sizes_in_diagram": "750, 900, 1200, 1500, 1800 (height)"
+    },
+    "629": {
+      "si": "2002/3113",
+      "where": "Sch 2, diagram 629, printed p89 = refs/si2002.pdf PDF p89",
+      "shows": "6'-6\" between inward arrowheads; imperial only",
+      "sizes_in_diagram": "600 (750) (900)"
+    },
+    "629A": {
+      "si": "2016/362",
+      "where": "Sch 3 Pt 2 item 26, printed p73 (refs/si2016.pdf PDF p73; tsrgd2016.pdf PDF p74)",
+      "shows": "2.0 m over 6'6\", inward arrowheads at mid height"
+    },
+    "629.1": {
+      "si": "2016/362",
+      "where": "Sch 3 Pt 2 item 25, printed p73 (refs/si2016.pdf PDF p73; tsrgd2016.pdf PDF p74) (also SI 2002 Sch 2 diagram 629.1, printed p89 = refs/si2002.pdf PDF p89)",
+      "shows": "alternative types: lorry + 32'6\" or lorry + 9.9 m, outward arrows below",
+      "used": "first alternative (32'-6\")"
+    },
+    "629.2": {
+      "si": "2002/3113",
+      "where": "Sch 2, diagram 629.2, printed p90 = refs/si2002.pdf PDF p90",
+      "shows": "14'-6\" between down/up arrows; imperial only (629.2A = 'as 629.2, with height in both metric and imperial units')",
+      "sizes_in_diagram": "600 (750) (900) (1200) (1500)"
+    },
+    "629.2A": {
+      "si": "2016/362",
+      "where": "Sch 3 Pt 2 item 27, printed p73 (refs/si2016.pdf PDF p73; tsrgd2016.pdf PDF p74)",
+      "shows": "4.4 m over 14'6\", arrows top and bottom"
+    },
+    "601.1": {
+      "si": "2016/362",
+      "where": "Sch 9 Pt 2 item 1, printed p138 (refs/si2016.pdf PDF p138; tsrgd2016.pdf PDF p139)",
+      "measured": "STOP flat caps (T, P) 0.235 W; word 0.84 W (vector diagram rendered at 1200 dpi, +-1 px = +-0.2%)"
+    },
+    "602": {
+      "si": "2016/362",
+      "where": "Sch 9 Pt 2 item 2, printed p138 (refs/si2016.pdf PDF p138; tsrgd2016.pdf PDF p139)",
+      "measured": "GIVE flat caps 0.179 H, WAY 0.122 H; GIVE 0.139-0.32 H, WAY 0.393-0.514 H from the top; top border 0.105 H"
+    },
+    "608": {
+      "source": "https://www.legislation.gov.uk/uksi/2016/362/pdfs/uksi_20160362_en.pdf",
+      "where": "Sch 9 Pt 2 item 3, printed p138 (refs/si2016.pdf PDF p138; tsrgd2016.pdf PDF p139)",
+      "measured": {
+        "plate_aspect": 2.354,
+        "frame_over_h": 0.061,
+        "dual_cap_over_h": 0.248,
+        "dual_top_over_h": 0.188,
+        "carriageway_xtop_over_h": 0.597,
+        "carriageway_width_over_w": 0.84
+      },
+      "family": "Plate (supplementary plate, not Mandatory)",
+      "working_size": "x-height 75 mm (SI permits 50/62.5/75/100/125); plate 0.988 x 0.42 m derived from diagram proportions",
+      "flag": "lettering is the stand-in Sch17 face, narrowed 0.82 to match measured line widths"
+    },
+    "640.2A": {
+      "si": "2002/3113",
+      "where": "Sch 2, diagram 640.2A, printed p95 = refs/si2002.pdf PDF p95",
+      "caption": "Waiting by goods vehicles over maximum gross weight shown prohibited during the periods and in the direction indicated",
+      "shows": "plate: lorry 5T, no-waiting roundel, Mon - Fri / Midnight - 7 am / 8 pm - Midnight / Sat & Sun / At any time, left arrow",
+      "colour": "unverified: SI 2002 p95 is a greyscale scan (plate prints mid-grey); background colour not stated in the caption. Face not drawn."
+    },
+    "607": {
+      "source": "https://www.legislation.gov.uk/uksi/2002/3113/pdfs/uksi_20023113_en.pdf",
+      "where": "diagram 607, printed p78 = refs/si2002.pdf PDF p78",
+      "caption": "One-way traffic",
+      "measured": {
+        "aspect": 2.694,
+        "frame_over_h": 0.097,
+        "text_top_over_h": 0.29,
+        "text_w_over_w": 0.784
+      },
+      "sizes_mm": "x-height (50) 62.5 (75) (100) (125)"
+    },
+    "546": {
+      "source": "https://www.legislation.gov.uk/uksi/2002/3113/pdfs/uksi_20023113_en.pdf",
+      "where": "diagram 546, printed p63 = refs/si2002.pdf PDF p63",
+      "caption": "School ahead",
+      "measured": {
+        "aspect": 2.315,
+        "frame_over_h": 0.098,
+        "cap_over_h": 0.38,
+        "text_w_over_w": 0.742
+      },
+      "sizes_mm": "x-height (50) 62.5 (75) (100) (125) (150)"
+    },
+    "532.2": {
+      "source": "https://www.legislation.gov.uk/uksi/2002/3113/pdfs/uksi_20023113_en.pdf",
+      "where": "printed p60-61 = refs/si2002.pdf PDF p60-61 (530, 532.2)",
+      "note": "4.4 m paired with 14'-6\"; 'Metric sign may be omitted' (imperial-only permitted)"
+    },
+    "3014": {
+      "source": "https://www.legislation.gov.uk/uksi/2016/362/pdfs/uksi_20160362_en.pdf",
+      "where": "SI 2016 printed p446 (refs/si2016.pdf PDF p446; tsrgd2016.pdf PDF p447) (measured); SI 2002 printed p300 (refs/si2002.pdf PDF p300) gives the board as 1365 x 915 mm",
+      "measured": {
+        "board_h_over_w": 0.667,
+        "border_over_w": 0.087,
+        "squares": "7 x 5",
+        "lamp_d_over_w": 0.149
+      }
+    },
+    "MARKER": {
+      "note": "Not a TSRGD diagram. Closest statutory form: SI 2002 diagram 2717 (printed p275 = refs/si2002.pdf PDF p275), location on a primary route by route number and direction of travel, and direction of nearest emergency telephone. Face redrawn against 2717 in r6 (telephone handset and arrow traced, route letters stand-in; see atlas/traced.py). The 2717 vs SI 2016 2718 choice is pending with the owner (qa/DECISIONS-PENDING.md)."
+    },
+    "811.1": {
+      "source": "https://www.legislation.gov.uk/uksi/2002/3113/pdfs/uksi_20023113_en.pdf",
+      "where": "SI 2002 diagram 811.1, printed p120 = refs/si2002.pdf PDF p120 (crop signage-qa/si2002-crops/811.1-p120.png)",
+      "caption": "Explanatory plate for the sign shown in diagram 811",
+      "legend": "Priority over / oncoming / vehicles",
+      "measured": {
+        "aspect": 1.816,
+        "frame_over_h": 0.046,
+        "cap_over_h": 0.17,
+        "baselines_over_h": [
+          0.314,
+          0.569,
+          0.842
+        ]
+      },
+      "sizes_mm": "width (525) 700 (875) (1050) (1400); x-height (37.5) 50 (62.5) (75) (100)",
+      "decision": "The owner, 10 Nov 17:07 GMT: 'Yes, give 811.1 the priority plate and keep the H as 827.1'. 811.1->827.1 map removed."
+    },
+    "827.1": {
+      "note": "Hospital H face carried over from r2's 811.1 drawer; not yet measured against SI 2016 diagram 827.1 (unverified layout)."
+    },
+    "650.1": {
+      "si": "2002/3113",
+      "where": "diagram 650.1, printed p98 = refs/si2002.pdf PDF p98 (si2002-pages/p-098.png)",
+      "caption": "Prohibition on stopping by vehicles other than taxis during the period indicated",
+      "checked": "caption read from the page image, r4"
+    },
+    "2601.1": {
+      "si": "2002/3113",
+      "where": "diagram 2601.1, printed p265 = refs/si2002.pdf PDF p265 (si2002-pages/p-265.png)",
+      "caption": "Direction of a numbered route for pedal cycles forming part of a national cycle route network at a junction ahead",
+      "checked": "caption read from the page image, r4"
+    },
+    "_legacy_names_r4": {
+      "si": "2002/3113",
+      "method": "caption under the diagram number read from si2002-pages/p-NNN.png (OCR box located, crop viewed by eye)",
+      "confirmed": {
+        "513.1": "Adverse camber on a bend or roundabout",
+        "553.2": "Agricultural vehicles likely to be in road ahead",
+        "622.9": "Vehicles carrying explosives prohibited (as diagram 622.8)",
+        "627.1": "Exemption for unladen vehicles from the prohibition conveyed by the sign in diagram 626.2A",
+        "638": "Continuous prohibition on loading and unloading",
+        "639.1B": "Waiting prohibited during the periods indicated on the upper panel and restrictions on waiting during the period indicated on the lower panel",
+        "642.3": "No stopping in lay-by except in emergency",
+        "650.2": "Prohibition on waiting by vehicles other than taxis during the period indicated",
+        "650.3": "Continuous prohibition on waiting by vehicles with an exemption for taxis during the period indicated",
+        "974": "Stopping by vehicles other than buses prohibited during the period indicated",
+        "975": "Place where buses may stand and the stopping of other vehicles is prohibited during the period indicated",
+        "618.1": "All vehicles prohibited during the period indicated except for access",
+        "640.3": "Entrance to a designated off-highway loading area in which waiting restrictions apply",
+        "640.4": "Waiting prohibited in a designated off-highway loading area during the period indicated except by permitted vehicles",
+        "660.3": "Parking place reserved for holders of residents' permits",
+        "661.1": "Restrictions on length of waiting time and return period",
+        "661.2A": "'Pay and Display' ticket-regulated parking place",
+        "661.3A": "Location of 'Pay and Display' ticket machine",
+        "661.4": "Drivers must obtain and display parking tickets",
+        "662": "Period during which waiting is limited and display of a disc is required at a parking place in a disc zone",
+        "2702": "Start of temporary diversion route",
+        "2703": "Direction of temporary diversion route from junction ahead",
+        "2704": "Direction of temporary diversion route",
+        "2705": "Junction ahead leading to temporary diversion routes to the destinations shown",
+        "2706": "Roundabout ahead leading to a temporary diversion route to the destination shown",
+        "2707": "Direction of temporary diversion route to destination shown",
+        "2711": "Direction to emergency exit for pedestrians from a tunnel",
+        "2716": "Junction ahead leading to a temporary diversion route, the direction along which is indicated by a symbol shown in Part VII of Schedule 13",
+        "2717": "Location on a primary route given by route number and direction of travel, and direction of nearest emergency telephone",
+        "2904": "Motorway junction ahead, identified by the number shown on a black background, where the left hand lane of a motorway leads to another motorway and the other two lanes continue along the main motorway route",
+        "2904.1": "Motorway junction, identified by the number shown on a black background, where the left hand lane of a motorway leads to another motorway and the other two lanes continue along the main motorway route",
+        "2913": "Roundabout ahead leading from a motorway exit slip road to a primary and a non-primary route",
+        "2913.1": "Roundabout ahead leading from a motorway exit slip road to another motorway",
+        "2914": "Termination of a motorway at a roundabout ahead leading to two primary routes and a non-primary route",
+        "2915": "Route to be followed at junction ahead on a motorway for destinations that are not otherwise shown on signs for that junction",
+        "2924": "Motorway junction ahead leading to the tourist attractions shown",
+        "2925": "Roundabout ahead leading from a motorway exit slip road to the tourist attractions shown",
+        "2926": "Junction ahead from a motorway exit slip road to the tourist attractions shown",
+        "2927": "Motorway junction ahead leading to a town or geographical area containing a Tourist Information Point or Centre and several tourist attractions",
+        "2929": "Motorway junction ahead leading to a route advised for goods vehicles to the destination shown, which may differ from that for other traffic",
+        "2029": "Directions to a primary route and a non-primary route",
+        "2031": "The number of a primary route",
+        "2034": "Route to be followed at junction ahead for destinations that are not otherwise shown on signs for that junction",
+        "2035": "Direction along a primary route to destinations shown via a U-turn at a roundabout ahead",
+        "2102": "Junction ahead of two non-primary routes, one of which leads to a primary route",
+        "2114": "Junction ahead where one lane of a non-primary route is reserved for traffic turning to the right",
+        "2120": "Double mini-roundabout ahead with exits to three non-primary routes, one of which leads to a car ferry and another is an advisory lorry route",
+        "2121": "Junction ahead of a non-primary route with another non-primary route leading to a town or village that has been by-passed",
+        "2122": "Sharp bend in main route at a junction ahead with a minor road",
+        "2201": "Distance ahead to a tourist attraction",
+        "2203": "Direction and distance to a tourist attraction",
+        "2204": "Direction and distance to a Tourist Information Point or Centre",
+        "2208": "Direction to a tourist attraction indicated by a symbol",
+        "2209": "Distance ahead to a tourist attraction",
+        "2210": "Junction ahead leading to or along a route passing through places of interest",
+        "2302": "Direction and distance to a camping and caravan site as defined in the caption under diagram 2301",
+        "2304": "Direction and distance to a hostel as defined in the caption under diagram 2303",
+        "2306": "Direction and distance to a picnic area",
+        "2603": "Junction ahead leading to a parking place for pedal cycles",
+        "2604": "Direction and distance to a free parking place for pedal cycles",
+        "2608": "Direction of route to a tourist attraction for pedestrians",
+        "2609": "Direction of route for pedestrians to a parking place associated with a tourist attraction",
+        "2610": "Direction to or along a public footpath",
+        "2610.1": "Direction to or along a public footpath (as diagram 2610)",
+        "832": "Location of traffic survey",
+        "857": "Information for pedestrians about tourist attractions and facilities in a nearby place or area"
+      },
+      "notes": {
+        "975": "SI prints 'the during period indicated' (word order slip); name uses 'during the period indicated'.",
+        "622.9": "SI caption is 'Same as diagram 622.8'; name spells out the 622.8 caption.",
+        "954.2": "SI caption 'Same as diagram 954 applying to local buses'; name 'Except local buses' kept (954 caption itself not yet checked).",
+        "2911": "SI 2002 2911 = 'Route number of the motorway with destinations and distances...'; row is drawn as a service-area sign, so name+face need a redraw decision (not changed).",
+        "953.2": "SI 2002 953.2 = 'Explanatory plate for the signs shown in diagrams 953 and 953.1'; drawn face differs (not changed).",
+        "661.4": "SI adds '(Alternative types)'; omitted from the name",
+        "818.2": "glyph row with mismatching name; needs face check, not changed",
+        "2905": "caption tail cut off in the r4 crop; not changed",
+        "2610.1": "SI caption 'Same as diagram 2610'; name spells out 2610's caption.",
+        "2607": "SI 'Same as diagram 2605'; 2605 caption not checked; not changed",
+        "818.3": "SI 'Same as diagram 818.2'; 818.2 is a glyph row needing a face check; not changed",
+        "3000.7": "long cross-referencing caption; not changed"
+      }
+    },
+    "_legacy_names_r6": {
+      "si": "2002/3113",
+      "method": "caption under the diagram number read from si2002-pages/p-NNN.png (OCR box located, crop viewed by eye); \"Same as diagram N\" captions resolved to N's caption",
+      "confirmed": {
+        "954.2": "Local buses excluded from restriction or prohibition conveyed by associated sign",
+        "2607": "Direction of route to destination shown for pedestrians (as diagram 2605)",
+        "818.3": "Nature of and distance to a prohibition, restriction or requirement ahead (as diagram 818.2)",
+        "3000.7": "Traffic light signals as diagram 3000 with additional signals placed in any of the positions marked 1, 2, 3 and 4",
+        "2905": "Two motorway junctions ahead in quick succession, identified by the number shown on a black background, leading to the destinations and routes shown. The number of lanes on the motorway remains the same through the junction"
+      },
+      "notes": {
+        "954.2": "SI 2002 p146: 'Same as diagram 954 applying to local buses'; 954 caption 'Buses excluded from restriction or prohibition conveyed by associated sign'",
+        "2607": "SI 2002 p268: 'Same as diagram 2605'; 2605 caption (p267) 'Direction of route to destination shown for pedestrians'",
+        "818.3": "SI 2002 p124: 'Same as diagram 818.2'; 818.2 caption (p123)",
+        "3000.7": "SI 2002 p294 caption, cross-references 3001.2/3001.3/3013 and the table of combinations shortened",
+        "2905": "SI 2002 p280 caption, full text incl. the tail (cut off in the r4 crop)"
+      }
+    },
+    "_r7": {
+      "660": "SI 2002/3113 diagram 660, p100: caption \"Parking place reserved for permit holders\"; face measured from si2002-pages/p-100.png; P-square colour unverified (greyscale)",
+      "family_stand_ins": {
+        "2025": "SI 2002 diagram 2025 (p219), \"Junction ahead of a primary route with a non-primary route through a town or village that has been by-passed\"",
+        "2101": "SI 2002 diagram 2101 (p223), \"Junction ahead of two non-primary routes\"",
+        "2202": "SI 2002 diagram 2202 (p244), \"Junction ahead leading to a tourist attraction\"",
+        "GANTRY_ADS": "no diagram (Dest family plate; SI 2016 gantry direction signs vary per site)"
+      },
+      "XING_PAR": "drawn as SI 2016 diagram 4007 (Belisha beacon), the prescribed roadside device at a Parallel crossing",
+      "page_refs": "Superseded by _meta.note (r8). SI 2016 \"printed pN\" = tsrgd2016.pdf PDF pN+1 = refs/si2016.pdf PDF pN; SI 2002 pages are printed = refs/si2002.pdf PDF."
+    }
+  }
+}

@@ -1,0 +1,3370 @@
+{
+ "diagrams": {
+  "1001": {
+   "caption": "Vehicular traffic must not proceed beyond the line when required to stop by light signals, by a constable in uniform or by a traffic warden",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1001.1": {
+   "caption": "Tramcars must not proceed beyond the line when required to stop by light signals",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1001.2": {
+   "caption": "Alternatives to the stop line provided for at item 46 showing separate stop lines for pedal cycles and electric scooters being used in a trial proceeding in the cycle lane",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1001.2A": {
+   "caption": "Alternatives to the stop line provided for at item 46 showing a separate stop line at a junction for pedal cycles and electric scooters being used in a trial proceeding through the cycle entry",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1001.2B": {
+   "caption": "Alternative to the stop line provided for at item 46 showing separate stop lines for pedal cycles and electric scooters being used in a trial.",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1001.3": {
+   "caption": "Zig-zag lines to indicate requirements or prohibitions relating to stopping or overtaking at a Puffin crossing, signal-controlled crossing facility or portable signal-controlled pedestrian facility (shown in combination with the markings provided for at items 46 and 55)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1001.4": {
+   "caption": "Zig-zag lines to indicate the requirements or prohibitions relating to stopping or overtaking at a Zebra crossing (shown in combination with the marking provided for at item 54, the stripes provided for at paragraph 18 of Part 1 and the marking provided for at item 55)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1001.5": {
+   "caption": "Give-way marking for use at Zebra crossings, and Parallel pedestrian , electric scooter and cyclist crossings",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1002.1": {
+   "caption": "Vehicular traffic must not proceed beyond the line when required to stop by the stop sign",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1003.1": {
+   "caption": "Vehicular traffic approaching a roundabout should give way at or immediately beyond the line to vehicular traffic circulating on the carriageway of the roundabout",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1003.2": {
+   "caption": "Pedestrians approaching a level crossing must wait behind the line when the barriers are closed or when the red figure in the sign provided for at item 26 or the light signals provided for at item 5 are showing or, if there are neither barriers nor light signals, until satisfied that it is safe to proceed",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1003.3": {
+   "caption": "Vehicular traffic approaching a roundabout with a small central island or approaching a junction indicated by the marking shown in item 5 of this sign table should give way at, or immediately beyond, the line to traffic circulating on the carriageway of the roundabout",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1003.4": {
+   "caption": "Marking used in conjunction with the sign at item 6 of the sign table in Part 2 for conveying the requirements in paragraph 5 of Part 7 (Alternative sizes)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1003.5": {
+   "caption": "Zig-zag lines to indicate the requirements or prohibitions relating to stopping or overtaking at a Parallel pedestrian , electric scooter and cyclist crossing (shown in combination with markings provided for at items 54 and 57 and the stripes provided for at paragraph 18 of Part 1)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1003A": {
+   "caption": "Vehicular traffic must give way in accordance with the requirements in paragraph 7 of Part 7",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1003B": {
+   "caption": "Cyclists and drivers of electric scooters being used in a trial must give way in accordance with the requirements prescribed in paragraph 8 of Part 7",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1004": {
+   "caption": "Vehicular traffic should not cross or straddle the line unless it is safe to do so and when the line is used to indicate a cycle lane, motor vehicles should not enter that lane unless it is clear of pedal cycles and electric scooters being used in a trial (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1004.1": {
+   "caption": "Vehicular traffic should not cross or straddle the line unless it is safe to do so and when the line is used to indicate a cycle lane, motor vehicles should not enter that lane unless it is clear of pedal cycles and electric scooters being used in a trial (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1005": {
+   "caption": "Division of carriageway into traffic lanes on part of the carriageway where vehicles normally proceed in the same direction other than at places where the marking at item 2 of this table is used (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1005.1": {
+   "caption": "As the marking at item 4 other than at places where the marking at item 3 is used (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1008": {
+   "caption": "Division between opposing flows of traffic on a carriageway other than at places where the marking at item 2 is used (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1008.1": {
+   "caption": "Division between opposing flows of traffic on a carriageway other than at places where the marking at item 3 is used (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1009A": {
+   "caption": "Edge of the carriageway at a road junction, exit from a private drive onto a public road, or the start of a cycle lane (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1009B": {
+   "caption": "Edge of the carriageway at a junction of a cycle track , or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial, and another road (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1010": {
+   "caption": "(a) edge of the carriageway at a road junction or a lay-by, or at an exit from a private drive onto a public road; (b) the start of a traffic lane, the boundary of which is indicated by the road marking shown at item 11 of the table in Part 6 of Schedule 9; (c) when used in conjunction with the road marking at item 4 of the sign table in Part 4 of Schedule 2, the most suitable path to be taken by high vehicles under a low bridge or to avoid an overhanging structure; (d) when laid alongside rails used by tramcars, the edge of the part of the carriageway used by the tramcars; (e) the division between the main carriageway and a traffic lane which leaves the main carriageway at a junction ahead; (f) the boundary between the main carriageway and either a diverging or merging traffic lane at a road junction; (g) the boundary between an emergency refuge area and either an actively managed hard shoulder or the edge of carriageway of a motorway; or (h) the division between the main carriageway and a cycle lane through a junction (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1012.1": {
+   "caption": "(a) edge of the carriageway available for through traffic other than at a road junction, an exit from a private drive onto a public road, lay-by or emergency refuge area; (b) the back edge of a hard shoulder; (c) the edge of a footway where it passes over a railway or tramway level crossing; or (d) the boundary between the carriageway of a motorway and an actively managed hard shoulder (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1012.2": {
+   "caption": "(a) edge of carriageway of a motorway other than at an emergency refuge area or a junction with a slip road; or (b) the back edge of an actively managed hard shoulder; and, in both cases, incorporating an audible and tactile warning (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1012.3": {
+   "caption": "Edge of carriageway of a road that is not a motorway and which has hard strips or hard shoulders, other than at a junction with a slip road, and incorporating an audible and tactile warning (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1013.1": {
+   "caption": "Alternative methods of indicating to vehicular traffic the requirements and the warning in paragraphs 9 and 10 of Part 7",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1013.5": {
+   "caption": "Division of traffic lanes on a length indicating to vehicular traffic the requirements in paragraph 9 of Part 7 and used in the circumstances for which the signs at items 17 to 20 in the Part 2 sign table in Schedule 11 are used",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1014": {
+   "caption": "(a) Direction in which vehicular traffic should pass a road marking shown at item 7, 11 or 23 of the sign table in Part 6 of Schedule 9 or at item 23, 24 or 25 of the sign table in Part 4 of this Schedule; (b) obstruction on the carriageway ahead; (c) reduction in the number to traffic lanes in the carriageway ahead; or (d) path to be taken by vehicular traffic to avoid a route available for tramcars only (Longitudinal marking) (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1017": {
+   "caption": "Waiting of vehicles prohibited for a time that is not continuous throughout the year",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 7"
+  },
+  "1017.1": {
+   "caption": "Stopping of vehicles prohibited for a time that is not continuous throughout the year",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 7"
+  },
+  "1018.1": {
+   "caption": "(a) Waiting of vehicles prohibited at all times or (b) stopping of vehicles in a lay-by prohibited except in emergency",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 7"
+  },
+  "1018.2": {
+   "caption": "Stopping of vehicles prohibited at all times",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 7"
+  },
+  "1019": {
+   "caption": "Loading and unloading of vehicles prohibited for a time that is not continuous through the year",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 7"
+  },
+  "1020.1": {
+   "caption": "Loading and unloading of vehicles prohibited at all times",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 7"
+  },
+  "1022": {
+   "caption": "Approach to a road junction or level crossing at or near which is placed the marking at item 1 of this table and the stop sign",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1023A": {
+   "caption": "Approach to a road junction, level crossing or road narrowing at or near which is placed the marking in item 3 or 6 of this table",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1023B": {
+   "caption": "Approach to a road junction on a cycle lane or track, or a place where cyclists and drivers of electric scooters being used in a trial must give way to pedestrians, at or near which is also placed the marking at item 9",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1024": {
+   "caption": "Vehicular traffic should proceed with caution because of potential danger ahead",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1024.1": {
+   "caption": "Road marking indicating path to be taken by high vehicles under a low bridge or to avoid an overhanging structure",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 2"
+  },
+  "1025.1": {
+   "caption": "Clearway at which, as described in paragraph 1 of Part 6, vehicles must not stop (exceptions apply for buses and taxis)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 7"
+  },
+  "1026": {
+   "caption": "Part of the carriageway which should be kept clear of stationary vehicles (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1026.1": {
+   "caption": "Part of the carriageway outside a vehicular entrance to adjacent premises or a private drive, or where the kerb is dropped to provide a convenient crossing place for pedestrians, which should be kept clear of waiting vehicles",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1027.1": {
+   "caption": "Part of the carriageway outside an entrance where, as described in paragraph 2 or 3 (as applicable) of Part 6, vehicles should, or must, not stop",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 7"
+  },
+  "1028.2": {
+   "caption": "Area of carriageway reserved for taxis or, where the legend is varied as indicated in column 4, reserved for ambulances or police vehicles, where waiting by other vehicles is prohibited (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 7"
+  },
+  "1028.4": {
+   "caption": "Alternative types of parking bay\u2014 (a) at the edge of the carriageway and situated wholly on either the carriageway or footway; or (b) in the centre of the carriageway or partly on the carriageway and partly on the footway",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 7"
+  },
+  "1028.5": {
+   "caption": "Area of carriageway reserved for taxis or, where the legend is varied as indicated in column (4), reserved for ambulances or police vehicles, where stopping by other vehicles is prohibited",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 7"
+  },
+  "1028.6": {
+   "caption": "Parking bay for use by all vehicles or, where indicated by upright signs, by specified vehicles, and where at certain times, as indicated by upright signs, the bay is reserved for taxis, ambulances or police vehicles, where stopping by other vehicles is prohibited",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 7"
+  },
+  "1029": {
+   "caption": "Direction in which pedestrians should look for approaching traffic",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1035": {
+   "caption": "Appropriate traffic lanes for different destinations (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1036.1": {
+   "caption": "Vehicular traffic must turn left (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1036.2": {
+   "caption": "Vehicular traffic must only proceed ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1037.1": {
+   "caption": "Vehicular traffic must turn right (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1038": {
+   "caption": "Appropriate traffic lanes for different manoeuvres (Longitudinal marking) (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1038.1": {
+   "caption": "Appropriate direction to be taken by traffic turning within a junction (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1039": {
+   "caption": "Place where traffic streams divide or bifurcate (Longitudinal marking) (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1040": {
+   "caption": "Part of the carriageway which vehicular traffic should not enter unless it is seen by the driver to be safe to do so (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1040.3": {
+   "caption": "Reduction in the number of lanes, or area not available to traffic, on the main carriageway or slip road of a motorway or all-purpose dual carriageway road",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1040.4": {
+   "caption": "Part of the carriageway adjacent to the edge which vehicular traffic should not enter unless it is seen by the driver to be safe to do so",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1040.5": {
+   "caption": "End of a hard shoulder",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1041": {
+   "caption": "Part of the carriageway where vehicular traffic passes in the same direction on both sides of the marking, and should not enter the area covered by the marking unless it is seen by the driver to be safe to do so (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1042": {
+   "caption": "Division of traffic lanes on a length of carriageway, or between the main carriageway and slip road, of a motorway or all-purpose dual carriageway road, or part of the carriageway between two lanes at a roundabout which vehicular traffic must not enter except in emergency (alternative types)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1043": {
+   "caption": "Marking conveying the requirements in paragraph 11 of Part 7",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1045": {
+   "caption": "Area of carriageway, subject to two-way traffic, at a level crossing which vehicles must not enter in a manner which then causes any part of the vehicle to remain at rest within the marked area due to the presence of stationary vehicles",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1045.1": {
+   "caption": "Area of carriageway, subject to one-way traffic, at a level crossing which vehicles must not enter in a manner which then causes any part of the vehicle to remain at rest within the marked area due to the presence of stationary vehicles",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1046": {
+   "caption": "No entry for vehicular traffic (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1046.1": {
+   "caption": "Entry by vehicular traffic to a play street restricted (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1048": {
+   "caption": "Traffic lane reserved for buses and other vehicles as indicated on the sign at item 8 or 10 in the sign table in Part 4",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1048.2A": {
+   "caption": "Road or part of a road with access permitted only for tramcars",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1048.5": {
+   "caption": "Road or part of a road with access permitted only for buses and other vehicles when so indicated by any of the signs at items 10, 33 to 35 and 37 to 40 in the sign table in Part 2 of Schedule 3 (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1049.1": {
+   "caption": "Division of a route into that part reserved for pedal cycles and electric scooters being used in a trial and that part reserved for pedestrians (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1049A": {
+   "caption": "Boundary of a bus lane or other designated lane used by motor vehicles (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1049B": {
+   "caption": "Boundary of a mandatory cycle lane or division of a route into that part reserved for pedal cycles and electric scooters being used in a trial and that part reserved for pedestrians conveying the requirements at paragraph 12 of Part 7 (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1050": {
+   "caption": "Direction of possible traffic movements at the end of a nearside with-flow bus lane or other designated lane, or where there is an intermediate discontinuation of the lane on the approach to a junction (alternative types)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1050.1": {
+   "caption": "Direction of possible traffic movements at the end of an off side with-flow bus lane or other designated lane, or where there is an intermediate discontinuation of the lane on the approach to a junction (alternative types)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 9"
+  },
+  "1055.1": {
+   "caption": "(a) a place suitable for pedestrians to cross a road at which traffic is subject to control by a constable in uniform or by a traffic warden, being control which is normally in operation during periods amounting in aggregate to not less than 20 hours in any week; (b) the most suitable place for pedestrians to cross a carriageway within 10 metres of the traffic signals provided for at item 1; (c) place suitable for cyclists and drivers of electric scooters being used in a trial to cross a road at which cyclists and drivers of electric scooters being used in a trial are controlled by traffic light signals of the kind provided for at item 3 or 4, and other vehicular traffic is controlled by traffic signals of the kind provided for at item 1; (d) place suitable for pedestrians to cross at a signal (including portable) controlled pedestrian facility; (e) place suitable for pedestrians , drivers of electric scooters being used in a trial and cyclists to cross at a Toucan crossing; (f) place suitable for crossing at an equestrian only crossing; or (h) place suitable for pedestrians to cross forming part of a Zebra crossing",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1055.2": {
+   "caption": "As for the description in this column of item 55, paragraph (c) (d) or (e), with an additional crossing point for equestrians",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1055.3": {
+   "caption": "(a) route for vehicular traffic consisting solely of pedal cyclists and drivers of electric scooters being used in a trial across a signal controlled junction (b) route for vehicular traffic consisting solely of pedal cyclists and drivers of electric scooters being used in a trial across a Parallel crossing",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "1057": {
+   "caption": "Cycle lane, track , route, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1057.1": {
+   "caption": "Number of a cycle route (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1058": {
+   "caption": "End of a cycle lane, track , route, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1058.1": {
+   "caption": "Pedal cycles and electric scooters being used in a trial should proceed with caution because of potential danger ahead",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1059": {
+   "caption": "Directions in which pedal cycles and electric scooters being used in a trial should travel along a cycle lane, track , route, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1062": {
+   "caption": "Road hump",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1064": {
+   "caption": "Marking used in conjunction with the sign shown at item 50 of the sign table in Part 2",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1065": {
+   "caption": "Road marking indicating the maximum speed limit (Alternative sizes)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 10"
+  },
+  "1066": {
+   "caption": "Edge of part of the road used by tramcars (Longitudinal marking)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1067": {
+   "caption": "Transverse yellow bar markings for use only on approaches to roundabouts on motorways and dual carriageway roads subject to the national speed limit, either on the main carriageway or on an exit slip road",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 11"
+  },
+  "1068": {
+   "caption": "Road marking indicating the commencement of a congestion charging zone",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 8"
+  },
+  "1069": {
+   "caption": "Road marking giving advance warning of a congestion charging zone",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 8"
+  },
+  "1070": {
+   "caption": "Road marking indicating the commencement of a low emission zone",
+   "caption_source": "xml",
+   "part": "PART 4B",
+   "schedule": "SCHEDULE 8"
+  },
+  "2010.1": {
+   "caption": "Prohibited movement ahead on a primary route with an indication of a route avoiding that prohibition",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2010.2": {
+   "caption": "Prohibited movement ahead on a primary route with an indication of a route avoiding that prohibition",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2017.1": {
+   "caption": "Indication of road layout at a junction \u00be mile ahead on a primary route, where the left hand lane leaves the main carriageway and where the same exit can be accessed from the centre lane",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2019.1": {
+   "caption": "Indication of appropriate traffic lanes at a junction or at a junction ahead where the right hand lane divides into two, the additional lane on the right leading to a different destination (diagram shows colours applicable to sign on a primary route)",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2032": {
+   "caption": "Primary route forming part of a ring road",
+   "caption_joint": "Primary route (2032) or non\u2011primary route (2130) forming part of a ring road",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2123": {
+   "caption": "Prohibited movement ahead on a non-primary route with an indication of a route avoiding that prohibition",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2124": {
+   "caption": "Prohibited movement ahead on a non-primary route with an indication of a route avoiding that prohibition",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2130": {
+   "caption": "Non-primary route forming part of a ring road",
+   "caption_joint": "Primary route (2032) or non\u2011primary route (2130) forming part of a ring road",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2141": {
+   "caption": "Direction for traffic on a minor route to a destination reached along another minor route (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2205": {
+   "caption": "Sign on a primary or non-primary route indicating location of a Tourist Information Centre or Point",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2215": {
+   "caption": "Junction ahead leading to a place or geographical area containing several tourist destinations or leisure facilities (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2301.1": {
+   "caption": "Sign on a primary or non-primary route indicating distance and direction to a caravan site which has at least 20 pitches (where the site is both a caravan and a camping site, the reference to the number of pitches includes both pitches for caravans and for tents)",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2301.2": {
+   "caption": "Sign on a primary or non-primary route indicating distance and direction to a camping site which has at least 20 pitches (where the site is both a caravan and a camping site, the reference to the number of pitches includes both pitches for caravans and for tents)",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2303": {
+   "caption": "Sign on a primary or non-primary route indicating distance and direction to a hostel",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2305": {
+   "caption": "Sign on a primary or non-primary route indicating distance and direction to a picnic area",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2307": {
+   "caption": "Sign on a primary or non-primary route indicating distance ahead to a parking place with public toilets that has facilities for disabled persons, Tourist Information Centre or Point, public telephone, picnic area and viewpoint",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2308.1": {
+   "caption": "Junction ahead on a primary or non-primary route leading to a small town or village not on a main through route, which provides parking, public toilets, refreshments and fuel during normal shop opening hours at least which provides parking and public toilets or fuel during normal shop opening hours (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 26",
+   "schedule": "SCHEDULE 12"
+  },
+  "2309.1": {
+   "caption": "Direction and distance in miles to a small town or village offering facilities indicated on the sign shown in item 5 of this table",
+   "caption_source": "xml",
+   "part": "PART 26",
+   "schedule": "SCHEDULE 12"
+  },
+  "2330": {
+   "caption": "Sign placed on or near a primary or non-primary route indicating that services are not available on motorway ahead",
+   "caption_source": "xml",
+   "part": "PART 26",
+   "schedule": "SCHEDULE 12"
+  },
+  "2401": {
+   "caption": "Primary or non-primary route sign indicating the boundary of an administrative area, a ceremonial area or an historic county area",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2402.1": {
+   "caption": "Primary or non-primary route sign indicating the name of a city, town or village commencing immediately ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2403.1": {
+   "caption": "Primary or non-primary route sign indicating the name of a city, town or village immediately ahead, together with extra local information",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2404": {
+   "caption": "Primary or non-primary route sign indicating the name of a city, town, village, an administrative area, a ceremonial area or an historic county area immediately ahead, together with phrase and image that is representative of the city, town, village or area",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2501": {
+   "caption": "Distance to a parking place ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2502": {
+   "caption": "Sign on a primary or non-primary route indicating distance to a goods vehicles parking place ahead with public toilets and telephones",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2601.2": {
+   "caption": "Indication of a route for cyclists and drivers of electric scooters being used in a trial through a road junction ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2602.2": {
+   "caption": "Numbered route for pedal cycles and electric scooters being used in a trial forming part of a regional (blue number patch) or national (red number patch) cycle route network (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2602.3": {
+   "caption": "The number of a route for pedal cycles and electric scooters being used in a trial forming part of a national or regional cycle route network",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "2610.2": {
+   "caption": "Direction along a public right of way, concessionary path or permissive path indicated by waymarks",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2701": {
+   "caption": "Direction and junction ahead to a new housing development",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "28",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "2701.1": {
+   "caption": "Direction and junction ahead to a new housing development",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "28",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "2703.1": {
+   "caption": "Permanently mounted sign indicating a diversion route (Type A and B)",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2708": {
+   "caption": "Junction ahead leading to route for emergency vehicles to a temporary incident control point",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "2709": {
+   "caption": "Permanently mounted sign indicating a route for emergency vehicles to a named emergency services incident point",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2710": {
+   "caption": "Permanently mounted sign indicating a route for emergency vehicles to a named emergency services incident point",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2711.1": {
+   "caption": "Direction and distance to emergency exit for pedestrians from a tunnel (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2712": {
+   "caption": "Location of fire rendezvous point (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2713": {
+   "caption": "Direction to nearest emergency telephone on same side of the road(diagram shows blue background \u2013 for use on motorways) (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2713.1": {
+   "caption": "Distance ahead to emergency telephone in a parking place or emergency lay-by (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2714": {
+   "caption": "Side of emergency telephone box (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2715": {
+   "caption": "Back of emergency telephone box (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2718": {
+   "caption": "Route number and location reference",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2801": {
+   "caption": "Sign on a primary or non-primary route indicating a route or direction to a testing station for goods vehicles",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2802": {
+   "caption": "Sign on a primary or non-primary route indicating a route or direction to a testing station for goods vehicles",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2901": {
+   "caption": "Regulations in force under section 17 of the 1984 Act start to apply to the road at this point",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "2904.2": {
+   "caption": "Indication of road layout at a junction \u00be mile ahead on a motorway, where the left hand lane leaves the main carriageway and where the same exit can be accessed from the centre lane",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2912": {
+   "caption": "Junction ahead on a motorway with another motorway",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2917": {
+   "caption": "Availability of motorway service areas ahead with distances in miles and names of operators",
+   "caption_source": "xml",
+   "part": "PART 26",
+   "schedule": "SCHEDULE 12"
+  },
+  "2917.1": {
+   "caption": "Availability of motorway service areas ahead, including services for lorries only (truckstop), with distances in miles and geographical names",
+   "caption_source": "xml",
+   "part": "PART 26",
+   "schedule": "SCHEDULE 12"
+  },
+  "2918": {
+   "caption": "Distance to next motorway service area",
+   "caption_source": "xml",
+   "part": "PART 26",
+   "schedule": "SCHEDULE 12"
+  },
+  "2918.1": {
+   "caption": "Sign placed on or near a motorway indicating that services are not available",
+   "caption_source": "xml",
+   "part": "PART 26",
+   "schedule": "SCHEDULE 12"
+  },
+  "2922": {
+   "caption": "Exit from a motorway for works traffic only",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "2928": {
+   "caption": "Motorway sign indicating the boundary of an administrative area, a ceremonial area or an historic county area (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2930": {
+   "caption": "Regulations referred to in this column in respect of item 13 cease to apply ahead",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "2931": {
+   "caption": "Regulations referred to in this column in respect of item 13 cease to apply at this point",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "2932": {
+   "caption": "Entrance to a motorway service area, maintenance compound or similar facility contained within a length of a motorway and indicating that Regulations in force under section 17 of the 1984 Act cease to apply at this point",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "2933": {
+   "caption": "Drivers should keep a distance of two chevron markings (the markings provided for at item 34 of the table in Part 4) from the vehicle in front",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "2934": {
+   "caption": "Drivers should keep or check their distance from the vehicle in front (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "3000": {
+   "caption": "Traffic light signals for the control of vehicular traffic at road junctions, places where the headroom or the width of the road is permanently restricted, signal controlled crossing facilities, tunnels, or in conjunction with the road marking provided for at item 15 of the table in part 6 of schedule 9",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "3000.1": {
+   "caption": "Portable traffic light signals for the control of vehicular traffic",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "3000.2": {
+   "caption": "Traffic light signals for the control of vehicular traffic consisting solely of pedal cycles and electric scooters being used in a trial (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "3000.2A": {
+   "caption": "Traffic light signals for the control of vehicular traffic consisting solely of pedal cycles and electric scooters being used in a trial (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "3001.2": {
+   "caption": "Green arrow to show the direction for vehicular traffic to take for inclusion in traffic light signals as described in Part 1",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 14"
+  },
+  "3001.3": {
+   "caption": "Green arrow to show the direction for vehicular traffic to take for inclusion in traffic light signals as described in Part 1",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 14"
+  },
+  "3001.4": {
+   "caption": "Green cycle signal for inclusion in traffic light signals as described in Part 1",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 14"
+  },
+  "3013": {
+   "caption": "Light signal for control of tramcars (diagram shows the light signal fully illuminated- see items 3 to 7 for the illumination of the signal to convey particular descriptions)",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 14"
+  },
+  "3013.1": {
+   "caption": "Tramcar must not proceed beyond the stop line",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 14"
+  },
+  "3013.2": {
+   "caption": "Tramcar may proceed beyond the stopline and proceed straight ahead",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 14"
+  },
+  "3013.3": {
+   "caption": "Tramcar may proceed beyond the stopline and proceed to the left",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 14"
+  },
+  "3013.4": {
+   "caption": "Tramcar may proceed beyond the stopline and proceed to the right",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 14"
+  },
+  "3013.5": {
+   "caption": "Tramcar must not proceed beyond the stop line except that, as respects a tramcar which is so close to the stop line that it cannot safely be stopped without proceeding beyond the stop line, it conveys the same indication as the aspect which was shown immediately before it",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 14"
+  },
+  "3014": {
+   "caption": "Light signals for the control of road traffic at level crossings, swing or lifting bridges, airfields or in the vicinity of premises used regularly by fire and rescue authority, Scottish Fire and Rescue Service, police or ambulance vehicles",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4002.1": {
+   "caption": "Farside light signals for pedestrians",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4002.1A": {
+   "caption": "Pedestrian countdown unit indicating to pedestrians the time remaining to cross the road (shown in combination with the signal provided for at item 19)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4003": {
+   "caption": "Instructions to pedestrians above the push button control for calling up pedestrian phases at traffic light signals",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4003.1": {
+   "caption": "Nearside light signals and instructions for pedestrians at a pedestrian facility controlled by traffic light signals",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4003.1A": {
+   "caption": "Supplementary nearside light signals for pedestrians a pedestrian facility controlled by traffic light signals",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4003.2": {
+   "caption": "Farside light signals for equestrian traffic",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4003.3": {
+   "caption": "Instructions to horse riders above the push button control for calling up equestrian traffic phases at traffic light signals",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4003.4": {
+   "caption": "Nearside light signals and instructions for horse riders at an equestrian traffic crossing facility controlled by traffic light signals",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4003.4A": {
+   "caption": "Supplementary nearside light signals for horse riders at an equestrian traffic crossing facility controlled by traffic light signals",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4003.5": {
+   "caption": "Farside light signals for pedestrians , drivers of electric scooters being used in a trial and cyclists at a Toucan crossing",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4003.6": {
+   "caption": "(a) instructions to pedestrians , drivers of electric scooters being used in a trial and cyclists above the push button control for calling up pedestrian and cycle phases at a Toucan crossing; or (b) instructions to cyclists above the push button control for calling up cycle phases at a crossing controlled by the traffic light signals provided for at item 3 or 4",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4003.7": {
+   "caption": "Nearside light signals and instructions for pedestrians , drivers of electric scooters being used in a trial and cyclists at a Toucan crossing",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4003.7A": {
+   "caption": "Supplementary nearside signals for pedestrians , drivers of electric scooters being used in a trial and cyclists at a Toucan crossing",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4003.8": {
+   "caption": "Instructions to road users for calling up pedestrian, equestrian, electric scooter or cyclist phases at traffic light signals",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4004": {
+   "caption": "Signals placed at or near a school crossing place where children likely to be crossing the road on their way to or from school ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4005": {
+   "caption": "A cattle crossing lies ahead and may be in use",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4006": {
+   "caption": "Light signal at level crossing for pedestrians conveying the prohibition that pedestrians must not proceed beyond the marking provided for at item 68",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "4007": {
+   "caption": "Yellow or fluorescent yellow globe to indicate presence of a Parallel, or Zebra crossing",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "5001.1": {
+   "caption": "Lane open to vehicular traffic (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "5001.2": {
+   "caption": "Lane open to vehicular traffic (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "5003": {
+   "caption": "Lane closed to vehicular traffic (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "5003.1": {
+   "caption": "Lane closed to vehicular traffic (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "5005": {
+   "caption": "Lane closed ahead and vehicular traffic should move to the next lane on the left (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "5005.1": {
+   "caption": "Lane closed ahead and vehicular traffic should move to the next lane on the left (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "501": {
+   "caption": "Junction ahead controlled by a \u201cGIVE WAY\u201d or \u201cSTOP\u201d sign, wherean indication may be given that the junction iswith a dual carriageway road",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 2"
+  },
+  "5010": {
+   "caption": "The lane control light signals provided for at items 32, 33 and 34 ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "5011": {
+   "caption": "The lane control light signals provided for at items 32, 33 and 34 ahead on a road extending from a junction",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "5012": {
+   "caption": "System of lane control light signals ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "5013": {
+   "caption": "Direction of a system of lane control light signals",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "5014": {
+   "caption": "Distance to and direction of a system of lane control light signals (alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "5015": {
+   "caption": "End of a system of lane control light signals",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "504.1": {
+   "caption": "Crossroads ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "505.1": {
+   "caption": "T-junction ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "506.1": {
+   "caption": "Side road ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "507.1": {
+   "caption": "Staggered junction ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "508.1": {
+   "caption": "Traffic merges ahead from left",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "509.1": {
+   "caption": "Traffic merges ahead onto main carriageway",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "510": {
+   "caption": "Roundabout ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "511": {
+   "caption": "Reduction in speed necessary for a change in road layout ahead",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 2"
+  },
+  "512": {
+   "caption": "Bend ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "512.1": {
+   "caption": "Junction on the outside of a bend ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "512.2": {
+   "caption": "Junction on the inside of a bend ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "512.3": {
+   "caption": "Crossroads on a bend ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "513": {
+   "caption": "Double bend or series of bends ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "513.1A": {
+   "caption": "Risk of lorries overturning on adverse camber (with bend to the left) and maximum speed advised",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 2"
+  },
+  "513.2": {
+   "caption": "Maximum speed in mph advised at a bend or other hazard",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 2"
+  },
+  "515": {
+   "caption": "Sharp deviation of route",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 2"
+  },
+  "516": {
+   "caption": "Road narrows on both sides ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "517": {
+   "caption": "Road narrows on one side ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "520": {
+   "caption": "Dual carriageway road ends ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "521": {
+   "caption": "Two-way traffic ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "522": {
+   "caption": "Two-way traffic on route crossing ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "523.1": {
+   "caption": "Steep hill downwards ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "524.1": {
+   "caption": "Steep hill upwards ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "528": {
+   "caption": "Hump bridge ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "528.1": {
+   "caption": "End of a bridge parapet, abutment wall, tunnel mouth or other obstruction adjacent to the carriageway",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 2"
+  },
+  "529": {
+   "caption": "Opening or swing bridge ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "529.1": {
+   "caption": "Tunnel ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "530.1": {
+   "caption": "Reduced headroom over part of road due to overhanging building or structure",
+   "caption_source": "xml",
+   "part": "PART 5",
+   "schedule": "SCHEDULE 2"
+  },
+  "530.2": {
+   "caption": "Reduced headroom at a hazard (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 5",
+   "schedule": "SCHEDULE 2"
+  },
+  "530A": {
+   "caption": "Maximum headroom available at hazard, with height indicated in both metric and imperial units",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 2"
+  },
+  "531.1A": {
+   "caption": "Maximum headroom available at arch bridge ahead",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 2"
+  },
+  "531.2": {
+   "caption": "High vehicles to use middle of road at arch bridge ahead,",
+   "caption_source": "xml",
+   "part": "PART 5",
+   "schedule": "SCHEDULE 2"
+  },
+  "532.4": {
+   "caption": "Upper: Extent of headroom available at the side of and in the centre of a road at an arch bridge. Lower: Marking highlighting reduced headroom at an arch bridge.",
+   "caption_source": "xml",
+   "part": "PART 5",
+   "schedule": "SCHEDULE 2"
+  },
+  "543": {
+   "caption": "Traffic signals ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "543.1": {
+   "caption": "Traffic signals in the direction indicated which only operate at certain times (Supplementary plate)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "544": {
+   "caption": "Zebra crossing or Parallel crossing ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "544.1": {
+   "caption": "Pedestrians in road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "544.2": {
+   "caption": "Frail or disabled pedestrians likely to cross road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "545": {
+   "caption": "In relation to England, children going to or from school or playground ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "545.1": {
+   "caption": "Part-time advisory 20 mph speed limit at or near a school",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "545.2": {
+   "caption": "In relation to Wales, children going to or from school or playground area",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "545.3": {
+   "caption": "In relation to Wales, road safety image or slogan",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 2"
+  },
+  "547.8": {
+   "caption": "Zebra crossing, Parallel crossing, or signal-controlled crossing on a road hump, in the direction indicated (Supplementary plate)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "548": {
+   "caption": "Cattle likely to be in road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "548.1A": {
+   "caption": "Supervised cattle crossing ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "549": {
+   "caption": "Sheep likely to be in road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "550": {
+   "caption": "Wild horses or ponies likely to be in road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "550.1": {
+   "caption": "Accompanied horses or ponies likely to be in road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "550.2": {
+   "caption": "Horse drawn vehicles likely to be in road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "551": {
+   "caption": "Wild animals likely to be in road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "551.1": {
+   "caption": "Migratory toad crossing ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 13"
+  },
+  "551.2": {
+   "caption": "Wild fowl likely to be in road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "552": {
+   "caption": "Cattle grid ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "553.1": {
+   "caption": "Agricultural vehicles likely to be in road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "554": {
+   "caption": "Ford ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "554.1": {
+   "caption": "Risk of brake failure ahead (after passing a ford or before descending a steep gradient)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "554.2": {
+   "caption": "Risk of ice or packed snow ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 13"
+  },
+  "554A": {
+   "caption": "Worded warning sign (Flood)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 13"
+  },
+  "554B": {
+   "caption": "Gate ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "554C": {
+   "caption": "Gates ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "554D": {
+   "caption": "Worded warning sign (No Smoking)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 13"
+  },
+  "555": {
+   "caption": "Quayside or river bank ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "555.1": {
+   "caption": "Water course alongside road ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "556": {
+   "caption": "Uneven road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 13"
+  },
+  "556.1": {
+   "caption": "Soft verges ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "557": {
+   "caption": "Slippery road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 13"
+  },
+  "557.1": {
+   "caption": "In relation to England, road hump or series of road humps ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "557.2": {
+   "caption": "In relation to Wales, road hump or series of road humps ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "558": {
+   "caption": "Low flying aircraft or sudden aircraft noise likely ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "558.1": {
+   "caption": "Low flying helicopters or sudden helicopter noise likely ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "559": {
+   "caption": "Risk of falling or fallen rocks ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "560": {
+   "caption": "Edge of carriageway or obstruction near that edge (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 2"
+  },
+  "562": {
+   "caption": "Other danger ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "563.1": {
+   "caption": "The light signals provided for at item 5 are ahead (where those light signals are in the vicinity of premises used regularly by fire and rescue authority, Scottish Fire and Rescue Service, police or ambulance vehicles)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "572": {
+   "caption": "Distance ahead to hazard",
+   "caption_source": "xml",
+   "part": "PART 5",
+   "schedule": "SCHEDULE 2"
+  },
+  "581": {
+   "caption": "Side winds likely ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "582": {
+   "caption": "Slow moving military vehicles likely to becrossing or in road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "583": {
+   "caption": "Slow moving vehicles likely on incline ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "584": {
+   "caption": "Traffic queues likely on road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "6001": {
+   "caption": "Temporary maximum speed advised",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6002": {
+   "caption": "Vehicular traffic must move to the next lane on the right",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6002.1": {
+   "caption": "Vehicular traffic must move to the next lane on the right (may be combined with items 6 and 15) (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6003": {
+   "caption": "Vehicular traffic must leave at next junction",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6008": {
+   "caption": "Closure of one lane of a two lane carriageway ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6008.1": {
+   "caption": "Closure of both lanes of a two lane carriageway ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6008.2": {
+   "caption": "Closure of one lane of a two lane carriageway ahead (may be combined with items 3 and 15) (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "601.1": {
+   "caption": "Vehicular traffic must comply with the requirements specified in paragraph 1 or 2 of Part 7",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 9"
+  },
+  "6011": {
+   "caption": "Risk of fog ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6011.1": {
+   "caption": "Risk of ice ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6012": {
+   "caption": "End of temporary restrictions",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "602": {
+   "caption": "Vehicular traffic must comply with the requirements specified in paragraph 3 or 4 of Part 7",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 9"
+  },
+  "6021": {
+   "caption": "Hazard ahead (flashing amber lamps used with the sign provided for at item 1, 2, 4, 8 or 9 when that sign is mounted on a gantry, or over a traffic lane or hard shoulder)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6022": {
+   "caption": "Hazard ahead (flashing amber lamps used with the sign provided for at item 1, 3, 4, 5, 6, 8 or 9 when that sign is mounted on a post)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6023": {
+   "caption": "Light signal conveying the warning described at paragraph 2 of Part 1",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6031.1": {
+   "caption": "Gantry-mounted light signals conveying the prohibition described at paragraph 3 of Part 1",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6031.2": {
+   "caption": "Carriageway side mounted light signals conveying the prohibition described at paragraph 3 of Part 1 (left hand symbol may be combined with items 3 and 6) (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "6032.1": {
+   "caption": "Post-mounted light signals conveying the prohibition described at paragraph 4 of Part 1",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 15"
+  },
+  "605.3": {
+   "caption": "School crossing patrol sign",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "606": {
+   "caption": "Vehicular traffic must proceed in the direction indicated by the arrow (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "608": {
+   "caption": "Dual carriageway road (associated plate for items 1 and 2)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 9"
+  },
+  "609": {
+   "caption": "Vehicular traffic must turn ahead in the direction indicated by the arrow (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "610": {
+   "caption": "Vehicular traffic must comply with the requirements described in paragraph 3 of Part 4 (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "611": {
+   "caption": "Vehicular traffic may reach the same destination by proceeding either side of the sign",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "611.1": {
+   "caption": "Vehicles entering the junction must comply with the requirements prescribed in paragraph 5 of Part 7",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 9"
+  },
+  "612": {
+   "caption": "No right turn for vehicular traffic",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "613": {
+   "caption": "No left turn for vehicular traffic",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "614": {
+   "caption": "No U-turns for vehicular traffic",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "615": {
+   "caption": "Priority must be given to vehicles from the opposite direction",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "616": {
+   "caption": "No entry for vehicular traffic",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "617": {
+   "caption": "All vehicles prohibited except non-mechanically propelled vehicles pushed by pedestrians",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "618.3B": {
+   "caption": "Entry to, and waiting in, a pedestrian zone restricted",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 8"
+  },
+  "618.3C": {
+   "caption": "Entry to, and waiting in, a pedestrian and cycle zone restricted for motor vehicles, other than electric scooters being used in a trial",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 8"
+  },
+  "618.3D": {
+   "caption": "Entry to, and waiting in, a pedestrian and cycle zone restricted: version incorporating flashing lights (alternative to item 2)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 8"
+  },
+  "618.4A": {
+   "caption": "End of restrictions associated with a pedestrian zone",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 8"
+  },
+  "618.4B": {
+   "caption": "End of restrictions associated with a pedestrian and cycle zone",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 8"
+  },
+  "619": {
+   "caption": "Motor vehicles prohibited , except for electric scooters being used in a trial",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "619.1": {
+   "caption": "Motor vehicles except solo motor cycles prohibited",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "619.2": {
+   "caption": "Solo motor cycles prohibited , except for electric scooters being used in a trial",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "622.10": {
+   "caption": "Vehicles carrying dangerous goods within the tunnel restriction code indicated by the sign prohibited",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "622.1A": {
+   "caption": "Goods vehicles exceeding the maximum gross weight indicated prohibited",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "622.2": {
+   "caption": "End of prohibition of goods vehicles indicated by the sign provided for at item 13",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "622.4": {
+   "caption": "Articulated or track laying vehicles prohibited (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "622.5": {
+   "caption": "Horse-drawn vehicles prohibited",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "622.6": {
+   "caption": "Ridden or accompanied horses prohibited",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "622.7": {
+   "caption": "Towed caravans prohibited",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "622.8": {
+   "caption": "Vehicles carrying explosives prohibited",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "625.1": {
+   "caption": "Pedestrians prohibited",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "626.2A": {
+   "caption": "Vehicles exceeding the maximum gross weight indicated prohibited from crossing the bridge or other structure with exemption for empty vehicles",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "629.1": {
+   "caption": "Vehicles or combinations of vehicles exceeding the length indicated prohibited",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "629.2A": {
+   "caption": "Vehicles exceeding height indicated in metric and imperial units prohibited from passing under, into or through a bridge, tunnel or other structure",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 2"
+  },
+  "629A": {
+   "caption": "Vehicles exceeding the width indicated prohibited in both metric and imperial units",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "632": {
+   "caption": "No overtaking",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "633": {
+   "caption": "Vehicular traffic must not proceed beyond the sign where displayed by a constable in uniform or by a traffic warden",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "633.1": {
+   "caption": "Vehicular traffic must not proceed beyond the sign",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "636": {
+   "caption": "Temporary prohibition of waiting except for loading and unloading",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "636.1": {
+   "caption": "Temporary prohibition of loading and unloading",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "636.2": {
+   "caption": "Temporary prohibition on stopping during the periods indicated",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "640.1": {
+   "caption": "Waiting, loading and unloading prohibited at a parking place where parking is temporarily suspended",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "640.5": {
+   "caption": "End of designated off-road loading area",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "642": {
+   "caption": "No stopping on main carriageway",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "642.4": {
+   "caption": "Stopping of vehicles prohibited at all times on a red route clearway (and conveying to drivers that this prohibition is not indicated by double red lines)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "642.5": {
+   "caption": "End of prohibition on stopping indicated by the sign at item 8",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "646": {
+   "caption": "No stopping during time periods indicated except for so long as may be necessary for the purpose of picking up or setting down passengers",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "647": {
+   "caption": "End of the restriction on stopping indicated by the sign at item 6",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "651": {
+   "caption": "Use of verge maintained in mown or ornamental condition by specified traffic prohibited",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "652": {
+   "caption": "One-way traffic",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "663.4": {
+   "caption": "Reminder to drivers that parking on the verge or footway is prohibited (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "664": {
+   "caption": "End of controlled, voucher or restricted parking zone",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "664.1": {
+   "caption": "End of permit parking area",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "664.2": {
+   "caption": "End of loading only area",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "664.3": {
+   "caption": "End of area where parking on verge or footway is prohibited (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "666": {
+   "caption": "End of controlled parking zone applying to goods vehicles over the maximum gross weight shown or buses (or both)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "667": {
+   "caption": "Vehicles may be parked partially on the verge or footway (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "667.1": {
+   "caption": "Vehicles may be parked partially on the verge or footway during the period indicated (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "667.2": {
+   "caption": "End of area where vehicles may be parked partially on the verge or footway (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "668": {
+   "caption": "Vehicles may be parked wholly on the verge or footway (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "668.1": {
+   "caption": "Vehicles may be parked wholly on the verge or footway during the period indicated (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "668.2": {
+   "caption": "End of area where vehicles may be parked wholly on the verge or footway (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 7"
+  },
+  "670": {
+   "caption": "Maximum speed limit in mph",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 10"
+  },
+  "671": {
+   "caption": "National speed limits apply",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 10"
+  },
+  "672": {
+   "caption": "Minimum speed limit in mph",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 10"
+  },
+  "673": {
+   "caption": "End of minimum speed limit",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 10"
+  },
+  "674": {
+   "caption": "In relation to England, entrance to a zone where a maximum speed limit of 20 mph is in force",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 10"
+  },
+  "675A": {
+   "caption": "In relation to England, end of a 20 mph speed limit zone with indication of maximum speed limit in mph",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 10"
+  },
+  "675B": {
+   "caption": "In relation to England, end of a 20 mph speed limit zone with indication that national speed limits apply",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 10"
+  },
+  "676": {
+   "caption": "Entrance to a zone where a maximum speed limit of 40 mph is in force",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 10"
+  },
+  "677": {
+   "caption": "Entrance to a congestion charging zone",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 8"
+  },
+  "678": {
+   "caption": "Entrance to a congestion charging zone (alternative to item 1)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 8"
+  },
+  "679": {
+   "caption": "End of congestion charging zone",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 8"
+  },
+  "680": {
+   "caption": "Entrance to a low emission zone",
+   "caption_source": "xml",
+   "part": "PART 4B",
+   "schedule": "SCHEDULE 8"
+  },
+  "681": {
+   "caption": "End of low emission zone",
+   "caption_source": "xml",
+   "part": "PART 4B",
+   "schedule": "SCHEDULE 8"
+  },
+  "7001": {
+   "caption": "Road works or temporary obstruction of carriageway ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 13"
+  },
+  "7003.1": {
+   "caption": "Starting date and duration of road works",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "42",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7005": {
+   "caption": "Information for drivers in respect of road works",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "43",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7006": {
+   "caption": "End of road works and any associated temporary statutory restrictions",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "44",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7006.1": {
+   "caption": "Information on telephone number to be used for enquiries about road works",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7007.1": {
+   "caption": "Relevant particulars of major construction or improvement scheme being carried out on road ahead",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7008": {
+   "caption": "Nature of street works, giving names of undertaker and contractor, emergency telephone number, and apology for in-convenience (Sign for pedestrians)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7009": {
+   "caption": "Loose chippings on road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 13"
+  },
+  "7009.1": {
+   "caption": "Risk of skidding and maximum speed 20mph advised on road with loose chippings",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 13"
+  },
+  "7011": {
+   "caption": "Point beyond which vehicular traffic must not proceed when required to stop (in accordance with the provisions of Part 1) at portable light signals provided for at item 2 when the road marking provided for at item 46 is not placed on the carriageway",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "7011.1": {
+   "caption": "As for item 58 where there is a road junction",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "7011.2": {
+   "caption": "Instruction to vehicular traffic at a portable signal-controlled pedestrian facility",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "7014": {
+   "caption": "Permanent change in road layout ahead",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7014.1": {
+   "caption": "Temporary or permanent reduction in bridge headroom ahead",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7019": {
+   "caption": "Traffic light signals not in use",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "7020": {
+   "caption": "Variable message sign ahead not in use or being tested",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "52",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7021": {
+   "caption": "Traffic on road ahead is being controlled by portable light signals (indication to traffic joining that road)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "7022": {
+   "caption": "Traffic joining a length of road being controlled by portable light signals is not controlled by such signals",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "7023": {
+   "caption": "Vehicular traffic must not proceed into a length of road where one-way working is temporarily necessary (manually operated sign)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "7024": {
+   "caption": "Vehicular traffic may proceed into a length of road where one-way working is temporarily necessary (manually operated sign)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "7025": {
+   "caption": "Vehicles to be escorted in through road works ahead",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "34",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7026": {
+   "caption": "Explanation of reason for escorting vehicles in convoys through road works",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "35",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7029": {
+   "caption": "Vehicular traffic must not overtake the vehicle used to escort other vehicles through road works",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "36",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7031": {
+   "caption": "Vehicular traffic must not proceed beyond the sign when displayed for a short period during works on or near an all-purpose road (Double sided sign)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "7032": {
+   "caption": "In relation to England, commencement point of a newly imposed 30 mph speed limit which is contiguous to an existing 30 mph speed limit",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7032.1": {
+   "caption": "In relation to Wales, commencement point or warning of the commencement point of a newly imposed 20 mph speed limit",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7101.1": {
+   "caption": "Edge of a route for vehicle traffic through or past a temporary obstruction (Traffic cone)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7102": {
+   "caption": "Edge of a route for vehicular traffic through or past a temporary obstruction on a motorway or dual carriageway road (Flat traffic delineator)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7103": {
+   "caption": "Line of division of traffic flows on one carriageway, or to indicate the edge of a route for vehicular traffic through or past a temporary obstruction, or to mark a boundary between two carriageways of a dual carriageway road which may not be crossed except for fire and rescue authority, Scottish Fire and Rescue Service, ambulance or police purposes (Traffic cylinder)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7104": {
+   "caption": "Sharp deviation of route at or near road works or other temporary obstructions",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7105": {
+   "caption": "Position of barrier to mark length of road closed to traffic or to guide traffic past an obstruction",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7202.1": {
+   "caption": "Temporary lane availability (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7243": {
+   "caption": "Temporary road layout with lane restrictions",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7244": {
+   "caption": "Temporary road layout, with an indication of destinations and route numbers, where the sign is placed on a motorway",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7245": {
+   "caption": "Temporary road layout",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "16",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7291": {
+   "caption": "Information on breakdown recovery services during road works",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7294": {
+   "caption": "Temporary maximum speed in mph advised",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7402": {
+   "caption": "Lanes closed to traffic ahead by vehicles carrying out mobile road works (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "7404": {
+   "caption": "Nature of work being done by vehicle working on the highway (Sign attached to a road maintenance vehicle)",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "770": {
+   "caption": "Level crossing with gate or barrier ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "771": {
+   "caption": "Railway level crossing without gate or barrier ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "772": {
+   "caption": "Tramcars crossing ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "773": {
+   "caption": "The light signals provided for at item 5 are ahead (where those light signals are at level crossing, swing or lifting bridge, or airfields)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "774": {
+   "caption": "Location of a railway or tramway level crossing without gate or barrier",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 2"
+  },
+  "775": {
+   "caption": "Vehicular traffic must not stop within the area of a railway or tramway level crossing",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "776": {
+   "caption": "Another train or tramcar may be about to pass over the crossing. Level crossing ahead is crossed by more than one railway or tramway track, and more than one train or tramcar may pass over it in quick succession",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "777": {
+   "caption": "Another train or tramcar may be about to pass over the crossing. Level crossing ahead is crossed by more than one railway or tramway track, and more than one train or tramcar may pass over it in quick succession",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "778": {
+   "caption": "Open railway level crossing without light signals (associated plate for item 2)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 9"
+  },
+  "778.1": {
+   "caption": "Open tramway level crossing without light signals (associated plate for item 2)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 9"
+  },
+  "779": {
+   "caption": "Electrified overhead cable ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "781": {
+   "caption": "Load gauge giving audible warning to drivers where vehicles exceed safe height under electrified overhead cables",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 2"
+  },
+  "782": {
+   "caption": "Risk of grounding at a railway or tramway level crossing or hump backed bridge ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "783": {
+   "caption": "Drivers of long low, large or slow vehicles must telephone to obtain permission before using a railway or tramway level crossing (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "784.1": {
+   "caption": "Drivers of large or slow vehicles must stop and telephone in accordance with the provisions of paragraph 6 of Part 7 before using a level crossing",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "785.1": {
+   "caption": "Name of level crossing and details of telephone number for contacting railway or tramway operator",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "786": {
+   "caption": "Place where large, slow or long low vehicles should wait near a railway or tramway level crossing while the driver obtains permission by telephone to cross or confirms he or she has crossed (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "787": {
+   "caption": "Site of telephone or emergency telephone at or near a railway or tramway level crossing (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "788": {
+   "caption": "Direction to telephone or emergency telephone at or near a railway or tramway level crossing (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "789": {
+   "caption": "789.2 Countdown markers to railway or tramway level crossing",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 2"
+  },
+  "789.1": {
+   "caption": "789.2 Countdown markers to railway or tramway level crossing",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 2"
+  },
+  "789.2": {
+   "caption": "Countdownmarkers torailway ortramwaylevelcrossing",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "6",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 2"
+  },
+  "790": {
+   "caption": "New method of controlling traffic at a railway or tramway level crossing ahead \u2013 temporary sign",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "801": {
+   "caption": "Parking place",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "804.1": {
+   "caption": "Parking place reserved for goods vehicles",
+   "caption_source": "xml",
+   "part": "PART 1",
+   "schedule": "SCHEDULE 5"
+  },
+  "804.2": {
+   "caption": "Parking place reserved for motor cars",
+   "caption_source": "xml",
+   "part": "PART 1",
+   "schedule": "SCHEDULE 5"
+  },
+  "804.3": {
+   "caption": "Parking place reserved for motorised caravans or caravans drawn by motor vehicles",
+   "caption_source": "xml",
+   "part": "PART 1",
+   "schedule": "SCHEDULE 5"
+  },
+  "804.4": {
+   "caption": "Parking place reserved for solo motor cycles other than electric scooters being used in a trial",
+   "caption_source": "xml",
+   "part": "PART 1",
+   "schedule": "SCHEDULE 5"
+  },
+  "810": {
+   "caption": "One-way traffic (Sign for pedestrians) (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "811A": {
+   "caption": "Beginning and end of section of road where traffic has priority over vehicles from the opposite direction",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "811B": {
+   "caption": "Beginning and end of section of road where traffic has priority over vehicles from the opposite direction",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "814.1": {
+   "caption": "Stepped access to and from a pedestrian subway or overbridge",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "814.2": {
+   "caption": "Ramped access to or from a pedestrian subway or overbridge",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "814.3": {
+   "caption": "Stepped access to and from a pedestrian subway or overbridge",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "814.4": {
+   "caption": "Ramped access to or from a pedestrian subway or overbridge",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "816": {
+   "caption": "No through road for vehicular traffic (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "816.1": {
+   "caption": "Alternative to the sign shown at item 5 with a street nameplate",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "817": {
+   "caption": "No through road for vehicular traffic in direction indicated from junction ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "817.2": {
+   "caption": "Escape lane ahead for vehicles unable to stop on a steep hill",
+   "caption_source": "xml",
+   "part": "PART 3",
+   "schedule": "SCHEDULE 2"
+  },
+  "818.1": {
+   "caption": "Section of dual carriageway road ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "818.1A": {
+   "caption": "Distance over which a short length of dual carriageway road beginning directly ahead extends (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "818.4": {
+   "caption": "Nature and location of a prohibition, restriction or requirement with indication of alternative route",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "818.5": {
+   "caption": "Location of a low bridge with indication of alternative route",
+   "caption_source": "xml",
+   "part": "PART 28",
+   "schedule": "SCHEDULE 12"
+  },
+  "818.6": {
+   "caption": "Advance indication of a congestion charging zone",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 8"
+  },
+  "818.7": {
+   "caption": "Advance indication of a congestion charging zone (alternative to item 3)",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 8"
+  },
+  "820": {
+   "caption": "Route unsuitable for type of vehicle indicated (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "820.1": {
+   "caption": "Absence of hard shoulder for the distance shown (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "820A": {
+   "caption": "Road unsuitable for heavy goods vehicles (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "821": {
+   "caption": "Road ahead only wide enough for one line of vehicles, and providing information about passing places (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "822": {
+   "caption": "Passing place on narrow road",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "823": {
+   "caption": "Distance in hundreds of yards to a roundabout or the next point at which traffic may leave a route (diagram shows blue background \u2013 for use on motorways)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "823.1": {
+   "caption": "Distance in hundreds of yards to the point that a reduced maximum speed limit begins (diagram shows dark green background for use on primary routes)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "824": {
+   "caption": "Distance in hundreds of yards to a roundabout or the next point at which traffic may leave a route (diagram shows blue background \u2013 for use on motorways)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "824.1": {
+   "caption": "Distance in hundreds of yards to the point that a reduced maximum speed limit begins (diagram shows dark green background for use on primary routes)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "825": {
+   "caption": "Distance in hundreds of yards to a roundabout or the next point at which traffic may leave a route (diagram shows blue background \u2013 for use on motorways)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "825.1": {
+   "caption": "Distance in hundreds of yards to the point that a reduced maximum speed limit begins (diagram shows dark green background for use on primary routes)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "827.1": {
+   "caption": "Hospital ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "827.2": {
+   "caption": "Hospital ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "827.3": {
+   "caption": "Hospital ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "829.1": {
+   "caption": "Potential danger temporarily ahead and consequent need to proceed with caution",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "23",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "829.2": {
+   "caption": "Accident ahead and consequent need to proceed with caution",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "24",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "829.3": {
+   "caption": "Traffic should use the hard shoulder in an emergency",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "25",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "829.4": {
+   "caption": "End of temporary permission for traffic to use the hard shoulder",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "829.5": {
+   "caption": "Area where police carry out checks on the speed of vehicles",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "829.6": {
+   "caption": "Waiting place for police or authorised vehicles only (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "830.1": {
+   "caption": "Signs indicating that a traffic survey is being undertaken",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "46",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "830.2": {
+   "caption": "Goods vehicles may be directed to stop ahead by a constable in uniform for the purposes of sections 67,68, or 78 of the Road Traffic Act 1988",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "47",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "830.3": {
+   "caption": "Vehicles should stay in lane for the purposes of a traffic survey, or a weight or vehicle check ahead",
+   "caption_source": "pdf-table (spacing unreliable)",
+   "item": "48",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "831.2": {
+   "caption": "Checks being made in relation to vehicle excise licences (or emissions) ahead",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "832.1B": {
+   "caption": "Check point ahead",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "832.4": {
+   "caption": "Instructions in relation to goods vehicles for a check point ahead",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "832.7": {
+   "caption": "Goods vehicles or public service vehicles (PSV) should get into the left hand lane of a carriageway on the approach to a goods vehicle or PSV check point ahead",
+   "caption_source": "xml",
+   "part": "PART 6",
+   "schedule": "SCHEDULE 13"
+  },
+  "833": {
+   "caption": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "834": {
+   "caption": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "835": {
+   "caption": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "836": {
+   "caption": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "857.1": {
+   "caption": "Information relating to a taxi rank for the number of taxis specified",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "857A": {
+   "caption": "Information for pedestrians about tourist destinations and leisure facilities in a nearby place or area",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "857B": {
+   "caption": "Information for pedestrians about tourist destinations and leisure facilities in a nearby place or area",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "864.2": {
+   "caption": "Vehicle testing station approved by the Driver and Vehicle Standards Agency",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "865": {
+   "caption": "Motor cycle test centre",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "872.1": {
+   "caption": "The number of traffic lanes reduces ahead (diagram shows blue background \u2013 for use on motorways) (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "873": {
+   "caption": "Additional traffic joining from the left or right ahead (diagram shows blue background \u2013 for use on motorways)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "874": {
+   "caption": "Additional traffic joining from the left or right ahead (diagram shows blue background \u2013 for use on motorways)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "877": {
+   "caption": "Appropriate traffic lanes for different manoeuvres at a junction ahead (diagram shows white background \u2013 for use on non-primary routes) (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "878": {
+   "caption": "Area in which enforcement cameras are in use (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "880": {
+   "caption": "In relation to England, speed camera ahead on a lit road and reminder of 30 mph speed limit",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "880.1": {
+   "caption": "Speed camera ahead on an unlit road and reminder that a national speed limit applies",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "880.2": {
+   "caption": "In relation to Wales, speed camera ahead on a lit road and reminder of 20 mph speed limit",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "881": {
+   "caption": "Start of a home zone designated under section 268 of the Transport Act 2000, or section 74(1) of the Transport (Scotland) Act 2001",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "882": {
+   "caption": "End of a home zone indicated by the sign at item 27",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "883": {
+   "caption": "Indication of the start of area with traffic calming features (within the meaning of paragraph 1(3) of the Schedule 10 General Directions)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "883.1": {
+   "caption": "In relation to Wales, end of traffic calmed area",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "884": {
+   "caption": "Start of a quiet lane in England designated under section 268 of the Transport Act 2000",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "885": {
+   "caption": "End of designated quiet lane in England",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "886": {
+   "caption": "Road ahead where motorists, cyclists , drivers of electric scooters being used in a trial and pedestrians should expect to share the same space",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "887": {
+   "caption": "Overtaking lane ahead",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "888": {
+   "caption": "Indication of length of road over which an overtaking lane is available on a single carriageway road, with a single traffic lane in the opposite direction (diagram shows green background \u2013 for use on primary routes)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "889": {
+   "caption": "Indication that only one lane of traffic, with no overtaking, is available on a single carriageway road with two traffic lanes in the opposite direction (diagram shows green background \u2013 for use on primary routes)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "890": {
+   "caption": "Distance ahead to a point where an overtaking lane ends on a single carriageway road (diagram shows green background \u2013 for use on primary routes)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "891": {
+   "caption": "Distance ahead to a point where an overtaking lane ends on a single carriageway road on the approach to a dual carriageway road with only one traffic lane in each direction (diagram shows green background \u2013 for use on primary routes)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "892": {
+   "caption": "Name and length of a tunnel on a motorway",
+   "caption_joint": "Name and length of a tunnel on a motorway (892) or all\u2011purpose road (893)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "893": {
+   "caption": "Name and length of a tunnel on an all-purpose road",
+   "caption_joint": "Name and length of a tunnel on a motorway (892) or all\u2011purpose road (893)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "894": {
+   "caption": "Reminder to drivers within a congestion charging zone in which cameras are used to enforce traffic regulations",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 8"
+  },
+  "895": {
+   "caption": "Reminder to drivers within a low emission zone in which cameras are used to identify contraventions of a low emission zone scheme",
+   "caption_source": "xml",
+   "part": "PART 4B",
+   "schedule": "SCHEDULE 8"
+  },
+  "950": {
+   "caption": "Cycle route ahead (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 2"
+  },
+  "951": {
+   "caption": "Riding of pedal cycles and electric scooters being used in a trial, prohibited",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "952": {
+   "caption": "Buses prohibited",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "953": {
+   "caption": "Route for use by buses, pedal cycles , electric scooters being used in a trial and taxis only (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "953.1": {
+   "caption": "Route for use by tramcars only",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "953.1A": {
+   "caption": "Route for use by tramcars, buses , electric scooters being used in a trial and pedal cycles only (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "953.1B": {
+   "caption": "Route for use by tramcars, buses, pedal cycles , electric scooters being used in a trial and taxis only (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "953.1C": {
+   "caption": "Route for use by tramcars, buses, pedal cycles, solo motor cycles and taxis only (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "953.3": {
+   "caption": "Entrance to a bus station, depot or garage",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "953A": {
+   "caption": "Route for use by buses, pedal cycles and solo motor cycles only (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "953B": {
+   "caption": "Route for use by buses, pedal cycles, solo motor cycles and taxis only (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "954.5": {
+   "caption": "Classes of vehicle excluded from restriction or prohibition conveyed by associated sign . Where the word \u2018cycles\u2019 is used on the sign, this also represents, where relevant, electric scooters being used in a trial (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "954.6": {
+   "caption": "Classes of vehicle excluded from restriction or prohibition conveyed by associated sign . Where the word \u2018cycles\u2019 is used on the sign, this also represents, where relevant, electric scooters being used in a trial (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "954.7": {
+   "caption": "Classes of vehicle excluded from restriction or prohibition conveyed by associated sign . Where the word \u2018cycles\u2019 is used on the sign, this also represents, where relevant, electric scooters being used in a trial (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 14"
+  },
+  "955": {
+   "caption": "Route for use by pedal cycles and electric scooters being used in a trial, only",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "956": {
+   "caption": "Route for use by pedal cycles , electric scooters being used in a trial and pedestrians only",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "956.1": {
+   "caption": "Route for use by pedal cycles, electric scooters being used in a trial, horses and pedestrians only",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "956.2": {
+   "caption": "Route for use by pedal cycles, electric scooters being used in a trial, horse-drawn vehicles and pedestrians only",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "957": {
+   "caption": "Route comprising two ways for use by pedal cycles and electric scooters being used in a trial, only and by pedestrians only, with those ways separated by the marking provided for at item 7 or 8 of the table in Part 6 of Schedule 9, or by physical means, (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 3"
+  },
+  "958": {
+   "caption": "With-flow bus lane ahead which authorised vehicles, solo motor cycles, pedal cycles , electric scooters being used in a trial and taxis may also use, with indication of times of operation and where the pedal cycle symbol represents, where relevant, electric scooters being used in a trial",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "958.1": {
+   "caption": "With-flow mandatory cycle lane ahead, with indication of times of operation",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "959.1": {
+   "caption": "With-flow cycle lane with indication of times of operation",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "959B": {
+   "caption": "Nearside with-flow bus lane, which authorised vehicles, taxis, solo motor cycles , pedal cycles and electric scooters being used in a trial may also use, with indication of times of operation",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "960": {
+   "caption": "One-way road with a contraflow bus and cycle lane",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "960.1": {
+   "caption": "One-way road with a mandatory contraflow cycle lane",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "960.2": {
+   "caption": "One-way road with contraflow pedal cycles and electric scooters being used in a trial",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "962": {
+   "caption": "Bus lane or lanes on a road at junction ahead, with indication of times of operation (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "962.1": {
+   "caption": "Cycle lane on a road at junction ahead or, if applicable, a cycle track crossing road, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial, with indication of times of operation",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "962.2": {
+   "caption": "Contraflow bus lane ahead on a road at a junction which pedal cycles and electric scooters being used in a trial may also use (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "963": {
+   "caption": "Direction in which pedestrians should look for approaching traffic when crossing a bus lane (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "963.1": {
+   "caption": "Direction in which pedestrians should look for approaching pedal cycles and electric scooters being used in a trial when crossing a cycle lane or, if applicable, cycle track, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "963.2": {
+   "caption": "Direction in which pedestrians should look for approaching traffic when crossing a contraflow bus lane which pedal cycles and electric scooters being used in a trial may also use (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "963.3": {
+   "caption": "Direction in which pedestrians should look for approaching tramcars when crossing a tramway (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "964": {
+   "caption": "End of with-flow bus lane",
+   "caption_source": "xml",
+   "part": "PART 4",
+   "schedule": "SCHEDULE 9"
+  },
+  "965": {
+   "caption": "End of cycle lane, track or route",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "966": {
+   "caption": "Pedal cyclists and drivers of electric scooters being used in a trial to rejoin main carriageway or dismount at the end of, or at a break in, a cycle track or route (Alternative types)",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "967": {
+   "caption": "Route recommended for pedal cycles and electric scooters being used in a trial on the main carriageway of a road",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "968": {
+   "caption": "Parking place for pedal cycles",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "968.1": {
+   "caption": "Parking place for pedal cycles",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "969": {
+   "caption": "Parking place reserved for buses",
+   "caption_source": "xml",
+   "part": "PART 1",
+   "schedule": "SCHEDULE 5"
+  },
+  "970": {
+   "caption": "Stopping place for buses",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "971": {
+   "caption": "Stopping place for tramcars",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "972": {
+   "caption": "Stopping place for buses used for carrying tourists to allow passengers to take photographs",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "973.2": {
+   "caption": "Stopping place for buses operated by or on behalf of, or under agreement with, Transport for London",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "973.3": {
+   "caption": "Stopping place for buses operated by or on behalf of, or under agreement with, Transport for London",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  },
+  "976": {
+   "caption": "Maximum speed limit for tramcars in kilometres per hour",
+   "caption_source": "xml",
+   "part": "PART 2",
+   "schedule": "SCHEDULE 11"
+  }
+ },
+ "generated_by": "qa round 1 (Build), from refs/si_revised.xml (SI 2016/362 revised XML, legislation.gov.uk; not committed)",
+ "method": "Every Schedule table cell whose first paragraph is 'Diagram(s) N' -> id, caption = remaining paragraphs. 17 ids that the XML walk misses (e.g. 2701, 829.1-829.3, 7xxx) come from the Reviewer's PDF table extract (caption_source 'pdf-table', spacing unreliable). Ids and captions only; diagram drawings are images and are not represented. Joint captions naming two ids (2032/2130, 892/893) are split per id; the SI wording is kept in caption_joint. Non-breaking hyphens normalised to '-'.",
+ "source": "The Traffic Signs Regulations and General Directions 2016 (SI 2016/362), legislation.gov.uk consolidated XML (/uksi/2016/362/data.xml, valid 31 Oct 2026). Contains public sector information licensed under the Open Government Licence v3.0."
+}

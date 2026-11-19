@@ -1,0 +1,404 @@
+[
+ {
+  "id": "618",
+  "diag": "618",
+  "label": "618",
+  "src": "02",
+  "page": 81,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "merge_single": false
+  }
+ },
+ {
+  "id": "618.1",
+  "diag": "618.1",
+  "label": "618.1",
+  "src": "02",
+  "page": 81,
+  "family": "Prohibitory",
+  "batch": "2"
+ },
+ {
+  "id": "618.2",
+  "diag": "618.2",
+  "label": "618.2",
+  "src": "02",
+  "page": 82,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "drop_layers": [
+    "red"
+   ]
+  }
+ },
+ {
+  "id": "618.3",
+  "diag": "618.3",
+  "label": "618.3",
+  "src": "02",
+  "page": 83,
+  "family": "Prohibitory",
+  "up": 2200,
+  "batch": "2",
+  "half": 1000
+ },
+ {
+  "id": "618.3A",
+  "diag": "618.3A",
+  "label": "618.3A",
+  "src": "02",
+  "page": 84,
+  "family": "Prohibitory",
+  "up": 2200,
+  "half": 1000,
+  "batch": "2"
+ },
+ {
+  "id": "618.4",
+  "diag": "618.4",
+  "label": "618.4",
+  "src": "02",
+  "page": 85,
+  "family": "Prohibitory",
+  "batch": "2"
+ },
+ {
+  "id": "622.9",
+  "diag": "622.9",
+  "label": "622.9",
+  "src": "02",
+  "page": 88,
+  "family": "Prohibitory",
+  "batch": "2"
+ },
+ {
+  "id": "627.1",
+  "diag": "627.1",
+  "label": "627.1",
+  "src": "02",
+  "page": 89,
+  "family": "Prohibitory",
+  "crop": [
+   245,
+   708,
+   870,
+   948
+  ],
+  "batch": "2"
+ },
+ {
+  "id": "637.1",
+  "diag": "637.1",
+  "label": "637.1",
+  "src": "02",
+  "page": 91,
+  "family": "Prohibitory",
+  "batch": "2"
+ },
+ {
+  "id": "637.2",
+  "diag": "637.2",
+  "label": "637.2",
+  "src": "02",
+  "page": 92,
+  "family": "Prohibitory",
+  "up": 2200,
+  "half": 1000,
+  "batch": "2"
+ },
+ {
+  "id": "637.3",
+  "diag": "637.3",
+  "label": "637.3",
+  "src": "02",
+  "page": 93,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "texts": [
+    [
+     "At",
+     0
+    ],
+    [
+     "any",
+     1
+    ],
+    [
+     "time",
+     2
+    ],
+    [
+     "1 May - 30 Sept",
+     23,
+     174,
+     475,
+     245
+    ]
+   ]
+  }
+ },
+ {
+  "id": "638",
+  "diag": "638",
+  "label": "638",
+  "src": "02",
+  "page": 93,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "single": false
+  }
+ },
+ {
+  "id": "638.1",
+  "diag": "638.1",
+  "label": "638.1",
+  "src": "02",
+  "page": 93,
+  "family": "Prohibitory",
+  "batch": "2"
+ },
+ {
+  "id": "639",
+  "diag": "639",
+  "label": "639",
+  "src": "02",
+  "page": 93,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "merge_single": false
+  }
+ },
+ {
+  "id": "639.1B",
+  "diag": "639.1B",
+  "label": "639.1B",
+  "src": "02",
+  "page": 94,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "merge_single": false
+  }
+ },
+ {
+  "id": "640",
+  "diag": "640",
+  "label": "640",
+  "src": "02",
+  "page": 94,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "merge_single": false
+  }
+ },
+ {
+  "id": "640.2A",
+  "diag": "640.2A",
+  "label": "640.2A",
+  "src": "02",
+  "page": 95,
+  "family": "Prohibitory",
+  "opts": {
+   "fix": {
+    "0": "5T"
+   }
+  },
+  "batch": "2"
+ },
+ {
+  "id": "640.3",
+  "diag": "640.3",
+  "label": "640.3",
+  "src": "02",
+  "page": 96,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "merge_single": false
+  }
+ },
+ {
+  "id": "640.4",
+  "diag": "640.4",
+  "label": "640.4",
+  "src": "02",
+  "page": 96,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "merge_single": false
+  }
+ },
+ {
+  "id": "642.3",
+  "diag": "642.3",
+  "label": "642.3",
+  "src": "02",
+  "page": 97,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "merge_single": false
+  }
+ },
+ {
+  "id": "650.1",
+  "diag": "650.1",
+  "label": "650.1",
+  "src": "02",
+  "page": 98,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "texts": [
+    [
+     "No stopping",
+     0
+    ],
+    [
+     "11 pm - 5 am",
+     44,
+     183,
+     369,
+     242
+    ],
+    [
+     "except taxis",
+     4
+    ]
+   ]
+  }
+ },
+ {
+  "id": "650.2",
+  "diag": "650.2",
+  "label": "650.2",
+  "src": "02",
+  "page": 99,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "single": false,
+   "merge_single": false
+  }
+ },
+ {
+  "id": "650.3",
+  "diag": "650.3",
+  "label": "650.3",
+  "src": "02",
+  "page": 99,
+  "family": "Prohibitory",
+  "batch": "2"
+ },
+ {
+  "id": "660.3",
+  "diag": "660.3",
+  "label": "660.3",
+  "src": "02",
+  "page": 100,
+  "family": "Prohibitory",
+  "opts": {
+   "chars": "AB",
+   "add": [
+    [
+     "C",
+     482,
+     228,
+     520,
+     286
+    ]
+   ]
+  },
+  "batch": "2"
+ },
+ {
+  "id": "660.4",
+  "diag": "660.4",
+  "label": "660.4",
+  "src": "02",
+  "page": 101,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "merge_single": false
+  }
+ },
+ {
+  "id": "660.5",
+  "diag": "660.5",
+  "label": "660.5",
+  "src": "02",
+  "page": 101,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "single": false
+  }
+ },
+ {
+  "id": "660.6",
+  "diag": "660.6",
+  "label": "660.6",
+  "src": "02",
+  "page": 102,
+  "family": "Prohibitory",
+  "up": 2200,
+  "batch": "2",
+  "half": 1000
+ },
+ {
+  "id": "660.7",
+  "diag": "660.7",
+  "label": "660.7",
+  "src": "02",
+  "page": 103,
+  "family": "Prohibitory",
+  "up": 2200,
+  "opts": {
+   "drop": [
+    "[A",
+    "[A]"
+   ]
+  },
+  "batch": "2",
+  "half": 1000
+ },
+ {
+  "id": "661.1",
+  "diag": "661.1",
+  "label": "661.1",
+  "src": "02",
+  "page": 104,
+  "family": "Prohibitory",
+  "batch": "2"
+ },
+ {
+  "id": "661.2A",
+  "diag": "661.2A",
+  "label": "661.2A",
+  "src": "02",
+  "page": 104,
+  "family": "Prohibitory",
+  "batch": "2",
+  "opts": {
+   "single": false
+  }
+ },
+ {
+  "id": "661.3A",
+  "diag": "661.3A",
+  "label": "661.3A",
+  "src": "02",
+  "page": 104,
+  "family": "Prohibitory",
+  "batch": "2"
+ }
+]

@@ -1,0 +1,54 @@
+{
+  "lede": {
+    "text": "Plates face the stream that must obey them (painted face = travel + 180\u00b0). UK nearside is left of travel. Exceptions: offside/central-island duplicates, rear-facing end plates, cantilevers, side-road facing plates, mapped portal gantries in the running lane.",
+    "source": "engine-default (TSM Ch.1/3/4 not in this tree)"
+  },
+  "verge_std": {
+    "text": "UK nearside verge, half-width + 0.8 m (engine-default lateral offset). Face of flow (face normal opposes travel).",
+    "source": "engine-default"
+  },
+  "gw_stop": {
+    "text": "602 / 601.1: left of the minor approach, before diagram 1003A / 1002.1 (TSM Chapter 3 not read \u2014 distance unsourced). 611.1 at a mini-roundabout: 1.5 m before the give-way line, maximum 12 m (TSM5 \u00a76.3.6).",
+    "source": "TSM5 \u00a76.3.6 (611.1); 602/601.1 TSM Ch.3 unread"
+  },
+  "stack": {
+    "text": "Same post as a co-tagged plate (e.g. 530A over 629.2A). Verge.",
+    "source": "engine-default"
+  },
+  "both_kerbs": {
+    "text": "Both sides of the entry (616, bus gate when co-tagged).",
+    "source": "unsourced (TSM Chapter 3 not read)"
+  },
+  "refuge": {
+    "text": "On the refuge / island centre, not the verge (610 / 611). Underside 0.55 m is an engine-default.",
+    "source": "engine-default"
+  },
+  "signals": {
+    "text": "Primary head stands beyond (downstream of) the 1001 stop line. Secondary head on the far side of the junction. The cooker currently plants one kerbside head per approach (engine-default).",
+    "source": "TSM Chapter 6 unread; engine-default placement"
+  },
+  "crossing": {
+    "text": "Both kerbs. Zebra: Belisha (TSRGD 4007). Signal crossing: pedestrian heads.",
+    "source": "TSRGD Sch14 Pt1 / Pt4"
+  },
+  "portal": {
+    "text": "Mapped gantry only. Underside clearance 5.5 m (unsourced \u2014 DMRB not checked). Width = way length clamped 8\u201318 m (engine heuristic).",
+    "source": "engine-default / heuristic"
+  },
+  "wigwag": {
+    "text": "Both sides of a mapped level crossing, ~2 m before the running rail.",
+    "source": "unsourced"
+  },
+  "marker": {
+    "text": "Back of hard shoulder + 1.2 m. Never in the running lane. Not a TSRGD diagram.",
+    "source": "unsourced; kind non-tsrgd"
+  },
+  "footway_dir": {
+    "text": "Underside 2.1 m if a footway/cycleway/path is within 4 m; else 1.5 m verge. Distances are engine-defaults.",
+    "source": "engine-default (TSM unread)"
+  },
+  "street_name": {
+    "text": "Named OSM corner (\u22653 arms, \u22652 names). Face the named street. Underside 0.80 m. Not a TSRGD diagram.",
+    "source": "engine-default; kind non-tsrgd"
+  }
+}

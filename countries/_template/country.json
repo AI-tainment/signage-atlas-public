@@ -1,0 +1,17 @@
+{
+  "id": "xx",
+  "name": "Country name",
+  "iso": "XX",
+  "applies": "",
+  "spec": [],
+  "source_of_truth": "countries/xx/*.json",
+  "licence": {
+    "diagrams": "",
+    "typeface": "",
+    "osm": "OpenStreetMap contributors, ODbL."
+  },
+  "fonts": [],
+  "colours": {},
+  "counts": { "signs": 0, "glyphs": 0, "fallback": 0 },
+  "units": "metres"
+}

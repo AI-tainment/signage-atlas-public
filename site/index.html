@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Signage Atlas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;650&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/wiki.css"/>
+</head>
+<body>
+  <div class="layout">
+    <aside class="side">
+      <div class="brand">Signage Atlas
+        <small>Procedural traffic furniture wiki</small>
+      </div>
+      <input class="search" id="q" type="search" placeholder="Search 670, mini-roundabout, zebra…" autocomplete="off"/>
+      <ul class="nav" id="nav"></ul>
+    </aside>
+    <main class="main" id="main"></main>
+  </div>
+  <script src="assets/data.js"></script>
+  <script src="assets/render.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

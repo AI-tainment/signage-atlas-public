@@ -1,0 +1,541 @@
+[
+  {
+    "id": "1008",
+    "kind": "marking",
+    "diagram": "1008",
+    "status": "current",
+    "name": "Centre line",
+    "what": "Broken white line along the carriageway on two-way roads at or below 40 mph.",
+    "renderer": "dash",
+    "dimensions_m": {
+      "width": 0.1,
+      "mark": 2.0,
+      "gap": 4.0
+    },
+    "pair": null,
+    "schedule": "S11-4-6; TSM T2-1",
+    "source": {
+      "width": "S11-4-6; TSM T2-1",
+      "mark": "S11-4-6; TSM T2-1",
+      "gap": "S11-4-6; TSM T2-1"
+    }
+  },
+  {
+    "id": "1008.1",
+    "kind": "marking",
+    "diagram": "1008.1",
+    "status": "current",
+    "name": "Centre line (higher speed)",
+    "what": "Broken white centre line above 40 mph.",
+    "renderer": "dash",
+    "dimensions_m": {
+      "width": 0.1,
+      "mark": 3.0,
+      "gap": 6.0
+    },
+    "pair": null,
+    "schedule": "S11-4-7; TSM T2-1",
+    "source": {
+      "width": "S11-4-7; TSM T2-1",
+      "mark": "S11-4-7; TSM T2-1",
+      "gap": "S11-4-7; TSM T2-1"
+    }
+  },
+  {
+    "id": "1004",
+    "kind": "marking",
+    "diagram": "1004",
+    "status": "current",
+    "name": "Hazard warning line",
+    "what": "Replaces the centre line on the approach to give-way, stop, signals or roundabouts.",
+    "renderer": "dash",
+    "dimensions_m": {
+      "width": 0.1,
+      "mark": 4.0,
+      "gap": 2.0,
+      "approach": 30.0
+    },
+    "pair": "602",
+    "schedule": "S11-4-2; TSM T2-3",
+    "source": {
+      "width": "S11-4-2; TSM T2-3",
+      "mark": "S11-4-2; TSM T2-3",
+      "gap": "S11-4-2; TSM T2-3",
+      "approach": "S11-4-2; TSM T2-3"
+    }
+  },
+  {
+    "id": "1004.1",
+    "kind": "marking",
+    "diagram": "1004.1",
+    "status": "current",
+    "name": "Hazard warning line (higher speed)",
+    "what": "Hazard warning line above 40 mph.",
+    "renderer": "dash",
+    "dimensions_m": {
+      "width": 0.1,
+      "mark": 6.0,
+      "gap": 3.0,
+      "approach": 63.0
+    },
+    "pair": null,
+    "schedule": "S11-4-3; TSM T2-3",
+    "source": {
+      "width": "S11-4-3; TSM T2-3",
+      "mark": "S11-4-3; TSM T2-3",
+      "gap": "S11-4-3; TSM T2-3",
+      "approach": "S11-4-3; TSM T2-3"
+    }
+  },
+  {
+    "id": "1005",
+    "kind": "marking",
+    "diagram": "1005",
+    "status": "current",
+    "name": "Lane line",
+    "what": "Lane division along the carriageway at or below 40 mph.",
+    "renderer": "dash",
+    "dimensions_m": {
+      "width": 0.1,
+      "mark": 1.0,
+      "gap": 5.0
+    },
+    "pair": null,
+    "schedule": "S11-4-4; TSM T2-1",
+    "source": {
+      "width": "S11-4-4; TSM T2-1",
+      "mark": "S11-4-4; TSM T2-1",
+      "gap": "S11-4-4; TSM T2-1"
+    }
+  },
+  {
+    "id": "1005.1",
+    "kind": "marking",
+    "diagram": "1005.1",
+    "status": "current",
+    "name": "Lane line (higher speed)",
+    "what": "Lane division above 40 mph.",
+    "renderer": "dash",
+    "dimensions_m": {
+      "width": 0.1,
+      "mark": 2.0,
+      "gap": 7.0
+    },
+    "pair": null,
+    "schedule": "S11-4-5; TSM T2-1",
+    "source": {
+      "width": "S11-4-5; TSM T2-1",
+      "mark": "S11-4-5; TSM T2-1",
+      "gap": "S11-4-5; TSM T2-1"
+    }
+  },
+  {
+    "id": "1013.1",
+    "kind": "marking",
+    "diagram": "1013.1",
+    "status": "current",
+    "name": "Double white lines",
+    "what": "No overtaking. Two solid white lines along the carriageway.",
+    "renderer": "double_solid",
+    "dimensions_m": {
+      "width": 0.1,
+      "gap": 0.09
+    },
+    "pair": null,
+    "schedule": "S9-6-23",
+    "source": {
+      "width": "S9-6-23",
+      "gap": "S9-6-23"
+    }
+  },
+  {
+    "id": "1012.1",
+    "kind": "marking",
+    "diagram": "1012.1",
+    "status": "current",
+    "name": "Edge line",
+    "what": "Line along the edge of the carriageway.",
+    "renderer": "solid",
+    "dimensions_m": {
+      "width": 0.1,
+      "width_fast": 0.15,
+      "width_motorway": 0.2,
+      "inset": 0.225
+    },
+    "pair": null,
+    "schedule": "S11-4-11; TSM 2.5.8, T2-5",
+    "source": {
+      "width": "S11-4-11; TSM 2.5.8, T2-5",
+      "width_fast": "S11-4-11; TSM 2.5.8, T2-5",
+      "width_motorway": "S11-4-11; TSM 2.5.8, T2-5",
+      "inset": "S11-4-11; TSM 2.5.8, T2-5"
+    }
+  },
+  {
+    "id": "1010",
+    "kind": "marking",
+    "diagram": "1010",
+    "status": "current",
+    "name": "Edge line across a junction mouth",
+    "what": "Broken edge line at lay-bys and minor side-road mouths.",
+    "renderer": "dash",
+    "dimensions_m": {
+      "width": 0.1,
+      "mark": 1.0,
+      "gap": 1.0
+    },
+    "pair": null,
+    "schedule": "S11-4-10; TSM T2-5",
+    "source": {
+      "width": "S11-4-10; TSM T2-5",
+      "mark": "S11-4-10; TSM T2-5",
+      "gap": "S11-4-10; TSM T2-5"
+    }
+  },
+  {
+    "id": "1003A",
+    "kind": "marking",
+    "diagram": "1003A",
+    "status": "current",
+    "name": "Give way to traffic on major road",
+    "what": "Double broken transverse line. Also used at mini-roundabouts.",
+    "renderer": "give_way",
+    "dimensions_m": {
+      "width": 0.2,
+      "mark": 0.6,
+      "gap": 0.3,
+      "pair_gap": 0.3,
+      "setback": 0.5
+    },
+    "pair": "602",
+    "schedule": "S9-6-3",
+    "source": {
+      "width": "S9-6-3",
+      "mark": "S9-6-3",
+      "gap": "S9-6-3",
+      "pair_gap": "S9-6-3",
+      "setback": "S9-6-3"
+    }
+  },
+  {
+    "id": "1003.1",
+    "kind": "marking",
+    "diagram": "1003.1",
+    "status": "current",
+    "name": "Give way to traffic from the right at a roundabout",
+    "what": "Single broken line at a roundabout entry.",
+    "renderer": "dash",
+    "dimensions_m": {
+      "width": 0.2,
+      "mark": 1.0,
+      "gap": 1.0
+    },
+    "pair": "510",
+    "schedule": "S11-4-1; TSM 6.2.2",
+    "source": {
+      "width": "S11-4-1; TSM 6.2.2",
+      "mark": "S11-4-1; TSM 6.2.2",
+      "gap": "S11-4-1; TSM 6.2.2"
+    }
+  },
+  {
+    "id": "1003.3",
+    "kind": "marking",
+    "diagram": "1003.3",
+    "status": "current",
+    "name": "Give way to traffic from the right at a mini-roundabout",
+    "what": "Give-way line used with a mini-roundabout.",
+    "renderer": "dash",
+    "dimensions_m": {
+      "width": 0.2,
+      "mark": 0.6,
+      "gap": 0.3
+    },
+    "pair": "611.1",
+    "schedule": "S9-6-6; TSM 6.3.6",
+    "source": {
+      "width": "S9-6-6; TSM 6.3.6",
+      "mark": "S9-6-6; TSM 6.3.6",
+      "gap": "S9-6-6; TSM 6.3.6"
+    }
+  },
+  {
+    "id": "1003.4",
+    "kind": "marking",
+    "diagram": "1003.4",
+    "status": "current",
+    "name": "Mini-roundabout disc",
+    "what": "White island disc with three circulation arrows.",
+    "renderer": "mini_disc",
+    "dimensions_m": {
+      "diameter": 2.5,
+      "min": 1.0,
+      "max": 4.0,
+      "arrows": 3,
+      "arrow_length": 2.2,
+      "arrow_gap": 1.0
+    },
+    "pair": "611.1",
+    "schedule": "S9-6-5; TSM 6.3.3\u20136.3.4",
+    "source": {
+      "diameter": "S9-6-5; TSM 6.3.3\u20136.3.4",
+      "min": "S9-6-5; TSM 6.3.3\u20136.3.4",
+      "max": "S9-6-5; TSM 6.3.3\u20136.3.4",
+      "arrows": "S9-6-5; TSM 6.3.3\u20136.3.4",
+      "arrow_length": "S9-6-5; TSM 6.3.3\u20136.3.4",
+      "arrow_gap": "S9-6-5; TSM 6.3.3\u20136.3.4"
+    }
+  },
+  {
+    "id": "1023A",
+    "kind": "marking",
+    "diagram": "1023A",
+    "status": "current",
+    "name": "Warning of Give Way just ahead",
+    "what": "Hollow triangle on the carriageway. Base nearest the give-way line.",
+    "renderer": "gw_triangle",
+    "dimensions_m": {
+      "length": 3.75,
+      "base": 1.25,
+      "stroke": 0.15
+    },
+    "pair": "1003A",
+    "schedule": "S9-6-4",
+    "source": {
+      "length": "S9-6-4",
+      "base": "S9-6-4",
+      "stroke": "S9-6-4"
+    }
+  },
+  {
+    "id": "1002.1",
+    "kind": "marking",
+    "diagram": "1002.1",
+    "status": "current",
+    "name": "Stop line at Stop sign",
+    "what": "Solid transverse line pairing with Stop and give way.",
+    "renderer": "solid",
+    "dimensions_m": {
+      "width": 0.4
+    },
+    "pair": "601.1",
+    "schedule": "S9-6-1",
+    "source": {
+      "width": "S9-6-1"
+    }
+  },
+  {
+    "id": "1001",
+    "kind": "marking",
+    "diagram": "1001",
+    "status": "current",
+    "name": "Stop line at signals or police control",
+    "what": "Solid transverse line. The primary signal stands beyond this line.",
+    "renderer": "solid",
+    "dimensions_m": {
+      "width": 0.3,
+      "setback": 2.0
+    },
+    "pair": "3000",
+    "schedule": "S14-2-46",
+    "source": {
+      "width": "S14-2-46",
+      "setback": "S14-2-46"
+    }
+  },
+  {
+    "id": "1022",
+    "kind": "marking",
+    "diagram": "1022",
+    "status": "current",
+    "name": "STOP word marking",
+    "what": "Elongated STOP on the carriageway at a Stop sign.",
+    "renderer": "stop_word",
+    "dimensions_m": {
+      "letter_height": 1.6
+    },
+    "pair": "601.1",
+    "schedule": "S9-6-2; Sch17 Pt7",
+    "source": {
+      "letter_height": "S9-6-2; Sch17 Pt7"
+    }
+  },
+  {
+    "id": "1014",
+    "kind": "marking",
+    "diagram": "1014",
+    "status": "current",
+    "name": "Deflection arrow",
+    "what": "Curved arrow that guides traffic away from a hazard or closure.",
+    "renderer": "deflection",
+    "dimensions_m": {
+      "length": 6.0,
+      "shaft": 0.2,
+      "head_width": 0.7,
+      "head_length": 2.0
+    },
+    "pair": null,
+    "schedule": "S11-4-14",
+    "source": {
+      "length": "S11-4-14",
+      "shaft": "S11-4-14",
+      "head_width": "S11-4-14",
+      "head_length": "S11-4-14"
+    }
+  },
+  {
+    "id": "1038",
+    "kind": "marking",
+    "diagram": "1038",
+    "status": "current",
+    "name": "Indication of traffic lanes",
+    "what": "Straight or turn arrow in the lane.",
+    "renderer": "arrow",
+    "dimensions_m": {
+      "length": 6.0,
+      "length_fast": 9.0,
+      "shaft": 0.25,
+      "head_width": 0.9,
+      "head_ratio": 0.28
+    },
+    "pair": null,
+    "schedule": "S11-4-20",
+    "source": {
+      "length": "S11-4-20",
+      "length_fast": "S11-4-20",
+      "shaft": "S11-4-20",
+      "head_width": "S11-4-20",
+      "head_ratio": "S11-4-20"
+    }
+  },
+  {
+    "id": "1055.1",
+    "kind": "marking",
+    "diagram": "1055.1",
+    "status": "current",
+    "name": "Crossing studs",
+    "what": "Square marks or studs at a signal-controlled crossing.",
+    "renderer": "studs",
+    "dimensions_m": {
+      "size": 0.1,
+      "pitch": 0.5
+    },
+    "pair": "1001.3",
+    "schedule": "S14-2-55",
+    "source": {
+      "size": "S14-2-55",
+      "pitch": "S14-2-55"
+    }
+  },
+  {
+    "id": "zebra-stripes",
+    "kind": "marking",
+    "diagram": "zebra-stripes",
+    "status": "current",
+    "name": "Zebra crossing stripes",
+    "what": "Alternate black and white stripes across the carriageway.",
+    "renderer": "zebra",
+    "dimensions_m": {
+      "depth": 3.0,
+      "stripe": 0.6,
+      "stripe_min": 0.5,
+      "stripe_max": 0.715
+    },
+    "pair": "4007",
+    "schedule": "Sch14 Pt1 para 18",
+    "source": {
+      "depth": "Sch14 Pt1 para 18",
+      "stripe": "Sch14 Pt1 para 18",
+      "stripe_min": "Sch14 Pt1 para 18",
+      "stripe_max": "Sch14 Pt1 para 18"
+    }
+  },
+  {
+    "id": "1001.3",
+    "kind": "marking",
+    "diagram": "1001.3",
+    "status": "current",
+    "name": "Zig-zag lines at a signal crossing",
+    "what": "Keep the zig-zag area clear at a signal-controlled crossing.",
+    "renderer": "zigzag",
+    "dimensions_m": {
+      "width": 0.1,
+      "mark": 2.0,
+      "amplitude": 0.25,
+      "count": 8
+    },
+    "pair": "1055.1",
+    "schedule": "S14-2-51",
+    "source": {
+      "width": "S14-2-51",
+      "mark": "S14-2-51",
+      "amplitude": "S14-2-51",
+      "count": "S14-2-51"
+    }
+  },
+  {
+    "id": "1001.4",
+    "kind": "marking",
+    "diagram": "1001.4",
+    "status": "current",
+    "name": "Zig-zag lines at a zebra",
+    "what": "Zig-zag lines at a zebra crossing.",
+    "renderer": "zigzag",
+    "dimensions_m": {
+      "width": 0.1,
+      "mark": 2.0,
+      "amplitude": 0.25,
+      "count": 8
+    },
+    "pair": "zebra-stripes",
+    "schedule": "S14-2-52",
+    "source": {
+      "width": "S14-2-52",
+      "mark": "S14-2-52",
+      "amplitude": "S14-2-52",
+      "count": "S14-2-52"
+    }
+  },
+  {
+    "id": "1018.1",
+    "kind": "marking",
+    "diagram": "1018.1",
+    "status": "current",
+    "name": "No waiting at any time",
+    "what": "Double yellow line along the edge of the carriageway.",
+    "renderer": "double_yellow",
+    "dimensions_m": {
+      "width": 0.075,
+      "gap": 0.075,
+      "inset": 0.25
+    },
+    "pair": null,
+    "schedule": "S7-4-1",
+    "source": {
+      "width": "S7-4-1",
+      "gap": "S7-4-1",
+      "inset": "S7-4-1"
+    }
+  },
+  {
+    "id": "1017",
+    "kind": "marking",
+    "diagram": "1017",
+    "status": "current",
+    "name": "No waiting during times shown on sign",
+    "what": "Single yellow line along the edge of the carriageway.",
+    "renderer": "solid_yellow",
+    "dimensions_m": {
+      "width": 0.075,
+      "inset": 0.25,
+      "end_mark": 0.3
+    },
+    "pair": null,
+    "schedule": "S7-4-2",
+    "source": {
+      "width": "S7-4-2",
+      "inset": "S7-4-2",
+      "end_mark": "S7-4-2"
+    }
+  }
+]

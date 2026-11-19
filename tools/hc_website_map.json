@@ -1,0 +1,5 @@
+{
+  "quarantined": true,
+  "reason": "Do not use as a TSRGD id source. Captions only, via tools/quarantine/.",
+  "see": "tools/quarantine/"
+}

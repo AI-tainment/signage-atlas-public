@@ -1,0 +1,811 @@
+{
+  "source": "https://www.highwaycodeuk.co.uk/",
+  "hub": "https://www.highwaycodeuk.co.uk/signs-and-signals.html",
+  "note": "Crown / OGL. Plate JPEGs stay in a local, gitignored cache (e.g. .cache/hc-web/plates) \u2014 do not commit. Geometric silhouettes in render.py.",
+  "plates": [
+    {
+      "id": "501",
+      "page": "warning-signs-on-the-road",
+      "caption": "Distance to \u2018STOP\u2019 line ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/distance-to-stop-line-ahead.jpg"
+    },
+    {
+      "id": "508.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Dual carriageway ends",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/dual-carriageway-ends.jpg"
+    },
+    {
+      "id": "516",
+      "page": "warning-signs-on-the-road",
+      "caption": "Road narrows on right",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/road-narrows-on-right-left-if-symbol-reversed.jpg"
+    },
+    {
+      "id": "517",
+      "page": "warning-signs-on-the-road",
+      "caption": "Picture",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/road-narrows-on-both-sides.jpg"
+    },
+    {
+      "id": "503",
+      "page": "warning-signs-on-the-road",
+      "caption": "Distance to \u2018Give Way\u2019 line ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/distance-to-give-way-line-ahead.jpg"
+    },
+    {
+      "id": "504.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Crossroads",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/crossroads.jpg"
+    },
+    {
+      "id": "512.2",
+      "page": "warning-signs-on-the-road",
+      "caption": "Junction on bend ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/junction-on-bend-ahead.jpg"
+    },
+    {
+      "id": "506.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "T-junction with priority over vehicles from the right",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/t-junction-with-priority-over-vehicles-from-the-right.jpg"
+    },
+    {
+      "id": "507.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Staggered junction",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/staggered-junction.jpg"
+    },
+    {
+      "id": "509.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Traffic merging from left ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/traffic-merging-from-left-ahead-the-priority-through-route-is-indicated-by-the-broader-line.jpg"
+    },
+    {
+      "id": "512.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Double bend first to left",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/double-bend-first-to-left-symbol-may-be-reversed.jpg"
+    },
+    {
+      "id": "512",
+      "page": "warning-signs-on-the-road",
+      "caption": "Bend to right",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/bend-to-right-or-left-if-symbol-reversed.jpg"
+    },
+    {
+      "id": "510",
+      "page": "warning-signs-on-the-road",
+      "caption": "Roundabout",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/roundabout.jpg"
+    },
+    {
+      "id": "556",
+      "page": "warning-signs-on-the-road",
+      "caption": "Uneven road",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/uneven-road.jpg"
+    },
+    {
+      "id": "521",
+      "page": "warning-signs-on-the-road",
+      "caption": "Two-way traffic crosses one-way road",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/two-way-traffic-crosses-one-way-road.jpg"
+    },
+    {
+      "id": "522",
+      "page": "warning-signs-on-the-road",
+      "caption": "Two-way traffic straight ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/two-way-traffic-straight-ahead.jpg"
+    },
+    {
+      "id": "526",
+      "page": "warning-signs-on-the-road",
+      "caption": "Opening or swing bridge ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/opening-or-swing-bridge-ahead.jpg"
+    },
+    {
+      "id": "551",
+      "page": "warning-signs-on-the-road",
+      "caption": "Low-flying aircraft or sudden aircraft noise",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/low-flying-aircraft-or-sudden-aircraft-noise.jpg"
+    },
+    {
+      "id": "552",
+      "page": "warning-signs-on-the-road",
+      "caption": "Falling or fallen rocks",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/falling-or-fallen-rocks.jpg"
+    },
+    {
+      "id": "543",
+      "page": "warning-signs-on-the-road",
+      "caption": "Traffic signals not in use",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/traffic-signals-not-in-use.jpg"
+    },
+    {
+      "id": "557",
+      "page": "warning-signs-on-the-road",
+      "caption": "Slippery road",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/slippery-road.jpg"
+    },
+    {
+      "id": "523.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Steep hill downwards",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/steep-hill-downwards.jpg"
+    },
+    {
+      "id": "524.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Steep hill upwards",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/steep-hill-upwards-gradients-may-be-shown-as-a-ratio-i-e-20-15.jpg"
+    },
+    {
+      "id": "529.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Tunnel ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/tunnel-ahead.jpg"
+    },
+    {
+      "id": "778",
+      "page": "warning-signs-on-the-road",
+      "caption": "Trams crossing ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/trams-crossing-ahead.jpg"
+    },
+    {
+      "id": "770",
+      "page": "warning-signs-on-the-road",
+      "caption": "Level crossing with barrier or gate ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/level-crossing-with-barrier-or-gate-ahead.jpg"
+    },
+    {
+      "id": "771",
+      "page": "warning-signs-on-the-road",
+      "caption": "Level crossing without barrier or gate ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/level-crossing-without-barrier-or-gate-ahead.jpg"
+    },
+    {
+      "id": "774",
+      "page": "warning-signs-on-the-road",
+      "caption": "Level crossing without barrier",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/level-crossing-without-barrier.jpg"
+    },
+    {
+      "id": "546",
+      "page": "warning-signs-on-the-road",
+      "caption": "Frail \u200bpedestrians likely to cross road ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/frail-or-blind-or-disabled-if-shown-pedestrians-likely-to-cross-road-ahead.jpg"
+    },
+    {
+      "id": "544",
+      "page": "warning-signs-on-the-road",
+      "caption": "Pedestrians in road ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/pedestrians-in-road-ahead.jpg"
+    },
+    {
+      "id": "544.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Zebra crossing",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/zebra-crossing.jpg"
+    },
+    {
+      "id": "530",
+      "page": "warning-signs-on-the-road",
+      "caption": "Overhead electric cable",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/overhead-electric-cable-plate-indicates-maximum-height-of-vehicles-which-can-pass-safely.jpg"
+    },
+    {
+      "id": "531.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Available width of headroom indicated",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/available-width-of-headroom-indicated.jpg"
+    },
+    {
+      "id": "515",
+      "page": "warning-signs-on-the-road",
+      "caption": "Sharp deviation of route to left",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/sharp-deviation-of-route-to-left-or-right-if-chevrons-reversed.jpg"
+    },
+    {
+      "id": "777",
+      "page": "warning-signs-on-the-road",
+      "caption": "Miniature warning lights at level crossings",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/miniature-warning-lights-at-level-crossings.jpg"
+    },
+    {
+      "id": "548",
+      "page": "warning-signs-on-the-road",
+      "caption": "Cattle",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/cattle.jpg"
+    },
+    {
+      "id": "550",
+      "page": "warning-signs-on-the-road",
+      "caption": "Wild animals",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/wild-animals.jpg"
+    },
+    {
+      "id": "550.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Wild horses or ponies",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/wild-horses-or-ponies.jpg"
+    },
+    {
+      "id": "550.2",
+      "page": "warning-signs-on-the-road",
+      "caption": "Accompanied horses or ponies",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/accompanied-horses-or-ponies.jpg"
+    },
+    {
+      "id": "950",
+      "page": "warning-signs-on-the-road",
+      "caption": "Cycle route ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/cycle-route-ahead.jpg"
+    },
+    {
+      "id": "554",
+      "page": "warning-signs-on-the-road",
+      "caption": "Risk of ice",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/risk-of-ice.jpg"
+    },
+    {
+      "id": "584",
+      "page": "warning-signs-on-the-road",
+      "caption": "Traffic queues likely ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/traffic-queues-likely-ahead.jpg"
+    },
+    {
+      "id": "556.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Distance over which road humps extend",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/distance-over-which-road-humps-extend.jpg"
+    },
+    {
+      "id": "562",
+      "page": "warning-signs-on-the-road",
+      "caption": "Other danger; plate indicates nature of danger",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/other-danger-plate-indicates-nature-of-danger.jpg"
+    },
+    {
+      "id": "554.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Soft verges",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/soft-verges.jpg"
+    },
+    {
+      "id": "583",
+      "page": "warning-signs-on-the-road",
+      "caption": "Side winds",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/side-winds.jpg"
+    },
+    {
+      "id": "528",
+      "page": "warning-signs-on-the-road",
+      "caption": "Hump bridge",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/hump-bridge.jpg"
+    },
+    {
+      "id": "818.2",
+      "page": "warning-signs-on-the-road",
+      "caption": "Worded warning sign",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/worded-warning-sign.jpg"
+    },
+    {
+      "id": "555",
+      "page": "warning-signs-on-the-road",
+      "caption": "Quayside or river bank",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/quayside-or-river-bank.jpg"
+    },
+    {
+      "id": "553.1",
+      "page": "warning-signs-on-the-road",
+      "caption": "Risk of grounding",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/risk-of-grounding.jpg"
+    },
+    {
+      "id": "674",
+      "page": "road-signs-giving-orders",
+      "caption": "Entry to 20 mph zone",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/entry-to-20-mph-zone.jpg"
+    },
+    {
+      "id": "675",
+      "page": "road-signs-giving-orders",
+      "caption": "End of 20 mph zone",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/end-of-20-mph-zone.jpg"
+    },
+    {
+      "id": "670",
+      "page": "road-signs-giving-orders",
+      "caption": "Maximum speed",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/maximum-speed.jpg"
+    },
+    {
+      "id": "671",
+      "page": "road-signs-giving-orders",
+      "caption": "National speed limit applies",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/national-speed-limit-applies.jpg"
+    },
+    {
+      "id": "642.2",
+      "page": "road-signs-giving-orders",
+      "caption": "School crossing patrol",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/school-crossing-patrol.jpg"
+    },
+    {
+      "id": "601.1",
+      "page": "road-signs-giving-orders",
+      "caption": "Stop and give way",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/stop-and-give-way.jpg"
+    },
+    {
+      "id": "602",
+      "page": "road-signs-giving-orders",
+      "caption": "Give way to traffic on major road",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/give-way-to-traffic-on-major-road.jpg"
+    },
+    {
+      "id": "7011",
+      "page": "road-signs-giving-orders",
+      "caption": "Manually operated temporary STOP and GO signs - STOP side",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/manually-operated-temporary-stop-and-go-signs.jpg"
+    },
+    {
+      "id": "616",
+      "page": "road-signs-giving-orders",
+      "caption": "No entry for vehicular traffic",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-entry-for-vehicular-traffic.jpg"
+    },
+    {
+      "id": "617",
+      "page": "road-signs-giving-orders",
+      "caption": "No vehicles except bicycles being pushed",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-vehicles-except-bicycles-being-pushed.jpg"
+    },
+    {
+      "id": "951",
+      "page": "road-signs-giving-orders",
+      "caption": "Picture",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-cycling.jpg"
+    },
+    {
+      "id": "619",
+      "page": "road-signs-giving-orders",
+      "caption": "Picture",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-motor-vehicles.jpg"
+    },
+    {
+      "id": "952",
+      "page": "road-signs-giving-orders",
+      "caption": "No buses (over 8 passenger seats)",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-buses-over-8-passenger-seats.jpg"
+    },
+    {
+      "id": "632",
+      "page": "road-signs-giving-orders",
+      "caption": "No overtaking",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-overtaking.jpg"
+    },
+    {
+      "id": "622.7",
+      "page": "road-signs-giving-orders",
+      "caption": "No towed caravans",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-towed-caravans.jpg"
+    },
+    {
+      "id": "622.8",
+      "page": "road-signs-giving-orders",
+      "caption": "No vehicles carrying explosives",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-vehicles-carrying-explosives.jpg"
+    },
+    {
+      "id": "629",
+      "page": "road-signs-giving-orders",
+      "caption": "No vehicle or combination of vehicles over length shown",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-vehicle-or-combination-of-vehicles-over-length-shown.jpg"
+    },
+    {
+      "id": "629.2A",
+      "page": "road-signs-giving-orders",
+      "caption": "No vehicles over height shown",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-vehicles-over-height-shown.jpg"
+    },
+    {
+      "id": "629.1",
+      "page": "road-signs-giving-orders",
+      "caption": "No vehicles over width shown",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-vehicles-over-width-shown.jpg"
+    },
+    {
+      "id": "615",
+      "page": "road-signs-giving-orders",
+      "caption": "Give priority to vehicles from opposite direction",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/sign-giving-order-give-priority-vehicles.jpg"
+    },
+    {
+      "id": "612",
+      "page": "road-signs-giving-orders",
+      "caption": "No right turn",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-right-turn.jpg"
+    },
+    {
+      "id": "613",
+      "page": "road-signs-giving-orders",
+      "caption": "No left turn",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/sign-giving-order-no-left-turn.jpg"
+    },
+    {
+      "id": "614",
+      "page": "road-signs-giving-orders",
+      "caption": "No U-turns",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-u-turns.jpg"
+    },
+    {
+      "id": "622.1A",
+      "page": "road-signs-giving-orders",
+      "caption": "No goods vehicles over maximum gross weight shown (in tonnes) except for loading and unloading",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/editor/no-goods-vehicles-over-maximum-gross-weight-shown-in-tonnes-except-for-loading-and-unloading.jpg"
+    },
+    {
+      "id": "626.2A",
+      "page": "road-signs-giving-orders",
+      "caption": "No vehicles over maximum gross weight shown (in tonnes)",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-vehicles-over-maximum-gross-weight-shown-in-tonnes.jpg"
+    },
+    {
+      "id": "660",
+      "page": "road-signs-giving-orders",
+      "caption": "Parking restricted to permit holders",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/parking-restricted-to-permit-holders.jpg"
+    },
+    {
+      "id": "640",
+      "page": "road-signs-giving-orders",
+      "caption": "No stopping during period indicated except for buses",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-stopping-during-period-indicated-except-for-buses.jpg"
+    },
+    {
+      "id": "642.3",
+      "page": "road-signs-giving-orders",
+      "caption": "No stopping during times shown except for as long as necessary to set down or pick up passengers",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-stopping-during-times-shown-except-for-as-long-as-necessary-to-set-down-or-pick-up-passengers.jpg"
+    },
+    {
+      "id": "646",
+      "page": "road-signs-giving-orders",
+      "caption": "No waiting",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-waiting.jpg"
+    },
+    {
+      "id": "642",
+      "page": "road-signs-giving-orders",
+      "caption": "No stopping (Clearway)",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-stopping-clearway.jpg"
+    },
+    {
+      "id": "606",
+      "page": "road-signs-giving-orders",
+      "caption": "Ahead only",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/ahead-only_1.jpg"
+    },
+    {
+      "id": "609",
+      "page": "road-signs-giving-orders",
+      "caption": "Turn left ahead (right if symbol reversed)",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/turn-left-ahead-right-if-symbol-reversed.jpg"
+    },
+    {
+      "id": "607",
+      "page": "road-signs-giving-orders",
+      "caption": "Turn left (right if symbol reversed)",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/turn-left-right-if-symbol-reversed.jpg"
+    },
+    {
+      "id": "610",
+      "page": "road-signs-giving-orders",
+      "caption": "Keep left (right if symbol reversed)",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/keep-left-right-if-symbol-reversed.jpg"
+    },
+    {
+      "id": "611",
+      "page": "road-signs-giving-orders",
+      "caption": "Vehicles may pass either side to reach same destination",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/vehicles-may-pass-either-side-to-reach-same-destination.jpg"
+    },
+    {
+      "id": "611.1",
+      "page": "road-signs-giving-orders",
+      "caption": "Mini-roundabout (roundabout circulation - give way to vehicles from the immediate right)",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/mini-roundabout-roundabout-circulation-give-way-to-vehicles-from-the-immediate-right.jpg"
+    },
+    {
+      "id": "955",
+      "page": "road-signs-giving-orders",
+      "caption": "Route to be used by pedal cycles only",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/route-to-be-used-by-pedal-cycles-only.jpg"
+    },
+    {
+      "id": "956",
+      "page": "road-signs-giving-orders",
+      "caption": "Segregated pedal cycle and pedestrian route",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/segregated-pedal-cycle-and-pedestrian-route.jpg"
+    },
+    {
+      "id": "672",
+      "page": "road-signs-giving-orders",
+      "caption": "Minimum speed",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/minimum-speed.jpg"
+    },
+    {
+      "id": "673",
+      "page": "road-signs-giving-orders",
+      "caption": "End of minimum speed",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/end-of-minimum-speed.jpg"
+    },
+    {
+      "id": "953",
+      "page": "road-signs-giving-orders",
+      "caption": "Buses and cycles only",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/buses-and-cycles-only.jpg"
+    },
+    {
+      "id": "953.1",
+      "page": "road-signs-giving-orders",
+      "caption": "Trams only",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/trams-only.jpg"
+    },
+    {
+      "id": "953.2",
+      "page": "road-signs-giving-orders",
+      "caption": "Pedestrian crossing point over tramway",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/pedestrian-crossing-point-over-tramway.jpg"
+    },
+    {
+      "id": "652",
+      "page": "road-signs-giving-orders",
+      "caption": "One-way traffic",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/one-way-traffic-note-compare-circular-ahead-only-sign.jpg"
+    },
+    {
+      "id": "959",
+      "page": "road-signs-giving-orders",
+      "caption": "With-flow bus and cycle lane",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/with-flow-bus-and-cycle-lane.jpg"
+    },
+    {
+      "id": "960",
+      "page": "road-signs-giving-orders",
+      "caption": "Contra-flow bus lane",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/contra-flow-bus-lane.jpg"
+    },
+    {
+      "id": "959.1",
+      "page": "road-signs-giving-orders",
+      "caption": "With-flow pedal cycle lane",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/with-flow-pedal-cycle-lane.jpg"
+    },
+    {
+      "id": "663",
+      "page": "information-signs",
+      "caption": "Entrance to controlled parking zone",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/entrance-to-controlled-parking-zone.jpg"
+    },
+    {
+      "id": "640.2A",
+      "page": "information-signs",
+      "caption": "Entrance to congestion charging zone",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/entrance-to-congestion-charging-zone.jpg"
+    },
+    {
+      "id": "664",
+      "page": "information-signs",
+      "caption": "Picture",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/end-of-controlled-parking-zone.jpg"
+    },
+    {
+      "id": "818.1",
+      "page": "information-signs",
+      "caption": "Advance warning of restriction or prohibition ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/advance-warning-of-restriction-or-prohibition-ahead.jpg"
+    },
+    {
+      "id": "801",
+      "page": "information-signs",
+      "caption": "Parking place for solo motorcycles",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/parking-place-for-solo-motorcycles.jpg"
+    },
+    {
+      "id": "958",
+      "page": "information-signs",
+      "caption": "With-flow bus lane ahead which pedal cycles and taxis may also use",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/with-flow-bus-lane-ahead-which-pedal-cycles-and-taxis-may-also-use.jpg"
+    },
+    {
+      "id": "2931",
+      "page": "information-signs",
+      "caption": "End of motorway",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/end-of-motorway.jpg"
+    },
+    {
+      "id": "2901",
+      "page": "information-signs",
+      "caption": "Start of motorway and point from which motorway regulations apply",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/start-of-motorway-and-point-from-which-motorway-regulations-apply.jpg"
+    },
+    {
+      "id": "872",
+      "page": "information-signs",
+      "caption": "Appropriate traffic lanes at junction ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/appropriate-traffic-lanes-at-junction-ahead.jpg"
+    },
+    {
+      "id": "823",
+      "page": "information-signs",
+      "caption": "Countdown markers at exit from motorway (each bar represents 100 yards to the exit).",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/countdown-markers-at-exit-from-motorway-each-bar-represents-100-yards-to-the-exit.jpg"
+    },
+    {
+      "id": "2911",
+      "page": "information-signs",
+      "caption": "Motorway service area sign showing the operator\u2019s name",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/motorway-service-area-sign-showing-the-operator-s-name.jpg"
+    },
+    {
+      "id": "811",
+      "page": "information-signs",
+      "caption": "Traffic has priority over oncoming vehicles",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/traffic-has-priority-over-oncoming-vehicles_orig.jpg"
+    },
+    {
+      "id": "2202",
+      "page": "information-signs",
+      "caption": "Tourist information point",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/tourist-information-point.jpg"
+    },
+    {
+      "id": "816",
+      "page": "information-signs",
+      "caption": "No through road for vehicles",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-through-road-for-vehicles.jpg"
+    },
+    {
+      "id": "967",
+      "page": "information-signs",
+      "caption": "Recommended route for pedal cycles",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/recommended-route-for-pedal-cycles.jpg"
+    },
+    {
+      "id": "880",
+      "page": "information-signs",
+      "caption": "Home Zone Entry",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/home-zone-entry.jpg"
+    },
+    {
+      "id": "878",
+      "page": "information-signs",
+      "caption": "Area in which cameras are used to enforce traffic regulations",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/area-in-which-cameras-are-used-to-enforce-traffic-regulations.jpg"
+    },
+    {
+      "id": "962",
+      "page": "information-signs",
+      "caption": "Bus lane on road at junction ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/bus-lane-on-road-at-junction-ahead.jpg"
+    },
+    {
+      "id": "3000",
+      "page": "light-signals-controlling-traffic",
+      "caption": "RED means \u2018Stop\u2019. Wait behind the stop line on the carriageway",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/red-means-stop-wait-behind-the-stop-line-on-the-carriageway.jpg"
+    },
+    {
+      "id": "3014",
+      "page": "light-signals-controlling-traffic",
+      "caption": "At level crossings, lifting bridges, airfields, fire stations, etc.",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/alternately-flashing-red-lights-mean-you-must-stop.jpg"
+    },
+    {
+      "id": "1001",
+      "page": "road-markings",
+      "caption": "Stop line at signals or police control",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/stop-line-at-signals-or-police-control.jpg"
+    },
+    {
+      "id": "1002.1",
+      "page": "road-markings",
+      "caption": "Stop line at \u2018Stop\u2019 sign",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/stop-line-at-stop-sign.jpg"
+    },
+    {
+      "id": "1003",
+      "page": "road-markings",
+      "caption": "Give way to traffic on major road (can also be used at mini roundabouts)",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/give-way-to-traffic-on-major-road-can-also-be-used-at-mini-roundabouts.jpg"
+    },
+    {
+      "id": "1003.1",
+      "page": "road-markings",
+      "caption": "Give way to traffic from the right at a roundabout",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/give-way-to-traffic-from-the-right-at-a-roundabout.jpg"
+    },
+    {
+      "id": "1003.4",
+      "page": "road-markings",
+      "caption": "Give way to traffic from the right at a mini-roundabout",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/give-way-to-traffic-from-the-right-at-a-mini-roundabout.jpg"
+    },
+    {
+      "id": "1012.1",
+      "page": "road-markings",
+      "caption": "Edge line",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/edge-line.jpg"
+    },
+    {
+      "id": "1008",
+      "page": "road-markings",
+      "caption": "Centre line",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/centre-line.jpg"
+    },
+    {
+      "id": "1004",
+      "page": "road-markings",
+      "caption": "Hazard warning line",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/hazard-warning-line.jpg"
+    },
+    {
+      "id": "1013.1",
+      "page": "road-markings",
+      "caption": "Double white lines",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/double-white-lines.jpg"
+    },
+    {
+      "id": "1005",
+      "page": "road-markings",
+      "caption": "Lane line",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/lane-line.jpg"
+    },
+    {
+      "id": "1014",
+      "page": "road-markings",
+      "caption": "Areas of white diagonal stripes",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/areas-of-white-diagonal-stripes.jpg"
+    },
+    {
+      "id": "1018.1",
+      "page": "road-markings",
+      "caption": "No waiting at any time",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/no-waiting-at-any-time.jpg"
+    },
+    {
+      "id": "1023",
+      "page": "road-markings",
+      "caption": "Warning of \u2018Give Way\u2019 just ahead",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/warning-of-give-way-just-ahead.jpg"
+    },
+    {
+      "id": "1043",
+      "page": "road-markings",
+      "caption": "Box junction",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/box-junction.jpg"
+    },
+    {
+      "id": "1055.1",
+      "page": "road-markings",
+      "caption": "Indication of traffic lanes",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/indication-of-traffic-lanes.jpg"
+    },
+    {
+      "id": "7001",
+      "page": "road-works-signs",
+      "caption": "Road works",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/road-works.jpg"
+    },
+    {
+      "id": "7009",
+      "page": "road-works-signs",
+      "caption": "Loose chippings",
+      "url": "https://www.highwaycodeuk.co.uk/uploads/3/2/9/2/3292309/published/loose-chippings.jpg"
+    }
+  ]
+}

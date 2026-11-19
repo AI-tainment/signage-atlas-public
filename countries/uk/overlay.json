@@ -1,0 +1,1856 @@
+{
+  "licence": {
+    "diagrams": "Crown copyright. TSRGD 2016 diagrams: derived under Open Government Licence v3.0. Traffic Signs Manual: see LICENCE.md (non-commercial notice, not OGL). Faces are redrawn identification silhouettes; hex colours approximate BS EN 12899-1 classes.",
+    "typeface": "The Transport typeface is not shipped. Legends are Schedule 17 stand-in strokes. Seven-bar numerals are Part 5 VMS on MS4 only.",
+    "osm": "OpenStreetMap contributors, ODbL."
+  },
+  "fonts": [
+    {
+      "id": "transport",
+      "name": "Transport Heavy / Transport Medium",
+      "role": "Official TSRGD legend",
+      "shipped": false,
+      "reason": "Commercial typeface. Not bundled."
+    },
+    {
+      "id": "sch17-standin",
+      "name": "Schedule 17 stand-in (polygons / rects / arcs)",
+      "role": "Procedural legends including lower case. Part 5 VMS seven-bar on MS4 only.",
+      "shipped": true,
+      "reason": "No Transport file. Tile 8 sw, cap 5.6 sw, stem 1.0/1.2 sw."
+    },
+    {
+      "id": "wiki-standin",
+      "name": "Atlas stand-in (this site)",
+      "role": "SVG recreation of the drawers",
+      "shipped": true,
+      "reason": "Iterate here, then port strokes back to C#."
+    }
+  ],
+  "signs": {
+    "670": {
+      "name": "Maximum speed",
+      "what": "Maximum speed",
+      "glyph": true,
+      "renderer": "670"
+    },
+    "671": {
+      "name": "National speed limit applies",
+      "what": "National speed limit applies",
+      "glyph": true,
+      "renderer": "671"
+    },
+    "602": {
+      "name": "Give way to traffic on major road",
+      "what": "Give way to traffic on major road",
+      "glyph": true,
+      "renderer": "602"
+    },
+    "601.1": {
+      "name": "Stop and give way",
+      "what": "Stop and give way",
+      "glyph": true,
+      "renderer": "601.1"
+    },
+    "611.1": {
+      "name": "Mini-roundabout",
+      "what": "Mini-roundabout",
+      "glyph": true,
+      "renderer": "611.1"
+    },
+    "616": {
+      "name": "No entry for vehicular traffic",
+      "what": "No entry for vehicular traffic",
+      "glyph": true,
+      "renderer": "616"
+    },
+    "610": {
+      "name": "Keep left (right if symbol reversed)",
+      "what": "Keep left (right if symbol reversed)",
+      "glyph": true,
+      "renderer": "610"
+    },
+    "543": {
+      "name": "Traffic signals",
+      "what": "Traffic signals",
+      "glyph": true,
+      "renderer": "543"
+    },
+    "544": {
+      "name": "Zebra crossing",
+      "what": "Zebra crossing ahead. Walking figure on stripes.",
+      "glyph": true,
+      "renderer": "544"
+    },
+    "545": {
+      "name": "Children going to or from school",
+      "what": "Children going to or from school",
+      "glyph": true,
+      "renderer": "545"
+    },
+    "510": {
+      "name": "Roundabout",
+      "what": "Roundabout",
+      "glyph": true,
+      "renderer": "510"
+    },
+    "3000": {
+      "name": "Traffic light signals",
+      "what": "Traffic light signals",
+      "glyph": true,
+      "renderer": "3000"
+    },
+    "4003": {
+      "name": "Instructions to pedestrians at the push-button",
+      "what": "Wording above the pedestrian push-button.",
+      "glyph": true,
+      "renderer": "4003"
+    },
+    "BELISHA": {
+      "name": "Belisha beacon (pre-2016 id)",
+      "what": "Black-and-white banded post with a yellow globe at a zebra crossing.",
+      "glyph": true,
+      "renderer": "BELISHA"
+    },
+    "801": {
+      "name": "Parking place",
+      "what": "Parking place",
+      "glyph": true,
+      "renderer": "801"
+    },
+    "2025": {
+      "name": "Primary-route sign on approaches to junctions (family stand-in)",
+      "what": "FAMILY STAND-IN: a generic green primary-route direction sign, not a drawing of SI 2002 diagram 2025 (p219, \"Junction ahead of a primary route with a non-primary route through a town or village that has been by-passed\"). Direction-sign layouts are site-specific (the SI diagram is one worked example), so the atlas shows only the family colour and arrow.",
+      "glyph": true,
+      "renderer": "2025"
+    },
+    "2101": {
+      "name": "Non-primary sign on approaches to junctions (family stand-in)",
+      "what": "FAMILY STAND-IN: a generic white non-primary direction sign, not a drawing of SI 2002 diagram 2101 (p223, \"Junction ahead of two non-primary routes\"). Direction-sign layouts are site-specific (the SI diagram is one worked example), so the atlas shows only the family colour and arrow.",
+      "glyph": true,
+      "renderer": "2101"
+    },
+    "2701": {
+      "name": "Direction and junction ahead to a new housing development",
+      "what": "Direction and junction ahead to a new housing development",
+      "glyph": true,
+      "renderer": "2701"
+    },
+    "2202": {
+      "name": "Tourist attraction (family stand-in)",
+      "what": "FAMILY STAND-IN: a generic brown tourist direction sign, not a drawing of SI 2002 diagram 2202 (p244, \"Junction ahead leading to a tourist attraction\"). Direction-sign layouts are site-specific (the SI diagram is one worked example), so the atlas shows only the family colour and arrow.",
+      "glyph": true,
+      "renderer": "2202"
+    },
+    "GANTRY_ADS": {
+      "name": "Motorway overhead direction panel (family stand-in)",
+      "what": "FAMILY STAND-IN: a generic blue motorway overhead direction panel on a portal gantry. Dest family id, not a TSRGD diagram number; real gantry signs are laid out per site, so the atlas shows only the family colour and arrow.",
+      "glyph": true,
+      "renderer": "GANTRY_ADS"
+    },
+    "530": {
+      "name": "Maximum headroom (pre-2016 number)",
+      "what": "Maximum headroom at a hazard. Dest id 530; 2016 diagram 530A.",
+      "glyph": true,
+      "renderer": "530"
+    },
+    "532.2": {
+      "name": "Arch bridge",
+      "what": "Arch bridge",
+      "glyph": true,
+      "renderer": "532.2"
+    },
+    "629.2A": {
+      "name": "No vehicles over height shown",
+      "what": "No vehicles over height shown",
+      "glyph": true,
+      "renderer": "629.2A"
+    },
+    "611": {
+      "name": "Vehicles may pass either side to reach the same destination",
+      "what": "Vehicles may pass either side to reach the same destination",
+      "glyph": true,
+      "renderer": "611"
+    },
+    "674": {
+      "name": "Entry to 20 mph zone",
+      "what": "Entry to 20 mph zone",
+      "glyph": true,
+      "renderer": "674"
+    },
+    "675": {
+      "name": "End of 20 mph zone",
+      "what": "End of 20 mph zone",
+      "glyph": true,
+      "renderer": "675"
+    },
+    "823": {
+      "name": "Countdown marker — 300 yards to motorway exit",
+      "what": "Countdown marker — 300 yards to motorway exit",
+      "glyph": true,
+      "renderer": "823"
+    },
+    "824": {
+      "name": "Countdown marker — 200 yards to motorway exit",
+      "what": "Countdown marker — 200 yards to motorway exit",
+      "glyph": true,
+      "renderer": "824"
+    },
+    "825": {
+      "name": "Countdown marker — 100 yards to motorway exit",
+      "what": "Countdown marker — 100 yards to motorway exit",
+      "glyph": true,
+      "renderer": "825"
+    },
+    "3014": {
+      "name": "Flashing red lights at level crossings, airfields or bridges",
+      "what": "Flashing red lights at level crossings, airfields or bridges",
+      "glyph": true,
+      "renderer": "3014"
+    },
+    "953": {
+      "name": "Route for use by buses, pedal cycles, electric scooters being used in a trial and taxis only (Alternative types)",
+      "what": "Route for use by buses, pedal cycles, electric scooters being used in a trial and taxis only (Alternative types)",
+      "glyph": true,
+      "renderer": "953"
+    },
+    "2911": {
+      "name": "Motorway service area",
+      "what": "Motorway service area",
+      "glyph": true,
+      "renderer": "2911"
+    },
+    "2901": {
+      "name": "Regulations in force under section 17 of the 1984 Act start to apply to the road at this point",
+      "what": "Regulations in force under section 17 of the 1984 Act start to apply to the road at this point",
+      "glyph": true,
+      "renderer": "2901"
+    },
+    "2931": {
+      "name": "Regulations referred to in this column in respect of item 13 cease to apply at this point",
+      "what": "Regulations referred to in this column in respect of item 13 cease to apply at this point",
+      "glyph": true,
+      "renderer": "2931"
+    },
+    "640.2A": {
+      "name": "Waiting by goods vehicles over maximum gross weight shown prohibited during the periods and in the direction indicated",
+      "what": "Waiting by goods vehicles over maximum gross weight shown prohibited during the periods and in the direction indicated",
+      "glyph": false
+    },
+    "MS4": {
+      "name": "Motorway matrix signal",
+      "what": "Electronic matrix panel. Equipment type, not a diagram number.",
+      "glyph": true,
+      "renderer": "MS4"
+    },
+    "MARKER": {
+      "name": "Driver location marker",
+      "what": "Driver location marker on the hard-shoulder back. Not a diagram number.",
+      "glyph": true,
+      "renderer": "MARKER"
+    },
+    "XING_PAR": {
+      "name": "Belisha beacon (diagram 4007) at a parallel crossing",
+      "what": "Belisha beacon, SI 2016 diagram 4007 (\"Yellow or fluorescent yellow globe to indicate presence of a Parallel, or Zebra crossing\"), as used at a parallel pedestrian and cycle crossing. XING_PAR is a Dest id, not a diagram number; the face is the 4007 face. The crossing itself is a road marking, not shown here.",
+      "glyph": true,
+      "renderer": "XING_PAR"
+    },
+    "504.1": {
+      "name": "Crossroads",
+      "what": "Crossroads",
+      "glyph": true,
+      "renderer": "504.1"
+    },
+    "505.1": {
+      "name": "T-junction ahead (Alternative types)",
+      "what": "T-junction ahead (Alternative types)",
+      "glyph": true,
+      "renderer": "505.1"
+    },
+    "506.1": {
+      "name": "Side road ahead",
+      "what": "Side road ahead",
+      "glyph": true,
+      "renderer": "506.1"
+    },
+    "507.1": {
+      "name": "Staggered junction",
+      "what": "Staggered junction",
+      "glyph": true,
+      "renderer": "507.1"
+    },
+    "508.1": {
+      "name": "Traffic merging from the left",
+      "what": "Traffic merging from the left",
+      "glyph": true,
+      "renderer": "508.1"
+    },
+    "509.1": {
+      "name": "Traffic merging onto the main carriageway",
+      "what": "Traffic merging onto the main carriageway",
+      "glyph": true,
+      "renderer": "509.1"
+    },
+    "512": {
+      "name": "Bend to right (or left if symbol reversed)",
+      "what": "Bend to right (or left if symbol reversed)",
+      "glyph": true,
+      "renderer": "512"
+    },
+    "512.1": {
+      "name": "Junction on the outside of a bend ahead (Alternative types)",
+      "what": "Junction on the outside of a bend ahead (Alternative types)",
+      "glyph": true,
+      "renderer": "512.1"
+    },
+    "512.2": {
+      "name": "Junction on the inside of a bend ahead (Alternative types)",
+      "what": "Junction on the inside of a bend ahead (Alternative types)",
+      "glyph": true,
+      "renderer": "512.2"
+    },
+    "513": {
+      "name": "Double bend first to left (symbol may be reversed)",
+      "what": "Double bend first to left (symbol may be reversed)",
+      "glyph": true,
+      "renderer": "513"
+    },
+    "513.1": {
+      "name": "Adverse camber on a bend or roundabout",
+      "what": "Adverse camber on a bend or roundabout (SI 2002 caption, checked against the page image, r4)."
+    },
+    "513.2": {
+      "name": "Maximum speed in mph advised at a bend or other hazard",
+      "what": "Maximum speed in mph advised at a bend or other hazard"
+    },
+    "516": {
+      "name": "Road narrows on both sides",
+      "what": "Road narrows on both sides",
+      "glyph": true,
+      "renderer": "516"
+    },
+    "517": {
+      "name": "Road narrows on right (left if symbol reversed)",
+      "what": "Road narrows on right (left if symbol reversed)",
+      "glyph": true,
+      "renderer": "517"
+    },
+    "521": {
+      "name": "Two-way traffic straight ahead",
+      "what": "Two-way traffic straight ahead",
+      "glyph": true,
+      "renderer": "521"
+    },
+    "522": {
+      "name": "Two-way traffic crosses one-way road",
+      "what": "Two-way traffic crosses one-way road",
+      "glyph": true,
+      "renderer": "522"
+    },
+    "523.1": {
+      "name": "Steep hill downwards",
+      "what": "Steep hill downwards",
+      "glyph": true,
+      "renderer": "523.1"
+    },
+    "524.1": {
+      "name": "Steep hill upwards",
+      "what": "Steep hill upwards",
+      "glyph": true,
+      "renderer": "524.1"
+    },
+    "526": {
+      "name": "Opening or swing bridge ahead (pre-2016 number)",
+      "what": "Opening or swing bridge ahead (pre-2016 number)",
+      "glyph": true,
+      "renderer": "526"
+    },
+    "528": {
+      "name": "Hump bridge",
+      "what": "Hump bridge",
+      "glyph": true,
+      "renderer": "528"
+    },
+    "529.1": {
+      "name": "Tunnel ahead",
+      "what": "Tunnel ahead",
+      "glyph": true,
+      "renderer": "529.1"
+    },
+    "531.1": {
+      "name": "Maximum headroom at an arch bridge (pre-2016 number)",
+      "what": "Maximum headroom at an arch bridge. Pre-2016 number; SI 2016 diagram 531.1A (same face).",
+      "glyph": true,
+      "renderer": "531.1"
+    },
+    "544.1": {
+      "name": "Pedestrians in road ahead",
+      "what": "Pedestrians in road ahead. Adult and child, no stripes.",
+      "glyph": true,
+      "renderer": "544.1"
+    },
+    "544.2": {
+      "name": "Frail or disabled pedestrians likely to cross road ahead",
+      "what": "Frail or disabled pedestrians likely to cross road ahead"
+    },
+    "546": {
+      "name": "School ahead (plate)",
+      "what": "'School' plate, SI 2002 diagram 546, caption 'School ahead' (p63).",
+      "glyph": true,
+      "family": "Plate",
+      "renderer": "546"
+    },
+    "548": {
+      "name": "Cattle",
+      "what": "Cattle",
+      "glyph": true,
+      "renderer": "548"
+    },
+    "548.1": {
+      "name": "Supervised cattle crossing",
+      "what": "Supervised cattle crossing"
+    },
+    "549": {
+      "name": "Sheep",
+      "what": "Sheep",
+      "glyph": true,
+      "renderer": "549"
+    },
+    "550": {
+      "name": "Wild horses or ponies",
+      "what": "Wild horses or ponies",
+      "glyph": true,
+      "renderer": "550"
+    },
+    "550.1": {
+      "name": "Accompanied horses or ponies",
+      "what": "Accompanied horses or ponies",
+      "glyph": true,
+      "renderer": "550.1"
+    },
+    "550.2": {
+      "name": "Horse-drawn vehicles",
+      "what": "Horse-drawn vehicles",
+      "glyph": true,
+      "renderer": "550.2"
+    },
+    "551": {
+      "name": "Wild animals",
+      "what": "Wild animals. Leaping deer.",
+      "glyph": true,
+      "renderer": "551"
+    },
+    "551.1": {
+      "name": "Migratory toad crossing ahead",
+      "what": "Migratory toad crossing ahead"
+    },
+    "551.2": {
+      "name": "Wild fowl likely to be in road ahead",
+      "what": "Wild fowl likely to be in road ahead"
+    },
+    "552": {
+      "name": "Cattle grid",
+      "what": "Cattle grid ahead. Worded warning plate.",
+      "glyph": true,
+      "renderer": "552"
+    },
+    "553.1": {
+      "name": "Agricultural vehicles",
+      "what": "Agricultural vehicles",
+      "glyph": true,
+      "renderer": "553.1"
+    },
+    "553.2": {
+      "name": "Agricultural vehicles likely to be in road ahead",
+      "what": "Agricultural vehicles likely to be in road ahead (SI 2002 caption, checked against the page image, r4)."
+    },
+    "554": {
+      "name": "Ford",
+      "what": "Ford ahead. Worded warning plate.",
+      "glyph": true,
+      "renderer": "554"
+    },
+    "554.1": {
+      "name": "Try your brakes",
+      "what": "Try your brakes. Worded warning after a steep descent or ford.",
+      "glyph": true,
+      "renderer": "554.1"
+    },
+    "554.2": {
+      "name": "Risk of ice",
+      "what": "Risk of ice. Snowflake pictogram.",
+      "glyph": true,
+      "renderer": "554.2"
+    },
+    "555": {
+      "name": "Quayside or river bank",
+      "what": "Quayside or river bank",
+      "glyph": true,
+      "renderer": "555"
+    },
+    "556": {
+      "name": "Uneven road",
+      "what": "Uneven road",
+      "glyph": true,
+      "renderer": "556"
+    },
+    "556.1": {
+      "name": "Soft verges",
+      "what": "Soft verges. Car tilting into the verge.",
+      "glyph": true,
+      "renderer": "556.1"
+    },
+    "557": {
+      "name": "Slippery road",
+      "what": "Slippery road",
+      "glyph": true,
+      "renderer": "557"
+    },
+    "558": {
+      "name": "Low-flying aircraft or sudden aircraft noise",
+      "what": "Low-flying aircraft or sudden aircraft noise.",
+      "glyph": true,
+      "renderer": "558"
+    },
+    "559": {
+      "name": "Falling or fallen rocks",
+      "what": "Falling or fallen rocks.",
+      "glyph": true,
+      "renderer": "559"
+    },
+    "562": {
+      "name": "Other danger; plate indicates nature of danger",
+      "what": "Other danger; plate indicates nature of danger",
+      "glyph": true,
+      "renderer": "562"
+    },
+    "572": {
+      "name": "Distance ahead to hazard",
+      "what": "Distance ahead to hazard"
+    },
+    "573": {
+      "name": "Distance and direction to hazard",
+      "what": "Distance and direction to hazard"
+    },
+    "574": {
+      "name": "Distance over which hazard extends",
+      "what": "Distance over which hazard extends"
+    },
+    "575": {
+      "name": "Oncoming vehicles in the middle of the road",
+      "what": "Oncoming vehicles in the middle of the road"
+    },
+    "581": {
+      "name": "Side winds likely ahead",
+      "what": "Side winds likely ahead"
+    },
+    "582": {
+      "name": "Slow moving military vehicles likely to becrossing or in road ahead",
+      "what": "Slow moving military vehicles likely to becrossing or in road ahead"
+    },
+    "583": {
+      "name": "Slow-moving vehicles on an incline",
+      "what": "Slow-moving vehicles on an incline.",
+      "glyph": true,
+      "renderer": "583"
+    },
+    "584": {
+      "name": "Traffic queues likely ahead",
+      "what": "Traffic queues likely ahead",
+      "glyph": true,
+      "renderer": "584"
+    },
+    "606": {
+      "name": "Ahead only",
+      "what": "Ahead only",
+      "glyph": true,
+      "renderer": "606"
+    },
+    "607": {
+      "name": "One-way traffic (plate)",
+      "what": "One-way traffic plate, SI 2002 diagram 607 (p78). r2 drew a turn-left disc here; that was wrong.",
+      "glyph": true,
+      "renderer": "607",
+      "family": "Plate"
+    },
+    "608": {
+      "name": "Dual carriageway",
+      "what": "Dual carriageway. Supplementary plate.",
+      "glyph": true,
+      "renderer": "608",
+      "family": "Plate"
+    },
+    "609": {
+      "name": "Turn left ahead (right if symbol reversed)",
+      "what": "Turn left ahead (right if symbol reversed)",
+      "glyph": true,
+      "renderer": "609"
+    },
+    "612": {
+      "name": "No right turn",
+      "what": "No right turn",
+      "glyph": true,
+      "renderer": "612"
+    },
+    "613": {
+      "name": "No left turn",
+      "what": "No left turn",
+      "glyph": true,
+      "renderer": "613"
+    },
+    "614": {
+      "name": "No U-turns",
+      "what": "No U-turns",
+      "glyph": true,
+      "renderer": "614"
+    },
+    "615": {
+      "name": "Give priority to vehicles from opposite direction",
+      "what": "Give priority to vehicles from opposite direction",
+      "glyph": true,
+      "renderer": "615"
+    },
+    "617": {
+      "name": "No vehicles except bicycles being pushed",
+      "what": "No vehicles except bicycles being pushed",
+      "glyph": true,
+      "renderer": "617"
+    },
+    "618": {
+      "name": "Play street",
+      "what": "Play street"
+    },
+    "619": {
+      "name": "No motor vehicles",
+      "what": "No motor vehicles",
+      "glyph": true,
+      "renderer": "619"
+    },
+    "619.1": {
+      "name": "Motor vehicles except solo motor cycles prohibited",
+      "what": "Motor vehicles except solo motor cycles prohibited"
+    },
+    "619.2": {
+      "name": "Solo motor cycles prohibited, except for electric scooters being used in a trial",
+      "what": "Solo motor cycles prohibited, except for electric scooters being used in a trial"
+    },
+    "622.1A": {
+      "name": "No goods vehicles over maximum gross weight shown",
+      "what": "No goods vehicles over maximum gross weight shown",
+      "glyph": true,
+      "renderer": "622.1A"
+    },
+    "622.2": {
+      "name": "End of prohibition of goods vehicles indicated by the sign provided for at item 13",
+      "what": "End of prohibition of goods vehicles indicated by the sign provided for at item 13"
+    },
+    "622.4": {
+      "name": "Articulated or track laying vehicles prohibited (Alternative types)",
+      "what": "Articulated or track laying vehicles prohibited (Alternative types)"
+    },
+    "622.5": {
+      "name": "Horse-drawn vehicles prohibited",
+      "what": "Horse-drawn vehicles prohibited"
+    },
+    "622.6": {
+      "name": "Ridden or accompanied horses prohibited",
+      "what": "Ridden or accompanied horses prohibited"
+    },
+    "622.7": {
+      "name": "No towed caravans",
+      "what": "No towed caravans",
+      "glyph": true,
+      "renderer": "622.7"
+    },
+    "622.8": {
+      "name": "No vehicles carrying explosives",
+      "what": "No vehicles carrying explosives",
+      "glyph": true,
+      "renderer": "622.8"
+    },
+    "622.9": {
+      "name": "Vehicles carrying explosives prohibited (as diagram 622.8)",
+      "what": "Vehicles carrying explosives prohibited (as diagram 622.8) (SI 2002 caption, checked against the page image, r4)."
+    },
+    "625.1": {
+      "name": "Pedestrians prohibited",
+      "what": "Pedestrians prohibited"
+    },
+    "626.2A": {
+      "name": "No vehicles over maximum gross weight shown",
+      "what": "No vehicles over maximum gross weight shown",
+      "glyph": true,
+      "renderer": "626.2A"
+    },
+    "627.1": {
+      "name": "Exemption for unladen vehicles from the prohibition conveyed by the sign in diagram 626.2A",
+      "what": "Exemption for unladen vehicles from the prohibition conveyed by the sign in diagram 626.2A (SI 2002 caption, checked against the page image, r4)."
+    },
+    "629": {
+      "name": "No vehicles over width shown (pre-2016 number)",
+      "what": "No vehicles over width shown (pre-2016 number)",
+      "glyph": true,
+      "renderer": "629"
+    },
+    "629.1": {
+      "name": "No vehicle or combination of vehicles over length shown",
+      "what": "No vehicle or combination of vehicles over length shown",
+      "glyph": true,
+      "renderer": "629.1"
+    },
+    "629.2": {
+      "name": "No vehicles over height shown (imperial)",
+      "what": "No vehicles over height shown (imperial)",
+      "glyph": true,
+      "renderer": "629.2"
+    },
+    "632": {
+      "name": "No overtaking",
+      "what": "No overtaking",
+      "glyph": true,
+      "renderer": "632"
+    },
+    "636": {
+      "name": "Temporary prohibition of waiting except for loading and unloading",
+      "what": "Temporary prohibition of waiting except for loading and unloading"
+    },
+    "637.1": {
+      "name": "No waiting except as shown",
+      "what": "No waiting except as shown"
+    },
+    "638": {
+      "name": "Continuous prohibition on loading and unloading",
+      "what": "Continuous prohibition on loading and unloading (SI 2002 caption, checked against the page image, r4)."
+    },
+    "638.1": {
+      "name": "No loading during the times shown",
+      "what": "No loading during the times shown"
+    },
+    "639": {
+      "name": "Waiting limited to the period shown",
+      "what": "Waiting limited to the period shown"
+    },
+    "639.1B": {
+      "name": "Waiting prohibited during the periods indicated on the upper panel and restrictions on waiting during the period indicated on the lower panel",
+      "what": "Waiting prohibited during the periods indicated on the upper panel and restrictions on waiting during the period indicated on the lower panel (SI 2002 caption, checked against the page image, r4)."
+    },
+    "640": {
+      "name": "No stopping during period indicated except for buses",
+      "what": "No stopping during period indicated except for buses"
+    },
+    "642": {
+      "name": "No stopping (Clearway)",
+      "what": "No stopping (Clearway)",
+      "glyph": true,
+      "renderer": "642"
+    },
+    "642.2": {
+      "name": "School crossing patrol (pre-2016 number)",
+      "what": "School crossing patrol (pre-2016 number)",
+      "glyph": true,
+      "renderer": "642.2"
+    },
+    "642.3": {
+      "name": "No stopping in lay-by except in emergency",
+      "what": "No stopping in lay-by except in emergency (SI 2002 caption, checked against the page image, r4)."
+    },
+    "646": {
+      "name": "Urban clearway",
+      "what": "Urban clearway. No stopping during the times shown.",
+      "glyph": true,
+      "renderer": "646"
+    },
+    "647": {
+      "name": "End of the restriction on stopping indicated by the sign at item 6",
+      "what": "End of the restriction on stopping indicated by the sign at item 6"
+    },
+    "649.2": {
+      "name": "No stopping except taxis (times)",
+      "what": "No stopping except taxis (times)"
+    },
+    "650.1": {
+      "name": "Prohibition on stopping by vehicles other than taxis during the period indicated",
+      "what": "Prohibition on stopping by vehicles other than taxis during the period indicated (SI 2002 caption, checked against the page image)."
+    },
+    "650.2": {
+      "name": "Prohibition on waiting by vehicles other than taxis during the period indicated",
+      "what": "Prohibition on waiting by vehicles other than taxis during the period indicated (SI 2002 caption, checked against the page image, r4)."
+    },
+    "650.3": {
+      "name": "Continuous prohibition on waiting by vehicles with an exemption for taxis during the period indicated",
+      "what": "Continuous prohibition on waiting by vehicles with an exemption for taxis during the period indicated (SI 2002 caption, checked against the page image, r4)."
+    },
+    "651": {
+      "name": "Use of verge maintained in mown or ornamental condition by specified traffic prohibited",
+      "what": "Use of verge maintained in mown or ornamental condition by specified traffic prohibited",
+      "glyph": false
+    },
+    "652": {
+      "name": "One-way traffic",
+      "what": "One-way traffic",
+      "glyph": true,
+      "renderer": "652",
+      "family": "InfoBlue"
+    },
+    "811": {
+      "name": "Traffic has priority over oncoming vehicles (pre-2016 number)",
+      "what": "Traffic has priority over oncoming vehicles.",
+      "glyph": true,
+      "renderer": "811"
+    },
+    "811.1": {
+      "name": "Priority over oncoming vehicles (plate for diagram 811)",
+      "what": "Explanatory plate for the sign shown in diagram 811, reading 'Priority over oncoming vehicles' (SI 2002 diagram 811.1, p120).",
+      "family": "Plate",
+      "glyph": true,
+      "renderer": "811.1"
+    },
+    "672": {
+      "name": "Minimum speed",
+      "what": "Minimum speed",
+      "glyph": true,
+      "renderer": "672"
+    },
+    "673": {
+      "name": "End of minimum speed",
+      "what": "End of minimum speed",
+      "glyph": true,
+      "renderer": "673"
+    },
+    "675A": {
+      "name": "End of 20 mph zone, new limit begins",
+      "what": "End of 20 mph zone, new limit begins",
+      "glyph": true,
+      "renderer": "675A"
+    },
+    "530.1": {
+      "name": "Reduced headroom over part of road due to overhanging building or structure",
+      "what": "Reduced headroom over part of road due to overhanging building or structure"
+    },
+    "531.2": {
+      "name": "High vehicles to use middle of road at arch bridge ahead,",
+      "what": "High vehicles to use middle of road at arch bridge ahead,"
+    },
+    "532.3": {
+      "name": "Available width at an arch bridge",
+      "what": "Available width at an arch bridge"
+    },
+    "770": {
+      "name": "Level crossing with barrier or gate ahead",
+      "what": "Level crossing with barrier or gate ahead",
+      "glyph": true,
+      "renderer": "770"
+    },
+    "771": {
+      "name": "Level crossing without barrier or gate ahead",
+      "what": "Level crossing without barrier or gate ahead",
+      "glyph": true,
+      "renderer": "771"
+    },
+    "772": {
+      "name": "Tramcars crossing ahead",
+      "what": "Tramcars crossing ahead"
+    },
+    "773": {
+      "name": "The light signals provided for at item 5 are ahead (where those light signals are at level crossing, swing or lifting bridge, or airfields)",
+      "what": "The light signals provided for at item 5 are ahead (where those light signals are at level crossing, swing or lifting bridge, or airfields)"
+    },
+    "774": {
+      "name": "Level crossing without barrier",
+      "what": "St Andrew’s cross at an open railway crossing.",
+      "glyph": true,
+      "renderer": "774"
+    },
+    "775": {
+      "name": "Vehicular traffic must not stop within the area of a railway or tramway level crossing",
+      "what": "Vehicular traffic must not stop within the area of a railway or tramway level crossing"
+    },
+    "776": {
+      "name": "Another train or tramcar may be about to pass over the crossing. Level crossing ahead is crossed by more than one railway or tramway track, and more than one train or tramcar may pass over it in quick succession",
+      "what": "Another train or tramcar may be about to pass over the crossing. Level crossing ahead is crossed by more than one railway or tramway track, and more than one train or tramcar may pass over it in quick succession"
+    },
+    "777": {
+      "name": "Another train or tramcar may be about to pass over the crossing. Level crossing ahead is crossed by more than one railway or tramway track, and more than one train or tramcar may pass over it in quick succession",
+      "what": "Another train or tramcar may be about to pass over the crossing. Level crossing ahead is crossed by more than one railway or tramway track, and more than one train or tramcar may pass over it in quick succession",
+      "glyph": true,
+      "renderer": "777"
+    },
+    "778": {
+      "name": "Open level crossing",
+      "what": "Open level crossing. Worded plate used with a give-way or stop.",
+      "glyph": true,
+      "renderer": "778"
+    },
+    "779": {
+      "name": "Overhead electric cable",
+      "what": "Overhead electric cable",
+      "glyph": true,
+      "renderer": "779"
+    },
+    "780.1": {
+      "name": "Safe height under electrified cables (metric)",
+      "what": "Safe height under electrified cables (metric)"
+    },
+    "780.2": {
+      "name": "Safe height under electrified cables (imperial)",
+      "what": "Safe height under electrified cables (imperial)"
+    },
+    "781": {
+      "name": "Load gauge giving audible warning to drivers where vehicles exceed safe height under electrified overhead cables",
+      "what": "Load gauge giving audible warning to drivers where vehicles exceed safe height under electrified overhead cables"
+    },
+    "782": {
+      "name": "Risk of grounding at a railway or tramway level crossing or hump backed bridge ahead",
+      "what": "Risk of grounding at a railway or tramway level crossing or hump backed bridge ahead"
+    },
+    "783": {
+      "name": "Drivers of long low, large or slow vehicles must telephone to obtain permission before using a railway or tramway level crossing (Alternative types)",
+      "what": "Drivers of long low, large or slow vehicles must telephone to obtain permission before using a railway or tramway level crossing (Alternative types)"
+    },
+    "784": {
+      "name": "Level-crossing countdown — 2 stripes",
+      "what": "Level-crossing countdown — 2 stripes"
+    },
+    "785": {
+      "name": "Level-crossing countdown — 1 stripe",
+      "what": "Level-crossing countdown — 1 stripe"
+    },
+    "786": {
+      "name": "Place where large, slow or long low vehicles should wait near a railway or tramway level crossing while the driver obtains permission by telephone to cross or confirms he or she has crossed (Alternative types)",
+      "what": "Place where large, slow or long low vehicles should wait near a railway or tramway level crossing while the driver obtains permission by telephone to cross or confirms he or she has crossed (Alternative types)"
+    },
+    "787": {
+      "name": "Site of telephone or emergency telephone at or near a railway or tramway level crossing (Alternative types)",
+      "what": "Site of telephone or emergency telephone at or near a railway or tramway level crossing (Alternative types)"
+    },
+    "788": {
+      "name": "Direction to telephone or emergency telephone at or near a railway or tramway level crossing (Alternative types)",
+      "what": "Direction to telephone or emergency telephone at or near a railway or tramway level crossing (Alternative types)"
+    },
+    "953.1": {
+      "name": "Trams only",
+      "what": "Trams only",
+      "glyph": true,
+      "renderer": "953.1"
+    },
+    "953.2": {
+      "name": "Pedestrian crossing point over tramway",
+      "what": "Pedestrian crossing point over tramway",
+      "glyph": true,
+      "renderer": "953.2"
+    },
+    "954": {
+      "name": "Except buses",
+      "what": "Except buses"
+    },
+    "954.2": {
+      "name": "Local buses excluded from restriction or prohibition conveyed by associated sign",
+      "what": "Local buses excluded from restriction or prohibition conveyed by associated sign (SI 2002 caption, checked against the page image, r6)."
+    },
+    "952": {
+      "family": "Prohibitory",
+      "name": "No buses (over 8 passenger seats)",
+      "what": "No buses (over 8 passenger seats)",
+      "glyph": true,
+      "renderer": "952"
+    },
+    "954.5": {
+      "name": "Classes of vehicle excluded from restriction or prohibition conveyed by associated sign . Where the word ‘cycles’ is used on the sign, this also represents, where relevant, electric scooters being used in a trial (Alternative types)",
+      "what": "Classes of vehicle excluded from restriction or prohibition conveyed by associated sign . Where the word ‘cycles’ is used on the sign, this also represents, where relevant, electric scooters being used in a trial (Alternative types)"
+    },
+    "955": {
+      "name": "Route to be used by pedal cycles only",
+      "what": "Route to be used by pedal cycles only",
+      "glyph": true,
+      "renderer": "955"
+    },
+    "956": {
+      "name": "Route for use by pedal cycles, electric scooters being used in a trial and pedestrians only",
+      "what": "Route for use by pedal cycles, electric scooters being used in a trial and pedestrians only",
+      "glyph": true,
+      "renderer": "956"
+    },
+    "957": {
+      "name": "Route comprising two ways for use by pedal cycles and electric scooters being used in a trial, only and by pedestrians only, with those ways separated by the marking provided for at item 7 or 8 of the table in Part 6 of Schedule 9, or by physical means, (Alternative types)",
+      "what": "Route comprising two ways for use by pedal cycles and electric scooters being used in a trial, only and by pedestrians only, with those ways separated by the marking provided for at item 7 or 8 of the table in Part 6 of Schedule 9, or by physical means, (Alternative types)"
+    },
+    "958": {
+      "name": "With-flow bus lane ahead which pedal cycles and taxis may also use",
+      "what": "With-flow bus lane ahead which pedal cycles and taxis may also use",
+      "glyph": true,
+      "renderer": "958"
+    },
+    "958.1": {
+      "name": "With-flow mandatory cycle lane ahead, with indication of times of operation",
+      "what": "With-flow mandatory cycle lane ahead, with indication of times of operation"
+    },
+    "959": {
+      "name": "With-flow bus and cycle lane (pre-2016 number)",
+      "what": "With-flow bus and cycle lane (pre-2016 number)",
+      "glyph": true,
+      "renderer": "959"
+    },
+    "959.1": {
+      "name": "With-flow cycle lane with indication of times of operation",
+      "what": "With-flow cycle lane with indication of times of operation"
+    },
+    "960": {
+      "name": "Contra-flow bus lane",
+      "what": "Contra-flow bus lane",
+      "glyph": true,
+      "renderer": "960"
+    },
+    "960.1": {
+      "name": "One-way road with a mandatory contraflow cycle lane",
+      "what": "One-way road with a mandatory contraflow cycle lane"
+    },
+    "962": {
+      "name": "Bus lane or lanes on a road at junction ahead, with indication of times of operation (Alternative types)",
+      "what": "Bus lane or lanes on a road at junction ahead, with indication of times of operation (Alternative types)"
+    },
+    "962.1": {
+      "name": "Cycle lane on a road at junction ahead or, if applicable, a cycle track crossing road, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial, with indication of times of operation",
+      "what": "Cycle lane on a road at junction ahead or, if applicable, a cycle track crossing road, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial, with indication of times of operation"
+    },
+    "962.2": {
+      "name": "Contraflow bus lane ahead on a road at a junction which pedal cycles and electric scooters being used in a trial may also use (Alternative types)",
+      "what": "Contraflow bus lane ahead on a road at a junction which pedal cycles and electric scooters being used in a trial may also use (Alternative types)"
+    },
+    "963": {
+      "name": "Direction in which pedestrians should look for approaching traffic when crossing a bus lane (Alternative types)",
+      "what": "Direction in which pedestrians should look for approaching traffic when crossing a bus lane (Alternative types)"
+    },
+    "964": {
+      "name": "End of with-flow bus lane",
+      "what": "End of with-flow bus lane"
+    },
+    "965": {
+      "name": "End of cycle lane, track or route",
+      "what": "End of cycle lane, track or route"
+    },
+    "967": {
+      "name": "Recommended route for pedal cycles",
+      "what": "Recommended route for pedal cycles",
+      "glyph": true,
+      "renderer": "967"
+    },
+    "968": {
+      "name": "Parking place for pedal cycles",
+      "what": "Parking place for pedal cycles"
+    },
+    "968.1": {
+      "name": "Parking place for pedal cycles",
+      "what": "Parking place for pedal cycles"
+    },
+    "969": {
+      "name": "Parking place reserved for buses",
+      "what": "Parking place reserved for buses"
+    },
+    "974": {
+      "name": "Stopping by vehicles other than buses prohibited during the period indicated",
+      "what": "Stopping by vehicles other than buses prohibited during the period indicated (SI 2002 caption, checked against the page image, r4)."
+    },
+    "975": {
+      "name": "Place where buses may stand and the stopping of other vehicles is prohibited during the period indicated",
+      "what": "Place where buses may stand and the stopping of other vehicles is prohibited during the period indicated (SI 2002 caption, checked against the page image, r4)."
+    },
+    "618.1": {
+      "name": "All vehicles prohibited during the period indicated except for access",
+      "what": "All vehicles prohibited during the period indicated except for access (SI 2002 caption, checked against the page image, r4)."
+    },
+    "618.2": {
+      "name": "Pedestrian zone (times)",
+      "what": "Pedestrian zone (times)"
+    },
+    "618.3": {
+      "name": "Pedestrian zone (except buses)",
+      "what": "Pedestrian zone (except buses)"
+    },
+    "618.3A": {
+      "name": "Pedestrian zone (except loading)",
+      "what": "Pedestrian zone (except loading)"
+    },
+    "618.3B": {
+      "name": "Entry to, and waiting in, a pedestrian zone restricted",
+      "what": "Entry to, and waiting in, a pedestrian zone restricted"
+    },
+    "618.3C": {
+      "name": "Entry to, and waiting in, a pedestrian and cycle zone restricted for motor vehicles, other than electric scooters being used in a trial",
+      "what": "Entry to, and waiting in, a pedestrian and cycle zone restricted for motor vehicles, other than electric scooters being used in a trial"
+    },
+    "618.4": {
+      "name": "End of pedestrian zone",
+      "what": "End of pedestrian zone"
+    },
+    "637.2": {
+      "name": "No waiting (times)",
+      "what": "No waiting (times)"
+    },
+    "637.3": {
+      "name": "No waiting except loading",
+      "what": "No waiting except loading"
+    },
+    "640.1": {
+      "name": "Waiting, loading and unloading prohibited at a parking place where parking is temporarily suspended",
+      "what": "Waiting, loading and unloading prohibited at a parking place where parking is temporarily suspended"
+    },
+    "640.3": {
+      "name": "Entrance to a designated off-highway loading area in which waiting restrictions apply",
+      "what": "Entrance to a designated off-highway loading area in which waiting restrictions apply (SI 2002 caption, checked against the page image, r4)."
+    },
+    "640.4": {
+      "name": "Waiting prohibited in a designated off-highway loading area during the period indicated except by permitted vehicles",
+      "what": "Waiting prohibited in a designated off-highway loading area during the period indicated except by permitted vehicles (SI 2002 caption, checked against the page image, r4)."
+    },
+    "640.5": {
+      "name": "End of designated off-road loading area",
+      "what": "End of designated off-road loading area"
+    },
+    "660": {
+      "name": "Parking place reserved for permit holders",
+      "what": "Parking place reserved for permit holders (SI 2002 caption, p100, checked against the page image, r7). Face: white plate, P square and \"Permit holders only\" as the SI 2002 diagram; square colour unverified (greyscale scan).",
+      "glyph": true,
+      "renderer": "660"
+    },
+    "660.3": {
+      "name": "Parking place reserved for holders of residents' permits",
+      "what": "Parking place reserved for holders of residents' permits (SI 2002 caption, checked against the page image, r4)."
+    },
+    "660.4": {
+      "name": "Loading only",
+      "what": "Loading only"
+    },
+    "660.5": {
+      "name": "Parking for the period shown",
+      "what": "Parking for the period shown"
+    },
+    "660.6": {
+      "name": "Parking place (ticket)",
+      "what": "Parking place (ticket)"
+    },
+    "660.7": {
+      "name": "Parking place (voucher)",
+      "what": "Parking place (voucher)"
+    },
+    "661.1": {
+      "name": "Restrictions on length of waiting time and return period",
+      "what": "Restrictions on length of waiting time and return period (SI 2002 caption, checked against the page image, r4)."
+    },
+    "661.2A": {
+      "name": "'Pay and Display' ticket-regulated parking place",
+      "what": "'Pay and Display' ticket-regulated parking place (SI 2002 caption, checked against the page image, r4)."
+    },
+    "661.3A": {
+      "name": "Location of 'Pay and Display' ticket machine",
+      "what": "Location of 'Pay and Display' ticket machine (SI 2002 caption, checked against the page image, r4)."
+    },
+    "661.4": {
+      "name": "Drivers must obtain and display parking tickets",
+      "what": "Drivers must obtain and display parking tickets (SI 2002 caption, checked against the page image, r4)."
+    },
+    "662": {
+      "name": "Period during which waiting is limited and display of a disc is required at a parking place in a disc zone",
+      "what": "Period during which waiting is limited and display of a disc is required at a parking place in a disc zone (SI 2002 caption, checked against the page image, r4)."
+    },
+    "667": {
+      "name": "Vehicles may be parked partially on the verge or footway (Alternative types)",
+      "what": "Vehicles may be parked partially on the verge or footway (Alternative types)"
+    },
+    "667.1": {
+      "name": "Vehicles may be parked partially on the verge or footway during the period indicated (Alternative types)",
+      "what": "Vehicles may be parked partially on the verge or footway during the period indicated (Alternative types)"
+    },
+    "667.2": {
+      "name": "End of area where vehicles may be parked partially on the verge or footway (Alternative types)",
+      "what": "End of area where vehicles may be parked partially on the verge or footway (Alternative types)"
+    },
+    "668": {
+      "name": "Vehicles may be parked wholly on the verge or footway (Alternative types)",
+      "what": "Vehicles may be parked wholly on the verge or footway (Alternative types)"
+    },
+    "668.1": {
+      "name": "Vehicles may be parked wholly on the verge or footway during the period indicated (Alternative types)",
+      "what": "Vehicles may be parked wholly on the verge or footway during the period indicated (Alternative types)"
+    },
+    "668.2": {
+      "name": "End of area where vehicles may be parked wholly on the verge or footway (Alternative types)",
+      "what": "End of area where vehicles may be parked wholly on the verge or footway (Alternative types)"
+    },
+    "883": {
+      "name": "Indication of the start of area with traffic calming features (within the meaning of paragraph 1(3) of the Schedule 10 General Directions)",
+      "what": "Indication of the start of area with traffic calming features (within the meaning of paragraph 1(3) of the Schedule 10 General Directions)"
+    },
+    "884": {
+      "name": "Start of a quiet lane in England designated under section 268 of the Transport Act 2000",
+      "what": "Start of a quiet lane in England designated under section 268 of the Transport Act 2000"
+    },
+    "2702": {
+      "name": "Start of temporary diversion route",
+      "what": "Start of temporary diversion route (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2703": {
+      "name": "Direction of temporary diversion route from junction ahead",
+      "what": "Direction of temporary diversion route from junction ahead (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2704": {
+      "name": "Direction of temporary diversion route",
+      "what": "Direction of temporary diversion route (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2705": {
+      "name": "Junction ahead leading to temporary diversion routes to the destinations shown",
+      "what": "Junction ahead leading to temporary diversion routes to the destinations shown (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2706": {
+      "name": "Roundabout ahead leading to a temporary diversion route to the destination shown",
+      "what": "Roundabout ahead leading to a temporary diversion route to the destination shown (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2707": {
+      "name": "Direction of temporary diversion route to destination shown",
+      "what": "Direction of temporary diversion route to destination shown (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2708": {
+      "name": "Junction ahead leading to route for emergency vehicles to a temporary incident control point",
+      "what": "Junction ahead leading to route for emergency vehicles to a temporary incident control point"
+    },
+    "2710": {
+      "name": "Permanently mounted sign indicating a route for emergency vehicles to a named emergency services incident point",
+      "what": "Permanently mounted sign indicating a route for emergency vehicles to a named emergency services incident point"
+    },
+    "2711": {
+      "name": "Direction to emergency exit for pedestrians from a tunnel",
+      "what": "Direction to emergency exit for pedestrians from a tunnel (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2712": {
+      "name": "Location of fire rendezvous point (Alternative types)",
+      "what": "Location of fire rendezvous point (Alternative types)"
+    },
+    "2713": {
+      "name": "Direction to nearest emergency telephone on same side of the road(diagram shows blue background – for use on motorways) (Alternative types)",
+      "what": "Direction to nearest emergency telephone on same side of the road(diagram shows blue background – for use on motorways) (Alternative types)"
+    },
+    "2713.1": {
+      "name": "Distance ahead to emergency telephone in a parking place or emergency lay‑by (Alternative types)",
+      "what": "Distance ahead to emergency telephone in a parking place or emergency lay‑by (Alternative types)"
+    },
+    "2714": {
+      "name": "Side of emergency telephone box (Alternative types)",
+      "what": "Side of emergency telephone box (Alternative types)"
+    },
+    "2715": {
+      "name": "Back of emergency telephone box (Alternative types)",
+      "what": "Back of emergency telephone box (Alternative types)"
+    },
+    "2716": {
+      "name": "Junction ahead leading to a temporary diversion route, the direction along which is indicated by a symbol shown in Part VII of Schedule 13",
+      "what": "Junction ahead leading to a temporary diversion route, the direction along which is indicated by a symbol shown in Part VII of Schedule 13 (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2717": {
+      "name": "Location on a primary route given by route number and direction of travel, and direction of nearest emergency telephone",
+      "what": "Location on a primary route given by route number and direction of travel, and direction of nearest emergency telephone (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2902": {
+      "name": "Motorway route confirmatory (with junctions)",
+      "what": "Motorway route confirmatory (with junctions)"
+    },
+    "2902.1": {
+      "name": "Motorway route confirmatory (variant)",
+      "what": "Motorway route confirmatory (variant)"
+    },
+    "2903": {
+      "name": "Motorway junction list",
+      "what": "Motorway junction list"
+    },
+    "2904": {
+      "name": "Motorway junction ahead, identified by the number shown on a black background, where the left hand lane of a motorway leads to another motorway and the other two lanes continue along the main motorway route",
+      "what": "Motorway junction ahead, identified by the number shown on a black background, where the left hand lane of a motorway leads to another motorway and the other two lanes continue along the main motorway route (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2904.1": {
+      "name": "Motorway junction, identified by the number shown on a black background, where the left hand lane of a motorway leads to another motorway and the other two lanes continue along the main motorway route",
+      "what": "Motorway junction, identified by the number shown on a black background, where the left hand lane of a motorway leads to another motorway and the other two lanes continue along the main motorway route (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2905": {
+      "name": "Two motorway junctions ahead in quick succession, identified by the number shown on a black background, leading to the destinations and routes shown. The number of lanes on the motorway remains the same through the junction",
+      "what": "Two motorway junctions ahead in quick succession, identified by the number shown on a black background, leading to the destinations and routes shown. The number of lanes on the motorway remains the same through the junction (SI 2002 caption, checked against the page image, r6)."
+    },
+    "2908": {
+      "name": "Motorway junction layout",
+      "what": "Motorway junction layout"
+    },
+    "2908.1": {
+      "name": "Motorway junction layout (variant)",
+      "what": "Motorway junction layout (variant)"
+    },
+    "2910": {
+      "name": "Motorway number confirmatory",
+      "what": "Motorway number confirmatory"
+    },
+    "2913": {
+      "name": "Roundabout ahead leading from a motorway exit slip road to a primary and a non-primary route",
+      "what": "Roundabout ahead leading from a motorway exit slip road to a primary and a non-primary route (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2913.1": {
+      "name": "Roundabout ahead leading from a motorway exit slip road to another motorway",
+      "what": "Roundabout ahead leading from a motorway exit slip road to another motorway (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2914": {
+      "name": "Termination of a motorway at a roundabout ahead leading to two primary routes and a non-primary route",
+      "what": "Termination of a motorway at a roundabout ahead leading to two primary routes and a non-primary route (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2915": {
+      "name": "Route to be followed at junction ahead on a motorway for destinations that are not otherwise shown on signs for that junction",
+      "what": "Route to be followed at junction ahead on a motorway for destinations that are not otherwise shown on signs for that junction (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2920": {
+      "name": "Motorway hospital",
+      "what": "Motorway hospital"
+    },
+    "2921": {
+      "name": "Motorway police",
+      "what": "Motorway police"
+    },
+    "2922": {
+      "name": "Exit from a motorway for works traffic only",
+      "what": "Exit from a motorway for works traffic only"
+    },
+    "2924": {
+      "name": "Motorway junction ahead leading to the tourist attractions shown",
+      "what": "Motorway junction ahead leading to the tourist attractions shown (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2925": {
+      "name": "Roundabout ahead leading from a motorway exit slip road to the tourist attractions shown",
+      "what": "Roundabout ahead leading from a motorway exit slip road to the tourist attractions shown (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2926": {
+      "name": "Junction ahead from a motorway exit slip road to the tourist attractions shown",
+      "what": "Junction ahead from a motorway exit slip road to the tourist attractions shown (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2927": {
+      "name": "Motorway junction ahead leading to a town or geographical area containing a Tourist Information Point or Centre and several tourist attractions",
+      "what": "Motorway junction ahead leading to a town or geographical area containing a Tourist Information Point or Centre and several tourist attractions (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2928": {
+      "name": "Motorway sign indicating the boundary of an administrative area, a ceremonial area or an historic county area (Alternative types)",
+      "what": "Motorway sign indicating the boundary of an administrative area, a ceremonial area or an historic county area (Alternative types)"
+    },
+    "2929": {
+      "name": "Motorway junction ahead leading to a route advised for goods vehicles to the destination shown, which may differ from that for other traffic",
+      "what": "Motorway junction ahead leading to a route advised for goods vehicles to the destination shown, which may differ from that for other traffic (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2930": {
+      "name": "Regulations referred to in this column in respect of item 13 cease to apply ahead",
+      "what": "Regulations referred to in this column in respect of item 13 cease to apply ahead"
+    },
+    "2932": {
+      "name": "Entrance to a motorway service area, maintenance compound or similar facility contained within a length of a motorway and indicating that Regulations in force under section 17 of the 1984 Act cease to apply at this point",
+      "what": "Entrance to a motorway service area, maintenance compound or similar facility contained within a length of a motorway and indicating that Regulations in force under section 17 of the 1984 Act cease to apply at this point"
+    },
+    "2026": {
+      "name": "Primary-route advance direction (map type)",
+      "what": "Primary-route advance direction (map type)"
+    },
+    "2027": {
+      "name": "Primary-route sign at the junction",
+      "what": "Primary-route sign at the junction"
+    },
+    "2028": {
+      "name": "Primary-route direction (rectangular)",
+      "what": "Primary-route direction (rectangular)"
+    },
+    "2029": {
+      "name": "Directions to a primary route and a non-primary route",
+      "what": "Directions to a primary route and a non-primary route (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2030": {
+      "name": "Primary-route direction at a roundabout",
+      "what": "Primary-route direction at a roundabout"
+    },
+    "2031": {
+      "name": "The number of a primary route",
+      "what": "The number of a primary route (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2032": {
+      "name": "Primary route (2032) or non‑primary route (2130) forming part of a ring road",
+      "what": "Primary route (2032) or non‑primary route (2130) forming part of a ring road"
+    },
+    "2033": {
+      "name": "Primary-route direction to parking",
+      "what": "Primary-route direction to parking"
+    },
+    "2034": {
+      "name": "Route to be followed at junction ahead for destinations that are not otherwise shown on signs for that junction",
+      "what": "Route to be followed at junction ahead for destinations that are not otherwise shown on signs for that junction (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2035": {
+      "name": "Direction along a primary route to destinations shown via a U-turn at a roundabout ahead",
+      "what": "Direction along a primary route to destinations shown via a U-turn at a roundabout ahead (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2102": {
+      "name": "Junction ahead of two non-primary routes, one of which leads to a primary route",
+      "what": "Junction ahead of two non-primary routes, one of which leads to a primary route (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2103": {
+      "name": "Non-primary sign at the junction",
+      "what": "Non-primary sign at the junction"
+    },
+    "2104": {
+      "name": "Non-primary direction at a roundabout",
+      "what": "Non-primary direction at a roundabout"
+    },
+    "2111": {
+      "name": "Non-primary direction to a place",
+      "what": "Non-primary direction to a place"
+    },
+    "2112": {
+      "name": "Non-primary direction to a facility",
+      "what": "Non-primary direction to a facility"
+    },
+    "2113": {
+      "name": "Non-primary confirmatory sign",
+      "what": "Non-primary confirmatory sign"
+    },
+    "2114": {
+      "name": "Junction ahead where one lane of a non-primary route is reserved for traffic turning to the right",
+      "what": "Junction ahead where one lane of a non-primary route is reserved for traffic turning to the right (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2115": {
+      "name": "Non-primary direction with a primary-route panel",
+      "what": "Non-primary direction with a primary-route panel"
+    },
+    "2116": {
+      "name": "Non-primary junction-name sign",
+      "what": "Non-primary junction-name sign"
+    },
+    "2117": {
+      "name": "Non-primary lane-destination sign",
+      "what": "Non-primary lane-destination sign"
+    },
+    "2118": {
+      "name": "Non-primary overhead direction",
+      "what": "Non-primary overhead direction"
+    },
+    "2120": {
+      "name": "Double mini-roundabout ahead with exits to three non-primary routes, one of which leads to a car ferry and another is an advisory lorry route",
+      "what": "Double mini-roundabout ahead with exits to three non-primary routes, one of which leads to a car ferry and another is an advisory lorry route (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2121": {
+      "name": "Junction ahead of a non-primary route with another non-primary route leading to a town or village that has been by-passed",
+      "what": "Junction ahead of a non-primary route with another non-primary route leading to a town or village that has been by-passed (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2122": {
+      "name": "Sharp bend in main route at a junction ahead with a minor road",
+      "what": "Sharp bend in main route at a junction ahead with a minor road (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2123": {
+      "name": "Prohibited movement ahead on a non-primary route with an indication of a route avoiding that prohibition",
+      "what": "Prohibited movement ahead on a non-primary route with an indication of a route avoiding that prohibition"
+    },
+    "2124": {
+      "name": "Prohibited movement ahead on a non-primary route with an indication of a route avoiding that prohibition",
+      "what": "Prohibited movement ahead on a non-primary route with an indication of a route avoiding that prohibition"
+    },
+    "2125": {
+      "name": "Non-primary ring-road direction",
+      "what": "Non-primary ring-road direction"
+    },
+    "2126": {
+      "name": "Non-primary town-centre direction",
+      "what": "Non-primary town-centre direction"
+    },
+    "2127": {
+      "name": "Non-primary diversion direction",
+      "what": "Non-primary diversion direction"
+    },
+    "2128": {
+      "name": "Non-primary distance and destination",
+      "what": "Non-primary distance and destination"
+    },
+    "2130": {
+      "name": "Primary route (2032) or non‑primary route (2130) forming part of a ring road",
+      "what": "Primary route (2032) or non‑primary route (2130) forming part of a ring road"
+    },
+    "2201": {
+      "name": "Distance ahead to a tourist attraction",
+      "what": "Distance ahead to a tourist attraction (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2203": {
+      "name": "Direction and distance to a tourist attraction",
+      "what": "Direction and distance to a tourist attraction (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2204": {
+      "name": "Direction and distance to a Tourist Information Point or Centre",
+      "what": "Direction and distance to a Tourist Information Point or Centre (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2205": {
+      "name": "Sign on a primary or non-primary route indicating location of a Tourist Information Centre or Point",
+      "what": "Sign on a primary or non-primary route indicating location of a Tourist Information Centre or Point"
+    },
+    "2206": {
+      "name": "Tourist attraction ahead",
+      "what": "Tourist attraction ahead"
+    },
+    "2207": {
+      "name": "Tourist attraction (direction)",
+      "what": "Tourist attraction (direction)"
+    },
+    "2208": {
+      "name": "Direction to a tourist attraction indicated by a symbol",
+      "what": "Direction to a tourist attraction indicated by a symbol (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2209": {
+      "name": "Distance ahead to a tourist attraction",
+      "what": "Distance ahead to a tourist attraction (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2210": {
+      "name": "Junction ahead leading to or along a route passing through places of interest",
+      "what": "Junction ahead leading to or along a route passing through places of interest (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2301": {
+      "name": "Picnic site",
+      "what": "Picnic site"
+    },
+    "2302": {
+      "name": "Direction and distance to a camping and caravan site as defined in the caption under diagram 2301",
+      "what": "Direction and distance to a camping and caravan site as defined in the caption under diagram 2301 (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2303": {
+      "name": "Sign on a primary or non-primary route indicating distance and direction to a hostel",
+      "what": "Sign on a primary or non-primary route indicating distance and direction to a hostel"
+    },
+    "2304": {
+      "name": "Direction and distance to a hostel as defined in the caption under diagram 2303",
+      "what": "Direction and distance to a hostel as defined in the caption under diagram 2303 (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2305": {
+      "name": "Sign on a primary or non-primary route indicating distance and direction to a picnic area",
+      "what": "Sign on a primary or non-primary route indicating distance and direction to a picnic area"
+    },
+    "2306": {
+      "name": "Direction and distance to a picnic area",
+      "what": "Direction and distance to a picnic area (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2307": {
+      "name": "Sign on a primary or non-primary route indicating distance ahead to a parking place with public toilets that has facilities for disabled persons, Tourist Information Centre or Point, public telephone, picnic area and viewpoint",
+      "what": "Sign on a primary or non-primary route indicating distance ahead to a parking place with public toilets that has facilities for disabled persons, Tourist Information Centre or Point, public telephone, picnic area and viewpoint"
+    },
+    "2308": {
+      "name": "Nature reserve",
+      "what": "Nature reserve"
+    },
+    "2310": {
+      "name": "Leisure facility",
+      "what": "Leisure facility"
+    },
+    "2311": {
+      "name": "Sports stadium",
+      "what": "Sports stadium"
+    },
+    "2313": {
+      "name": "Theme park",
+      "what": "Theme park"
+    },
+    "2314": {
+      "name": "Wildlife park",
+      "what": "Wildlife park"
+    },
+    "2315": {
+      "name": "Beach or coastal attraction",
+      "what": "Beach or coastal attraction"
+    },
+    "2316": {
+      "name": "Tourist trail",
+      "what": "Tourist trail"
+    },
+    "2601": {
+      "name": "Route for pedestrians",
+      "what": "Route for pedestrians"
+    },
+    "2601.1": {
+      "name": "Direction of a numbered route for pedal cycles forming part of a national cycle route network at a junction ahead",
+      "what": "Direction of a numbered route for pedal cycles forming part of a national cycle route network at a junction ahead (SI 2002 caption, checked against the page image)."
+    },
+    "2602.1": {
+      "name": "Cycle direction (variant)",
+      "what": "Cycle direction (variant)"
+    },
+    "2603": {
+      "name": "Junction ahead leading to a parking place for pedal cycles",
+      "what": "Junction ahead leading to a parking place for pedal cycles (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2604": {
+      "name": "Direction and distance to a free parking place for pedal cycles",
+      "what": "Direction and distance to a free parking place for pedal cycles (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2605": {
+      "name": "Direction to a bridleway",
+      "what": "Direction to a bridleway"
+    },
+    "2606": {
+      "name": "Direction to a byway",
+      "what": "Direction to a byway"
+    },
+    "2607": {
+      "name": "Direction of route to destination shown for pedestrians (as diagram 2605)",
+      "what": "Direction of route to destination shown for pedestrians (as diagram 2605) (SI 2002 caption, checked against the page image, r6)."
+    },
+    "2608": {
+      "name": "Direction of route to a tourist attraction for pedestrians",
+      "what": "Direction of route to a tourist attraction for pedestrians (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2609": {
+      "name": "Direction of route for pedestrians to a parking place associated with a tourist attraction",
+      "what": "Direction of route for pedestrians to a parking place associated with a tourist attraction (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2610": {
+      "name": "Direction to or along a public footpath",
+      "what": "Direction to or along a public footpath (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2610.1": {
+      "name": "Direction to or along a public footpath (as diagram 2610)",
+      "what": "Direction to or along a public footpath (as diagram 2610) (SI 2002 caption, checked against the page image, r4)."
+    },
+    "2610.2": {
+      "name": "Direction along a public right of way, concessionary path or permissive path indicated by waymarks",
+      "what": "Direction along a public right of way, concessionary path or permissive path indicated by waymarks"
+    },
+    "804.1": {
+      "name": "Parking place reserved for goods vehicles",
+      "what": "Parking place reserved for goods vehicles"
+    },
+    "816": {
+      "name": "No through road for vehicles",
+      "what": "No through road for vehicles",
+      "glyph": true,
+      "renderer": "816"
+    },
+    "816.1": {
+      "name": "Alternative to the sign shown at item 5 with a street nameplate",
+      "what": "Alternative to the sign shown at item 5 with a street nameplate"
+    },
+    "818.1": {
+      "name": "Section of dual carriageway road ahead",
+      "what": "Section of dual carriageway road ahead"
+    },
+    "818.2": {
+      "name": "Worded warning sign",
+      "what": "Worded warning sign",
+      "glyph": true,
+      "renderer": "818.2"
+    },
+    "818.3": {
+      "name": "Nature of and distance to a prohibition, restriction or requirement ahead (as diagram 818.2)",
+      "what": "Nature of and distance to a prohibition, restriction or requirement ahead (as diagram 818.2) (SI 2002 caption, checked against the page image, r6)."
+    },
+    "818.4": {
+      "name": "Nature and location of a prohibition, restriction or requirement with indication of alternative route",
+      "what": "Nature and location of a prohibition, restriction or requirement with indication of alternative route"
+    },
+    "820": {
+      "name": "Route unsuitable for type of vehicle indicated (Alternative types)",
+      "what": "Route unsuitable for type of vehicle indicated (Alternative types)"
+    },
+    "821": {
+      "name": "Road ahead only wide enough for one line of vehicles, and providing information about passing places (Alternative types)",
+      "what": "Road ahead only wide enough for one line of vehicles, and providing information about passing places (Alternative types)"
+    },
+    "822": {
+      "name": "Passing place on narrow road",
+      "what": "Passing place on narrow road"
+    },
+    "829.1": {
+      "name": "Potential danger temporarily ahead and consequent need to proceed with caution",
+      "what": "Potential danger temporarily ahead and consequent need to proceed with caution"
+    },
+    "832": {
+      "name": "Location of traffic survey",
+      "what": "Location of traffic survey (SI 2002 caption, checked against the page image, r4)."
+    },
+    "833": {
+      "name": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+      "what": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road"
+    },
+    "834": {
+      "name": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+      "what": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road"
+    },
+    "835": {
+      "name": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+      "what": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road"
+    },
+    "836": {
+      "name": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+      "what": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road"
+    },
+    "837": {
+      "name": "Way in and way out",
+      "what": "Way in and way out"
+    },
+    "857": {
+      "name": "Information for pedestrians about tourist attractions and facilities in a nearby place or area",
+      "what": "Information for pedestrians about tourist attractions and facilities in a nearby place or area (SI 2002 caption, checked against the page image, r4)."
+    },
+    "872": {
+      "name": "Appropriate traffic lanes at junction ahead",
+      "what": "Appropriate traffic lanes at junction ahead"
+    },
+    "873": {
+      "name": "Additional traffic joining from the left or right ahead (diagram shows blue background – for use on motorways)",
+      "what": "Additional traffic joining from the left or right ahead (diagram shows blue background – for use on motorways)"
+    },
+    "3000.2": {
+      "name": "Traffic light signals for the control of vehicular traffic consisting solely of pedal cycles and electric scooters being used in a trial (Alternative types)",
+      "what": "Traffic light signals for the control of vehicular traffic consisting solely of pedal cycles and electric scooters being used in a trial (Alternative types)"
+    },
+    "3000.7": {
+      "name": "Traffic light signals as diagram 3000 with additional signals placed in any of the positions marked 1, 2, 3 and 4",
+      "what": "Traffic light signals as diagram 3000 with additional signals placed in any of the positions marked 1, 2, 3 and 4 (SI 2002 caption, checked against the page image, r6)."
+    },
+    "3001": {
+      "name": "Traffic signal with a box sign",
+      "what": "Traffic signal with a box sign"
+    },
+    "3001.2": {
+      "name": "Green arrow to show the direction for vehicular traffic to take for inclusion in traffic light signals as described in Part 1",
+      "what": "Green arrow to show the direction for vehicular traffic to take for inclusion in traffic light signals as described in Part 1"
+    },
+    "3013": {
+      "name": "Light signal for control of tramcars (diagram shows the light signal fully illuminated- see items 3 to 7 for the illumination of the signal to convey particular descriptions)",
+      "what": "Light signal for control of tramcars (diagram shows the light signal fully illuminated- see items 3 to 7 for the illumination of the signal to convey particular descriptions)"
+    },
+    "3013.1": {
+      "name": "Tramcar must not proceed beyond the stop line",
+      "what": "Tramcar must not proceed beyond the stop line"
+    },
+    "3013.2": {
+      "name": "Tramcar may proceed beyond the stopline and proceed straight ahead",
+      "what": "Tramcar may proceed beyond the stopline and proceed straight ahead"
+    },
+    "3013.3": {
+      "name": "Tramcar may proceed beyond the stopline and proceed to the left",
+      "what": "Tramcar may proceed beyond the stopline and proceed to the left"
+    },
+    "3013.4": {
+      "name": "Tramcar may proceed beyond the stopline and proceed to the right",
+      "what": "Tramcar may proceed beyond the stopline and proceed to the right"
+    },
+    "3013.5": {
+      "name": "Tramcar must not proceed beyond the stop line except that, as respects a tramcar which is so close to the stop line that it cannot safely be stopped without proceeding beyond the stop line, it conveys the same indication as the aspect which was shown immediately before it",
+      "what": "Tramcar must not proceed beyond the stop line except that, as respects a tramcar which is so close to the stop line that it cannot safely be stopped without proceeding beyond the stop line, it conveys the same indication as the aspect which was shown immediately before it"
+    },
+    "4002": {
+      "name": "Nearside pedestrian demand unit",
+      "what": "Nearside pedestrian demand unit"
+    },
+    "4002.1": {
+      "name": "Farside pedestrian signal",
+      "what": "Farside red-man / green-man signal.",
+      "glyph": true,
+      "renderer": "4002.1"
+    },
+    "4003.1": {
+      "name": "Nearside light signals and instructions for pedestrians at a pedestrian facility controlled by traffic light signals",
+      "what": "Nearside light signals and instructions for pedestrians at a pedestrian facility controlled by traffic light signals"
+    },
+    "4003.2": {
+      "name": "Farside light signals for equestrian traffic",
+      "what": "Farside light signals for equestrian traffic"
+    },
+    "4003.3": {
+      "name": "Instructions to horse riders above the push button control for calling up equestrian traffic phases at traffic light signals",
+      "what": "Instructions to horse riders above the push button control for calling up equestrian traffic phases at traffic light signals"
+    },
+    "4003.4": {
+      "name": "Nearside light signals and instructions for horse riders at an equestrian traffic crossing facility controlled by traffic light signals",
+      "what": "Nearside light signals and instructions for horse riders at an equestrian traffic crossing facility controlled by traffic light signals"
+    },
+    "4003.5": {
+      "name": "Farside light signals for pedestrians, drivers of electric scooters being used in a trial and cyclists at a Toucan crossing",
+      "what": "Farside light signals for pedestrians, drivers of electric scooters being used in a trial and cyclists at a Toucan crossing"
+    },
+    "4003.6": {
+      "name": "(a) instructions to pedestrians, drivers of electric scooters being used in a trial and cyclists above the push button control for calling up pedestrian and cycle phases at a Toucan crossing; or (b) instructions to cyclists above the push button control for calling up cycle phases at a crossing controlled by the traffic light signals provided for at item 3 or 4",
+      "what": "(a) instructions to pedestrians, drivers of electric scooters being used in a trial and cyclists above the push button control for calling up pedestrian and cycle phases at a Toucan crossing; or (b) instructions to cyclists above the push button control for calling up cycle phases at a crossing controlled by the traffic light signals provided for at item 3 or 4"
+    },
+    "4003.7": {
+      "name": "Nearside light signals and instructions for pedestrians, drivers of electric scooters being used in a trial and cyclists at a Toucan crossing",
+      "what": "Nearside light signals and instructions for pedestrians, drivers of electric scooters being used in a trial and cyclists at a Toucan crossing"
+    },
+    "878": {
+      "name": "Area in which enforcement cameras are in use (Alternative types)",
+      "what": "Area in which enforcement cameras are in use (Alternative types)"
+    },
+    "880": {
+      "name": "In relation to England, speed camera ahead on a lit road and reminder of 30 mph speed limit",
+      "what": "In relation to England, speed camera ahead on a lit road and reminder of 30 mph speed limit"
+    },
+    "951": {
+      "name": "No cycling",
+      "what": "No cycling",
+      "glyph": true,
+      "renderer": "951"
+    },
+    "818.5": {
+      "name": "Location of a low bridge with indication of alternative route",
+      "what": "Location of a low bridge with indication of alternative route"
+    },
+    "STREET_NAME": {
+      "name": "Street-name plate",
+      "what": "Low white rectangle, black border, two posts. Faces the named street.",
+      "glyph": true,
+      "renderer": "STREET_NAME"
+    },
+    "529": {
+      "name": "Opening or swing bridge ahead",
+      "what": "Opening or swing bridge ahead",
+      "glyph": true,
+      "renderer": "529"
+    },
+    "530A": {
+      "name": "Maximum headroom available at hazard, with height indicated in both metric and imperial units",
+      "what": "Maximum headroom available at hazard, with height indicated in both metric and imperial units",
+      "glyph": true,
+      "renderer": "530A"
+    },
+    "629A": {
+      "name": "Vehicles exceeding the width indicated prohibited in both metric and imperial units",
+      "what": "Vehicles exceeding the width indicated prohibited in both metric and imperial units",
+      "glyph": true,
+      "renderer": "629A"
+    },
+    "531.1A": {
+      "name": "Maximum headroom available at arch bridge ahead",
+      "what": "Maximum headroom available at arch bridge ahead",
+      "glyph": true,
+      "renderer": "531.1A"
+    },
+    "811A": {
+      "name": "Beginning and end of section of road where traffic has priority over vehicles from the opposite direction",
+      "what": "Beginning and end of section of road where traffic has priority over vehicles from the opposite direction",
+      "glyph": true,
+      "renderer": "811A"
+    },
+    "827.1": {
+      "name": "Hospital ahead",
+      "what": "Hospital ahead",
+      "glyph": true,
+      "renderer": "827.1"
+    },
+    "605.3": {
+      "name": "School crossing patrol sign",
+      "what": "School crossing patrol sign",
+      "glyph": true,
+      "renderer": "605.3"
+    },
+    "959B": {
+      "name": "Nearside with-flow bus lane, which authorised vehicles, taxis, solo motor cycles, pedal cycles and electric scooters being used in a trial may also use, with indication of times of operation",
+      "what": "Nearside with-flow bus lane, which authorised vehicles, taxis, solo motor cycles, pedal cycles and electric scooters being used in a trial may also use, with indication of times of operation",
+      "glyph": true,
+      "renderer": "959B"
+    },
+    "4007": {
+      "name": "Yellow or fluorescent yellow globe to indicate presence of a Parallel, or Zebra crossing",
+      "what": "Yellow or fluorescent yellow globe to indicate presence of a Parallel, or Zebra crossing",
+      "glyph": true,
+      "renderer": "4007"
+    }
+  }
+}

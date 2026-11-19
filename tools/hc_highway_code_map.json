@@ -1,0 +1,5 @@
+{
+  "quarantined": true,
+  "reason": "Do not use as a TSRGD id source. Many captions were mapped to the wrong diagram (re-review F). Captions only, via tools/quarantine/.",
+  "see": "tools/quarantine/"
+}

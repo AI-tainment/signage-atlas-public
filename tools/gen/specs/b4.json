@@ -1,0 +1,425 @@
+[
+ {
+  "id": "954",
+  "diag": "954",
+  "label": "954",
+  "src": "02",
+  "page": 146,
+  "family": "Mandatory",
+  "opts": {
+   "pad": 6,
+   "single": false,
+   "texts": [
+    [
+     "Except",
+     40,
+     35,
+     315,
+     124
+    ],
+    [
+     "buses",
+     1
+    ]
+   ]
+  },
+  "batch": "4"
+ },
+ {
+  "id": "954.2",
+  "diag": "954.2",
+  "label": "954.2",
+  "src": "02",
+  "page": 146,
+  "family": "Mandatory",
+  "opts": {
+   "pad": 6,
+   "single": false,
+   "texts": [
+    [
+     "Except",
+     135,
+     35,
+     395,
+     125
+    ],
+    [
+     "local buses",
+     1
+    ]
+   ]
+  },
+  "batch": "4"
+ },
+ {
+  "id": "957",
+  "diag": "957",
+  "src": "16",
+  "page": 75,
+  "family": "Mandatory",
+  "si_ref": "Sch 3 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "513.1",
+  "diag": "513.1",
+  "label": "513.1",
+  "src": "02",
+  "page": 50,
+  "family": "WarnTriangle",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "532.3",
+  "diag": "532.3",
+  "label": "532.3",
+  "src": "02",
+  "page": 61,
+  "family": "WarnTriangle",
+  "opts": {
+   "pad": 6,
+   "drop": [
+    "\u4e00(1500)"
+   ]
+  },
+  "batch": "4"
+ },
+ {
+  "id": "548.1",
+  "diag": "548.1",
+  "label": "548.1",
+  "src": "02",
+  "page": 65,
+  "family": "WarnTriangle",
+  "opts": {
+   "pad": 6,
+   "merge": [
+    [
+     3,
+     4,
+     "200 yds"
+    ]
+   ]
+  },
+  "batch": "4"
+ },
+ {
+  "id": "553.2",
+  "diag": "553.2",
+  "label": "553.2",
+  "src": "02",
+  "page": 68,
+  "family": "WarnTriangle",
+  "opts": {
+   "pad": 6,
+   "single": false,
+   "texts": [
+    [
+     "Farm",
+     40,
+     38,
+     236,
+     112
+    ],
+    [
+     "traffic",
+     242,
+     36,
+     512,
+     112
+    ]
+   ]
+  },
+  "batch": "4"
+ },
+ {
+  "id": "573",
+  "diag": "573",
+  "label": "573",
+  "src": "02",
+  "page": 74,
+  "family": "WarnTriangle",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "575",
+  "diag": "575",
+  "label": "575",
+  "src": "02",
+  "page": 75,
+  "family": "WarnTriangle",
+  "opts": {
+   "pad": 6,
+   "single": false,
+   "texts": [
+    [
+     "Oncoming",
+     0
+    ],
+    [
+     "vehicles",
+     1
+    ],
+    [
+     "in middle",
+     72,
+     256,
+     499,
+     336
+    ],
+    [
+     "of",
+     4
+    ],
+    [
+     "road",
+     5
+    ]
+   ]
+  },
+  "batch": "4"
+ },
+ {
+  "id": "775",
+  "diag": "775",
+  "src": "16",
+  "page": 214,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 11 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "783",
+  "diag": "783",
+  "src": "16",
+  "page": 215,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 11 Pt 2",
+  "opts": {
+   "pad": 6,
+   "subst": {
+    "OFLARGE": "OF LARGE"
+   }
+  },
+  "batch": "4"
+ },
+ {
+  "id": "786",
+  "diag": "786",
+  "src": "16",
+  "page": 216,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 11 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "787",
+  "diag": "787",
+  "src": "16",
+  "page": 216,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 11 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "788",
+  "diag": "788",
+  "src": "16",
+  "page": 217,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 11 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "883",
+  "diag": "883",
+  "src": "16",
+  "page": 200,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 11 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "884",
+  "diag": "884",
+  "src": "16",
+  "page": 199,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 11 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "551.1",
+  "diag": "551.1",
+  "src": "16",
+  "page": 367,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 13 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "773",
+  "diag": "773",
+  "src": "16",
+  "page": 447,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 14 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "544.2",
+  "diag": "544.2",
+  "src": "16",
+  "page": 46,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 2 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "551.2",
+  "diag": "551.2",
+  "src": "16",
+  "page": 48,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 2 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "581",
+  "diag": "581",
+  "src": "16",
+  "page": 50,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 2 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "582",
+  "diag": "582",
+  "src": "16",
+  "page": 51,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 2 Pt 2",
+  "opts": {
+   "pad": 6,
+   "single": false
+  },
+  "batch": "4"
+ },
+ {
+  "id": "772",
+  "diag": "772",
+  "src": "16",
+  "page": 52,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 2 Pt 2",
+  "opts": {
+   "pad": 6,
+   "single": false
+  },
+  "batch": "4"
+ },
+ {
+  "id": "782",
+  "diag": "782",
+  "src": "16",
+  "page": 53,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 2 Pt 2",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "513.2",
+  "diag": "513.2",
+  "src": "16",
+  "page": 54,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 2 Pt 3",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "530.1",
+  "diag": "530.1",
+  "src": "16",
+  "page": 59,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 2 Pt 5",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "531.2",
+  "diag": "531.2",
+  "src": "16",
+  "page": 59,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 2 Pt 5",
+  "opts": {
+   "pad": 6
+  },
+  "batch": "4"
+ },
+ {
+  "id": "572",
+  "diag": "572",
+  "src": "16",
+  "page": 61,
+  "family": "WarnTriangle",
+  "si_ref": "Sch 2 Pt 5",
+  "opts": {
+   "pad": 6,
+   "single": false
+  },
+  "batch": "4"
+ }
+]

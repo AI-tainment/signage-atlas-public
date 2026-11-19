@@ -1,0 +1,254 @@
+[
+ {
+  "id": "661.4",
+  "diag": "661.4",
+  "label": "661.4",
+  "src": "02",
+  "page": 105,
+  "family": "Prohibitory",
+  "batch": "3"
+ },
+ {
+  "id": "662",
+  "diag": "662",
+  "label": "662",
+  "src": "02",
+  "page": 105,
+  "family": "Prohibitory",
+  "batch": "3"
+ },
+ {
+  "id": "675B",
+  "diag": "675B",
+  "src": "16",
+  "page": 180,
+  "family": "Prohibitory",
+  "si_ref": "Sch 10 Pt 2",
+  "batch": "3"
+ },
+ {
+  "id": "878",
+  "diag": "878",
+  "src": "16",
+  "page": 213,
+  "family": "Prohibitory",
+  "si_ref": "Sch 11 Pt 2",
+  "opts": {
+   "texts": [
+    [
+     "Traffic",
+     0
+    ],
+    [
+     "signal",
+     1
+    ],
+    [
+     "cameras",
+     44,
+     405,
+     350,
+     458
+    ]
+   ]
+  },
+  "batch": "3"
+ },
+ {
+  "id": "880",
+  "diag": "880",
+  "src": "16",
+  "page": 213,
+  "family": "Prohibitory",
+  "si_ref": "Sch 11 Pt 2",
+  "opts": {
+   "single": false,
+   "keep_other": true
+  },
+  "batch": "3"
+ },
+ {
+  "id": "818.5",
+  "diag": "818.5",
+  "src": "16",
+  "page": 364,
+  "family": "Prohibitory",
+  "si_ref": "Sch 12 Pt 28",
+  "batch": "3"
+ },
+ {
+  "id": "636",
+  "diag": "636",
+  "src": "16",
+  "page": 394,
+  "family": "Prohibitory",
+  "si_ref": "Sch 13 Pt 6",
+  "batch": "3"
+ },
+ {
+  "id": "640.1",
+  "diag": "640.1",
+  "src": "16",
+  "page": 395,
+  "family": "Prohibitory",
+  "si_ref": "Sch 13 Pt 6",
+  "batch": "3"
+ },
+ {
+  "id": "622.4",
+  "diag": "622.4",
+  "src": "16",
+  "page": 72,
+  "family": "Prohibitory",
+  "si_ref": "Sch 3 Pt 2",
+  "batch": "3"
+ },
+ {
+  "id": "640.5",
+  "diag": "640.5",
+  "src": "16",
+  "page": 112,
+  "family": "Prohibitory",
+  "si_ref": "Sch 7 Pt 2",
+  "opts": {
+   "merge": [
+    [
+     0,
+     1,
+     "End of"
+    ]
+   ]
+  },
+  "batch": "3"
+ },
+ {
+  "id": "647",
+  "diag": "647",
+  "src": "16",
+  "page": 112,
+  "family": "Prohibitory",
+  "si_ref": "Sch 7 Pt 2",
+  "batch": "3"
+ },
+ {
+  "id": "667",
+  "diag": "667",
+  "src": "16",
+  "page": 114,
+  "family": "Prohibitory",
+  "si_ref": "Sch 7 Pt 2",
+  "opts": {
+   "single": false
+  },
+  "batch": "3"
+ },
+ {
+  "id": "667.1",
+  "diag": "667.1",
+  "src": "16",
+  "page": 114,
+  "family": "Prohibitory",
+  "si_ref": "Sch 7 Pt 2",
+  "opts": {
+   "single": false
+  },
+  "batch": "3",
+  "crop": [
+   255,
+   30,
+   760,
+   425
+  ],
+  "isolate": "frame"
+ },
+ {
+  "id": "667.2",
+  "diag": "667.2",
+  "src": "16",
+  "page": 115,
+  "family": "Prohibitory",
+  "si_ref": "Sch 7 Pt 2",
+  "opts": {
+   "single": false
+  },
+  "batch": "3"
+ },
+ {
+  "id": "668",
+  "diag": "668",
+  "src": "16",
+  "page": 114,
+  "family": "Prohibitory",
+  "si_ref": "Sch 7 Pt 2",
+  "opts": {
+   "single": false
+  },
+  "batch": "3"
+ },
+ {
+  "id": "668.1",
+  "diag": "668.1",
+  "src": "16",
+  "page": 115,
+  "family": "Prohibitory",
+  "si_ref": "Sch 7 Pt 2",
+  "opts": {
+   "single": false
+  },
+  "batch": "3",
+  "crop": [
+   255,
+   40,
+   760,
+   435
+  ],
+  "isolate": "frame"
+ },
+ {
+  "id": "668.2",
+  "diag": "668.2",
+  "src": "16",
+  "page": 115,
+  "family": "Prohibitory",
+  "si_ref": "Sch 7 Pt 2",
+  "opts": {
+   "single": false
+  },
+  "batch": "3"
+ },
+ {
+  "id": "618.3B",
+  "diag": "618.3B",
+  "src": "16",
+  "page": 130,
+  "family": "Prohibitory",
+  "si_ref": "Sch 8 Pt 2",
+  "opts": {
+   "subst": {
+    "PEDESTRAN": "PEDESTRIAN",
+    "+pm": "pm"
+   }
+  },
+  "batch": "3"
+ },
+ {
+  "id": "618.3C",
+  "diag": "618.3C",
+  "src": "16",
+  "page": 131,
+  "family": "Prohibitory",
+  "si_ref": "Sch 8 Pt 2",
+  "batch": "3"
+ },
+ {
+  "id": "651",
+  "diag": "651",
+  "src": "16",
+  "page": 141,
+  "family": "Prohibitory",
+  "si_ref": "Sch 9 Pt 4",
+  "kind": "plate",
+  "isolate": "frame",
+  "batch": "3"
+ }
+]

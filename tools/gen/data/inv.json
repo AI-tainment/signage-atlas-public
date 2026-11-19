@@ -1,0 +1,2413 @@
+[
+{
+"id": "640.2A",
+"diag": "640.2A",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Waiting by goods vehicles over maximum gross weight shown prohibited during the periods and in the direction indicated",
+"p16": null,
+"p02": 95
+},
+{
+"id": "513.1",
+"diag": "513.1",
+"status": "2002-legacy",
+"family": "WarnTriangle",
+"name": "Adverse camber on a bend or roundabout",
+"p16": null,
+"p02": 50
+},
+{
+"id": "513.2",
+"diag": "513.2",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Maximum speed in mph advised at a bend or other hazard",
+"p16": [
+54,
+373
+],
+"p02": null
+},
+{
+"id": "544.2",
+"diag": "544.2",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Frail or disabled pedestrians likely to cross road ahead",
+"p16": [
+46
+],
+"p02": null
+},
+{
+"id": "548.1",
+"diag": "548.1",
+"status": "2002-legacy",
+"family": "WarnTriangle",
+"name": "Supervised cattle crossing",
+"p16": null,
+"p02": 65
+},
+{
+"id": "551.1",
+"diag": "551.1",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Migratory toad crossing ahead",
+"p16": [
+367
+],
+"p02": null
+},
+{
+"id": "551.2",
+"diag": "551.2",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Wild fowl likely to be in road ahead",
+"p16": [
+48
+],
+"p02": null
+},
+{
+"id": "553.2",
+"diag": "553.2",
+"status": "2002-legacy",
+"family": "WarnTriangle",
+"name": "Agricultural vehicles likely to be in road ahead",
+"p16": null,
+"p02": 68
+},
+{
+"id": "572",
+"diag": "572",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Distance ahead to hazard",
+"p16": [
+61
+],
+"p02": null
+},
+{
+"id": "573",
+"diag": "573",
+"status": "2002-legacy",
+"family": "WarnTriangle",
+"name": "Distance and direction to hazard",
+"p16": null,
+"p02": 74
+},
+{
+"id": "574",
+"diag": "574",
+"status": "2002-legacy",
+"family": "WarnTriangle",
+"name": "Distance over which hazard extends",
+"p16": null,
+"p02": null
+},
+{
+"id": "575",
+"diag": "575",
+"status": "2002-legacy",
+"family": "WarnTriangle",
+"name": "Oncoming vehicles in the middle of the road",
+"p16": null,
+"p02": 75
+},
+{
+"id": "581",
+"diag": "581",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Side winds likely ahead",
+"p16": [
+50
+],
+"p02": null
+},
+{
+"id": "582",
+"diag": "582",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Slow moving military vehicles likely to becrossing or in road ahead",
+"p16": [
+51
+],
+"p02": null
+},
+{
+"id": "618",
+"diag": "618",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Play street",
+"p16": null,
+"p02": 81
+},
+{
+"id": "622.4",
+"diag": "622.4",
+"status": "current",
+"family": "Prohibitory",
+"name": "Articulated or track laying vehicles prohibited",
+"p16": [
+72
+],
+"p02": null
+},
+{
+"id": "622.9",
+"diag": "622.9",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Vehicles carrying explosives prohibited (as diagram 622.8)",
+"p16": null,
+"p02": 88
+},
+{
+"id": "627.1",
+"diag": "627.1",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Exemption for unladen vehicles from the prohibition conveyed by the sign in diagram 626.2A",
+"p16": null,
+"p02": 89
+},
+{
+"id": "636",
+"diag": "636",
+"status": "current",
+"family": "Prohibitory",
+"name": "Temporary prohibition of waiting except for loading and unloading",
+"p16": [
+394
+],
+"p02": null
+},
+{
+"id": "637.1",
+"diag": "637.1",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "No waiting except as shown",
+"p16": null,
+"p02": 91
+},
+{
+"id": "638",
+"diag": "638",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Continuous prohibition on loading and unloading",
+"p16": null,
+"p02": 93
+},
+{
+"id": "638.1",
+"diag": "638.1",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "No loading during the times shown",
+"p16": null,
+"p02": 93
+},
+{
+"id": "639",
+"diag": "639",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Waiting limited to the period shown",
+"p16": null,
+"p02": 93
+},
+{
+"id": "639.1B",
+"diag": "639.1B",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Waiting prohibited during the periods indicated on the upper panel and restrictions on waiting during the period indicated on the lower panel",
+"p16": null,
+"p02": 94
+},
+{
+"id": "640",
+"diag": "640",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "No stopping during period indicated except for buses",
+"p16": null,
+"p02": 94
+},
+{
+"id": "642.3",
+"diag": "642.3",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "No stopping in lay-by except in emergency",
+"p16": null,
+"p02": 97
+},
+{
+"id": "647",
+"diag": "647",
+"status": "current",
+"family": "Prohibitory",
+"name": "End of the restriction on stopping indicated by the sign at item 6",
+"p16": [
+112
+],
+"p02": null
+},
+{
+"id": "649.2",
+"diag": "649.2",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "No stopping except taxis (times)",
+"p16": null,
+"p02": null
+},
+{
+"id": "650.1",
+"diag": "650.1",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Prohibition on stopping by vehicles other than taxis during the period indicated",
+"p16": null,
+"p02": 98
+},
+{
+"id": "650.2",
+"diag": "650.2",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Prohibition on waiting by vehicles other than taxis during the period indicated",
+"p16": null,
+"p02": 99
+},
+{
+"id": "650.3",
+"diag": "650.3",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Continuous prohibition on waiting by vehicles with an exemption for taxis during the period indicated",
+"p16": null,
+"p02": 99
+},
+{
+"id": "651",
+"diag": "651",
+"status": "current",
+"family": "Prohibitory",
+"name": "Use of verge maintained in mown or ornamental condition by specified traffic prohibited",
+"p16": [
+141
+],
+"p02": null
+},
+{
+"id": "530.1",
+"diag": "530.1",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Reduced headroom over part of road due to overhanging building or structure",
+"p16": [
+59
+],
+"p02": null
+},
+{
+"id": "531.2",
+"diag": "531.2",
+"status": "current",
+"family": "WarnTriangle",
+"name": "High vehicles to use middle of road at arch bridge ahead,",
+"p16": [
+59
+],
+"p02": null
+},
+{
+"id": "532.3",
+"diag": "532.3",
+"status": "2002-legacy",
+"family": "WarnTriangle",
+"name": "Available width at an arch bridge",
+"p16": null,
+"p02": 61
+},
+{
+"id": "772",
+"diag": "772",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Tramcars crossing ahead",
+"p16": [
+52
+],
+"p02": null
+},
+{
+"id": "773",
+"diag": "773",
+"status": "current",
+"family": "WarnTriangle",
+"name": "The light signals provided for at item 5 are ahead (where those light signals are at level crossing, swing or lifting bridge, or airfields)",
+"p16": [
+447
+],
+"p02": null
+},
+{
+"id": "775",
+"diag": "775",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Vehicular traffic must not stop within the area of a railway or tramway level crossing",
+"p16": [
+214
+],
+"p02": null
+},
+{
+"id": "776",
+"diag": "776",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Another train or tramcar may be about to pass over the crossing. Level crossing ahead is crossed by more than one railway or tramway track, and more than one train or tramcar may pass over it in quick succession",
+"p16": null,
+"p02": null
+},
+{
+"id": "780.1",
+"diag": "780.1",
+"status": "2002-legacy",
+"family": "WarnTriangle",
+"name": "Safe height under electrified cables (metric)",
+"p16": null,
+"p02": null
+},
+{
+"id": "780.2",
+"diag": "780.2",
+"status": "2002-legacy",
+"family": "WarnTriangle",
+"name": "Safe height under electrified cables (imperial)",
+"p16": null,
+"p02": null
+},
+{
+"id": "781",
+"diag": "781",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Load gauge giving audible warning to drivers where vehicles exceed safe height under electrified overhead cables",
+"p16": [
+64
+],
+"p02": null
+},
+{
+"id": "782",
+"diag": "782",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Risk of grounding at a railway or tramway level crossing or hump backed bridge ahead",
+"p16": [
+53
+],
+"p02": null
+},
+{
+"id": "783",
+"diag": "783",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Drivers of long low, large or slow vehicles must telephone to obtain permission before using a railway or tramway level crossing",
+"p16": [
+215
+],
+"p02": null
+},
+{
+"id": "784",
+"diag": "784",
+"status": "2002-legacy",
+"family": "WarnTriangle",
+"name": "Level-crossing countdown \u2014 2 stripes",
+"p16": null,
+"p02": null
+},
+{
+"id": "785",
+"diag": "785",
+"status": "2002-legacy",
+"family": "WarnTriangle",
+"name": "Level-crossing countdown \u2014 1 stripe",
+"p16": null,
+"p02": null
+},
+{
+"id": "786",
+"diag": "786",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Place where large, slow or long low vehicles should wait near a railway or tramway level crossing while the driver obtains permission by telephone to cross or confirms he or she has crossed",
+"p16": [
+216
+],
+"p02": null
+},
+{
+"id": "787",
+"diag": "787",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Site of telephone or emergency telephone at or near a railway or tramway level crossing",
+"p16": [
+216
+],
+"p02": null
+},
+{
+"id": "788",
+"diag": "788",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Direction to telephone or emergency telephone at or near a railway or tramway level crossing",
+"p16": [
+217
+],
+"p02": null
+},
+{
+"id": "954",
+"diag": "954",
+"status": "2002-legacy",
+"family": "Mandatory",
+"name": "Except buses",
+"p16": null,
+"p02": 146
+},
+{
+"id": "954.2",
+"diag": "954.2",
+"status": "2002-legacy",
+"family": "Mandatory",
+"name": "Local buses excluded from restriction or prohibition conveyed by associated sign",
+"p16": null,
+"p02": 146
+},
+{
+"id": "954.5",
+"diag": "954.5",
+"status": "current",
+"family": "InfoBlue",
+"name": "Classes of vehicle excluded from restriction or prohibition conveyed by associated sign . Where the word \u2018cycles\u2019 is used on the sign, this also represents, where relevant, electric scooters being used in a trial",
+"p16": null,
+"p02": null
+},
+{
+"id": "957",
+"diag": "957",
+"status": "current",
+"family": "Mandatory",
+"name": "Route comprising two ways for use by pedal cycles and electric scooters being used in a trial, only and by pedestrians only, with those ways separated by the marking provided for at item 7 or 8 of the table in Part 6 of Schedule 9, or by physical means,",
+"p16": [
+75
+],
+"p02": null
+},
+{
+"id": "958.1",
+"diag": "958.1",
+"status": "current",
+"family": "InfoBlue",
+"name": "With-flow mandatory cycle lane ahead, with indication of times of operation",
+"p16": [
+203
+],
+"p02": null
+},
+{
+"id": "959.1",
+"diag": "959.1",
+"status": "current",
+"family": "InfoBlue",
+"name": "With-flow cycle lane with indication of times of operation",
+"p16": [
+145
+],
+"p02": null
+},
+{
+"id": "960.1",
+"diag": "960.1",
+"status": "current",
+"family": "InfoBlue",
+"name": "One-way road with a mandatory contraflow cycle lane",
+"p16": [
+144
+],
+"p02": null
+},
+{
+"id": "962",
+"diag": "962",
+"status": "current",
+"family": "InfoBlue",
+"name": "Bus lane or lanes on a road at junction ahead, with indication of times of operation",
+"p16": [
+201
+],
+"p02": null
+},
+{
+"id": "962.1",
+"diag": "962.1",
+"status": "current",
+"family": "InfoBlue",
+"name": "Cycle lane on a road at junction ahead or, if applicable, a cycle track crossing road, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial, with indication of times of operation",
+"p16": [
+201
+],
+"p02": null
+},
+{
+"id": "962.2",
+"diag": "962.2",
+"status": "current",
+"family": "InfoBlue",
+"name": "Contraflow bus lane ahead on a road at a junction which pedal cycles and electric scooters being used in a trial may also use",
+"p16": [
+202
+],
+"p02": null
+},
+{
+"id": "963",
+"diag": "963",
+"status": "current",
+"family": "InfoBlue",
+"name": "Direction in which pedestrians should look for approaching traffic when crossing a bus lane",
+"p16": [
+204
+],
+"p02": null
+},
+{
+"id": "964",
+"diag": "964",
+"status": "current",
+"family": "InfoBlue",
+"name": "End of with-flow bus lane",
+"p16": [
+146
+],
+"p02": null
+},
+{
+"id": "965",
+"diag": "965",
+"status": "current",
+"family": "InfoBlue",
+"name": "End of cycle lane, track or route",
+"p16": [
+205
+],
+"p02": null
+},
+{
+"id": "968",
+"diag": "968",
+"status": "current",
+"family": "InfoBlue",
+"name": "Parking place for pedal cycles",
+"p16": [
+206
+],
+"p02": null
+},
+{
+"id": "968.1",
+"diag": "968.1",
+"status": "current",
+"family": "InfoBlue",
+"name": "Parking place for pedal cycles",
+"p16": null,
+"p02": null
+},
+{
+"id": "969",
+"diag": "969",
+"status": "current",
+"family": "InfoBlue",
+"name": "Parking place reserved for buses",
+"p16": [
+96
+],
+"p02": null
+},
+{
+"id": "974",
+"diag": "974",
+"status": "2002-legacy",
+"family": "InfoBlue",
+"name": "Stopping by vehicles other than buses prohibited during the period indicated",
+"p16": null,
+"p02": 155
+},
+{
+"id": "975",
+"diag": "975",
+"status": "2002-legacy",
+"family": "InfoBlue",
+"name": "Place where buses may stand and the stopping of other vehicles is prohibited during the period indicated",
+"p16": null,
+"p02": 155
+},
+{
+"id": "618.1",
+"diag": "618.1",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "All vehicles prohibited during the period indicated except for access",
+"p16": null,
+"p02": 81
+},
+{
+"id": "618.2",
+"diag": "618.2",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Pedestrian zone (times)",
+"p16": null,
+"p02": 82
+},
+{
+"id": "618.3",
+"diag": "618.3",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Pedestrian zone (except buses)",
+"p16": null,
+"p02": 83
+},
+{
+"id": "618.3A",
+"diag": "618.3A",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Pedestrian zone (except loading)",
+"p16": null,
+"p02": 84
+},
+{
+"id": "618.3B",
+"diag": "618.3B",
+"status": "current",
+"family": "Prohibitory",
+"name": "Entry to, and waiting in, a pedestrian zone restricted",
+"p16": [
+130
+],
+"p02": null
+},
+{
+"id": "618.3C",
+"diag": "618.3C",
+"status": "current",
+"family": "Prohibitory",
+"name": "Entry to, and waiting in, a pedestrian and cycle zone restricted for motor vehicles, other than electric scooters being used in a trial",
+"p16": [
+131
+],
+"p02": null
+},
+{
+"id": "618.4",
+"diag": "618.4",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "End of pedestrian zone",
+"p16": null,
+"p02": 85
+},
+{
+"id": "637.2",
+"diag": "637.2",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "No waiting (times)",
+"p16": null,
+"p02": 92
+},
+{
+"id": "637.3",
+"diag": "637.3",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "No waiting except loading",
+"p16": null,
+"p02": 93
+},
+{
+"id": "640.1",
+"diag": "640.1",
+"status": "current",
+"family": "Prohibitory",
+"name": "Waiting, loading and unloading prohibited at a parking place where parking is temporarily suspended",
+"p16": [
+395
+],
+"p02": null
+},
+{
+"id": "640.3",
+"diag": "640.3",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Entrance to a designated off-highway loading area in which waiting restrictions apply",
+"p16": null,
+"p02": 96
+},
+{
+"id": "640.4",
+"diag": "640.4",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Waiting prohibited in a designated off-highway loading area during the period indicated except by permitted vehicles",
+"p16": null,
+"p02": 96
+},
+{
+"id": "640.5",
+"diag": "640.5",
+"status": "current",
+"family": "Prohibitory",
+"name": "End of designated off-road loading area",
+"p16": [
+112
+],
+"p02": null
+},
+{
+"id": "660.3",
+"diag": "660.3",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Parking place reserved for holders of residents' permits",
+"p16": null,
+"p02": 100
+},
+{
+"id": "660.4",
+"diag": "660.4",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Loading only",
+"p16": null,
+"p02": 101
+},
+{
+"id": "660.5",
+"diag": "660.5",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Parking for the period shown",
+"p16": null,
+"p02": 101
+},
+{
+"id": "660.6",
+"diag": "660.6",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Parking place (ticket)",
+"p16": null,
+"p02": 102
+},
+{
+"id": "660.7",
+"diag": "660.7",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Parking place (voucher)",
+"p16": null,
+"p02": 103
+},
+{
+"id": "661.1",
+"diag": "661.1",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Restrictions on length of waiting time and return period",
+"p16": null,
+"p02": 104
+},
+{
+"id": "661.2A",
+"diag": "661.2A",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "'Pay and Display' ticket-regulated parking place",
+"p16": null,
+"p02": 104
+},
+{
+"id": "661.3A",
+"diag": "661.3A",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Location of 'Pay and Display' ticket machine",
+"p16": null,
+"p02": 104
+},
+{
+"id": "661.4",
+"diag": "661.4",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Drivers must obtain and display parking tickets",
+"p16": null,
+"p02": 105
+},
+{
+"id": "662",
+"diag": "662",
+"status": "2002-legacy",
+"family": "Prohibitory",
+"name": "Period during which waiting is limited and display of a disc is required at a parking place in a disc zone",
+"p16": null,
+"p02": 105
+},
+{
+"id": "667",
+"diag": "667",
+"status": "current",
+"family": "Prohibitory",
+"name": "Vehicles may be parked partially on the verge or footway",
+"p16": [
+114
+],
+"p02": null
+},
+{
+"id": "667.1",
+"diag": "667.1",
+"status": "current",
+"family": "Prohibitory",
+"name": "Vehicles may be parked partially on the verge or footway during the period indicated",
+"p16": [
+114
+],
+"p02": null
+},
+{
+"id": "667.2",
+"diag": "667.2",
+"status": "current",
+"family": "Prohibitory",
+"name": "End of area where vehicles may be parked partially on the verge or footway",
+"p16": [
+115
+],
+"p02": null
+},
+{
+"id": "668",
+"diag": "668",
+"status": "current",
+"family": "Prohibitory",
+"name": "Vehicles may be parked wholly on the verge or footway",
+"p16": [
+114
+],
+"p02": null
+},
+{
+"id": "668.1",
+"diag": "668.1",
+"status": "current",
+"family": "Prohibitory",
+"name": "Vehicles may be parked wholly on the verge or footway during the period indicated",
+"p16": [
+115
+],
+"p02": null
+},
+{
+"id": "668.2",
+"diag": "668.2",
+"status": "current",
+"family": "Prohibitory",
+"name": "End of area where vehicles may be parked wholly on the verge or footway",
+"p16": [
+115
+],
+"p02": null
+},
+{
+"id": "883",
+"diag": "883",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Indication of the start of area with traffic calming features (within the meaning of paragraph 1(3) of the Schedule 10 General Directions)",
+"p16": [
+200
+],
+"p02": null
+},
+{
+"id": "884",
+"diag": "884",
+"status": "current",
+"family": "WarnTriangle",
+"name": "Start of a quiet lane in England designated under section 268 of the Transport Act 2000",
+"p16": [
+199
+],
+"p02": null
+},
+{
+"id": "2702",
+"diag": "2702",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Start of temporary diversion route",
+"p16": null,
+"p02": 270
+},
+{
+"id": "2703",
+"diag": "2703",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Direction of temporary diversion route from junction ahead",
+"p16": null,
+"p02": 270
+},
+{
+"id": "2704",
+"diag": "2704",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Direction of temporary diversion route",
+"p16": null,
+"p02": 271
+},
+{
+"id": "2705",
+"diag": "2705",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Junction ahead leading to temporary diversion routes to the destinations shown",
+"p16": null,
+"p02": 271
+},
+{
+"id": "2706",
+"diag": "2706",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Roundabout ahead leading to a temporary diversion route to the destination shown",
+"p16": null,
+"p02": 271
+},
+{
+"id": "2707",
+"diag": "2707",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Direction of temporary diversion route to destination shown",
+"p16": null,
+"p02": 271
+},
+{
+"id": "2708",
+"diag": "2708",
+"status": "current",
+"family": "DirMotorway",
+"name": "Junction ahead leading to route for emergency vehicles to a temporary incident control point",
+"p16": [
+409
+],
+"p02": null
+},
+{
+"id": "2710",
+"diag": "2710",
+"status": "current",
+"family": "DirMotorway",
+"name": "Permanently mounted sign indicating a route for emergency vehicles to a named emergency services incident point",
+"p16": null,
+"p02": null
+},
+{
+"id": "2711",
+"diag": "2711",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Direction to emergency exit for pedestrians from a tunnel",
+"p16": null,
+"p02": 272
+},
+{
+"id": "2712",
+"diag": "2712",
+"status": "current",
+"family": "DirMotorway",
+"name": "Location of fire rendezvous point",
+"p16": [
+212
+],
+"p02": null
+},
+{
+"id": "2713",
+"diag": "2713",
+"status": "current",
+"family": "DirMotorway",
+"name": "Direction to nearest emergency telephone on same side of the road(diagram shows blue background \u2013 for use on motorways)",
+"p16": [
+211
+],
+"p02": null
+},
+{
+"id": "2713.1",
+"diag": "2713.1",
+"status": "current",
+"family": "DirMotorway",
+"name": "Distance ahead to emergency telephone in a parking place or emergency lay-by",
+"p16": [
+210
+],
+"p02": null
+},
+{
+"id": "2714",
+"diag": "2714",
+"status": "current",
+"family": "DirMotorway",
+"name": "Side of emergency telephone box",
+"p16": [
+211
+],
+"p02": null
+},
+{
+"id": "2715",
+"diag": "2715",
+"status": "current",
+"family": "DirMotorway",
+"name": "Back of emergency telephone box",
+"p16": [
+212
+],
+"p02": null
+},
+{
+"id": "2716",
+"diag": "2716",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Junction ahead leading to a temporary diversion route, the direction along which is indicated by a symbol shown in Part VII of Schedule 13",
+"p16": null,
+"p02": 274
+},
+{
+"id": "2717",
+"diag": "2717",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Location on a primary route given by route number and direction of travel, and direction of nearest emergency telephone",
+"p16": null,
+"p02": 275
+},
+{
+"id": "2902",
+"diag": "2902",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway route confirmatory (with junctions)",
+"p16": null,
+"p02": 278
+},
+{
+"id": "2902.1",
+"diag": "2902.1",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway route confirmatory (variant)",
+"p16": null,
+"p02": 278
+},
+{
+"id": "2903",
+"diag": "2903",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway junction list",
+"p16": null,
+"p02": 278
+},
+{
+"id": "2904",
+"diag": "2904",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway junction ahead, identified by the number shown on a black background, where the left hand lane of a motorway leads to another motorway and the other two lanes continue along the main motorway route",
+"p16": null,
+"p02": 279
+},
+{
+"id": "2904.1",
+"diag": "2904.1",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway junction, identified by the number shown on a black background, where the left hand lane of a motorway leads to another motorway and the other two lanes continue along the main motorway route",
+"p16": null,
+"p02": 279
+},
+{
+"id": "2905",
+"diag": "2905",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Two motorway junctions ahead in quick succession, identified by the number shown on a black background, leading to the destinations and routes shown. The number of lanes on the motorway remains the same through the junction",
+"p16": null,
+"p02": 280
+},
+{
+"id": "2908",
+"diag": "2908",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway junction layout",
+"p16": null,
+"p02": 281
+},
+{
+"id": "2908.1",
+"diag": "2908.1",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway junction layout (variant)",
+"p16": null,
+"p02": 281
+},
+{
+"id": "2910",
+"diag": "2910",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway number confirmatory",
+"p16": null,
+"p02": 282
+},
+{
+"id": "2913",
+"diag": "2913",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Roundabout ahead leading from a motorway exit slip road to a primary and a non-primary route",
+"p16": null,
+"p02": 283
+},
+{
+"id": "2913.1",
+"diag": "2913.1",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Roundabout ahead leading from a motorway exit slip road to another motorway",
+"p16": null,
+"p02": 284
+},
+{
+"id": "2914",
+"diag": "2914",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Termination of a motorway at a roundabout ahead leading to two primary routes and a non-primary route",
+"p16": null,
+"p02": 285
+},
+{
+"id": "2915",
+"diag": "2915",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Route to be followed at junction ahead on a motorway for destinations that are not otherwise shown on signs for that junction",
+"p16": null,
+"p02": 286
+},
+{
+"id": "2920",
+"diag": "2920",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway hospital",
+"p16": null,
+"p02": null
+},
+{
+"id": "2921",
+"diag": "2921",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway police",
+"p16": null,
+"p02": 288
+},
+{
+"id": "2922",
+"diag": "2922",
+"status": "current",
+"family": "DirMotorway",
+"name": "Exit from a motorway for works traffic only",
+"p16": [
+360
+],
+"p02": null
+},
+{
+"id": "2924",
+"diag": "2924",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway junction ahead leading to the tourist attractions shown",
+"p16": null,
+"p02": 289
+},
+{
+"id": "2925",
+"diag": "2925",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Roundabout ahead leading from a motorway exit slip road to the tourist attractions shown",
+"p16": null,
+"p02": 289
+},
+{
+"id": "2926",
+"diag": "2926",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Junction ahead from a motorway exit slip road to the tourist attractions shown",
+"p16": null,
+"p02": 289
+},
+{
+"id": "2927",
+"diag": "2927",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway junction ahead leading to a town or geographical area containing a Tourist Information Point or Centre and several tourist attractions",
+"p16": null,
+"p02": 290
+},
+{
+"id": "2928",
+"diag": "2928",
+"status": "current",
+"family": "DirMotorway",
+"name": "Motorway sign indicating the boundary of an administrative area, a ceremonial area or an historic county area",
+"p16": [
+219
+],
+"p02": null
+},
+{
+"id": "2929",
+"diag": "2929",
+"status": "2002-legacy",
+"family": "DirMotorway",
+"name": "Motorway junction ahead leading to a route advised for goods vehicles to the destination shown, which may differ from that for other traffic",
+"p16": null,
+"p02": 291
+},
+{
+"id": "2930",
+"diag": "2930",
+"status": "current",
+"family": "DirMotorway",
+"name": "Regulations referred to in this column in respect of item 13 cease to apply ahead",
+"p16": [
+147
+],
+"p02": null
+},
+{
+"id": "2932",
+"diag": "2932",
+"status": "current",
+"family": "DirMotorway",
+"name": "Entrance to a motorway service area, maintenance compound or similar facility contained within a length of a motorway and indicating that Regulations in force under section 17 of the 1984 Act cease to apply at this point",
+"p16": [
+147
+],
+"p02": null
+},
+{
+"id": "2026",
+"diag": "2026",
+"status": "2002-legacy",
+"family": "DirPrimary",
+"name": "Primary-route advance direction (map type)",
+"p16": null,
+"p02": 219
+},
+{
+"id": "2027",
+"diag": "2027",
+"status": "2002-legacy",
+"family": "DirPrimary",
+"name": "Primary-route sign at the junction",
+"p16": null,
+"p02": 220
+},
+{
+"id": "2028",
+"diag": "2028",
+"status": "2002-legacy",
+"family": "DirPrimary",
+"name": "Primary-route direction (rectangular)",
+"p16": null,
+"p02": 220
+},
+{
+"id": "2029",
+"diag": "2029",
+"status": "2002-legacy",
+"family": "DirPrimary",
+"name": "Directions to a primary route and a non-primary route",
+"p16": null,
+"p02": 220
+},
+{
+"id": "2030",
+"diag": "2030",
+"status": "2002-legacy",
+"family": "DirPrimary",
+"name": "Primary-route direction at a roundabout",
+"p16": null,
+"p02": 221
+},
+{
+"id": "2031",
+"diag": "2031",
+"status": "2002-legacy",
+"family": "DirPrimary",
+"name": "The number of a primary route",
+"p16": null,
+"p02": 221
+},
+{
+"id": "2032",
+"diag": "2032",
+"status": "current",
+"family": "DirPrimary",
+"name": "Primary route forming part of a ring road",
+"p16": null,
+"p02": null
+},
+{
+"id": "2033",
+"diag": "2033",
+"status": "2002-legacy",
+"family": "DirPrimary",
+"name": "Primary-route direction to parking",
+"p16": null,
+"p02": 222
+},
+{
+"id": "2034",
+"diag": "2034",
+"status": "2002-legacy",
+"family": "DirPrimary",
+"name": "Route to be followed at junction ahead for destinations that are not otherwise shown on signs for that junction",
+"p16": null,
+"p02": 222
+},
+{
+"id": "2035",
+"diag": "2035",
+"status": "2002-legacy",
+"family": "DirPrimary",
+"name": "Direction along a primary route to destinations shown via a U-turn at a roundabout ahead",
+"p16": null,
+"p02": 222
+},
+{
+"id": "2102",
+"diag": "2102",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Junction ahead of two non-primary routes, one of which leads to a primary route",
+"p16": null,
+"p02": 224
+},
+{
+"id": "2103",
+"diag": "2103",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary sign at the junction",
+"p16": null,
+"p02": 224
+},
+{
+"id": "2104",
+"diag": "2104",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary direction at a roundabout",
+"p16": null,
+"p02": 225
+},
+{
+"id": "2111",
+"diag": "2111",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary direction to a place",
+"p16": null,
+"p02": 228
+},
+{
+"id": "2112",
+"diag": "2112",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary direction to a facility",
+"p16": null,
+"p02": 229
+},
+{
+"id": "2113",
+"diag": "2113",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary confirmatory sign",
+"p16": null,
+"p02": 230
+},
+{
+"id": "2114",
+"diag": "2114",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Junction ahead where one lane of a non-primary route is reserved for traffic turning to the right",
+"p16": null,
+"p02": 232
+},
+{
+"id": "2115",
+"diag": "2115",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary direction with a primary-route panel",
+"p16": null,
+"p02": 233
+},
+{
+"id": "2116",
+"diag": "2116",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary junction-name sign",
+"p16": null,
+"p02": 234
+},
+{
+"id": "2117",
+"diag": "2117",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary lane-destination sign",
+"p16": null,
+"p02": 234
+},
+{
+"id": "2118",
+"diag": "2118",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary overhead direction",
+"p16": null,
+"p02": 235
+},
+{
+"id": "2120",
+"diag": "2120",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Double mini-roundabout ahead with exits to three non-primary routes, one of which leads to a car ferry and another is an advisory lorry route",
+"p16": null,
+"p02": 236
+},
+{
+"id": "2121",
+"diag": "2121",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Junction ahead of a non-primary route with another non-primary route leading to a town or village that has been by-passed",
+"p16": null,
+"p02": 236
+},
+{
+"id": "2122",
+"diag": "2122",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Sharp bend in main route at a junction ahead with a minor road",
+"p16": null,
+"p02": 236
+},
+{
+"id": "2123",
+"diag": "2123",
+"status": "current",
+"family": "DirLocal",
+"name": "Prohibited movement ahead on a non-primary route with an indication of a route avoiding that prohibition",
+"p16": null,
+"p02": null
+},
+{
+"id": "2124",
+"diag": "2124",
+"status": "current",
+"family": "DirLocal",
+"name": "Prohibited movement ahead on a non-primary route with an indication of a route avoiding that prohibition",
+"p16": null,
+"p02": null
+},
+{
+"id": "2125",
+"diag": "2125",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary ring-road direction",
+"p16": null,
+"p02": 238
+},
+{
+"id": "2126",
+"diag": "2126",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary town-centre direction",
+"p16": null,
+"p02": 238
+},
+{
+"id": "2127",
+"diag": "2127",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary diversion direction",
+"p16": null,
+"p02": 239
+},
+{
+"id": "2128",
+"diag": "2128",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Non-primary distance and destination",
+"p16": null,
+"p02": 239
+},
+{
+"id": "2130",
+"diag": "2130",
+"status": "current",
+"family": "DirLocal",
+"name": "Non-primary route forming part of a ring road",
+"p16": null,
+"p02": null
+},
+{
+"id": "2201",
+"diag": "2201",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Distance ahead to a tourist attraction",
+"p16": null,
+"p02": 244
+},
+{
+"id": "2203",
+"diag": "2203",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Direction and distance to a tourist attraction",
+"p16": null,
+"p02": 244
+},
+{
+"id": "2204",
+"diag": "2204",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Direction and distance to a Tourist Information Point or Centre",
+"p16": null,
+"p02": 244
+},
+{
+"id": "2205",
+"diag": "2205",
+"status": "current",
+"family": "TouristBrown",
+"name": "Sign on a primary or non-primary route indicating location of a Tourist Information Centre or Point",
+"p16": [
+356
+],
+"p02": null
+},
+{
+"id": "2206",
+"diag": "2206",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Tourist attraction ahead",
+"p16": null,
+"p02": null
+},
+{
+"id": "2207",
+"diag": "2207",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Tourist attraction (direction)",
+"p16": null,
+"p02": null
+},
+{
+"id": "2208",
+"diag": "2208",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Direction to a tourist attraction indicated by a symbol",
+"p16": null,
+"p02": 245
+},
+{
+"id": "2209",
+"diag": "2209",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Distance ahead to a tourist attraction",
+"p16": null,
+"p02": 245
+},
+{
+"id": "2210",
+"diag": "2210",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Junction ahead leading to or along a route passing through places of interest",
+"p16": null,
+"p02": 245
+},
+{
+"id": "2301",
+"diag": "2301",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Picnic site",
+"p16": null,
+"p02": 249
+},
+{
+"id": "2302",
+"diag": "2302",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Direction and distance to a camping and caravan site as defined in the caption under diagram 2301",
+"p16": null,
+"p02": 249
+},
+{
+"id": "2303",
+"diag": "2303",
+"status": "current",
+"family": "TouristBrown",
+"name": "Sign on a primary or non-primary route indicating distance and direction to a hostel",
+"p16": [
+358
+],
+"p02": null
+},
+{
+"id": "2304",
+"diag": "2304",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Direction and distance to a hostel as defined in the caption under diagram 2303",
+"p16": null,
+"p02": 249
+},
+{
+"id": "2305",
+"diag": "2305",
+"status": "current",
+"family": "TouristBrown",
+"name": "Sign on a primary or non-primary route indicating distance and direction to a picnic area",
+"p16": [
+359
+],
+"p02": null
+},
+{
+"id": "2306",
+"diag": "2306",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Direction and distance to a picnic area",
+"p16": null,
+"p02": 250
+},
+{
+"id": "2307",
+"diag": "2307",
+"status": "current",
+"family": "TouristBrown",
+"name": "Sign on a primary or non-primary route indicating distance ahead to a parking place with public toilets that has facilities for disabled persons, Tourist Information Centre or Point, public telephone, picnic area and viewpoint",
+"p16": [
+356
+],
+"p02": null
+},
+{
+"id": "2308",
+"diag": "2308",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Nature reserve",
+"p16": null,
+"p02": null
+},
+{
+"id": "2310",
+"diag": "2310",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Leisure facility",
+"p16": null,
+"p02": null
+},
+{
+"id": "2311",
+"diag": "2311",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Sports stadium",
+"p16": null,
+"p02": null
+},
+{
+"id": "2313",
+"diag": "2313",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Theme park",
+"p16": null,
+"p02": null
+},
+{
+"id": "2314",
+"diag": "2314",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Wildlife park",
+"p16": null,
+"p02": null
+},
+{
+"id": "2315",
+"diag": "2315",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Beach or coastal attraction",
+"p16": null,
+"p02": null
+},
+{
+"id": "2316",
+"diag": "2316",
+"status": "2002-legacy",
+"family": "TouristBrown",
+"name": "Tourist trail",
+"p16": null,
+"p02": null
+},
+{
+"id": "2601",
+"diag": "2601",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Route for pedestrians",
+"p16": null,
+"p02": null
+},
+{
+"id": "2601.1",
+"diag": "2601.1",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Direction of a numbered route for pedal cycles forming part of a national cycle route network at a junction ahead",
+"p16": null,
+"p02": 265
+},
+{
+"id": "2602.1",
+"diag": "2602.1",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Cycle direction (variant)",
+"p16": null,
+"p02": 266
+},
+{
+"id": "2603",
+"diag": "2603",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Junction ahead leading to a parking place for pedal cycles",
+"p16": null,
+"p02": 267
+},
+{
+"id": "2604",
+"diag": "2604",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Direction and distance to a free parking place for pedal cycles",
+"p16": null,
+"p02": 267
+},
+{
+"id": "2605",
+"diag": "2605",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Direction to a bridleway",
+"p16": null,
+"p02": 267
+},
+{
+"id": "2606",
+"diag": "2606",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Direction to a byway",
+"p16": null,
+"p02": 267
+},
+{
+"id": "2607",
+"diag": "2607",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Direction of route to destination shown for pedestrians (as diagram 2605)",
+"p16": null,
+"p02": 268
+},
+{
+"id": "2608",
+"diag": "2608",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Direction of route to a tourist attraction for pedestrians",
+"p16": null,
+"p02": 268
+},
+{
+"id": "2609",
+"diag": "2609",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Direction of route for pedestrians to a parking place associated with a tourist attraction",
+"p16": null,
+"p02": 268
+},
+{
+"id": "2610",
+"diag": "2610",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Direction to or along a public footpath",
+"p16": null,
+"p02": 269
+},
+{
+"id": "2610.1",
+"diag": "2610.1",
+"status": "2002-legacy",
+"family": "DirLocal",
+"name": "Direction to or along a public footpath (as diagram 2610)",
+"p16": null,
+"p02": 269
+},
+{
+"id": "2610.2",
+"diag": "2610.2",
+"status": "current",
+"family": "DirLocal",
+"name": "Direction along a public right of way, concessionary path or permissive path indicated by waymarks",
+"p16": [
+362
+],
+"p02": null
+},
+{
+"id": "804.1",
+"diag": "804.1",
+"status": "current",
+"family": "InfoBlue",
+"name": "Parking place reserved for goods vehicles",
+"p16": [
+96
+],
+"p02": null
+},
+{
+"id": "816.1",
+"diag": "816.1",
+"status": "current",
+"family": "InfoBlue",
+"name": "Alternative to the sign shown at item 5 with a street nameplate",
+"p16": [
+188
+],
+"p02": null
+},
+{
+"id": "818.1",
+"diag": "818.1",
+"status": "current",
+"family": "InfoBlue",
+"name": "Section of dual carriageway road ahead",
+"p16": [
+190
+],
+"p02": null
+},
+{
+"id": "818.3",
+"diag": "818.3",
+"status": "2002-legacy",
+"family": "InfoBlue",
+"name": "Nature of and distance to a prohibition, restriction or requirement ahead (as diagram 818.2)",
+"p16": null,
+"p02": 124
+},
+{
+"id": "818.4",
+"diag": "818.4",
+"status": "current",
+"family": "InfoBlue",
+"name": "Nature and location of a prohibition, restriction or requirement with indication of alternative route",
+"p16": [
+363
+],
+"p02": null
+},
+{
+"id": "820",
+"diag": "820",
+"status": "current",
+"family": "InfoBlue",
+"name": "Route unsuitable for type of vehicle indicated",
+"p16": [
+197
+],
+"p02": null
+},
+{
+"id": "821",
+"diag": "821",
+"status": "current",
+"family": "InfoBlue",
+"name": "Road ahead only wide enough for one line of vehicles, and providing information about passing places",
+"p16": [
+189
+],
+"p02": null
+},
+{
+"id": "822",
+"diag": "822",
+"status": "current",
+"family": "InfoBlue",
+"name": "Passing place on narrow road",
+"p16": [
+189
+],
+"p02": null
+},
+{
+"id": "829.1",
+"diag": "829.1",
+"status": "current",
+"family": "InfoBlue",
+"name": "Potential danger temporarily ahead and consequent need to proceed with caution",
+"p16": [
+396
+],
+"p02": null
+},
+{
+"id": "832",
+"diag": "832",
+"status": "2002-legacy",
+"family": "InfoBlue",
+"name": "Location of traffic survey",
+"p16": null,
+"p02": 131
+},
+{
+"id": "833",
+"diag": "833",
+"status": "current",
+"family": "InfoBlue",
+"name": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+"p16": null,
+"p02": null
+},
+{
+"id": "834",
+"diag": "834",
+"status": "current",
+"family": "InfoBlue",
+"name": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+"p16": null,
+"p02": null
+},
+{
+"id": "835",
+"diag": "835",
+"status": "current",
+"family": "InfoBlue",
+"name": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+"p16": null,
+"p02": null
+},
+{
+"id": "836",
+"diag": "836",
+"status": "current",
+"family": "InfoBlue",
+"name": "Signs regulating the movement of vehicular traffic into and out of premises with more than one access to a road",
+"p16": null,
+"p02": null
+},
+{
+"id": "837",
+"diag": "837",
+"status": "2002-legacy",
+"family": "InfoBlue",
+"name": "Way in and way out",
+"p16": null,
+"p02": null
+},
+{
+"id": "857",
+"diag": "857",
+"status": "2002-legacy",
+"family": "InfoBlue",
+"name": "Information for pedestrians about tourist attractions and facilities in a nearby place or area",
+"p16": null,
+"p02": 136
+},
+{
+"id": "872",
+"diag": "872",
+"status": "2002-legacy",
+"family": "InfoBlue",
+"name": "Appropriate traffic lanes at junction ahead",
+"p16": null,
+"p02": null
+},
+{
+"id": "873",
+"diag": "873",
+"status": "current",
+"family": "InfoBlue",
+"name": "Additional traffic joining from the left or right ahead (diagram shows blue background \u2013 for use on motorways)",
+"p16": null,
+"p02": null
+},
+{
+"id": "3000.2",
+"diag": "3000.2",
+"status": "current",
+"family": "SignalHead",
+"name": "Traffic light signals for the control of vehicular traffic consisting solely of pedal cycles and electric scooters being used in a trial",
+"p16": [
+445
+],
+"p02": null
+},
+{
+"id": "3000.7",
+"diag": "3000.7",
+"status": "2002-legacy",
+"family": "SignalHead",
+"name": "Traffic light signals as diagram 3000 with additional signals placed in any of the positions marked 1, 2, 3 and 4",
+"p16": null,
+"p02": 294
+},
+{
+"id": "3001",
+"diag": "3001",
+"status": "2002-legacy",
+"family": "SignalHead",
+"name": "Traffic signal with a box sign",
+"p16": null,
+"p02": null
+},
+{
+"id": "3001.2",
+"diag": "3001.2",
+"status": "current",
+"family": "SignalHead",
+"name": "Green arrow to show the direction for vehicular traffic to take for inclusion in traffic light signals as described in Part 1",
+"p16": null,
+"p02": null
+},
+{
+"id": "3013",
+"diag": "3013",
+"status": "current",
+"family": "SignalHead",
+"name": "Light signal for control of tramcars (diagram shows the light signal fully illuminated- see items 3 to 7 for the illumination of the signal to convey particular descriptions)",
+"p16": [
+490
+],
+"p02": null
+},
+{
+"id": "3013.1",
+"diag": "3013.1",
+"status": "current",
+"family": "SignalHead",
+"name": "Tramcar must not proceed beyond the stop line",
+"p16": [
+490
+],
+"p02": null
+},
+{
+"id": "3013.2",
+"diag": "3013.2",
+"status": "current",
+"family": "SignalHead",
+"name": "Tramcar may proceed beyond the stopline and proceed straight ahead",
+"p16": [
+491
+],
+"p02": null
+},
+{
+"id": "3013.3",
+"diag": "3013.3",
+"status": "current",
+"family": "SignalHead",
+"name": "Tramcar may proceed beyond the stopline and proceed to the left",
+"p16": [
+491
+],
+"p02": null
+},
+{
+"id": "3013.4",
+"diag": "3013.4",
+"status": "current",
+"family": "SignalHead",
+"name": "Tramcar may proceed beyond the stopline and proceed to the right",
+"p16": [
+492
+],
+"p02": null
+},
+{
+"id": "3013.5",
+"diag": "3013.5",
+"status": "current",
+"family": "SignalHead",
+"name": "Tramcar must not proceed beyond the stop line except that, as respects a tramcar which is so close to the stop line that it cannot safely be stopped without proceeding beyond the stop line, it conveys the same indication as the aspect which was shown immediately before it",
+"p16": [
+492
+],
+"p02": null
+},
+{
+"id": "4002",
+"diag": "4002",
+"status": "2002-legacy",
+"family": "PedHead",
+"name": "Nearside pedestrian demand unit",
+"p16": null,
+"p02": null
+},
+{
+"id": "4003.1",
+"diag": "4003.1",
+"status": "current",
+"family": "PedHead",
+"name": "Nearside light signals and instructions for pedestrians at a pedestrian facility controlled by traffic light signals",
+"p16": [
+453
+],
+"p02": null
+},
+{
+"id": "4003.2",
+"diag": "4003.2",
+"status": "current",
+"family": "PedHead",
+"name": "Farside light signals for equestrian traffic",
+"p16": [
+454
+],
+"p02": null
+},
+{
+"id": "4003.3",
+"diag": "4003.3",
+"status": "current",
+"family": "PedHead",
+"name": "Instructions to horse riders above the push button control for calling up equestrian traffic phases at traffic light signals",
+"p16": [
+455
+],
+"p02": null
+},
+{
+"id": "4003.4",
+"diag": "4003.4",
+"status": "current",
+"family": "PedHead",
+"name": "Nearside light signals and instructions for horse riders at an equestrian traffic crossing facility controlled by traffic light signals",
+"p16": [
+456
+],
+"p02": null
+},
+{
+"id": "4003.5",
+"diag": "4003.5",
+"status": "current",
+"family": "PedHead",
+"name": "Farside light signals for pedestrians, drivers of electric scooters being used in a trial and cyclists at a Toucan crossing",
+"p16": [
+457
+],
+"p02": null
+},
+{
+"id": "4003.6",
+"diag": "4003.6",
+"status": "current",
+"family": "PedHead",
+"name": "(a) instructions to pedestrians, drivers of electric scooters being used in a trial and cyclists above the push button control for calling up pedestrian and cycle phases at a Toucan crossing; or (b) instructions to cyclists above the push button control for calling up cycle phases at a crossing controlled by the traffic light signals provided for at item 3 or 4",
+"p16": [
+458
+],
+"p02": null
+},
+{
+"id": "4003.7",
+"diag": "4003.7",
+"status": "current",
+"family": "PedHead",
+"name": "Nearside light signals and instructions for pedestrians, drivers of electric scooters being used in a trial and cyclists at a Toucan crossing",
+"p16": [
+459
+],
+"p02": null
+},
+{
+"id": "878",
+"diag": "878",
+"status": "current",
+"family": "Prohibitory",
+"name": "Area in which enforcement cameras are in use",
+"p16": [
+213
+],
+"p02": null
+},
+{
+"id": "880",
+"diag": "880",
+"status": "current",
+"family": "Prohibitory",
+"name": "In relation to England, speed camera ahead on a lit road and reminder of 30 mph speed limit",
+"p16": [
+213
+],
+"p02": null
+},
+{
+"id": "818.5",
+"diag": "818.5",
+"status": "current",
+"family": "Prohibitory",
+"name": "Location of a low bridge with indication of alternative route",
+"p16": [
+364
+],
+"p02": null
+},
+{
+"id": "2602.2",
+"diag": "2602.2",
+"status": "current",
+"family": "DirLocal",
+"name": "Numbered route for pedal cycles and electric scooters being used in a trial forming part of a regional (blue number patch) or national (red number patch) cycle route network",
+"p16": [
+203
+],
+"p02": null
+},
+{
+"id": "804.2",
+"diag": "804.2",
+"status": "current",
+"family": "InfoBlue",
+"name": "Parking place reserved for motor cars",
+"p16": [
+96
+],
+"p02": null
+},
+{
+"id": "675B",
+"diag": "675B",
+"status": "current",
+"family": "Prohibitory",
+"name": "In relation to England, end of a 20 mph speed limit zone with indication that national speed limits apply",
+"p16": [
+180
+],
+"p02": null
+},
+{
+"id": "811B",
+"diag": "811B",
+"status": "current",
+"family": "InfoBlue",
+"name": "Beginning and end of section of road where traffic has priority over vehicles from the opposite direction",
+"p16": null,
+"p02": null
+}
+]

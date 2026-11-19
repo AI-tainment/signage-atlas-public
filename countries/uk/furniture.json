@@ -1,0 +1,271 @@
+[
+  {
+    "id": "chs-76",
+    "kind": "furniture",
+    "name": "76 mm circular post",
+    "what": "Galvanised roadside post with a black cap.",
+    "renderer": "chs",
+    "spec": "spec 019 \u00a71 (not in repo)",
+    "dimensions_m": {
+      "diameter": 0.076,
+      "underside_verge": 1.5,
+      "underside_footway": 2.1,
+      "base": 0.2
+    },
+    "source": {
+      "diameter": "engine-default (spec 019/015 text not copied into this tree)",
+      "underside_verge": "engine-default (spec 019/015 text not copied into this tree)",
+      "underside_footway": "engine-default (spec 019/015 text not copied into this tree)",
+      "base": "engine-default (spec 019/015 text not copied into this tree)"
+    }
+  },
+  {
+    "id": "chs-114",
+    "kind": "furniture",
+    "name": "114 mm circular post",
+    "what": "Larger circular post for wide direction plates.",
+    "renderer": "chs",
+    "spec": "spec 019 \u00a71 (not in repo)",
+    "dimensions_m": {
+      "diameter": 0.114,
+      "underside_verge": 1.5,
+      "base": 0.3
+    },
+    "source": {
+      "diameter": "engine-default (spec 019/015 text not copied into this tree)",
+      "underside_verge": "engine-default (spec 019/015 text not copied into this tree)",
+      "base": "engine-default (spec 019/015 text not copied into this tree)"
+    }
+  },
+  {
+    "id": "chs-219",
+    "kind": "furniture",
+    "name": "219 mm gantry or cantilever leg",
+    "what": "A single circular leg. A portal gantry is a separate item.",
+    "renderer": "chs",
+    "spec": "spec 019 \u00a71 (not in repo)",
+    "dimensions_m": {
+      "diameter": 0.219,
+      "clearance": 5.5
+    },
+    "source": {
+      "diameter": "engine-default (spec 019/015 text not copied into this tree)",
+      "clearance": "unsourced (DMRB not checked)"
+    }
+  },
+  {
+    "id": "two-post",
+    "kind": "furniture",
+    "name": "Two-post direction-sign mount",
+    "what": "Pair of circular legs for green, white, blue or brown rectangles.",
+    "renderer": "two_post",
+    "spec": "spec 015/019 (not in repo)",
+    "dimensions_m": {
+      "diameter": 0.076,
+      "spacing": 1.2,
+      "underside": 1.5
+    },
+    "source": {
+      "diameter": "engine-default (spec 019/015 text not copied into this tree)",
+      "spacing": "engine-default (spec 019/015 text not copied into this tree)",
+      "underside": "engine-default (spec 019/015 text not copied into this tree)"
+    }
+  },
+  {
+    "id": "street-name-posts",
+    "kind": "non-tsrgd",
+    "name": "Street-name posts",
+    "what": "Pair of 60 mm posts, underside 0.80 m. Not a diagram number.",
+    "renderer": "two_post",
+    "spec": "spec 015 StreetName (not in repo)",
+    "dimensions_m": {
+      "diameter": 0.06,
+      "underside": 0.8,
+      "spacing": 0.9
+    },
+    "source": {
+      "diameter": "engine-default (spec 019/015 text not copied into this tree)",
+      "underside": "engine-default (spec 019/015 text not copied into this tree)",
+      "spacing": "engine-default (spec 019/015 text not copied into this tree)"
+    },
+    "status": "not-2016"
+  },
+  {
+    "id": "belisha",
+    "kind": "furniture",
+    "name": "Belisha beacon",
+    "what": "Black-and-white banded post with a yellow globe. Both kerbs of a zebra.",
+    "renderer": "belisha",
+    "spec": "TSRGD 2016 Sch 14 Pt 2 item 27 (diagram 4007), Pt 4 para 13",
+    "dimensions_m": {
+      "globe": 0.3,
+      "post": 2.3,
+      "band": 0.3,
+      "lowest_band": 0.8
+    },
+    "source": {
+      "globe": "SI 2016 diagram 4007, printed p461: globe 275-335 mm (0.30 drawn)",
+      "post": "SI 2016 diagram 4007, printed p461: 2100-3100 mm ground to globe (2.3 drawn)",
+      "band": "SI 2016 Sch 14 Pt 4 para 13(3)(b), printed p494: 275-335 mm",
+      "lowest_band": "SI 2016 Sch 14 Pt 4 para 13(3)(a)-(b), printed p494: black, up to 1 m (0.8 drawn)"
+    }
+  },
+  {
+    "id": "telegraph",
+    "kind": "furniture",
+    "name": "Telegraph pole",
+    "what": "Wood pole (BS 1990, 9 m medium class): slight taper, crossarm near the top, 7.5 m above ground.",
+    "renderer": "telegraph",
+    "spec": "BS 1990-1:1984 Table 1 (via TKW summary); IET guide to wood pole lines",
+    "dimensions_m": {
+      "exposed": 7.5,
+      "planted": 1.5,
+      "tip": 0.15,
+      "ground": 0.22
+    },
+    "source": {
+      "exposed": "9 m nominal length (BS 1990-1 Table 1) minus 1.5 m planted",
+      "planted": "IET guide (BS 1990 design data): ground line assumed 1.5 m from the butt",
+      "tip": "BS 1990-1:1984 Table 1, 9 m medium pole, min top diameter 150 mm (tkw.biz.pl/sizes_of_poles)",
+      "ground": "BS 1990-1:1984 Table 1, 9 m medium pole, min diameter 220 mm at 1.5 m from the butt (tkw.biz.pl/sizes_of_poles)"
+    }
+  },
+  {
+    "id": "pylon-l12d",
+    "kind": "furniture",
+    "name": "Lattice pylon",
+    "what": "National Grid L12 D 400 kV lattice tower: 46.5 m high, 7.1 m base, 18.2 m across the crossarms.",
+    "renderer": "pylon",
+    "spec": "National Grid L12 (TS 43-11 / NGTS 3.4.3; figures via telcontar.net)",
+    "dimensions_m": {
+      "height": 46.5,
+      "base_width": 7.1,
+      "crossarm_width": 18.2
+    },
+    "source": {
+      "height": "telcontar.net/Power/pylons/L12 tower table, L12 D (source: Hinkley Point C)",
+      "base_width": "telcontar.net/Power/pylons/L12 tower table, L12 D (source: Hinkley Point C)",
+      "crossarm_width": "telcontar.net/Power/pylons/L12 tower table, L12 D (source: Hinkley Point C)"
+    }
+  },
+  {
+    "id": "gantry-portal",
+    "kind": "furniture",
+    "name": "Portal gantry",
+    "what": "Two 219 mm legs spanning the carriageway.",
+    "renderer": "portal",
+    "spec": "spec 015/019 (not in repo)",
+    "dimensions_m": {
+      "clearance": 5.5,
+      "leg": 0.219,
+      "width_min": 8.0,
+      "width_max": 18.0
+    },
+    "source": {
+      "clearance": "unsourced (DMRB not checked)",
+      "leg": "engine-default (spec 019/015 text not copied into this tree)",
+      "width_min": "engine heuristic",
+      "width_max": "engine heuristic"
+    },
+    "section": "gantry-vms",
+    "type": "portal"
+  },
+  {
+    "id": "gantry-cantilever",
+    "kind": "furniture",
+    "name": "Cantilever gantry",
+    "what": "Single leg with an arm over one or more lanes. Placeholder.",
+    "renderer": "placeholder",
+    "spec": "placeholder (no figures until sourced)",
+    "dimensions_m": {},
+    "source": {},
+    "section": "gantry-vms",
+    "type": "cantilever",
+    "placeholder": true,
+    "status": "placeholder",
+    "todo": "Leg/arm geometry, clearance and sign envelope from DMRB and National Highways standard details.",
+    "sources_needed": [
+      "DMRB CD 365 / structures standards for sign gantries (UNVERIFIED)",
+      "National Highways MCHW drawings (UNVERIFIED)"
+    ]
+  },
+  {
+    "id": "vms-text",
+    "kind": "furniture",
+    "name": "Large text variable message sign",
+    "what": "Motorway text VMS (e.g. MS4 text panel): lines of LED characters. Placeholder.",
+    "renderer": "placeholder",
+    "spec": "placeholder (no figures until sourced)",
+    "dimensions_m": {},
+    "source": {},
+    "section": "gantry-vms",
+    "type": "vms-text",
+    "placeholder": true,
+    "status": "placeholder",
+    "todo": "Panel size, character matrix and line count; legends from TSRGD 2016 Sch 16 Pts 3-6; performance classes BS EN 12966.",
+    "sources_needed": [
+      "TSRGD 2016 Sch 16 (printed p524-532, verified)",
+      "BS EN 12966 (named in Sch 16; standard not opened, UNVERIFIED)",
+      "National Highways MS4 specification TR2516/TR2517 (UNVERIFIED)"
+    ]
+  },
+  {
+    "id": "vms-pictogram",
+    "kind": "furniture",
+    "name": "Pictogram variable message sign",
+    "what": "Motorway VMS with a full-colour pictogram area beside the text. Placeholder.",
+    "renderer": "placeholder",
+    "spec": "placeholder (no figures until sourced)",
+    "dimensions_m": {},
+    "source": {},
+    "section": "gantry-vms",
+    "type": "vms-pictogram",
+    "placeholder": true,
+    "status": "placeholder",
+    "todo": "Pictogram aperture size and pixel pitch; permitted pictograms from TSRGD 2016 Sch 15/16.",
+    "sources_needed": [
+      "TSRGD 2016 Sch 15 Pt 2 (printed p509-520, verified)",
+      "BS EN 12966 (UNVERIFIED)",
+      "National Highways MS4 specification (UNVERIFIED)"
+    ]
+  },
+  {
+    "id": "lane-signal",
+    "kind": "furniture",
+    "name": "Smart motorway lane signal (AMI)",
+    "what": "Above-lane signal: speed roundel, red X, lane arrows, with flashing amber or red lamps. Placeholder.",
+    "renderer": "placeholder",
+    "spec": "placeholder (no figures until sourced)",
+    "dimensions_m": {},
+    "source": {},
+    "section": "gantry-vms",
+    "type": "lane-signal",
+    "placeholder": true,
+    "status": "placeholder",
+    "todo": "Aspect set (TSRGD 2016 Sch 15 items 1-16; Sch 14 Pt 1 para 16 lane control); flash timing Sch 15 Pt 4 (60-90 per minute, pairs alternate); enclosure size.",
+    "sources_needed": [
+      "TSRGD 2016 Sch 15 Pts 2 and 4 (printed p509-522, verified)",
+      "TSRGD 2016 Sch 14 Pt 1 para 16 (printed p434, verified)",
+      "National Highways AMI/MS3 specification (UNVERIFIED)"
+    ]
+  },
+  {
+    "id": "verge-ms",
+    "kind": "furniture",
+    "name": "Verge-mounted message sign",
+    "what": "Smaller post-mounted message sign beside the carriageway. Placeholder.",
+    "renderer": "placeholder",
+    "spec": "placeholder (no figures until sourced)",
+    "dimensions_m": {},
+    "source": {},
+    "section": "gantry-vms",
+    "type": "verge-ms",
+    "placeholder": true,
+    "status": "placeholder",
+    "todo": "Panel size, post and mounting height; flashing lamps for post-mounted signs per TSRGD 2016 Sch 15 Pt 4 para 3.",
+    "sources_needed": [
+      "TSRGD 2016 Sch 15 Pt 4 para 3 (printed p522, verified)",
+      "National Highways verge VMS specification (UNVERIFIED)"
+    ]
+  }
+]

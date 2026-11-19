@@ -1,0 +1,78 @@
+{
+  "id": "uk",
+  "name": "United Kingdom",
+  "iso": "GB",
+  "applies": "England, Scotland and Wales (TSRGD). Northern Ireland uses a parallel TSRNI set.",
+  "spec": [
+    "015-uk-know-your-traffic-signs",
+    "019-street-posts"
+  ],
+  "source_of_truth": "countries/uk/*.json plus tsrgd2016_index.json. Extract is the only JSON writer.",
+  "licence": {
+    "diagrams": "Crown copyright. TSRGD 2016 diagrams: derived under Open Government Licence v3.0. Traffic Signs Manual: see LICENCE.md (non-commercial notice, not OGL). Faces are redrawn identification silhouettes; hex colours approximate BS EN 12899-1 classes.",
+    "typeface": "The Transport typeface is not shipped. Legends are Schedule 17 stand-in strokes. Seven-bar numerals are Part 5 VMS on MS4 only.",
+    "osm": "OpenStreetMap contributors, ODbL."
+  },
+  "fonts": [
+    {
+      "id": "transport",
+      "name": "Transport Heavy / Transport Medium",
+      "role": "Official TSRGD legend",
+      "shipped": false,
+      "reason": "Commercial typeface. Not bundled."
+    },
+    {
+      "id": "sch17-standin",
+      "name": "Schedule 17 stand-in (polygons / rects / arcs)",
+      "role": "Procedural legends including lower case. Part 5 VMS seven-bar on MS4 only.",
+      "shipped": true,
+      "reason": "No Transport file. Tile 8 sw, cap 5.6 sw, stem 1.0/1.2 sw."
+    },
+    {
+      "id": "wiki-standin",
+      "name": "Atlas stand-in (this site)",
+      "role": "SVG recreation of the drawers",
+      "shipped": true,
+      "reason": "Iterate here, then port strokes back to C#."
+    }
+  ],
+  "colours": {
+    "red": "#CC1A1A",
+    "blue": "#005CA6",
+    "white": "#F7F7F7",
+    "black": "#141414",
+    "grey": "#8C8E94",
+    "amber": "#F29E14",
+    "green": "#1EB838",
+    "brown": "#73451F",
+    "primary_green": "#0D7338",
+    "motorway_blue": "#00529E",
+    "galvanised": "#9EA0A6",
+    "creosote": "#472E1A",
+    "marking_white": "#F4F4F0",
+    "marking_yellow": "#E6C200",
+    "yellow": "#E6C200",
+    "fluorescent_yellow": "#F5D000"
+  },
+  "counts": {
+    "signs": 390,
+    "glyphs": 221,
+    "fallback": 169,
+    "current": 220,
+    "non_tsrgd": 5
+  },
+  "units": "metres",
+  "renumber": {
+    "675": "675A",
+    "629": "629A",
+    "531.1": "531.1A",
+    "811": "811A",
+    "642.2": "605.3",
+    "959": "959B",
+    "526": "529",
+    "530": "530A",
+    "1003": "1003A",
+    "1023": "1023A",
+    "BELISHA": "4007"
+  }
+}
