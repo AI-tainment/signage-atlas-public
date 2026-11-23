@@ -3404,15 +3404,14 @@
    ]
   },
   "822": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
    "eps": "information-signs-eps.zip/information-signs-eps/822.eps",
    "eps_crosswalk": "same",
+   "fallback": "placeholder",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family InfoBlue: wording-led or composite, kept procedural",
-    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "823": {
    "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
@@ -3852,26 +3851,24 @@
    ]
   },
   "964": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
    "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/964.eps",
    "eps_crosswalk": "same",
+   "fallback": "placeholder",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family InfoBlue: wording-led or composite, kept procedural",
-    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "965": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
    "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/965.eps",
    "eps_crosswalk": "same",
+   "fallback": "placeholder",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family InfoBlue: wording-led or composite, kept procedural",
-    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "967": {
    "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",

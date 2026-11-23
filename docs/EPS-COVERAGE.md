@@ -8,16 +8,16 @@
 | atlas sign faces | 390 |
 | atlas faces with eps match | 271 |
 | atlas faces no eps | 119 |
-| eps replacing placeholder | 10 |
+| eps replacing placeholder | 13 |
 | superseded hand traced | 95 |
 | conflicts 2016 | 0 |
 | si2016 eye checked | 21 |
 | not yet verified | 0 |
-| source = eps | 105 |
-| source = placeholder | 159 |
+| source = eps | 108 |
+| source = placeholder | 156 |
 | source = procedural | 126 |
 
-## Atlas faces now EPS-sourced (105)
+## Atlas faces now EPS-sourced (108)
 
 | Face | Family | Row | Fallback | EPS |
 |---|---|---|---|---|
@@ -109,6 +109,7 @@
 | 811 | InfoBlue | renumbered | procedural | traffic-calming-eps.zip/traffic-calming-eps/811.eps |
 | 811A | InfoBlue | current | procedural | traffic-calming-eps.zip/traffic-calming-eps/811.eps |
 | 816 | InfoBlue | current | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/816.eps |
+| 822 | InfoBlue | current | placeholder | information-signs-eps.zip/information-signs-eps/822.eps |
 | 823 | Countdown | current | procedural | motorway-signs-eps.zip/motorway-signs-eps/823.eps |
 | 824 | Countdown | current | procedural | motorway-signs-eps.zip/motorway-signs-eps/824.eps |
 | 825 | Countdown | current | procedural | motorway-signs-eps.zip/motorway-signs-eps/825.eps |
@@ -123,6 +124,8 @@
 | 955 | Mandatory | current | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/955.eps |
 | 956 | Mandatory | current | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/956.eps |
 | 957 | Mandatory | current | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/957.eps |
+| 964 | InfoBlue | current | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/964.eps |
+| 965 | InfoBlue | current | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/965.eps |
 | 967 | InfoBlue | current | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/967.eps |
 | 968 | InfoBlue | current | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/968.eps |
 | 968.1 | InfoBlue | current | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/968.1.eps |
@@ -158,7 +161,7 @@
 | Face | Family | EPS | Why |
 |---|---|---|---|
 
-## EPS match, kept procedural/placeholder (no conflict) (166)
+## EPS match, kept procedural/placeholder (no conflict) (163)
 
 | Face | Family | Source | EPS | Why |
 |---|---|---|---|---|
@@ -304,7 +307,6 @@
 | 818.4 | InfoBlue | placeholder | on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/818.4.EPS | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 820 | InfoBlue | placeholder | information-signs-eps.zip/information-signs-eps/820.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 821 | InfoBlue | placeholder | information-signs-eps.zip/information-signs-eps/821.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
-| 822 | InfoBlue | placeholder | information-signs-eps.zip/information-signs-eps/822.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 829.1 | InfoBlue | placeholder | information-signs-eps.zip/information-signs-eps/829.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 832 | InfoBlue | placeholder | information-signs-eps.zip/information-signs-eps/832.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 878 | Prohibitory | procedural | speed-limit-signs-eps.zip/speed-limit-signs-eps/878.eps | visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
@@ -323,8 +325,6 @@
 | 962 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/962.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 962.1 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/962.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 963 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/963T.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
-| 964 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/964.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
-| 965 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/965.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 969 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/969.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: fail: EPS adds a P (parking) sign that the SI 2016 diagram does not show (Reviewer r1 F1). |
 | 974 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/974.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 975 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/975.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
