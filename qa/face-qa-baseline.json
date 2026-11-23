@@ -1,0 +1,166 @@
+{
+ "about": "Known face-qa findings on still-procedural sign faces (tools/face_qa.py). Each is a qa/TODO-WARN-TRIANGLE-QA.md item or an intended small part; a new finding fails validate.py. r12: also (e) edge checks (legend vs the panel edge: inner panels such as 787, Mandatory, EPS faces); EPS faces are keyed \"eps:<id>\" and checked only when the local cache is built.",
+ "faces": {
+  "531.2": {
+   "findings": [
+    "overlap: legend 'High' overlaps 'vehicles'"
+   ],
+   "note": "plate line spacing (discounted font notes: spacing/leading in our own font)"
+  },
+  "532.2": {
+   "findings": [
+    "inset: legend ink within 1px of the border at 256px (min 4px)"
+   ],
+   "note": "TODO: same construction as 532.3"
+  },
+  "543": {
+   "findings": [
+    "inset: legend ink within 1px of the border at 256px (min 4px)"
+   ],
+   "note": "TODO: 543 EPS has an embedded raster, so the procedural face stays; arrowhead/frame crowding to fix"
+  },
+  "618.3": {
+   "findings": [
+    "overlap: legend 'At any' overlaps 'time'"
+   ],
+   "note": "plate line spacing/leading in our own primitive font (wording stays procedural)"
+  },
+  "618.3B": {
+   "findings": [
+    "overlap: legend 'loading' overlaps 'by'"
+   ],
+   "note": "plate line spacing/leading in our own primitive font (wording stays procedural)"
+  },
+  "618.3C": {
+   "findings": [
+    "overlap: legend 'and' overlaps 'CYCLE'",
+    "overlap: legend 'am - 4' overlaps 'pm'",
+    "overlap: legend 'loading' overlaps 'by'",
+    "inset: legend ink within 2px of the border at 256px (min 4px)"
+   ],
+   "note": "plate line spacing/leading in our own primitive font (wording stays procedural)"
+  },
+  "622.4": {
+   "findings": [
+    "overlap: legend 'laying' overlaps 'vehicles'"
+   ],
+   "note": "owner ruling (both alternatives); line spacing to fix in our primitive font"
+  },
+  "622.8": {
+   "findings": [
+    "islands: 7 small disconnected legend part(s) (< 0.12% of face)"
+   ],
+   "note": "small parts: check against the SI 2016 diagram"
+  },
+  "636": {
+   "findings": [
+    "islands: 146 small disconnected legend part(s) (< 0.12% of face)"
+   ],
+   "note": "stippled/hatched legend: intended many small parts"
+  },
+  "638": {
+   "findings": [
+    "overlap: legend 'loading' overlaps 'time'",
+    "overlap: legend 'loading' overlaps 'any'",
+    "overlap: legend 'time' overlaps 'any'"
+   ],
+   "note": "plate line spacing/leading in our own primitive font (wording stays procedural)"
+  },
+  "639.1B": {
+   "findings": [
+    "overlap: legend '10' overlaps 'am - 4 pm'"
+   ],
+   "note": "plate line spacing/leading in our own primitive font (wording stays procedural)"
+  },
+  "640": {
+   "findings": [
+    "overlap: legend '4.30 - 6.30' overlaps 'pm'"
+   ],
+   "note": "plate line spacing/leading in our own primitive font (wording stays procedural)"
+  },
+  "640.1": {
+   "findings": [
+    "edge: legend ink within 1px of the panel edge at 256px (min 4px)"
+   ],
+   "note": "r12 new edge check (F6): the traced yellow plate outline is irregular and carries a thin black edge; TODO redraw the plate as a clean rectangle"
+  },
+  "650.2": {
+   "findings": [
+    "overlap: legend '11 pm- 5' overlaps 'am'"
+   ],
+   "note": "plate line spacing/leading in our own primitive font (wording stays procedural)"
+  },
+  "651": {
+   "findings": [
+    "inset: legend ink within 2px of the border at 256px (min 4px)"
+   ],
+   "note": "border clearance to fix"
+  },
+  "660.4": {
+   "findings": [
+    "overlap: legend 'Loading' overlaps 'only'"
+   ],
+   "note": "plate line spacing/leading in our own primitive font (wording stays procedural)"
+  },
+  "773": {
+   "findings": [
+    "inset: legend ink within 1px of the border at 256px (min 4px)"
+   ],
+   "note": "wording plate; border clearance to fix"
+  },
+  "783": {
+   "findings": [
+    "overlap: legend 'phone' overlaps 'before crossing'"
+   ],
+   "note": "TODO verify-first 783; line spacing in our primitive font"
+  },
+  "818.5": {
+   "findings": [
+    "inset: legend ink within 3px of the border at 256px (min 4px)"
+   ],
+   "note": "plate border clearance"
+  },
+  "954": {
+   "findings": [
+    "overlap: legend 'Except' overlaps 'buses'"
+   ],
+   "note": "plate leading (descender box overlap)"
+  },
+  "954.2": {
+   "findings": [
+    "overlap: legend 'Except' overlaps 'local buses'"
+   ],
+   "note": "plate leading (descender box overlap)"
+  },
+  "eps:612": {
+   "findings": [
+    "inset: legend ink within 1px of the border at 256px (min 4px)"
+   ],
+   "note": "r12 EPS inset check (F6): the red prohibition bar crosses the black arrow by design (SI 2016); not crowding"
+  },
+  "eps:613": {
+   "findings": [
+    "inset: legend ink within 1px of the border at 256px (min 4px)"
+   ],
+   "note": "r12 EPS inset check (F6): the red prohibition bar crosses the black arrow by design (SI 2016); not crowding"
+  },
+  "eps:614": {
+   "findings": [
+    "inset: legend ink within 1px of the border at 256px (min 4px)"
+   ],
+   "note": "r12 EPS inset check (F6): the red prohibition bar crosses the black arrow by design (SI 2016); not crowding"
+  },
+  "eps:622.2": {
+   "findings": [
+    "edge: legend ink within 1px of the panel edge at 256px (min 4px)"
+   ],
+   "note": "r12 EPS edge check (F6): the end-of-restriction diagonal bars run to the roundel edge by design (SI 2016)"
+  },
+  "eps:776": {
+   "findings": [
+    "inset: legend ink within 1px of the border at 256px (min 4px)"
+   ],
+   "note": "r12 EPS inset check: 776 is a red disc with black lettering on the red ground (SI 2016 p448), so the \"border\" colour is the ground; not crowding"
+  }
+ }
+}

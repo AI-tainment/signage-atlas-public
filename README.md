@@ -1,6 +1,13 @@
 # Signage Atlas
 
-A wiki of **procedural** traffic signs, road markings, and street furniture.
+A wiki of traffic signs, road markings, and street furniture.
+
+**EPS first.** Fixed pictogram sign faces come from the official GOV.UK traffic sign images (EPS, Crown
+copyright, OGL v3.0), fetched once and converted on your machine. The 105 in-use converted faces are committed under
+`site/faces-eps/` with a Crown copyright / OGL v3.0 notice (owner ruling, 2026-11-23); the raw EPS and zips are not. Signs with
+variable text, composites, plates whose wording we set in our own primitive lettering, and gaps stay
+**procedural**, and the procedural face is the offline fallback for every EPS face. See `docs/EPS.md` and
+`docs/EPS-COVERAGE.md`.
 
 Iterate faces and dimensions here. Port strokes back into the game cooker after the wiki looks right. Do not QA glyphs inside Unity.
 
@@ -8,7 +15,8 @@ Iterate faces and dimensions here. Port strokes back into the game cooker after 
 
 ```bash
 cd path/to/signage-atlas-public
-./tools/serve.sh
+SA_EPS_FETCH=1 ./tools/serve.sh   # first run: fetch + convert the GOV.UK EPS faces (needs gs, poppler-utils)
+./tools/serve.sh                  # later runs, or offline: procedural faces where no EPS is cooked
 # http://127.0.0.1:8765/
 ```
 
@@ -69,6 +77,9 @@ tools/extract_uk.py     rebuilds JSON from GridForge dest UkTsrgdCatalogue
 tools/rebuild.py        bake one (--id) or all faces into site/faces/
 tools/atlas/render.py   SVG drawers used by rebuild
 site/faces/uk/          baked SVG + manifest.json
+tools/eps/              GOV.UK EPS fetch / convert / map / compare / checks (EPS-first faces)
+countries/uk/face_sources.json   per-face source: eps | procedural | placeholder
+site/faces-eps/uk/      converted EPS faces in use (committed with the Crown/OGL notice)
 ```
 
 A new country is a folder under `countries/` with the same five JSON files, plus a renderer module. The wiki already lists US and DE as placeholders.

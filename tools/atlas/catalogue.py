@@ -29,8 +29,34 @@ def load_country(country: str, root: Path | None = None) -> dict[str, Any]:
     return atlas
 
 
+def face_sources(country: str, root: Path | None = None) -> dict[str, Any]:
+    """countries/<id>/face_sources.json (written by tools/eps/map.py); {} when the country has none."""
+    p = country_dir(country, root) / "face_sources.json"
+    return json.loads(p.read_text())["faces"] if p.exists() else {}
+
+
+def with_face_sources(atlas: dict[str, Any], country: str, root: Path | None = None) -> dict[str, Any]:
+    """Copy of atlas whose sign rows carry face_source {source, fallback, eps, superseded, why_not_eps}.
+    The JSON source rows (extract_uk.py output) are not modified."""
+    fs = face_sources(country, root)
+    if not fs:
+        return atlas
+    out = dict(atlas)
+    rows = []
+    for r in atlas["signs"]:
+        f = fs.get(r["id"])
+        r = dict(r)
+        if f:
+            r["face_source"] = {k: f[k] for k in ("source", "fallback", "eps", "superseded", "why_not_eps", "conflict")
+                                if k in f}
+        rows.append(r)
+    out["signs"] = rows
+    return out
+
+
 def write_data_js(atlas: dict[str, Any], country: str, root: Path | None = None) -> Path:
     root = root or ROOT
+    atlas = with_face_sources(atlas, country, root)
     var = "ATLAS_" + country.upper()
     path = root / "site" / "assets" / "data.js"
     if country != "uk":

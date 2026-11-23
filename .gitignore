@@ -7,3 +7,6 @@ __pycache__/
 .cache/
 .gen-work/
 refs/
+# GOV.UK EPS artwork cooked locally (Crown copyright, OGL v3.0): never committed
+# site/faces-eps/ is committed (Crown copyright, OGL v3.0; owner ruling 2026-11-23)
+qa/renders/eps/

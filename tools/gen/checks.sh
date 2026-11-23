@@ -24,4 +24,7 @@ echo "== changed faces vs $BASE"; git diff --name-only $BASE -- site/faces | gre
 echo "== rows"; python3 -c "
 import json; d=json.load(open('countries/uk/signs.json')); rows=d if isinstance(d,list) else d.get('signs',d.get('rows',[]))
 print(len(rows))"
+echo "== eps"; python3 tools/eps/fetch.py --verify | tail -1; python3 tools/eps/map.py --check
+echo "== deploy guard (EPS attribution)"; python3 tools/eps/deploy_guard.py site
+echo "== face-qa"; python3 tools/face_qa.py | head -1
 echo "== reproduce (tools/gen/specs vs traced.py)"; python3 $R/tools/gen/reproduce.py 2>&1 | grep -v Warning

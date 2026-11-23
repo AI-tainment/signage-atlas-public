@@ -21,7 +21,8 @@ own parts.
 
 Faces in this repository are **redrawn** identification silhouettes.
 They are not manufacturing drawings and they do not copy Crown artwork
-pixel-for-pixel.
+pixel-for-pixel. EPS-sourced faces (below) are cooked locally and are not
+part of this repository.
 
 ### TSRGD 2016 (SI 2016/362) and SI 2002/3113: OGL v3.0
 
@@ -38,6 +39,22 @@ Attribution when you reuse the diagram data:
 
 Hex colours here are screen approximations of BS EN 12899-1 classes
 (TSRGD reg 11). The licence does not grant the Transport typeface.
+
+### GOV.UK traffic sign images (EPS): Crown copyright, OGL v3.0
+
+Fixed pictogram faces marked `eps` in `countries/uk/face_sources.json` are taken from the Department
+for Transport "Traffic sign images" EPS files (https://www.gov.uk/guidance/traffic-sign-images).
+They are Crown copyright and are used under the Open Government Licence v3.0:
+
+> Traffic sign images © Crown copyright, Department for Transport. Contains public sector
+> information licensed under the Open Government Licence v3.0.
+
+That artwork is **not covered by the CC BY-ND 4.0 licence**. The tools in `tools/eps/` fetch the zips from
+GOV.UK (SHA-256 checked against `countries/uk/sources/eps/manifest.csv`) and convert them locally. Under
+the owner's ruling (2026-11-23) the converted faces in use are committed in `site/faces-eps/uk/signs/`,
+each carrying "Crown copyright ... Open Government Licence v3.0" in its `<desc>`, with a `README.txt`
+notice; they remain Crown copyright under OGL v3.0. The raw EPS files and zips are not committed. The EPS lettering is outlined artwork, not a font; no Transport font file is used or shipped.
+GOV.UK asks that the images are reproduced accurately and not in a misleading context.
 
 ### OpenStreetMap: ODbL
 

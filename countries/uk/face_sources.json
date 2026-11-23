@@ -1,0 +1,3992 @@
+{
+ "faces": {
+  "2025": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2025.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirPrimary",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "family DirPrimary: wording-led or composite, kept procedural"
+   ]
+  },
+  "2026": {
+   "family": "DirPrimary",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2027": {
+   "family": "DirPrimary",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2028": {
+   "family": "DirPrimary",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2029": {
+   "family": "DirPrimary",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2030": {
+   "family": "DirPrimary",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2031": {
+   "family": "DirPrimary",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2032": {
+   "family": "DirPrimary",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2033": {
+   "family": "DirPrimary",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2034": {
+   "family": "DirPrimary",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2035": {
+   "family": "DirPrimary",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2101": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2102": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2103": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2104": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2111": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2112": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2113": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2114": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2115": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2116": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2117": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2118": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2120": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2121": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2122": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2123": {
+   "family": "DirLocal",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2124": {
+   "family": "DirLocal",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2125": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2126": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2127": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2128": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2130": {
+   "family": "DirLocal",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2201": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2201.eps",
+   "eps_crosswalk": "unverified",
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2202": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2202.eps",
+   "eps_crosswalk": "unverified",
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2203": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2203.eps",
+   "eps_crosswalk": "unverified",
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2204": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2204.eps",
+   "eps_crosswalk": "unverified",
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2205": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2205.eps",
+   "eps_crosswalk": "same",
+   "family": "TouristBrown",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2206": {
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2207": {
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2208": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2208.eps",
+   "eps_crosswalk": "unverified",
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2209": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2209.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2209V.eps"
+   ],
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2210": {
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2301": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2301.eps",
+   "eps_crosswalk": "unverified",
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2302": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2302.eps",
+   "eps_crosswalk": "unverified",
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2303": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2303.eps",
+   "eps_crosswalk": "same",
+   "family": "TouristBrown",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2304": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2304.eps",
+   "eps_crosswalk": "unverified",
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2305": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2305.eps",
+   "eps_crosswalk": "same",
+   "family": "TouristBrown",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2306": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2306.eps",
+   "eps_crosswalk": "unverified",
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2307": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2307.eps",
+   "eps_crosswalk": "same",
+   "family": "TouristBrown",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family TouristBrown: wording-led or composite, kept procedural"
+   ]
+  },
+  "2308": {
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2310": {
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2311": {
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2313": {
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2314": {
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2315": {
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2316": {
+   "family": "TouristBrown",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2601": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2601.1": {
+   "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2601.1.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirLocal: wording-led or composite, kept procedural"
+   ]
+  },
+  "2602.1": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2602.2": {
+   "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2602.2.eps",
+   "eps_crosswalk": "same",
+   "family": "DirLocal",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirLocal: wording-led or composite, kept procedural"
+   ]
+  },
+  "2603": {
+   "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2603.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirLocal: wording-led or composite, kept procedural"
+   ]
+  },
+  "2604": {
+   "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2604R.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirLocal: wording-led or composite, kept procedural"
+   ]
+  },
+  "2605": {
+   "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2605.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2605V.eps"
+   ],
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirLocal: wording-led or composite, kept procedural"
+   ]
+  },
+  "2606": {
+   "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2606.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2606V.eps"
+   ],
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirLocal: wording-led or composite, kept procedural"
+   ]
+  },
+  "2607": {
+   "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2607.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2607V.eps"
+   ],
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirLocal: wording-led or composite, kept procedural"
+   ]
+  },
+  "2608": {
+   "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2608.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirLocal: wording-led or composite, kept procedural"
+   ]
+  },
+  "2609": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2610": {
+   "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2610V.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirLocal: wording-led or composite, kept procedural"
+   ]
+  },
+  "2610.1": {
+   "family": "DirLocal",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2610.2": {
+   "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2610.2.eps",
+   "eps_crosswalk": "same",
+   "family": "DirLocal",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirLocal: wording-led or composite, kept procedural"
+   ]
+  },
+  "2701": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2701.eps",
+   "eps_crosswalk": "same",
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2702": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2702.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2702L.eps",
+    "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2702V.eps"
+   ],
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2703": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2703.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2703V.eps"
+   ],
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2704": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2704.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2704V.eps"
+   ],
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2705": {
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2706": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2706.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2707": {
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2708": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2708.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2708R.eps"
+   ],
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2710": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2710.eps",
+   "eps_crosswalk": "same",
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2711": {
+   "eps": "information-signs-eps.zip/information-signs-eps/2711.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "information-signs-eps.zip/information-signs-eps/2711L.eps"
+   ],
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2712": {
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2713": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2713.eps",
+   "eps_crosswalk": "same",
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2713.1": {
+   "eps": "information-signs-eps.zip/information-signs-eps/2713.1.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "information-signs-eps.zip/information-signs-eps/2713.1V.eps",
+    "information-signs-eps.zip/information-signs-eps/2713.1VP.eps",
+    "information-signs-eps.zip/information-signs-eps/2713.1VT.eps"
+   ],
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2714": {
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2715": {
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2716": {
+   "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2716.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2717": {
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2901": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2901.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "speed-limit-signs-eps.zip/speed-limit-signs-eps/2901.eps"
+   ],
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2902": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2902.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2902.1": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2902.1.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2903": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2903.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2904": {
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2904.1": {
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2905": {
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2908": {
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2908.1": {
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2910": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2910.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2911": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2911.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "owner-held decision item (qa/DECISIONS-PENDING.md)",
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2913": {
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2913.1": {
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2914": {
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2915": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2915.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2920": {
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "2921": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2921.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2922": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2922.eps",
+   "eps_crosswalk": "same",
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2924": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2924.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2925": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2925.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2926": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2926.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2927": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2927.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2928": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2928.eps",
+   "eps_crosswalk": "same",
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2929": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2929.eps",
+   "eps_crosswalk": "unverified",
+   "family": "DirMotorway",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2930": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2930.eps",
+   "eps_crosswalk": "same",
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2931": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2931.eps",
+   "eps_crosswalk": "same",
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "2932": {
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/2932.eps",
+   "eps_crosswalk": "same",
+   "family": "DirMotorway",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family DirMotorway: wording-led or composite, kept procedural"
+   ]
+  },
+  "3000": {
+   "family": "SignalHead",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "3000.2": {
+   "family": "SignalHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "3000.7": {
+   "family": "SignalHead",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "3001": {
+   "family": "SignalHead",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "3001.2": {
+   "family": "SignalHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "3013": {
+   "family": "SignalHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "3013.1": {
+   "family": "SignalHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "3013.2": {
+   "family": "SignalHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "3013.3": {
+   "family": "SignalHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "3013.4": {
+   "family": "SignalHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "3013.5": {
+   "family": "SignalHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "3014": {
+   "family": "SignalHead",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "4002": {
+   "family": "PedHead",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "4002.1": {
+   "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4002.1.eps",
+   "eps_crosswalk": "same",
+   "family": "PedHead",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "family PedHead: wording-led or composite, kept procedural",
+    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
+   ]
+  },
+  "4003": {
+   "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.eps",
+   "eps_crosswalk": "same",
+   "family": "PedHead",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "family PedHead: wording-led or composite, kept procedural",
+    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
+   ]
+  },
+  "4003.1": {
+   "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.1.eps",
+   "eps_crosswalk": "same",
+   "family": "PedHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family PedHead: wording-led or composite, kept procedural",
+    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
+   ]
+  },
+  "4003.2": {
+   "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.2.eps",
+   "eps_crosswalk": "same",
+   "family": "PedHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family PedHead: wording-led or composite, kept procedural",
+    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
+   ]
+  },
+  "4003.3": {
+   "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.3.eps",
+   "eps_crosswalk": "same",
+   "family": "PedHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family PedHead: wording-led or composite, kept procedural",
+    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
+   ]
+  },
+  "4003.4": {
+   "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.4.eps",
+   "eps_crosswalk": "same",
+   "family": "PedHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family PedHead: wording-led or composite, kept procedural",
+    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
+   ]
+  },
+  "4003.5": {
+   "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.5.eps",
+   "eps_crosswalk": "same",
+   "family": "PedHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family PedHead: wording-led or composite, kept procedural",
+    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
+   ]
+  },
+  "4003.6": {
+   "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.6.eps",
+   "eps_crosswalk": "same",
+   "family": "PedHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family PedHead: wording-led or composite, kept procedural",
+    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
+   ]
+  },
+  "4003.7": {
+   "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.7.eps",
+   "eps_crosswalk": "same",
+   "family": "PedHead",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family PedHead: wording-led or composite, kept procedural",
+    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
+   ]
+  },
+  "4007": {
+   "family": "PedHead",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "504.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/504.1.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/504.1L.eps",
+    "warning-signs-eps.zip/504.1R.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "505.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/505.1.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/505.1R.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "506.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/506.1.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/506.1L.eps",
+    "warning-signs-eps.zip/506.1LL.eps",
+    "warning-signs-eps.zip/506.1RR.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "507.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/507.1.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/507.1RL.eps",
+    "warning-signs-eps.zip/507.1LRR.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "508.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/508.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "509.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/509.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "510": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/510.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "512": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "speed-limit-signs-eps.zip/speed-limit-signs-eps/512.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/512.eps",
+    "warning-signs-eps.zip/512L.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "512.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "speed-limit-signs-eps.zip/speed-limit-signs-eps/512.1.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/512.1.eps",
+    "warning-signs-eps.zip/512.1L.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "512.2": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/512.2.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/512.2L.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "513": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/513.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/513R.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "513.1": {
+   "eps": "warning-signs-eps.zip/513.1.eps",
+   "eps_crosswalk": "unverified",
+   "family": "WarnTriangle",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "513.2": {
+   "eps": "speed-limit-signs-eps.zip/speed-limit-signs-eps/513.2.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "road-works-and-temporary-eps.zip/road-works-and-temporary-eps/513.2V20.eps"
+   ],
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example"
+   ]
+  },
+  "516": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "traffic-calming-eps.zip/traffic-calming-eps/516.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/516.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "517": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "traffic-calming-eps.zip/traffic-calming-eps/517.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/517.eps",
+    "traffic-calming-eps.zip/traffic-calming-eps/517L.eps",
+    "warning-signs-eps.zip/517L.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "521": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/521.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "522": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/522.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "523.1": {
+   "eps": "warning-signs-eps.zip/523.1.eps",
+   "eps_crosswalk": "same",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: variable: value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example"
+   ]
+  },
+  "524.1": {
+   "eps": "warning-signs-eps.zip/524.1.eps",
+   "eps_crosswalk": "same",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: variable: value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example"
+   ]
+  },
+  "526": {
+   "eps": "warning-signs-eps.zip/526.eps",
+   "eps_crosswalk": "unverified",
+   "family": "WarnTriangle",
+   "row_status": "renumbered",
+   "si2016_verdict": "outdated",
+   "si_page": "tsrgd2016.pdf PDF p45 (diagram 529)",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: outdated: EPS is a different 2002 sign (\"Keep in low gear\" style plate, not the opening bridge); 2016 renumbered the opening bridge to 529. Procedural face kept."
+   ]
+  },
+  "528": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/528.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "529": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/529.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "note": "2016 renumbered another diagram to this number; the EPS was checked by eye and shows this face",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "529.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/529.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "530": {
+   "eps": "low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/530.eps",
+   "eps_crosswalk": "removed",
+   "eps_variants": [
+    "low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/530M.eps"
+   ],
+   "family": "WarnTriangle",
+   "row_status": "renumbered",
+   "si2016_verdict": "outdated",
+   "si_page": "tsrgd2016.pdf PDF p56 (diagram 530A)",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: outdated: EPS is metric 4.4 m only and carries an embedded raster; 2016 530A requires both units (metric and imperial). Procedural face kept."
+   ]
+  },
+  "530.1": {
+   "eps": "low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/530.1.eps",
+   "eps_crosswalk": "same",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "530A": {
+   "eps": "low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/530A.EPS",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/530A.EPS",
+    "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/530A.EPS"
+   ],
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "si2016_verdict": "matches-2016",
+   "si_page": "tsrgd2016.pdf PDF p56",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: matches-2016: EPS matches the 2016 530A layout, but the height is set per site; procedural face kept (EPS shows one example value)."
+   ]
+  },
+  "531.1": {
+   "eps": "low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/531.1.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/531.1M.eps"
+   ],
+   "family": "WarnTriangle",
+   "row_status": "renumbered",
+   "si2016_verdict": "matches-2016",
+   "si_page": "tsrgd2016.pdf PDF p57 (diagram 531.1A)",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: matches-2016: EPS matches the 2016 531.1A imperial alternative; the height is set per site, so the procedural face is kept."
+   ]
+  },
+  "531.1A": {
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "531.2": {
+   "eps": "low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/531.2.eps",
+   "eps_crosswalk": "same",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "532.2": {
+   "family": "WarnTriangle",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "532.3": {
+   "family": "WarnTriangle",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "543": {
+   "eps": "warning-signs-eps.zip/543.eps",
+   "eps_crosswalk": "same",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: raster: converted EPS carries an embedded raster image; not used as a vector face"
+   ]
+  },
+  "544": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "traffic-calming-eps.zip/traffic-calming-eps/544.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/544.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "544.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/544.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "544.2": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/544.2.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "545": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/545.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "546": {
+   "eps": "warning-signs-eps.zip/546.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Plate",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "family Plate: wording-led or composite, kept procedural"
+   ]
+  },
+  "548": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/548.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "548.1": {
+   "eps": "warning-signs-eps.zip/548.1.eps",
+   "eps_crosswalk": "unverified",
+   "family": "WarnTriangle",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "549": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/549.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "550": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/550.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "550.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/550.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "550.2": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/550.2.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "551": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/551.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "551.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/551.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "551.2": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/551.2.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "552": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/552.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "553.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/553.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "553.2": {
+   "eps": "warning-signs-eps.zip/553.2.eps",
+   "eps_crosswalk": "unverified",
+   "family": "WarnTriangle",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "554": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/554.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/554F.eps",
+    "warning-signs-eps.zip/554G.eps",
+    "warning-signs-eps.zip/554N.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "554.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/554.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "554.2": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/554.2.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "555": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/555.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "556": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/556.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "556.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/556.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "557": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/557.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "558": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/558.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "559": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/559.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "562": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "miscellaneous-eps.zip/miscellaneous-eps/562.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/562.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "572": {
+   "eps": "road-works-and-temporary-eps.zip/road-works-and-temporary-eps/572.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "warning-signs-eps.zip/572.eps"
+   ],
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "573": {
+   "eps": "warning-signs-eps.zip/573.eps",
+   "eps_crosswalk": "unverified",
+   "family": "WarnTriangle",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "574": {
+   "eps": "warning-signs-eps.zip/574.eps",
+   "eps_crosswalk": "removed",
+   "family": "WarnTriangle",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "575": {
+   "eps": "warning-signs-eps.zip/575.eps",
+   "eps_crosswalk": "unverified",
+   "family": "WarnTriangle",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "581": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/581.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "582": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/582.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "583": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/583.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "584": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "warning-signs-eps.zip/584.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "601.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/601.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Stop",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "602": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/602.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "GiveWay",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "605.3": {
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "606": {
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/606.eps",
+   "eps_crosswalk": "same",
+   "family": "Mandatory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: variable: value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example"
+   ]
+  },
+  "607": {
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/607.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Plate",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "family Plate: wording-led or composite, kept procedural"
+   ]
+  },
+  "608": {
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/608.eps",
+   "eps_crosswalk": "same",
+   "family": "Plate",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "family Plate: wording-led or composite, kept procedural"
+   ]
+  },
+  "609": {
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/609.eps",
+   "eps_crosswalk": "same",
+   "family": "Mandatory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: variable: value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example"
+   ]
+  },
+  "610": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/610.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Mandatory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "611": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/611.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Mandatory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "611.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/611.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Mandatory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "612": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/612.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "613": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/613.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "614": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/614.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "615": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "traffic-calming-eps.zip/traffic-calming-eps/615.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/615.eps"
+   ],
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "616": {
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/616.eps",
+   "eps_crosswalk": "same",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: fail: EPS adds a thin black keyline round the white border that SI 2016 does not draw (Reviewer r1 F4); keyline stripping not implemented, so the procedural face is used."
+   ]
+  },
+  "617": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/617.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "618": {
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/618.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "618.1": {
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "618.2": {
+   "eps": "pedestrian-zones-signs-eps.zip/618X2.EPS",
+   "eps_crosswalk": "removed",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "618.3": {
+   "eps": "pedestrian-zones-signs-eps.zip/618X3.EPS",
+   "eps_crosswalk": "removed",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "618.3A": {
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "618.3B": {
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "618.3C": {
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "618.4": {
+   "eps": "pedestrian-zones-signs-eps.zip/618X4.EPS",
+   "eps_crosswalk": "removed",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "619": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/619.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "619.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/619.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "619.2": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/619.2.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "622.1A": {
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/622.1A.eps",
+   "eps_crosswalk": "same",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example"
+   ]
+  },
+  "622.2": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/622.2.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "622.4": {
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/622.4.eps",
+   "eps_crosswalk": "same",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: owner-ruling: the owner ruled both SI 2016 alternatives are drawn as separate faces; the EPS shows one only"
+   ]
+  },
+  "622.5": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/622.5.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "622.6": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/622.6.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "622.7": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/622.7.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "622.8": {
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "622.9": {
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "625.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/625.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "626.2A": {
+   "eps": "low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/626.2AV2.EPS",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/626.2AV2.EPS",
+    "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/626.2AV2.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example"
+   ]
+  },
+  "627.1": {
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "629": {
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/629.eps",
+   "eps_crosswalk": "removed",
+   "family": "Prohibitory",
+   "row_status": "renumbered",
+   "si2016_verdict": "outdated",
+   "si_page": "tsrgd2016.pdf PDF p74 (diagram 629A)",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: outdated: EPS is imperial 6'6\" only; 2016 629A shows 2.0 m and 6'6\". Procedural face kept."
+   ]
+  },
+  "629.1": {
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/629.1.eps",
+   "eps_crosswalk": "same",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example"
+   ]
+  },
+  "629.2": {
+   "eps": "low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/629.2.eps",
+   "eps_crosswalk": "removed",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example"
+   ]
+  },
+  "629.2A": {
+   "eps": "low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/629.2A.eps",
+   "eps_crosswalk": "same",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example"
+   ]
+  },
+  "629A": {
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "632": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/632.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "636": {
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "637.1": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/637.1.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/637.1F.eps",
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/637.1V.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "637.2": {
+   "eps": "pedestrian-zones-signs-eps.zip/637X2.EPS",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "pedestrian-zones-signs-eps.zip/637X2V.EPS"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "637.3": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/637.3.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/637.3V.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "638": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/638.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/638R.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "638.1": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/638.1.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/638.1R.eps",
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/638.1NA.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "639": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/639.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/639R.eps",
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/639NA.eps",
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/639TL.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "639.1B": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/639.1B.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/639.1BV.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "640": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/640_peak.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/640_am_pm.eps",
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/640_directions.eps",
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/640_times_arrows.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "640.1": {
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "640.2A": {
+   "eps": "low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/640.2A.EPS",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/640.2A.eps",
+    "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/640.2A.EPS"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "640.3": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/640.3.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "640.4": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/640.4.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "640.5": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/640.5.eps",
+   "eps_crosswalk": "same",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "not yet visually reviewed against the SI 2016 diagram"
+   ]
+  },
+  "642": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/642.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "642.2": {
+   "family": "Prohibitory",
+   "row_status": "renumbered",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "642.3": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/642.3.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "646": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/646.eps",
+   "eps_crosswalk": "same",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "647": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/647.eps",
+   "eps_crosswalk": "same",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "649.2": {
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "650.1": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/650.1.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "650.2": {
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "650.3": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/650.3.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "651": {
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/651.eps",
+   "eps_crosswalk": "same",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "652": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/652.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "660": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/660.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/660VD.eps",
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/660VR.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "660.3": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/660.3.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "660.4": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/660.4.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/660.4G.eps",
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/660.4GT.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "660.5": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/660.5.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "660.6": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/660.6V1T.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/660.6V2T.eps",
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/660.6V4T.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "660.7": {
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "661.1": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/661.1.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/661.1VB.eps",
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/661.1VC.eps",
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/661.1VM.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "661.2A": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/661.2A.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "661.3A": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/661.3A.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "661.4": {
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "662": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/662.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Prohibitory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "667": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/667.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "667.1": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/667.1.eps",
+   "eps_crosswalk": "same",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "667.2": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/667.2.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "668": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/668.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "668.1": {
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "668.2": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/668.2.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "670": {
+   "eps": "speed-limit-signs-eps.zip/speed-limit-signs-eps/670.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "speed-limit-signs-eps.zip/speed-limit-signs-eps/670V20.eps",
+    "speed-limit-signs-eps.zip/speed-limit-signs-eps/670V30.eps",
+    "speed-limit-signs-eps.zip/speed-limit-signs-eps/670V50.eps",
+    "speed-limit-signs-eps.zip/speed-limit-signs-eps/670V60.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example"
+   ]
+  },
+  "671": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "speed-limit-signs-eps.zip/speed-limit-signs-eps/671.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "National",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "672": {
+   "eps": "speed-limit-signs-eps.zip/speed-limit-signs-eps/672.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "speed-limit-signs-eps.zip/speed-limit-signs-eps/672v40.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example"
+   ]
+  },
+  "673": {
+   "eps": "speed-limit-signs-eps.zip/speed-limit-signs-eps/673.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "speed-limit-signs-eps.zip/speed-limit-signs-eps/673v40.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example"
+   ]
+  },
+  "674": {
+   "eps": "speed-limit-signs-eps.zip/speed-limit-signs-eps/674.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "traffic-calming-eps.zip/traffic-calming-eps/674.eps"
+   ],
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "675": {
+   "eps": "speed-limit-signs-eps.zip/speed-limit-signs-eps/675.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Prohibitory",
+   "row_status": "renumbered",
+   "si2016_verdict": "matches-2016",
+   "si_page": "tsrgd2016.pdf PDF p180 (diagram 675A)",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example",
+    "visual review: matches-2016: EPS matches 2016 675A; the value is set per site, so the procedural face is kept."
+   ]
+  },
+  "675A": {
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "675B": {
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "770": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/770.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "771": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/771.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "772": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "tram-signs-eps.zip/tram-signs-eps/772.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "773": {
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/773.eps",
+   "eps_crosswalk": "same",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "774": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/774.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "tram-signs-eps.zip/tram-signs-eps/774.eps"
+   ],
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "775": {
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/775.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "tram-signs-eps.zip/tram-signs-eps/775.eps"
+   ],
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "776": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/776.eps",
+   "eps_crosswalk": "unverified",
+   "fallback": "placeholder",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p448 (Sch 14 Pt 2 item 8)",
+   "source": "eps",
+   "superseded": false
+  },
+  "777": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/777.eps",
+   "eps_crosswalk": "unverified",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p448 (Sch 14 Pt 2 item 8)",
+   "source": "eps",
+   "superseded": true
+  },
+  "778": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/778.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p139",
+   "source": "eps",
+   "superseded": true
+  },
+  "779": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/779.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "780.1": {
+   "family": "WarnTriangle",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "780.2": {
+   "family": "WarnTriangle",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "781": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/781.eps",
+   "eps_crosswalk": "same",
+   "fallback": "placeholder",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p64 (printed 63), Sch 2 Pt 6 item 5",
+   "source": "eps",
+   "superseded": false
+  },
+  "782": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/782.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "783": {
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/783.eps",
+   "eps_crosswalk": "same",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering. r12: colour verified only: the 2002 EPS ground is blue where the atlas expects white; not used (wording verdict stands)."
+   ]
+  },
+  "784": {
+   "family": "WarnTriangle",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "785": {
+   "family": "WarnTriangle",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "786": {
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/786.eps",
+   "eps_crosswalk": "same",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "787": {
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/787.eps",
+   "eps_crosswalk": "same",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: variable: SI 2016 alternative types (telephone / emergency telephone): the EPS shows the plain handset, the atlas draws the SOS alternative; procedural kept"
+   ]
+  },
+  "788": {
+   "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/788.eps",
+   "eps_crosswalk": "same",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: variable: SI 2016 alternative types (telephone / emergency telephone): the EPS shows the plain handset, the atlas draws the SOS alternative; procedural kept"
+   ]
+  },
+  "801": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "information-signs-eps.zip/information-signs-eps/801.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/801.eps"
+   ],
+   "fallback": "procedural",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "804.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/804.1.eps",
+   "eps_crosswalk": "same",
+   "fallback": "placeholder",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": false
+  },
+  "804.2": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/804.2.eps",
+   "eps_crosswalk": "same",
+   "fallback": "placeholder",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": false
+  },
+  "811": {
+   "basis": "2002 artwork for a 2002-legacy row (visual review pass)",
+   "eps": "traffic-calming-eps.zip/traffic-calming-eps/811.eps",
+   "eps_crosswalk": "unverified",
+   "fallback": "procedural",
+   "family": "InfoBlue",
+   "row_status": "renumbered",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p186 (diagram 811A)",
+   "source": "eps",
+   "superseded": true
+  },
+  "811.1": {
+   "eps": "traffic-calming-eps.zip/traffic-calming-eps/811.1.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Plate",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "family Plate: wording-led or composite, kept procedural"
+   ]
+  },
+  "811A": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "traffic-calming-eps.zip/traffic-calming-eps/811.eps",
+   "eps_crosswalk": "unverified",
+   "fallback": "procedural",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p186",
+   "source": "eps",
+   "superseded": true
+  },
+  "811B": {
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "816": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/816.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "816.1": {
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "818.1": {
+   "eps": "information-signs-eps.zip/information-signs-eps/818.1.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "818.2": {
+   "family": "InfoBlue",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "818.3": {
+   "eps": "low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/818.3.eps",
+   "eps_crosswalk": "unverified",
+   "family": "InfoBlue",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "818.4": {
+   "eps": "on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/818.4.EPS",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "regulatory-signs-eps.zip/regulatory-signs-eps/regulatory-signs-eps/818.4.eps"
+   ],
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "818.5": {
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "820": {
+   "eps": "information-signs-eps.zip/information-signs-eps/820.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "information-signs-eps.zip/information-signs-eps/820V1.eps",
+    "information-signs-eps.zip/information-signs-eps/820V2.eps",
+    "information-signs-eps.zip/information-signs-eps/820V3.eps",
+    "information-signs-eps.zip/information-signs-eps/820V4.eps",
+    "information-signs-eps.zip/information-signs-eps/820V5.eps",
+    "information-signs-eps.zip/information-signs-eps/820V6.eps"
+   ],
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "821": {
+   "eps": "information-signs-eps.zip/information-signs-eps/821.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "822": {
+   "eps": "information-signs-eps.zip/information-signs-eps/822.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "823": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/823.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/823V.eps",
+    "motorway-signs-eps.zip/motorway-signs-eps/823R.eps",
+    "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/823VR.eps"
+   ],
+   "fallback": "procedural",
+   "family": "Countdown",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p195",
+   "source": "eps",
+   "superseded": true
+  },
+  "824": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/824.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/824V.eps",
+    "motorway-signs-eps.zip/motorway-signs-eps/824R.eps",
+    "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/824VR.eps"
+   ],
+   "fallback": "procedural",
+   "family": "Countdown",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p195",
+   "source": "eps",
+   "superseded": true
+  },
+  "825": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "motorway-signs-eps.zip/motorway-signs-eps/825.eps",
+   "eps_crosswalk": "unverified",
+   "eps_variants": [
+    "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/825V.eps",
+    "motorway-signs-eps.zip/motorway-signs-eps/825R.eps",
+    "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/825VR.eps"
+   ],
+   "fallback": "procedural",
+   "family": "Countdown",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p195",
+   "source": "eps",
+   "superseded": true
+  },
+  "827.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "information-signs-eps.zip/information-signs-eps/827.1.eps",
+   "eps_crosswalk": "unverified",
+   "fallback": "procedural",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p214 (printed 213)",
+   "source": "eps",
+   "superseded": true
+  },
+  "829.1": {
+   "eps": "information-signs-eps.zip/information-signs-eps/829.1.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "832": {
+   "eps": "information-signs-eps.zip/information-signs-eps/832.eps",
+   "eps_crosswalk": "unverified",
+   "family": "InfoBlue",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "833": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "information-signs-eps.zip/information-signs-eps/833.eps",
+   "eps_crosswalk": "unverified",
+   "fallback": "placeholder",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p217",
+   "source": "eps",
+   "superseded": false
+  },
+  "834": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "information-signs-eps.zip/information-signs-eps/834.eps",
+   "eps_crosswalk": "unverified",
+   "fallback": "placeholder",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p217",
+   "source": "eps",
+   "superseded": false
+  },
+  "835": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "information-signs-eps.zip/information-signs-eps/835.eps",
+   "eps_crosswalk": "unverified",
+   "fallback": "placeholder",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p217",
+   "source": "eps",
+   "superseded": false
+  },
+  "836": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "information-signs-eps.zip/information-signs-eps/836.eps",
+   "eps_crosswalk": "unverified",
+   "fallback": "placeholder",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p217",
+   "source": "eps",
+   "superseded": false
+  },
+  "837": {
+   "family": "InfoBlue",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "857": {
+   "family": "InfoBlue",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "872": {
+   "family": "InfoBlue",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "873": {
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "878": {
+   "eps": "speed-limit-signs-eps.zip/speed-limit-signs-eps/878.eps",
+   "eps_crosswalk": "same",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "880": {
+   "eps": "speed-limit-signs-eps.zip/speed-limit-signs-eps/880.eps",
+   "eps_crosswalk": "same",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "variable value or wording set per site (caption); EPS shows one example"
+   ]
+  },
+  "883": {
+   "eps": "traffic-calming-eps.zip/traffic-calming-eps/883.eps",
+   "eps_crosswalk": "same",
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "884": {
+   "eps": "traffic-calming-eps.zip/traffic-calming-eps/884.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "traffic-calming-eps.zip/traffic-calming-eps/884V.eps"
+   ],
+   "family": "WarnTriangle",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "951": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/951.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "952": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/952.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Prohibitory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "953": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/953.eps",
+   "eps_crosswalk": "same",
+   "family": "Mandatory",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: variable: value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example"
+   ]
+  },
+  "953.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "tram-signs-eps.zip/tram-signs-eps/953.1.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/953.1V.eps"
+   ],
+   "fallback": "procedural",
+   "family": "Mandatory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "953.2": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/953.2.eps",
+   "eps_crosswalk": "removed",
+   "eps_variants": [
+    "tram-signs-eps.zip/tram-signs-eps/953.2.eps"
+   ],
+   "family": "Mandatory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "owner-held decision item (qa/DECISIONS-PENDING.md)"
+   ]
+  },
+  "954": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/954.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Mandatory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "954.2": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/954.2.eps",
+   "eps_crosswalk": "unverified",
+   "family": "Mandatory",
+   "row_status": "2002-legacy",
+   "source": "procedural",
+   "why_not_eps": [
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "954.5": {
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "955": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/955.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Mandatory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "956": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/956.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "Mandatory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "957": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/957.eps",
+   "eps_crosswalk": "same",
+   "eps_variants": [
+    "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/957R.eps"
+   ],
+   "fallback": "procedural",
+   "family": "Mandatory",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "958": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/958.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "958.1": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/958.1.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: fail: EPS lacks the time panel that SI 2016 shows (Reviewer r1 F1)."
+   ]
+  },
+  "959": {
+   "family": "InfoBlue",
+   "row_status": "renumbered",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "959.1": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/959.1.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: fail: EPS lacks the time panel that SI 2016 shows (Reviewer r1 F1)."
+   ]
+  },
+  "959B": {
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "960": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/960.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "procedural",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: variable: value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example"
+   ]
+  },
+  "960.1": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/960.1.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: variable: value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example"
+   ]
+  },
+  "962": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/962.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "962.1": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/962.1.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "962.2": {
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "963": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/963T.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "964": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/964.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "965": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/965.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "967": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/967.eps",
+   "eps_crosswalk": "same",
+   "fallback": "procedural",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": true
+  },
+  "968": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/968.eps",
+   "eps_crosswalk": "same",
+   "fallback": "placeholder",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "eps",
+   "superseded": false
+  },
+  "968.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/968.1.eps",
+   "eps_crosswalk": "unverified",
+   "fallback": "placeholder",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p206",
+   "source": "eps",
+   "superseded": false
+  },
+  "969": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/969.eps",
+   "eps_crosswalk": "same",
+   "family": "InfoBlue",
+   "row_status": "current",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: fail: EPS adds a P (parking) sign that the SI 2016 diagram does not show (Reviewer r1 F1)."
+   ]
+  },
+  "974": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/974.eps",
+   "eps_crosswalk": "unverified",
+   "family": "InfoBlue",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "975": {
+   "eps": "bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/975.eps",
+   "eps_crosswalk": "unverified",
+   "family": "InfoBlue",
+   "row_status": "2002-legacy",
+   "source": "placeholder",
+   "why_not_eps": [
+    "family InfoBlue: wording-led or composite, kept procedural",
+    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
+   ]
+  },
+  "BELISHA": {
+   "family": "PedHead",
+   "row_status": "renumbered",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "GANTRY_ADS": {
+   "family": "DirMotorway",
+   "row_status": "not-2016",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "MARKER": {
+   "family": "Marker",
+   "row_status": "not-2016",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "MS4": {
+   "family": "MatrixMS4",
+   "row_status": "not-2016",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "STREET_NAME": {
+   "family": "DirLocal",
+   "row_status": "not-2016",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  },
+  "XING_PAR": {
+   "family": "PedHead",
+   "row_status": "not-2016",
+   "source": "procedural",
+   "why_not_eps": [
+    "no GOV.UK EPS for this diagram number"
+   ]
+  }
+ },
+ "generated_by": "tools/eps/map.py",
+ "rule": "\"eps\" | \"procedural\" | \"placeholder\".\n  eps          a fixed pictogram face whose GOV.UK EPS is the same diagram in SI 2016 (or the same 2002 diagram\n               for a 2002-legacy row), with no conflict, no raster, and a visual-review pass. The procedural face\n               is kept as the offline fallback (\"fallback\": \"procedural\" or \"placeholder\").\n  procedural   drawn by tools/atlas (variable text, composites, plates whose wording we set, gaps, conflicts).\n  placeholder  no drawing yet (hatched placeholder face)."
+}

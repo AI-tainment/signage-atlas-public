@@ -1,7 +1,6 @@
 # Public snapshot notes
 
-Single-commit snapshot of the Signage Atlas tracked tree (source commit 0150b3c on the
-working branch), prepared for a possible public release.
+Single-commit snapshot of the Signage Atlas tracked tree (source: merged private main 5413b5e), prepared for a possible public release.
 
 ## Left out, and why
 
@@ -16,6 +15,10 @@ working branch), prepared for a possible public release.
   rotation audit, placeholder plan): internal process records of past rounds. Kept:
   `qa/UNVERIFIED-SOURCES.md`, `qa/DECISIONS-PENDING.md` and the SI evidence crops it cites
   (`qa/renders/r6/evidence/`).
+
+- **Raw GOV.UK EPS and zips** (`.cache/`): not included. The 105 converted official faces in use ARE
+  included in `site/faces-eps/uk/signs/`, each with a Crown copyright / Open Government Licence v3.0
+  notice in its `<desc>` (see `LICENCE.md` and `docs/EPS.md`).
 
 ## Checks
 

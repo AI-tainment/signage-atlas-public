@@ -431,6 +431,23 @@ def validate(country: str = "uk", *, strict: bool = False) -> int:
     if stale:
         errors.append(f"{len(stale)} baked face(s) differ from render.py, e.g. {stale[:6]}; run rebuild.py --all")
 
+    # EPS-first (tools/eps/checks.py): pinned manifest, fresh face_sources.json, cache + font checks.
+    from eps import checks as eps_checks
+    import face_qa
+    notes: list[str] = []
+    eps_checks.check(atlas.get("signs") or [], errors, notes, warns)
+    # Systemic face QA (qa/TODO-WARN-TRIANGLE-QA.md a-d) on still-procedural faces, against the baseline.
+    import shutil as _sh
+    if _sh.which("rsvg-convert"):
+        qa_errs, _ = face_qa.compare(atlas)
+        errors.extend(qa_errs)
+    else:
+        warns.append("face-qa: rsvg-convert not found (Debian librsvg2-bin); inset/island checks skipped")
+    pair_errs, _ = face_qa.pair_check()
+    errors.extend(pair_errs)
+    for n in notes:
+        print("NOTE", n)
+
     print(f"validate: {len(errors)} error(s), {len(warns)} warning(s)")
     for e in errors:
         print("ERROR", e)

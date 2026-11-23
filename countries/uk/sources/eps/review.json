@@ -1,0 +1,849 @@
+{
+ "faces": {
+  "4002.1": {
+   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
+   "verdict": "composite"
+  },
+  "4003": {
+   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
+   "verdict": "composite"
+  },
+  "4003.1": {
+   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
+   "verdict": "composite"
+  },
+  "4003.2": {
+   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
+   "verdict": "composite"
+  },
+  "4003.3": {
+   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
+   "verdict": "composite"
+  },
+  "4003.4": {
+   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
+   "verdict": "composite"
+  },
+  "4003.5": {
+   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
+   "verdict": "composite"
+  },
+  "4003.6": {
+   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
+   "verdict": "composite"
+  },
+  "4003.7": {
+   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
+   "verdict": "composite"
+  },
+  "504.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "505.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "506.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "507.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "508.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "509.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "510": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "512": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "512.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "512.2": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "513": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "513.1": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "516": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "517": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "521": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "522": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "523.1": {
+   "note": "value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example",
+   "verdict": "variable"
+  },
+  "524.1": {
+   "note": "value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example",
+   "verdict": "variable"
+  },
+  "526": {
+   "note": "EPS is a different 2002 sign (\"Keep in low gear\" style plate, not the opening bridge); 2016 renumbered the opening bridge to 529. Procedural face kept.",
+   "si_page": "tsrgd2016.pdf PDF p45 (diagram 529)",
+   "verdict": "outdated"
+  },
+  "528": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "529": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "529.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "530": {
+   "note": "EPS is metric 4.4 m only and carries an embedded raster; 2016 530A requires both units (metric and imperial). Procedural face kept.",
+   "si_page": "tsrgd2016.pdf PDF p56 (diagram 530A)",
+   "verdict": "outdated"
+  },
+  "530.1": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "530A": {
+   "note": "EPS matches the 2016 530A layout, but the height is set per site; procedural face kept (EPS shows one example value).",
+   "si_page": "tsrgd2016.pdf PDF p56",
+   "verdict": "matches-2016"
+  },
+  "531.1": {
+   "note": "EPS matches the 2016 531.1A imperial alternative; the height is set per site, so the procedural face is kept.",
+   "si_page": "tsrgd2016.pdf PDF p57 (diagram 531.1A)",
+   "verdict": "matches-2016"
+  },
+  "531.2": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "543": {
+   "note": "converted EPS carries an embedded raster image; not used as a vector face",
+   "verdict": "raster"
+  },
+  "544": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "544.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "544.2": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "545": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "548": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "548.1": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "549": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "550": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "550.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "550.2": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "551": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "551.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "551.2": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "552": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "553.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "553.2": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "554": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "554.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "554.2": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "555": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "556": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "556.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "557": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "558": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "559": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "562": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "572": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "573": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "574": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "575": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "581": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "582": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "583": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "584": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "601.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "602": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "606": {
+   "note": "value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example",
+   "verdict": "variable"
+  },
+  "609": {
+   "note": "value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example",
+   "verdict": "variable"
+  },
+  "610": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "611": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "611.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "612": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "613": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "614": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "615": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "616": {
+   "note": "EPS adds a thin black keyline round the white border that SI 2016 does not draw (Reviewer r1 F4); keyline stripping not implemented, so the procedural face is used.",
+   "verdict": "fail"
+  },
+  "617": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "618": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "618.2": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "618.3": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "618.4": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "619": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "619.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "619.2": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "622.2": {
+   "note": "EPS is the plain end-of-goods-vehicle-prohibition face (no value); the caption's 'indicated' refers to item 13, not a per-site value",
+   "verdict": "pass"
+  },
+  "622.4": {
+   "note": "the owner ruled both SI 2016 alternatives are drawn as separate faces; the EPS shows one only",
+   "verdict": "owner-ruling"
+  },
+  "622.5": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "622.6": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "622.7": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "625.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "629": {
+   "note": "EPS is imperial 6'6\" only; 2016 629A shows 2.0 m and 6'6\". Procedural face kept.",
+   "si_page": "tsrgd2016.pdf PDF p74 (diagram 629A)",
+   "verdict": "outdated"
+  },
+  "632": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "637.1": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "637.2": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "637.3": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "638": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "638.1": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "639": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "639.1B": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "640": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "640.2A": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "640.3": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "640.4": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "640.6": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "642": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "642.3": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "646": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "647": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "650.1": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "650.3": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "651": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "652": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet); for a family outside the fixed-pictogram set (e.g. InfoBlue), 'pass' also confirms the face is a fixed pictogram with no per-site wording",
+   "verdict": "pass"
+  },
+  "660": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "660.3": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "660.4": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "660.5": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "660.6": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "661.1": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "661.2A": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "661.3A": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "662": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "667": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "667.1": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "667.2": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "668": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "668.2": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "671": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "674": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "675": {
+   "note": "EPS matches 2016 675A; the value is set per site, so the procedural face is kept.",
+   "si_page": "tsrgd2016.pdf PDF p180 (diagram 675A)",
+   "verdict": "matches-2016"
+  },
+  "770": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "771": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "772": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "773": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "774": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "775": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "776": {
+   "note": "EPS matches the SI 2016 diagram (Reviewer page check r1). Fixed wording: the owner ruled (r12) that EPS lettering drawn as paths is acceptable, so the EPS is used; our primitive-font face stays as the offline fallback.",
+   "si_page": "tsrgd2016.pdf PDF p448 (Sch 14 Pt 2 item 8)",
+   "verdict": "pass-si2016"
+  },
+  "777": {
+   "note": "EPS matches the SI 2016 diagram (Reviewer page check r1). Fixed wording: the owner ruled (r12) that EPS lettering drawn as paths is acceptable, so the EPS is used; our primitive-font face stays as the offline fallback.",
+   "si_page": "tsrgd2016.pdf PDF p448 (Sch 14 Pt 2 item 8)",
+   "verdict": "pass-si2016"
+  },
+  "778": {
+   "note": "SI 2016 shows a steam locomotive on the plate; the EPS matches. EPS used (procedural fallback redrawn to match).",
+   "si_page": "tsrgd2016.pdf PDF p139",
+   "verdict": "pass-si2016"
+  },
+  "779": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "781": {
+   "note": "Load gauge with bells under overhead cables. The owner ruled (r12): use the official face unless it has dynamic text. SI 2016 shows no text on the sign (the figures are drawing dimensions); its variants are the number of bells (by road width) and bell colour, not wording. So the EPS is used; a site with a different bell count would need the procedural face.",
+   "si_page": "tsrgd2016.pdf PDF p64 (printed 63), Sch 2 Pt 6 item 5",
+   "verdict": "pass-si2016"
+  },
+  "782": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "783": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering. r12: colour verified only: the 2002 EPS ground is blue where the atlas expects white; not used (wording verdict stands).",
+   "verdict": "wording"
+  },
+  "786": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "787": {
+   "note": "SI 2016 alternative types (telephone / emergency telephone): the EPS shows the plain handset, the atlas draws the SOS alternative; procedural kept",
+   "verdict": "variable"
+  },
+  "788": {
+   "note": "SI 2016 alternative types (telephone / emergency telephone): the EPS shows the plain handset, the atlas draws the SOS alternative; procedural kept",
+   "verdict": "variable"
+  },
+  "801": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet); for a family outside the fixed-pictogram set (e.g. InfoBlue), 'pass' also confirms the face is a fixed pictogram with no per-site wording",
+   "verdict": "pass"
+  },
+  "804.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet); for a family outside the fixed-pictogram set (e.g. InfoBlue), 'pass' also confirms the face is a fixed pictogram with no per-site wording",
+   "verdict": "pass"
+  },
+  "804.2": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet); for a family outside the fixed-pictogram set (e.g. InfoBlue), 'pass' also confirms the face is a fixed pictogram with no per-site wording",
+   "verdict": "pass"
+  },
+  "811": {
+   "note": "EPS matches 2016 811A (priority over oncoming vehicles); the row is the pre-2016 number renumbered to 811A. No per-site wording: EPS used.",
+   "si_page": "tsrgd2016.pdf PDF p186 (diagram 811A)",
+   "verdict": "pass-si2016"
+  },
+  "811A": {
+   "eps_number": "811",
+   "note": "2016 diagram; takes the 811 EPS, eye-checked against the 2016 page (same face).",
+   "si_page": "tsrgd2016.pdf PDF p186",
+   "verdict": "pass-si2016"
+  },
+  "816": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet); for a family outside the fixed-pictogram set (e.g. InfoBlue), 'pass' also confirms the face is a fixed pictogram with no per-site wording",
+   "verdict": "pass"
+  },
+  "818.1": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "818.3": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "818.4": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "820": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "821": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "822": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "823": {
+   "note": "Countdown marker; EPS matches the SI 2016 diagram (Reviewer page check r1); no wording. EPS used.",
+   "si_page": "tsrgd2016.pdf PDF p195",
+   "verdict": "pass-si2016"
+  },
+  "824": {
+   "note": "Countdown marker; EPS matches the SI 2016 diagram (Reviewer page check r1); no wording. EPS used.",
+   "si_page": "tsrgd2016.pdf PDF p195",
+   "verdict": "pass-si2016"
+  },
+  "825": {
+   "note": "Countdown marker; EPS matches the SI 2016 diagram (Reviewer page check r1); no wording. EPS used.",
+   "si_page": "tsrgd2016.pdf PDF p195",
+   "verdict": "pass-si2016"
+  },
+  "827.1": {
+   "note": "EPS matches the SI 2016 diagram (Reviewer page check r1). Fixed wording: the owner ruled (r12) that EPS lettering drawn as paths is acceptable, so the EPS is used; our primitive-font face stays as the offline fallback.",
+   "si_page": "tsrgd2016.pdf PDF p214 (printed 213)",
+   "verdict": "pass-si2016"
+  },
+  "829.1": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "832": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "833": {
+   "note": "EPS matches the SI 2016 diagram (Reviewer page check r1). Fixed wording: the owner ruled (r12) that EPS lettering drawn as paths is acceptable, so the EPS is used; our primitive-font face stays as the offline fallback.",
+   "si_page": "tsrgd2016.pdf PDF p217",
+   "verdict": "pass-si2016"
+  },
+  "834": {
+   "note": "EPS matches the SI 2016 diagram (Reviewer page check r1). Fixed wording: the owner ruled (r12) that EPS lettering drawn as paths is acceptable, so the EPS is used; our primitive-font face stays as the offline fallback.",
+   "si_page": "tsrgd2016.pdf PDF p217",
+   "verdict": "pass-si2016"
+  },
+  "835": {
+   "note": "EPS matches the SI 2016 diagram (Reviewer page check r1). Fixed wording: the owner ruled (r12) that EPS lettering drawn as paths is acceptable, so the EPS is used; our primitive-font face stays as the offline fallback.",
+   "si_page": "tsrgd2016.pdf PDF p217",
+   "verdict": "pass-si2016"
+  },
+  "836": {
+   "note": "EPS matches the SI 2016 diagram (Reviewer page check r1). Fixed wording: the owner ruled (r12) that EPS lettering drawn as paths is acceptable, so the EPS is used; our primitive-font face stays as the offline fallback.",
+   "si_page": "tsrgd2016.pdf PDF p217",
+   "verdict": "pass-si2016"
+  },
+  "878": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "883": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "884": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "951": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "952": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "953": {
+   "note": "value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example",
+   "verdict": "variable"
+  },
+  "953.1": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "954": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "954.2": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "955": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "956": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "957": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
+   "verdict": "pass"
+  },
+  "958": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "958.1": {
+   "note": "EPS lacks the time panel that SI 2016 shows (Reviewer r1 F1).",
+   "verdict": "fail"
+  },
+  "959.1": {
+   "note": "EPS lacks the time panel that SI 2016 shows (Reviewer r1 F1).",
+   "verdict": "fail"
+  },
+  "960": {
+   "note": "value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example",
+   "verdict": "variable"
+  },
+  "960.1": {
+   "note": "value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example",
+   "verdict": "variable"
+  },
+  "962": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "962.1": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "963": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "964": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "965": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "967": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet); for a family outside the fixed-pictogram set (e.g. InfoBlue), 'pass' also confirms the face is a fixed pictogram with no per-site wording",
+   "verdict": "pass"
+  },
+  "968": {
+   "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet); for a family outside the fixed-pictogram set (e.g. InfoBlue), 'pass' also confirms the face is a fixed pictogram with no per-site wording",
+   "verdict": "pass"
+  },
+  "968.1": {
+   "note": "EPS matches the SI 2016 diagram (Reviewer page check r1). EPS used.",
+   "si_page": "tsrgd2016.pdf PDF p206",
+   "verdict": "pass-si2016"
+  },
+  "969": {
+   "note": "EPS adds a P (parking) sign that the SI 2016 diagram does not show (Reviewer r1 F1).",
+   "verdict": "fail"
+  },
+  "974": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  },
+  "975": {
+   "note": "wording-led plate or composite; wording stays in our own primitive lettering",
+   "verdict": "wording"
+  }
+ },
+ "method": "tools/eps/compare.py contact sheets (atlas procedural face vs converted GOV.UK EPS), read by eye on 2026-11-23; 'pass' means the EPS is the same sign as the SI 2016 caption and diagram. Sheets are gitignored (qa/renders/eps/).",
+ "verdicts": {
+  "2016-check": "EPS pictogram differs from the face traced from SI 2016; check the 2016 diagram page before using (treated as a conflict)",
+  "check": "identity of the EPS against the 2016 diagram not confirmed on the contact sheet",
+  "composite": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
+  "fail": "EPS differs from SI 2016 in a way that rules it out (extra or missing element); procedural or placeholder kept",
+  "matches-2016": "EPS matches the SI 2016 page, but the face stays procedural/placeholder (value set per site, or an owner-held decision)",
+  "outdated": "EPS is the superseded 2002 face; SI 2016 (si_page) wins and the procedural face is kept; the note records the difference",
+  "owner-ruling": "the owner ruled both SI 2016 alternatives are drawn as separate faces; the EPS shows one only",
+  "pass": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet); for a family outside the fixed-pictogram set (e.g. InfoBlue), 'pass' also confirms the face is a fixed pictogram with no per-site wording",
+  "pass-si2016": "EPS eye-checked against the SI 2016 diagram page (si_page) and matches it; settles a crosswalk/renumbering conflict and the EPS is used",
+  "raster": "converted EPS carries an embedded raster image; not used as a vector face",
+  "variable": "value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example",
+  "wording": "wording-led plate or composite; wording stays in our own primitive lettering"
+ }
+}

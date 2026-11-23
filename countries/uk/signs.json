@@ -7045,14 +7045,14 @@
     "permitted_dim": null,
     "renderer": "532.3",
     "dimensions_m": {
-      "plate_width": 0.906,
+      "plate_width": 0.679,
       "plate_height": 0.6,
       "underside": 1.5,
       "post_diameter": 0.076,
       "verge_offset": 0.8
     },
     "source": {
-      "plate_width": "plate height x drawn face aspect (1.510)",
+      "plate_width": "working size (SI 2016 tabulates no size for this diagram; see sources/si2016_sizes.json)",
       "plate_height": "working size (SI 2016 tabulates no size for this diagram; see sources/si2016_sizes.json)",
       "underside": "engine-default",
       "post_diameter": "engine-default",
@@ -7416,14 +7416,14 @@
     "permitted_dim": null,
     "renderer": "777",
     "dimensions_m": {
-      "plate_width": 0.5,
+      "plate_width": 1.2,
       "plate_height": 0.6,
       "underside": 1.5,
       "post_diameter": 0.076,
       "verge_offset": 0.8
     },
     "source": {
-      "plate_width": "plate height x drawn face aspect (0.833)",
+      "plate_width": "plate height x drawn face aspect (2.000)",
       "plate_height": "working size (SI 2016 tabulates no size for this diagram; see sources/si2016_sizes.json)",
       "underside": "engine-default",
       "post_diameter": "engine-default",
@@ -7436,8 +7436,7 @@
     "osm": "traffic_sign=GB:777",
     "colours": [
       "white",
-      "black",
-      "grey"
+      "black"
     ]
   },
   {
@@ -7467,14 +7466,14 @@
     "permitted_dim": "sign height",
     "renderer": "778",
     "dimensions_m": {
-      "plate_width": 0.525,
+      "plate_width": 0.63,
       "plate_height": 0.63,
       "underside": 1.5,
       "post_diameter": 0.076,
       "verge_offset": 0.8
     },
     "source": {
-      "plate_width": "plate height x drawn face aspect (0.833)",
+      "plate_width": "plate height x drawn face aspect (1.000)",
       "plate_height": "SI 2016 Sch 9 Pt 2 col 4 item 4: sign height 420, 525, 630 mm; working 630 mm",
       "underside": "engine-default",
       "post_diameter": "engine-default",
@@ -7487,8 +7486,7 @@
     "osm": "traffic_sign=GB:778",
     "colours": [
       "white",
-      "black",
-      "grey"
+      "black"
     ]
   },
   {

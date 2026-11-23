@@ -1604,12 +1604,15 @@ GLYPHS = {
         + _fig(C["black"], -0.145, 0.125, 0.34, child=True, bulk=True, hold="R", hand=(0.13, 0.01))
         + _fig(C["black"], 0.085, 0.055, 0.54, bulk=True, hold="L", hand=(-0.10, 0.08))
     ),
+    # r12: SI 2016 Sch 14 Pt 2 item 8, diagram 777 (printed p447 = tsrgd2016.pdf PDF p448): black-bordered plate,
+    # four lines "ANOTHER TRAIN / COMING / if lights / continue to show" (aspect ~2:1), our stand-in lettering.
     "777": lambda p: (
-        _rect(C["grey"], -0.40, -0.48, 0.40, 0.48, rx=0.04)
-        + _rect(C["white"], -0.37, -0.45, 0.37, 0.45, rx=0.03)
-        + _word("ANOTHER", 0, -0.22, 0.08, C["black"], tracking=0.008, weight=1.1)
-        + _word("TRAIN", 0, -0.02, 0.10, C["black"], tracking=0.010, weight=1.15)
-        + _word("COMING", 0, 0.20, 0.08, C["black"], tracking=0.008, weight=1.1)
+        _rect(C["black"], -0.80, -0.40, 0.80, 0.40, rx=0.06)
+        + _rect(C["white"], -0.76, -0.36, 0.76, 0.36, rx=0.04)
+        + lettering.word("ANOTHER TRAIN", 0, -0.235, 0.11, C["black"], tracking_sw=0.5, part=2)
+        + lettering.word("COMING", 0, -0.075, 0.11, C["black"], tracking_sw=0.5, part=2)
+        + lettering.word("if lights", 0, 0.085, 0.10, C["black"], tracking_sw=0.5, part=2)
+        + lettering.word("continue to show", 0, 0.245, 0.10, C["black"], tracking_sw=0.5, part=2)
     ),
     "818.2": lambda p: _warn() + _fit_warn_lines(["Ford"], C["black"], max_h=0.13),
     "547": lambda p: _warn() + _fig(C["black"], -0.12, 0.10, 0.36, child=True, hold="R", hand=(0.10, 0.04)) + _fig(C["black"], 0.08, 0.04, 0.52, hold="L", hand=(-0.08, 0.10)),
@@ -1875,6 +1878,58 @@ for _k, _P in traced.PLATES.items():
         GLYPHS.setdefault(_k, (lambda k: (lambda p: _auto(k)))(_k))
 
 
+# r12 (WarnTriangle TODO, 2026-11-23): hand fixes after checking each SI page. These override the generator
+# (traced.PLATES) drawers for the face only; the traced data stays in traced.py.
+def _clip_layer(key: str, fill: str, y_max: float, cid: str) -> str:
+    return (f'<clipPath id="{cid}"><rect x="-2" y="-2" width="4" height="{2 + y_max:.4f}"/></clipPath>'
+            f'<g clip-path="url(#{cid})">{traced.path(key, fill)}</g>')
+
+
+# 530.1 = SI 2016 Sch 2 Pt 5 diagram 530.1 (printed p58 = tsrgd2016.pdf PDF p59): two lines, never touching.
+GLYPHS["530.1"] = lambda p: (
+    traced.path("530.1/0", C["black"]) + traced.path("530.1/1", C["white"])
+    + lettering.word("Overhanging", 0, -0.18, 0.20, C["black"], tracking_sw=0.5, part=1)
+    + lettering.word("building", 0, 0.14, 0.20, C["black"], tracking_sw=0.5, part=1)
+)
+# 572 = SI 2016 Sch 2 Pt 5 diagram 572 (printed p60 = tsrgd2016.pdf PDF p61): "1/2 mile" with a stacked fraction
+# (1 above-left, 2 below-right, visible slash), set in our Schedule 17 stand-in lettering.
+GLYPHS["572"] = lambda p: (
+    traced.path("572/0", C["black"]) + traced.path("572/1", C["white"])
+    # the traced white layer has knock-outs where the traced fraction was; cover them, then set our own 1/2
+    + _rect(C["white"], -0.90, -0.33, -0.36, 0.33)
+    + lettering.word("1", -0.79, -0.105, 0.18, C["black"], part=2)
+    + lettering._slant(C["black"], -0.60, -0.225, -0.715, 0.225, round(0.18 / lettering.CAP_SW, 4))
+    + lettering.word("2", -0.52, 0.115, 0.18, C["black"], part=2)
+    + lettering.word("mile", 0.2682, -0.0196, 0.3799, C["black"], tracking_sw=0.5, part=2, narrow=0.814)
+)
+# 787 = SI 2016 Sch 11 Pt 2 diagram 787 (printed p215 = tsrgd2016.pdf PDF p216), SOS alternative type
+# (150 x 325): handset kept inside the yellow panel (traced handset, scaled to 0.78 about its centre), "SOS" below.
+GLYPHS["787"] = lambda p: (
+    traced.path("787/0", C["yellow"])
+    + '<g transform="translate(0.0 -0.25) scale(0.78) translate(0.0 0.25)">'
+    + _clip_layer("787/1", C["black"], 0.58, "c787") + "</g>"
+    + lettering.word("SOS", 0, 0.74, 0.26, C["black"], tracking_sw=0.6, part=2)
+)
+# 778 = SI 2016 Sch 9 Pt 2 diagram 778 (printed p138 = tsrgd2016.pdf PDF p139): steam locomotive on a white square
+# plate with a black border. The locomotive is the one traced from SI 2016 diagram 771 (same pictogram).
+GLYPHS["778"] = lambda p: (
+    _rect(C["black"], -0.48, -0.48, 0.48, 0.48, rx=0.06)
+    + _rect(C["white"], -0.43, -0.43, 0.43, 0.43, rx=0.03)
+    + '<g transform="scale(1.32) translate(0.002 -0.2515)">' + traced.path("771", C["black"]) + "</g>"
+)
+# 526 (pre-2016 number; SI 2016 renumbered it 529, Sch 2 Pt 2, printed p44 = tsrgd2016.pdf PDF p45): same opening
+# bridge, the symbol scaled 0.74 and nudged down-left so it keeps clear of the red frame.
+_OPEN_BRIDGE = GLYPHS["526"]
+GLYPHS["526"] = lambda p: (
+    _warn() + '<g transform="translate(-0.05 0.16) scale(0.74) translate(0 -0.10)">'
+    + _OPEN_BRIDGE(p).replace(_warn(), "", 1) + "</g>"
+)
+GLYPHS["529"] = GLYPHS["526"]
+# 532.3 = SI 2002 Sch 1 diagram 532.3 (printed p61 = refs/si2002.pdf PDF p61): the headroom triangle as mounted at
+# an arch bridge; face = large pointer, 14'-6", small pointer, all inside the white field (no dimension lines).
+GLYPHS["532.3"] = lambda p: _headroom_tri(["14'-6\""], lower_arrow=True)
+
+
 # Declared legend fields (validator: every legend word must sit in one, with clearance).
 _GIVEWAY_PTS = _scale_about(_eq_pts(WARN_RED_H, False, by_height=True), GIVEWAY_K, _centroid(_eq_pts(WARN_RED_H, False, by_height=True)))
 for _ids, _fields in (
@@ -1890,7 +1945,8 @@ for _ids, _fields in (
     (("642.2", "605.3"), [("circle", 0.0, 0.0, 0.40)]),
     (("646",), [("rect", -0.4932, -0.3122, 0.4932, 0.3122)]),
     (("626.2A",), [("rect", -0.2634, -0.4885, 0.2634, -0.2053), ("rect", -0.2634, 0.3082, 0.2634, 0.4885), ("circle", 0.0, 0.0525, 0.1704)]),
-    (("777",), [("rect", -0.37, -0.45, 0.37, 0.45)]),
+    (("777",), [("rect", -0.76, -0.36, 0.76, 0.36)]),
+    (("787",), [("rect", -0.46, 0.52, 0.46, 0.98)]),
     (("811.1",), [("rect", -0.617, -0.325, 0.617, 0.325)]),
     (("660",), [("rect", -0.5688, -0.3, 0.5688, 0.3), ("rect", -0.4903, -0.1956, -0.1047, 0.1902)]),
     (("608",), [("rect", -0.6694, -0.2634, 0.6694, 0.2634)]),
@@ -1969,9 +2025,16 @@ def _whole_bbox(inner: str):
     return min(xs),min(ys),max(xs),max(ys)
 
 
+# r12 overrides drawn from traced layers this bbox reader cannot measure (clip paths, traced path data):
+# the aspect of the traced plate layer (/0), i.e. what the face had before the override.
+_PLATE_ASPECT = {"530.1": 2.441, "572": round(1.274 / 0.6, 4), "787": round(0.278 / 0.6, 4)}
+
+
 def drawn_aspect(sign_id: str, renderer: str | None = None, param=None) -> float | None:
     """D1: width/height of the whole drawn face (bbox of all shapes, r11); faces this reader cannot measure
     (transforms, relative/arc paths) fall back to the first shape (the plate). None if unmeasured."""
+    if sign_id in _PLATE_ASPECT:
+        return _PLATE_ASPECT[sign_id]
     inner = glyph(sign_id, param) or (glyph(str(renderer), param) if renderer else "")
     if not inner:
         return None

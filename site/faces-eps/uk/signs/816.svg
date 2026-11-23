@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 182.93 182.26" width="160" height="159" role="img" data-source="eps"><desc>Crown copyright. GOV.UK traffic sign artwork (EPS), used under the Open Government Licence v3.0 (nationalarchives.gov.uk/doc/open-government-licence/version/3/). Converted locally by signage-atlas tools/eps; keep this notice with any copy.</desc>
+<defs>
+<clipPath id="clip-0">
+<path clip-rule="nonzero" d="M 0.34 0 L 182.52 0 L 182.52 181.52 L 0.34 181.52 Z M 0.34 0 "/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip-0)">
+<path fill="#F7F7F7" d="M 182.02 168.21 C 182.02 175.29 176.29 181.02 169.21 181.02 L 13.65 181.02 C 6.57 181.02 0.83 175.29 0.83 168.21 L 0.83 13.31 C 0.83 6.23 6.57 0.49 13.65 0.49 L 169.21 0.49 C 176.29 0.49 182.02 6.23 182.02 13.31 L 182.02 168.21 "/>
+<path fill="none" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter" stroke="#005CA6" stroke-miterlimit="4" d="M 1824.26 133.66 C 1824.26 62.59 1766.65 5.02 1695.62 5.02 L 133.67 5.02 C 62.61 5.02 4.99 62.59 4.99 133.66 L 4.99 1688.97 C 4.99 1760.04 62.61 1817.66 133.67 1817.66 L 1695.62 1817.66 C 1766.65 1817.66 1824.26 1760.04 1824.26 1688.97 Z M 1824.26 133.66 " transform="matrix(0.1, 0, 0, -0.1, 0.34, 181.52)"/>
+</g>
+<path fill="#005CA6" d="M 175.37 168.21 C 175.37 171.61 172.61 174.37 169.21 174.37 L 13.65 174.37 C 10.25 174.37 7.49 171.61 7.49 168.21 L 7.49 13.31 C 7.49 9.91 10.25 7.15 13.65 7.15 L 169.21 7.15 C 172.61 7.15 175.37 9.91 175.37 13.31 L 175.37 168.21 "/>
+<path fill="#F7F7F7" d="M 136.81 25.06 L 46.38 25.06 L 46.38 61.71 L 80.24 61.71 L 80.24 161.11 L 102.95 161.11 L 102.95 61.71 L 136.81 61.71 L 136.81 25.06 "/>
+<path fill="none" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter" stroke="#005CA6" stroke-miterlimit="4" d="M 1370.28 1571 L 462.27 1571 L 462.27 1202.99 L 802.28 1202.99 L 802.28 205 L 1030.27 205 L 1030.27 1202.99 L 1370.28 1202.99 Z M 1370.28 1571 " transform="matrix(0.1, 0, 0, -0.1, 0.34, 181.52)"/>
+<path fill="#CC1A1A" d="M 48.37 27.25 L 48.37 59.52 L 134.82 59.52 L 134.82 27.25 L 48.37 27.25 "/>
+</svg>

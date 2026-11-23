@@ -275,6 +275,243 @@ class GeneratorFaces(unittest.TestCase):
         code, out = run()
         self.assertNotEqual(code, 0)
         self.assertIn("not in palette", out)
+class EpsChecks(unittest.TestCase):
+    """EPS-first pipeline (tools/eps/checks.py): each seeded fault must fail validate."""
+
+    def setUp(self):
+        from eps import checks, map as eps_map, paths
+        self.checks, self.map, self.paths = checks, eps_map, paths
+
+    def test_manifest_hash_pinned(self):
+        old = dict(self.checks.PINNED)
+        self.checks.PINNED["manifest.csv"] = "0" * 64
+        try:
+            code, out = run()
+        finally:
+            self.checks.PINNED.clear(); self.checks.PINNED.update(old)
+        self.assertEqual(code, 1)
+        self.assertIn("manifest.csv SHA-256 differs", out)
+
+    def test_stale_face_sources(self):
+        real = self.map.build
+        def fake():
+            d = real(); d["faces"]["671"]["source"] = "procedural"; return d
+        self.map.build = fake
+        try:
+            code, out = run()
+        finally:
+            self.map.build = real
+        self.assertEqual(code, 1)
+        self.assertIn("face_sources.json is stale", out)
+
+    def _with_faces(self, mutate):
+        import tempfile
+        real_path, real_build = self.paths.FACE_SOURCES, self.map.build
+        d = json.loads(real_path.read_text()); mutate(d)
+        tmp = Path(tempfile.mkdtemp()) / "face_sources.json"
+        tmp.write_text(json.dumps(d, indent=1, sort_keys=True) + "\n")
+        self.paths.FACE_SOURCES = tmp
+        self.map.build = lambda: d
+        try:
+            return run()
+        finally:
+            self.paths.FACE_SOURCES, self.map.build = real_path, real_build
+
+    def test_eps_face_with_conflict_fails(self):
+        def m(d):
+            d["faces"]["671"]["conflict"] = True
+        code, out = self._with_faces(m)
+        self.assertEqual(code, 1)
+        self.assertIn("671 is eps-sourced but carries a conflict", out)
+
+    def test_eps_file_not_in_crosswalk_fails(self):
+        def m(d):
+            d["faces"]["671"]["eps"] = "nowhere.zip/671.eps"
+        code, out = self._with_faces(m)
+        self.assertEqual(code, 1)
+        self.assertIn("not in the crosswalk", out)
+
+    def test_owner_held_cannot_be_eps(self):
+        def m(d):
+            d["faces"]["953.2"].update({"source": "eps", "eps": d["faces"]["671"]["eps"], "fallback": "procedural"})
+            d["faces"]["953.2"].pop("why_not_eps", None); d["faces"]["953.2"].pop("conflict", None)
+        code, out = self._with_faces(m)
+        self.assertEqual(code, 1)
+        self.assertIn("owner-held item 953.2", out)
+
+    def test_tracked_eps_fails(self):
+        import subprocess as sp
+        real = self.checks.subprocess.run
+        class R:  # noqa: D401
+            stdout = "README.md\nrefs/x/616.EPS\n"
+        self.checks.subprocess.run = lambda *a, **k: R()
+        try:
+            code, out = run()
+        finally:
+            self.checks.subprocess.run = real
+        self.assertEqual(code, 1)
+        self.assertIn("EPS artwork is tracked", out)
+
+    def _with_tracked(self, listing):
+        real = self.checks.subprocess.run
+        class R:  # noqa: D401
+            stdout = listing
+        self.checks.subprocess.run = lambda *a, **k: R()
+        try:
+            return run()
+        finally:
+            self.checks.subprocess.run = real
+
+    def test_tracked_cache_file_fails(self):
+        code, out = self._with_tracked("README.md\n.cache/eps/zips/x.zip\n")
+        self.assertEqual(code, 1)
+        self.assertIn("EPS artwork is tracked", out)
+
+    def test_tracked_eps_svg_without_attribution_fails(self):
+        p = self.paths.ROOT / "site" / "faces-eps" / "uk" / "signs" / "671.svg"
+        if not p.exists():
+            self.skipTest("site/faces-eps/ absent")
+        orig = p.read_bytes()
+        p.write_bytes(orig.replace(b"<desc>Crown copyright", b"<desc>Anon"))
+        try:
+            code, out = self._with_tracked("site/faces-eps/uk/signs/671.svg\n")
+        finally:
+            p.write_bytes(orig)
+        self.assertEqual(code, 1)
+        self.assertIn("lacks the Crown copyright", out)
+
+    def test_tracked_eps_svg_for_non_eps_face_fails(self):
+        code, out = self._with_tracked("site/faces-eps/uk/signs/969.svg\n")
+        self.assertEqual(code, 1)
+        self.assertIn("is not an eps-sourced face", out)
+
+    def test_eps_svg_tracked_elsewhere_fails(self):
+        p = self.paths.ROOT / "site" / "faces-eps" / "uk" / "signs" / "671.svg"
+        if not p.exists():
+            self.skipTest("site/faces-eps/ absent")
+        q = self.paths.ROOT / "docs" / "_eps_copy_test.svg"
+        q.write_bytes(p.read_bytes())
+        try:
+            code, out = self._with_tracked("docs/_eps_copy_test.svg\n")
+        finally:
+            q.unlink()
+        self.assertEqual(code, 1)
+        self.assertIn("tracked outside site/faces-eps", out)
+
+    def test_font_program_in_eps_fails(self):
+        import re
+        if not any(self.paths.ZIPS.glob("*.zip")):
+            self.skipTest("EPS cache absent")
+        real = self.checks.FONT_PROGRAM
+        self.checks.FONT_PROGRAM = re.compile(rb"%!PS")
+        try:
+            code, out = run()
+        finally:
+            self.checks.FONT_PROGRAM = real
+        self.assertEqual(code, 1)
+        self.assertIn("font program", out)
+
+    def test_missing_cache_required_fails(self):
+        import os, tempfile
+        real = self.paths.ZIPS
+        self.paths.ZIPS = Path(tempfile.mkdtemp())
+        os.environ["SA_REQUIRE_EPS"] = "1"
+        try:
+            code, out = run()
+        finally:
+            self.paths.ZIPS = real
+            os.environ.pop("SA_REQUIRE_EPS")
+        self.assertEqual(code, 1)
+        self.assertIn("cache absent", out)
+
+
+class FaceQa(unittest.TestCase):
+    """qa/TODO-WARN-TRIANGLE-QA.md systemic checks (a)-(d) via tools/face_qa.py."""
+
+    def test_new_finding_fails(self):
+        import face_qa
+        real = face_qa.findings
+        def fake(atlas=None):
+            d = real(atlas); d.setdefault("616", []).append("islands: seeded"); return d
+        face_qa.findings = fake
+        try:
+            code, out = run()
+        finally:
+            face_qa.findings = real
+        self.assertEqual(code, 1)
+        self.assertIn("face-qa 616: new finding", out)
+
+    def test_overlap_detects_colliding_words(self):
+        import face_qa
+        real = render.legend_log
+        render.legend_log = lambda c, p=None: [("A", 0, 0, 1, 1, 1, 1), ("B", 0.5, 0.5, 2, 2, 1, 1)]
+        try:
+            self.assertTrue(face_qa.overlap_checks("x"))
+        finally:
+            render.legend_log = real
+
+    def test_inset_and_islands_detect_faults(self):
+        import shutil, tempfile, face_qa
+        if not shutil.which("rsvg-convert"):
+            self.skipTest("rsvg-convert absent")
+        d = Path(tempfile.mkdtemp())
+        (d / "t.svg").write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">'
+            '<rect x="0" y="0" width="100" height="100" fill="#CC1A1A"/><rect x="10" y="10" width="80" height="80" fill="#F7F7F7"/>'
+            '<rect x="10" y="40" width="40" height="20" fill="#141414"/><rect x="70" y="70" width="2" height="2" fill="#141414"/></svg>')
+        real = face_qa.FACES
+        face_qa.FACES = d
+        try:
+            f = face_qa.raster_checks("t", "WarnTriangle")
+        finally:
+            face_qa.FACES = real
+        self.assertTrue(any(x.startswith("inset") for x in f), f)
+        self.assertTrue(any(x.startswith("islands") for x in f), f)
+
+    def test_edge_check_flags_ink_leaving_a_panel(self):
+        import shutil, tempfile, face_qa
+        if not shutil.which("rsvg-convert"):
+            self.skipTest("rsvg-convert absent")
+        d = Path(tempfile.mkdtemp())
+        (d / "p.svg").write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 100" width="50" height="100">'
+            '<rect x="0" y="0" width="50" height="100" fill="#E6C300"/><rect x="20" y="0" width="10" height="40" fill="#141414"/></svg>')
+        a = face_qa.raster(d / "p.svg")
+        f = face_qa.edge_check(a, face_qa._mask(a, face_qa._hex(face_qa.render.C["black"])))
+        self.assertTrue(f and f[0].startswith("edge"), f)
+
+    def test_unpinned_converter_versions_are_reported(self):
+        from eps import convert
+        self.assertEqual(convert.version_problems({"ghostscript": "10.05.1", "pdftocairo": "pdftocairo version 25.03.0"}), [])
+        self.assertEqual(len(convert.version_problems({"ghostscript": "10.02.1", "pdftocairo": "pdftocairo version 24.02.0"})), 2)
+
+    def test_deploy_guard_requires_attribution(self):
+        import tempfile
+        from eps import convert, deploy_guard
+        d = Path(tempfile.mkdtemp())
+        (d / "a.svg").write_text(f'<svg data-source="eps"><desc>{convert.ATTRIBUTION}</desc></svg>')
+        self.assertEqual(deploy_guard.main([str(d)]), 0)
+        (d / "b.svg").write_text('<svg data-source="eps"></svg>')
+        self.assertEqual(deploy_guard.main([str(d)]), 1)
+
+    def test_unverified_crosswalk_is_not_a_conflict(self):
+        import json
+        fs = json.loads((ROOT / "countries" / "uk" / "face_sources.json").read_text())["faces"]
+        for f in fs.values():
+            for w in f.get("why_not_eps", []):
+                self.assertFalse(w.startswith("conflict: crosswalk could not verify"), w)
+
+    def test_unlisted_identical_pair_fails(self):
+        import tempfile, face_qa
+        real = face_qa.PAIRS
+        d = json.loads(real.read_text()); d["groups"] = d["groups"][1:]
+        tmp = Path(tempfile.mkdtemp()) / "p.json"; tmp.write_text(json.dumps(d))
+        face_qa.PAIRS = tmp
+        try:
+            code, out = run()
+        finally:
+            face_qa.PAIRS = real
+        self.assertEqual(code, 1)
+        self.assertIn("not listed in countries/uk/identical_pairs.json", out)
+
 
 class NoPersonalName(unittest.TestCase):
     def test_tracked_files_have_no_owner_name(self):

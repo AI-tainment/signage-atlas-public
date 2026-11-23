@@ -121,10 +121,38 @@
       <text x="0" y="0.06" text-anchor="middle" font-size="0.18" fill="#3A3A38">${lab}</text>
     </svg>`;
   }
+  // EPS-first: a sign whose face_source is "eps" loads the locally cooked GOV.UK EPS face
+  // (site/faces-eps/, gitignored; built by tools/eps/build.py or tools/serve.sh). If it is missing
+  // (offline, not built) the procedural face is the fallback, then the placeholder.
+  function epsSrc(item, country) {
+    return "faces-eps/" + (country || "uk") + "/signs/" + encodeURIComponent(item.id) + ".svg";
+  }
   function faceHtml(kind, item) {
-    const baked = faceSrc(kind, item.id, (window.__atlasCountry) || "uk");
-    return `<img class="face-img" src="${baked}" alt="${esc(item.id)}" width="160" height="160" onerror="(function(img){var t=img.nextElementSibling;img.replaceWith(t.content.cloneNode(true));})(this)"/>` +
+    const country = (window.__atlasCountry) || "uk";
+    const baked = faceSrc(kind, item.id, country);
+    const fs = item.face_source;
+    const fallback = `(function(img){var t=img.nextElementSibling;img.replaceWith(t.content.cloneNode(true));})(this)`;
+    if (kind === "signs" && fs && fs.source === "eps") {
+      const toBaked = `(function(img){if(img.dataset.fb){${fallback.replace("(this)", "(img)")};return;}img.dataset.fb=1;img.src='${baked}';img.title='EPS face not built; showing the procedural fallback';})(this)`;
+      return `<img class="face-img" src="${epsSrc(item, country)}" alt="${esc(item.id)}" width="160" height="160" onerror="${toBaked}"/>` +
+        `<template>${placeholderFace(item.id)}</template>`;
+    }
+    return `<img class="face-img" src="${baked}" alt="${esc(item.id)}" width="160" height="160" onerror="${fallback}"/>` +
       `<template>${placeholderFace(item.id)}</template>`;
+  }
+  function sourcePill(item) {
+    const fs = item.face_source;
+    if (!fs) return "";
+    const lab = fs.source === "eps" ? "GOV.UK EPS" : fs.source;
+    return `<span class="pill source-${esc(fs.source)}" title="${esc((fs.why_not_eps || []).join("; "))}">${esc(lab)}</span>`;
+  }
+  function sourceRows(item) {
+    const fs = item.face_source;
+    if (!fs) return "";
+    const why = (fs.why_not_eps || []).map(esc).join("<br>");
+    return `<tr><th>Face source</th><td>${esc(fs.source)}${fs.source === "eps" ? " (fallback: " + esc(fs.fallback) + (fs.superseded ? "; hand-traced face superseded" : "") + ")" : ""}</td></tr>` +
+      (fs.eps ? `<tr><th>GOV.UK EPS</th><td><code>${esc(fs.eps)}</code></td></tr>` : "") +
+      (why ? `<tr><th>Why not EPS</th><td>${why}</td></tr>` : "");
   }
   function statusPill(item) {
     const st = item.status || "";
@@ -141,7 +169,7 @@
   function cardSign(s) {
     return `<div class="card" data-href="${href("uk", "signs", s.id)}">
       <div class="face">${faceHtml("signs", s)}</div>
-      <div class="k">${esc(s.id)}${s.renumbered_to ? " → " + esc(s.renumbered_to) : ""} ${statusPill(s)}</div>
+      <div class="k">${esc(s.id)}${s.renumbered_to ? " → " + esc(s.renumbered_to) : ""} ${statusPill(s)} ${sourcePill(s)}</div>
       <div class="n" title="${esc(s.name)}">${esc(shortName(s.name))}</div>
     </div>`;
   }
@@ -231,6 +259,7 @@
           <p>
             <span class="pill ${s.glyph ? "glyph" : "fallback"}">${s.glyph ? "dedicated glyph" : "family fallback"}</span>
             ${statusPill(s)}
+            ${sourcePill(s)}
             <span class="pill">${esc(s.family)}</span>
             <span class="pill">${esc(s.mount)}</span>
             <span class="pill">ch.${esc(s.chapter)}</span>
@@ -244,6 +273,7 @@
             ${(s.permitted_mm && s.permitted_mm.length) ? `<tr><th>Permitted sizes</th><td>${esc(s.permitted_mm.join(", "))} mm${s.permitted_dim ? " (" + esc(s.permitted_dim) + ")" : ""}</td></tr>` : ""}
             <tr><th>Family</th><td>${esc(s.family)}</td></tr>
             <tr><th>Renderer</th><td><code>${esc(s.renderer)}</code></td></tr>
+            ${sourceRows(s)}
             <tr><th>OSM</th><td><code>${esc(s.osm)}</code></td></tr>
             <tr><th>Mount</th><td>${esc(s.mount)}</td></tr>
             <tr><th>Siting</th><td>${esc(s.siting)}</td></tr>
@@ -263,7 +293,9 @@
       </div>
       <p class="licence">${s.kind === "non-tsrgd" || s.status === "not-2016"
         ? "Not a TSRGD 2016 diagram. Identification silhouette only."
-        : "Crown copyright. Open Government Licence v3.0. Redrawn identification silhouettes; hex colours are screen approximations. Transport typeface is not shipped."}</p>
+        : (s.face_source && s.face_source.source === "eps"
+          ? "Face: GOV.UK traffic sign image (EPS), Crown copyright, Department for Transport, Open Government Licence v3.0; converted locally from the GOV.UK EPS (attribution embedded in the SVG). Transport typeface is not shipped."
+          : "Crown copyright. Open Government Licence v3.0. Redrawn identification silhouettes; hex colours are screen approximations. Transport typeface is not shipped.")}</p>
     `;
   }
 
@@ -395,7 +427,7 @@
       <p>${esc(co.licence.diagrams)}</p>
       <p>${esc(co.licence.typeface)}</p>
       <h2>Method</h2>
-      <p>Baked SVG from <code>tools/atlas/render.py</code>. Extract is the only JSON writer. Validator runs on every <code>rebuild.py --all</code>.</p>
+      <p>EPS first: fixed pictogram faces come from the GOV.UK traffic sign images (EPS, Crown copyright, OGL v3.0), fetched once and converted on this machine by <code>tools/eps/</code> into <code>site/faces-eps/</code> (not committed; the build generates them, and each carries the Crown copyright / OGL v3.0 notice). Everything else, and the offline fallback for every EPS face, is baked SVG from <code>tools/atlas/render.py</code>. Extract is the only JSON writer. Validator runs on every <code>rebuild.py --all</code>.</p>
       <h2>Limitations</h2>
       <p>TSM Chapters 1, 3, 4, 6, 7 unread. Spec 015/019 full text is not in this tree. Transport is not shipped. Highway Code caption maps are quarantined and are not an id source.</p>
     `;

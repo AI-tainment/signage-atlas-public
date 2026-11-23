@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 272.66 272.66" width="160" height="160" role="img" data-source="eps"><desc>Crown copyright. GOV.UK traffic sign artwork (EPS), used under the Open Government Licence v3.0 (nationalarchives.gov.uk/doc/open-government-licence/version/3/). Converted locally by signage-atlas tools/eps; keep this notice with any copy.</desc>
+<defs>
+<clipPath id="clip-0">
+<path clip-rule="nonzero" d="M 0 0 L 272.32 0 L 272.32 272.32 L 0 272.32 Z M 0 0 "/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip-0)">
+<path fill="#CC1A1A" d="M 136.16 0 C 211.36 0 272.32 60.96 272.32 136.16 C 272.32 211.36 211.36 272.32 136.16 272.32 C 60.96 272.32 0 211.36 0 136.16 C 0 60.96 60.96 0 136.16 0 "/>
+</g>
+<path fill="#005CA6" d="M 136.16 114.74 L 201.8 49.09 C 183.54 35.3 160.8 27.12 136.16 27.12 C 111.51 27.12 88.77 35.3 70.51 49.09 L 136.16 114.74 "/>
+<path fill="#005CA6" d="M 223.23 70.52 L 157.58 136.16 L 223.23 201.81 C 237.02 183.55 245.2 160.81 245.2 136.16 C 245.2 111.52 237.02 88.78 223.23 70.52 "/>
+<path fill="#005CA6" d="M 114.73 136.16 L 49.09 70.52 C 35.3 88.78 27.12 111.52 27.12 136.16 C 27.12 160.81 35.3 183.55 49.09 201.81 L 114.73 136.16 "/>
+<path fill="#005CA6" d="M 136.16 157.59 L 70.51 223.23 C 88.77 237.02 111.51 245.2 136.16 245.2 C 160.8 245.2 183.54 237.02 201.8 223.23 L 136.16 157.59 "/>
+</svg>

@@ -1,0 +1,62 @@
+{
+ "about": "Byte-identical baked procedural sign faces that are intended (tools/face_qa.py, check d). Fix the art once; both ids inherit it.",
+ "groups": [
+  {
+   "faces": [
+    "4007",
+    "BELISHA",
+    "XING_PAR"
+   ],
+   "why": "one Belisha beacon / parallel crossing face shared by the 2016 diagram, the legacy BELISHA row and the crossing row"
+  },
+  {
+   "faces": [
+    "526",
+    "529"
+   ],
+   "why": "526 renumbered to 529 in 2016; same diagram (529 is now EPS-sourced; this pair is the offline fallback)"
+  },
+  {
+   "faces": [
+    "530",
+    "532.3"
+   ],
+   "why": "532.3 (SI 2002 p61, headroom with dimension lines inside the triangle) is drawn with the same construction as 530 on the default imperial value; both take the per-site height"
+  },
+  {
+   "faces": [
+    "531.1",
+    "531.1A"
+   ],
+   "why": "531.1 renumbered to 531.1A in 2016; diagram unchanged"
+  },
+  {
+   "faces": [
+    "605.3",
+    "642.2"
+   ],
+   "why": "642.2 renumbered to 605.3 in 2016; same face"
+  },
+  {
+   "faces": [
+    "675",
+    "675A"
+   ],
+   "why": "675 renumbered to 675A in 2016; same face"
+  },
+  {
+   "faces": [
+    "811",
+    "811A"
+   ],
+   "why": "811 renumbered to 811A in 2016; same face"
+  },
+  {
+   "faces": [
+    "959",
+    "959B"
+   ],
+   "why": "959 renumbered to 959B in 2016; same face"
+  }
+ ]
+}

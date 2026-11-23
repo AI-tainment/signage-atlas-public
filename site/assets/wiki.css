@@ -61,3 +61,5 @@ h2 { font-size: 1.15rem; margin: 2rem 0 0.6rem; border-bottom: 1px solid var(--l
   .article { grid-template-columns: 1fr; }
   .main { padding: 1rem; }
 }
+.pill.source-eps { color: #a0e8b0; border-color: #2a5a3a; }
+.pill.source-placeholder { color: #c0c0c0; border-style: dashed; }

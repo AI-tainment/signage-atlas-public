@@ -1968,8 +1968,8 @@
       "name": "Opening or swing bridge ahead (pre-2016 number)",
       "glyph": true,
       "renderer": "526",
-      "bytes": 827,
-      "sha256": "c9c1becee0b89e0e7d909831a96132c5cb24737b39467f5cb214fc10671ddf55"
+      "bytes": 899,
+      "sha256": "bdf5c65429f8c04106c0b7986f5795ce62c4d72da0fe43b1b29cf063ea38584e"
     },
     "signs/528": {
       "path": "signs/528.svg",
@@ -1988,8 +1988,8 @@
       "name": "Opening or swing bridge ahead",
       "glyph": true,
       "renderer": "529",
-      "bytes": 827,
-      "sha256": "c9c1becee0b89e0e7d909831a96132c5cb24737b39467f5cb214fc10671ddf55"
+      "bytes": 899,
+      "sha256": "bdf5c65429f8c04106c0b7986f5795ce62c4d72da0fe43b1b29cf063ea38584e"
     },
     "signs/529.1": {
       "path": "signs/529.1.svg",
@@ -2018,8 +2018,8 @@
       "name": "Reduced headroom under an overhanging structure",
       "glyph": true,
       "renderer": "530.1",
-      "bytes": 4682,
-      "sha256": "6a2761d50eb8d53fdd19bcfcebe0cd34b8f657662f49b67c72024ab1eb94b771"
+      "bytes": 4612,
+      "sha256": "375d19583e4ebcdc0b863428dce0d4f3fbde47136db34a05187d1ce74d073ff2"
     },
     "signs/530A": {
       "path": "signs/530A.svg",
@@ -2078,8 +2078,8 @@
       "name": "Available width at an arch bridge",
       "glyph": true,
       "renderer": "532.3",
-      "bytes": 3615,
-      "sha256": "a83fa957aa601c7092c8cdc4021635efcb1b1aca6ffcdeaf484857a9ee297c60"
+      "bytes": 1528,
+      "sha256": "2eea8f63769ef3818442fabe15d769c6cd6446e13d99db54a297d39c9eeb6b2a"
     },
     "signs/543": {
       "path": "signs/543.svg",
@@ -2368,8 +2368,8 @@
       "name": "Distance to hazard",
       "glyph": true,
       "renderer": "572",
-      "bytes": 2825,
-      "sha256": "94faaa0cb0cf1189ee2eb646f7d27144b5e6e117b9dde3e25c56c0a03fa73119"
+      "bytes": 2878,
+      "sha256": "74296e0b02dde8847eb852c74396397a8a97cb5607191c69c80ccb4a25c6786d"
     },
     "signs/573": {
       "path": "signs/573.svg",
@@ -3458,8 +3458,8 @@
       "name": "Another train coming",
       "glyph": true,
       "renderer": "777",
-      "bytes": 4398,
-      "sha256": "79fed7aa130c5d6ec6a08356bfbb63e0d4535f7237b0910619d9ae1ad55d95b6"
+      "bytes": 8809,
+      "sha256": "17195bf03729042fff5555e664c9c292c8f48de89ddf380be7d3bbd2a4b4193a"
     },
     "signs/778": {
       "path": "signs/778.svg",
@@ -3468,8 +3468,8 @@
       "name": "Open level crossing",
       "glyph": true,
       "renderer": "778",
-      "bytes": 800,
-      "sha256": "983134aea08ae4f39d36f26f5d40fef346d1fc81802e05d88386b16cf72a695e"
+      "bytes": 1741,
+      "sha256": "7e22d33c138400cbd6d3fac2fd8ce3e4d82d734caa87c640f01fa2b96a66285a"
     },
     "signs/779": {
       "path": "signs/779.svg",
@@ -3568,8 +3568,8 @@
       "name": "Telephone at a railway or tramway crossing",
       "glyph": true,
       "renderer": "787",
-      "bytes": 3356,
-      "sha256": "e5166901f500429e0a6c56f400dd4f9cca517eab6411ea9bd4c6c1289de110c2"
+      "bytes": 3154,
+      "sha256": "a25a3d4493a074c9c704d9af1ff432d192cd34fb87c8b8c1f87ffddae355eaa4"
     },
     "signs/788": {
       "path": "signs/788.svg",
