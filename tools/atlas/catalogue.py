@@ -47,7 +47,7 @@ def with_face_sources(atlas: dict[str, Any], country: str, root: Path | None = N
         f = fs.get(r["id"])
         r = dict(r)
         if f:
-            r["face_source"] = {k: f[k] for k in ("source", "fallback", "eps", "superseded", "why_not_eps", "conflict")
+            r["face_source"] = {k: f[k] for k in ("source", "fallback", "eps", "superseded", "why_not_eps", "conflict", "example", "basis")
                                 if k in f}
         rows.append(r)
     out["signs"] = rows

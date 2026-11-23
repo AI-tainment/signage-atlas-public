@@ -69,6 +69,8 @@ embedded raster image (`530.eps`, `543.eps`; never used as EPS faces), 702/702 b
   composites (wording stays in our primitive Schedule 17 stand-in lettering), signal heads, gaps, conflicts,
   and the owner-held items (2911, 953.2, 818.2, MARKER).
 - **placeholder** where nothing is drawn yet and no EPS qualifies.
+- **eps + example: true** for a route, direction or tourist sign whose official GOV.UK image is kept as an
+  example layout, standing in until a per-site generated face replaces it (review verdict `example`).
 
 **2016 wins.** A conflict is flagged and the EPS is not used when: the atlas row is renumbered or not-2016; the
 crosswalk says the 2002 diagram was removed; the row is 2002-legacy
@@ -104,6 +106,11 @@ falls back to the procedural face, then to the placeholder, so it still works of
 - **Still excluded:** 969, 958.1 and 959.1 (the EPS differs from SI 2016: extra P sign / missing time panel).
   No owner-held EPS questions remain (the long-standing held rows 2911, 953.2, 818.2 and MARKER are a
   separate decision list and stay procedural).
+- **Example layouts (2026-11-23):** the owner, in his own words, "Yes, add the 48 as example faces now" —
+  the 48 route, direction and tourist placeholders that have a GOV.UK EPS (DirMotorway 25, TouristBrown 13,
+  DirLocal 10). They are stored as `source: "eps"` with `"example": true` (an example layout, not a per-site
+  generated sign). The wiki labels them "Example layout (official GOV.UK image) — to be generated per site",
+  alongside the Crown copyright / OGL v3.0 attribution. Contact sheets: `qa/renders/eps/r4/` (gitignored).
 
 ## Converter versions
 

@@ -1,5 +1,197 @@
 {
  "faces": {
+  "2201": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2203": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2204": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2205": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2208": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2209": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2301": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2302": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2303": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2304": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2305": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2306": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2307": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2601.1": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2602.2": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2603": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2604": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2605": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2606": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2607": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2608": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2610": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2610.2": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2702": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2703": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2704": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2706": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2708": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2710": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2711": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2713": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2713.1": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2716": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2902": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2902.1": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2903": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2910": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2915": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2921": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2922": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2924": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2925": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2926": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2927": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2928": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2929": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2930": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
+  "2932": {
+   "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
+   "verdict": "example"
+  },
   "4002.1": {
    "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
    "verdict": "composite"
@@ -831,11 +1023,12 @@
    "verdict": "wording"
   }
  },
- "method": "tools/eps/compare.py contact sheets (atlas procedural face vs converted GOV.UK EPS), read by eye on 2026-11-23; 'pass' means the EPS is the same sign as the SI 2016 caption and diagram. Sheets are gitignored (qa/renders/eps/).",
+ "method": "tools/eps/compare.py contact sheets (atlas procedural face vs converted GOV.UK EPS), read by eye on 2026-11-23; 'pass' means the EPS is the same sign as the SI 2016 caption and diagram. Sheets are gitignored (qa/renders/eps/). Example-layout verdicts (r4, 2026-11-23) use contact sheets in qa/renders/eps/r4/.",
  "verdicts": {
   "2016-check": "EPS pictogram differs from the face traced from SI 2016; check the 2016 diagram page before using (treated as a conflict)",
   "check": "identity of the EPS against the 2016 diagram not confirmed on the contact sheet",
   "composite": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
+  "example": "official GOV.UK image used as an example layout for a route, direction or tourist sign; stands in until a per-site generated face replaces it",
   "fail": "EPS differs from SI 2016 in a way that rules it out (extra or missing element); procedural or placeholder kept",
   "matches-2016": "EPS matches the SI 2016 page, but the face stays procedural/placeholder (value set per site, or an owner-held decision)",
   "outdated": "EPS is the superseded 2002 face; SI 2016 (si_page) wins and the procedural face is kept; the note records the difference",

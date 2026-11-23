@@ -10,6 +10,9 @@ Source per face: "eps" | "procedural" | "placeholder".
   eps          a fixed pictogram face whose GOV.UK EPS is the same diagram in SI 2016 (or the same 2002 diagram
                for a 2002-legacy row), with no conflict, no raster, and a visual-review pass. The procedural face
                is kept as the offline fallback ("fallback": "procedural" or "placeholder").
+               An eps face may also be an example layout ("example": true): official GOV.UK art for a route,
+               direction or tourist sign, standing in until a per-site generated face replaces it (review
+               verdict "example"; owner, 2026-11-23: "Yes, add the 48 as example faces now").
   procedural   drawn by tools/atlas (variable text, composites, plates whose wording we set, gaps, conflicts).
   placeholder  no drawing yet (hatched placeholder face).
 The EPS artwork itself is never committed; tools/eps/build.py cooks it into gitignored site/faces-eps/.
@@ -94,6 +97,7 @@ def build() -> dict:
             if len(cands) > 1:
                 f["eps_variants"] = [c["eps_file"] for c in cands[1:]]
         why = []
+        is_example = False
         if not cands:
             why.append("no GOV.UK EPS for this diagram number")
         else:
@@ -124,11 +128,12 @@ def build() -> dict:
                 why.append("conflict: 2016 reassigned this number (another row was renumbered to it); "
                            "the 2002 EPS shows a different sign")
             confirmed = v in ("pass", "pass-si2016")
-            if r["family"] not in EPS_FAMILIES and not confirmed:
+            is_example = v == "example"
+            if r["family"] not in EPS_FAMILIES and not confirmed and not is_example:
                 why.append(f"family {r['family']}: wording-led or composite, kept procedural")
-            elif not confirmed and VARIABLE.search(r.get("si_caption") or r.get("name") or ""):
+            elif not confirmed and not is_example and VARIABLE.search(r.get("si_caption") or r.get("name") or ""):
                 why.append("variable value or wording set per site (caption); EPS shows one example")
-            if rv and not confirmed:
+            if rv and not confirmed and not is_example:
                 why.append(f"visual review: {rv['verdict']}: {rv.get('note', '')}".rstrip(": "))
             elif not why and not rv:
                 why.append("not yet visually reviewed against the SI 2016 diagram")
@@ -144,8 +149,13 @@ def build() -> dict:
             f["source"] = "eps"
             f["fallback"] = current
             f["superseded"] = current == "procedural"   # hand-traced face kept only as the offline fallback
-            f["basis"] = ("same diagram number in SI 2016 (crosswalk same; visual review pass)"
-                          if r["status"] == "current" else "2002 artwork for a 2002-legacy row (visual review pass)")
+            if is_example:
+                f["example"] = True
+                f["basis"] = ("example layout from the official GOV.UK image "
+                              "(route, direction or tourist); to be generated per site")
+            else:
+                f["basis"] = ("same diagram number in SI 2016 (crosswalk same; visual review pass)"
+                              if r["status"] == "current" else "2002 artwork for a 2002-legacy row (visual review pass)")
         else:
             f["why_not_eps"] = why
             if conflict:
@@ -171,6 +181,7 @@ def coverage(fs: dict) -> dict:
         "atlas_faces_no_eps": sum(1 for f in faces.values() if "eps" not in f),
         "source": dict(sorted(Counter(f["source"] for f in faces.values()).items())),
         "eps_replacing_placeholder": sum(1 for f in faces.values() if f["source"] == "eps" and f["fallback"] == "placeholder"),
+        "eps_example": sum(1 for f in faces.values() if f["source"] == "eps" and f.get("example")),
         "superseded_hand_traced": sum(1 for f in faces.values() if f.get("superseded")),
         "conflicts_2016": sum(1 for f in faces.values() if f.get("conflict")),
         "si2016_eye_checked": sum(1 for f in faces.values() if f.get("si2016_verdict")),
@@ -191,8 +202,13 @@ def report_md(fs: dict) -> str:
         out = ["", f"## {title} ({len(rows)})", "", "| " + " | ".join(cols) + " |", "|" + "---|" * len(cols)]
         out += ["| " + " | ".join(str(c).replace("|", "/") for c in r) + " |" for r in rows]
         return out
-    L += table("Atlas faces now EPS-sourced", [(k, f["family"], f["row_status"], f["fallback"], f["eps"])
-               for k, f in faces.items() if f["source"] == "eps"], ["Face", "Family", "Row", "Fallback", "EPS"])
+    L += table("Atlas faces now EPS-sourced (fixed pictogram)", [(k, f["family"], f["row_status"], f["fallback"], f["eps"])
+               for k, f in faces.items() if f["source"] == "eps" and not f.get("example")],
+               ["Face", "Family", "Row", "Fallback", "EPS"])
+    L += table("EPS example layouts (official GOV.UK image; to be generated per site)",
+               [(k, f["family"], f["row_status"], f["eps"])
+                for k, f in faces.items() if f.get("example")],
+               ["Face", "Family", "Row", "EPS"])
     rvw = json.loads((paths.SRC / "review.json").read_text()).get("faces", {}) if (paths.SRC / "review.json").exists() else {}
     L += table("SI 2016 eye-check verdicts (EPS vs the SI 2016 page)", [(k, f["si2016_verdict"], f["source"], f.get("si_page", ""),
                (rvw.get(k) or {}).get("note", "")) for k, f in faces.items() if f.get("si2016_verdict")],

@@ -8,16 +8,17 @@
 | atlas sign faces | 390 |
 | atlas faces with eps match | 271 |
 | atlas faces no eps | 119 |
-| eps replacing placeholder | 13 |
+| eps replacing placeholder | 61 |
+| eps example | 48 |
 | superseded hand traced | 95 |
 | conflicts 2016 | 0 |
 | si2016 eye checked | 21 |
 | not yet verified | 0 |
-| source = eps | 108 |
-| source = placeholder | 156 |
+| source = eps | 156 |
+| source = placeholder | 108 |
 | source = procedural | 126 |
 
-## Atlas faces now EPS-sourced (108)
+## Atlas faces now EPS-sourced (fixed pictogram) (108)
 
 | Face | Family | Row | Fallback | EPS |
 |---|---|---|---|---|
@@ -130,6 +131,59 @@
 | 968 | InfoBlue | current | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/968.eps |
 | 968.1 | InfoBlue | current | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/968.1.eps |
 
+## EPS example layouts (official GOV.UK image; to be generated per site) (48)
+
+| Face | Family | Row | EPS |
+|---|---|---|---|
+| 2201 | TouristBrown | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2201.eps |
+| 2203 | TouristBrown | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2203.eps |
+| 2204 | TouristBrown | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2204.eps |
+| 2205 | TouristBrown | current | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2205.eps |
+| 2208 | TouristBrown | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2208.eps |
+| 2209 | TouristBrown | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2209.eps |
+| 2301 | TouristBrown | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2301.eps |
+| 2302 | TouristBrown | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2302.eps |
+| 2303 | TouristBrown | current | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2303.eps |
+| 2304 | TouristBrown | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2304.eps |
+| 2305 | TouristBrown | current | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2305.eps |
+| 2306 | TouristBrown | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2306.eps |
+| 2307 | TouristBrown | current | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2307.eps |
+| 2601.1 | DirLocal | 2002-legacy | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2601.1.eps |
+| 2602.2 | DirLocal | current | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2602.2.eps |
+| 2603 | DirLocal | 2002-legacy | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2603.eps |
+| 2604 | DirLocal | 2002-legacy | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2604R.eps |
+| 2605 | DirLocal | 2002-legacy | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2605.eps |
+| 2606 | DirLocal | 2002-legacy | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2606.eps |
+| 2607 | DirLocal | 2002-legacy | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2607.eps |
+| 2608 | DirLocal | 2002-legacy | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2608.eps |
+| 2610 | DirLocal | 2002-legacy | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2610V.eps |
+| 2610.2 | DirLocal | current | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2610.2.eps |
+| 2702 | DirMotorway | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2702.eps |
+| 2703 | DirMotorway | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2703.eps |
+| 2704 | DirMotorway | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2704.eps |
+| 2706 | DirMotorway | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2706.eps |
+| 2708 | DirMotorway | current | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2708.eps |
+| 2710 | DirMotorway | current | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2710.eps |
+| 2711 | DirMotorway | 2002-legacy | information-signs-eps.zip/information-signs-eps/2711.eps |
+| 2713 | DirMotorway | current | motorway-signs-eps.zip/motorway-signs-eps/2713.eps |
+| 2713.1 | DirMotorway | current | information-signs-eps.zip/information-signs-eps/2713.1.eps |
+| 2716 | DirMotorway | 2002-legacy | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2716.eps |
+| 2902 | DirMotorway | 2002-legacy | motorway-signs-eps.zip/motorway-signs-eps/2902.eps |
+| 2902.1 | DirMotorway | 2002-legacy | motorway-signs-eps.zip/motorway-signs-eps/2902.1.eps |
+| 2903 | DirMotorway | 2002-legacy | motorway-signs-eps.zip/motorway-signs-eps/2903.eps |
+| 2910 | DirMotorway | 2002-legacy | motorway-signs-eps.zip/motorway-signs-eps/2910.eps |
+| 2915 | DirMotorway | 2002-legacy | motorway-signs-eps.zip/motorway-signs-eps/2915.eps |
+| 2921 | DirMotorway | 2002-legacy | motorway-signs-eps.zip/motorway-signs-eps/2921.eps |
+| 2922 | DirMotorway | current | motorway-signs-eps.zip/motorway-signs-eps/2922.eps |
+| 2924 | DirMotorway | 2002-legacy | motorway-signs-eps.zip/motorway-signs-eps/2924.eps |
+| 2925 | DirMotorway | 2002-legacy | motorway-signs-eps.zip/motorway-signs-eps/2925.eps |
+| 2926 | DirMotorway | 2002-legacy | motorway-signs-eps.zip/motorway-signs-eps/2926.eps |
+| 2927 | DirMotorway | 2002-legacy | motorway-signs-eps.zip/motorway-signs-eps/2927.eps |
+| 2928 | DirMotorway | current | motorway-signs-eps.zip/motorway-signs-eps/2928.eps |
+| 2929 | DirMotorway | 2002-legacy | motorway-signs-eps.zip/motorway-signs-eps/2929.eps |
+| 2930 | DirMotorway | current | motorway-signs-eps.zip/motorway-signs-eps/2930.eps |
+| 2932 | DirMotorway | current | motorway-signs-eps.zip/motorway-signs-eps/2932.eps |
+
 ## SI 2016 eye-check verdicts (EPS vs the SI 2016 page) (21)
 
 | Face | Verdict | Source now | SI page | Finding |
@@ -161,64 +215,16 @@
 | Face | Family | EPS | Why |
 |---|---|---|---|
 
-## EPS match, kept procedural/placeholder (no conflict) (163)
+## EPS match, kept procedural/placeholder (no conflict) (115)
 
 | Face | Family | Source | EPS | Why |
 |---|---|---|---|---|
 | 2025 | DirPrimary | procedural | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2025.eps | family DirPrimary: wording-led or composite, kept procedural |
-| 2201 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2201.eps | family TouristBrown: wording-led or composite, kept procedural |
 | 2202 | TouristBrown | procedural | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2202.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2203 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2203.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2204 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2204.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2205 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2205.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2208 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2208.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2209 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2209.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2301 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2301.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2302 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2302.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2303 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2303.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2304 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2304.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2305 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2305.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2306 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2306.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2307 | TouristBrown | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2307.eps | family TouristBrown: wording-led or composite, kept procedural |
-| 2601.1 | DirLocal | placeholder | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2601.1.eps | family DirLocal: wording-led or composite, kept procedural |
-| 2602.2 | DirLocal | placeholder | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2602.2.eps | family DirLocal: wording-led or composite, kept procedural |
-| 2603 | DirLocal | placeholder | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2603.eps | family DirLocal: wording-led or composite, kept procedural |
-| 2604 | DirLocal | placeholder | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2604R.eps | family DirLocal: wording-led or composite, kept procedural |
-| 2605 | DirLocal | placeholder | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2605.eps | family DirLocal: wording-led or composite, kept procedural |
-| 2606 | DirLocal | placeholder | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2606.eps | family DirLocal: wording-led or composite, kept procedural |
-| 2607 | DirLocal | placeholder | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2607.eps | family DirLocal: wording-led or composite, kept procedural |
-| 2608 | DirLocal | placeholder | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2608.eps | family DirLocal: wording-led or composite, kept procedural |
-| 2610 | DirLocal | placeholder | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2610V.eps | family DirLocal: wording-led or composite, kept procedural |
-| 2610.2 | DirLocal | placeholder | signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2610.2.eps | family DirLocal: wording-led or composite, kept procedural |
 | 2701 | DirMotorway | procedural | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2701.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2702 | DirMotorway | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2702.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2703 | DirMotorway | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2703.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2704 | DirMotorway | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2704.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2706 | DirMotorway | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2706.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2708 | DirMotorway | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2708.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2710 | DirMotorway | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2710.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2711 | DirMotorway | placeholder | information-signs-eps.zip/information-signs-eps/2711.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2713 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2713.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2713.1 | DirMotorway | placeholder | information-signs-eps.zip/information-signs-eps/2713.1.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2716 | DirMotorway | placeholder | direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2716.eps | family DirMotorway: wording-led or composite, kept procedural |
 | 2901 | DirMotorway | procedural | motorway-signs-eps.zip/motorway-signs-eps/2901.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2902 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2902.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2902.1 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2902.1.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2903 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2903.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2910 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2910.eps | family DirMotorway: wording-led or composite, kept procedural |
 | 2911 | DirMotorway | procedural | motorway-signs-eps.zip/motorway-signs-eps/2911.eps | owner-held decision item (qa/DECISIONS-PENDING.md); family DirMotorway: wording-led or composite, kept procedural |
-| 2915 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2915.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2921 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2921.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2922 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2922.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2924 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2924.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2925 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2925.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2926 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2926.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2927 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2927.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2928 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2928.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2929 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2929.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2930 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2930.eps | family DirMotorway: wording-led or composite, kept procedural |
 | 2931 | DirMotorway | procedural | motorway-signs-eps.zip/motorway-signs-eps/2931.eps | family DirMotorway: wording-led or composite, kept procedural |
-| 2932 | DirMotorway | placeholder | motorway-signs-eps.zip/motorway-signs-eps/2932.eps | family DirMotorway: wording-led or composite, kept procedural |
 | 4002.1 | PedHead | procedural | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4002.1.eps | family PedHead: wording-led or composite, kept procedural; visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural |
 | 4003 | PedHead | procedural | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.eps | family PedHead: wording-led or composite, kept procedural; visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural |
 | 4003.1 | PedHead | placeholder | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.1.eps | family PedHead: wording-led or composite, kept procedural; visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural |

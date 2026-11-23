@@ -3,7 +3,7 @@
 A wiki of traffic signs, road markings, and street furniture.
 
 **EPS first.** Fixed pictogram sign faces come from the official GOV.UK traffic sign images (EPS, Crown
-copyright, OGL v3.0), fetched once and converted on your machine. The 108 in-use converted faces are committed under
+copyright, OGL v3.0), fetched once and converted on your machine. The 156 in-use converted faces (108 fixed pictograms and 48 example layouts for route, direction and tourist signs) are committed under
 `site/faces-eps/` with a Crown copyright / OGL v3.0 notice (owner ruling, 2026-11-23); the raw EPS and zips are not. Signs with
 variable text, composites, plates whose wording we set in our own primitive lettering, and gaps stay
 **procedural**, and the procedural face is the offline fallback for every EPS face. See `docs/EPS.md` and

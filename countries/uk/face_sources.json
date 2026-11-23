@@ -267,14 +267,15 @@
    ]
   },
   "2201": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2201.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2202": {
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2202.eps",
@@ -287,34 +288,37 @@
    ]
   },
   "2203": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2203.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2204": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2204.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2205": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2205.eps",
    "eps_crosswalk": "same",
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2206": {
    "family": "TouristBrown",
@@ -333,27 +337,29 @@
    ]
   },
   "2208": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2208.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2209": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2209.eps",
    "eps_crosswalk": "unverified",
    "eps_variants": [
     "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2209V.eps"
    ],
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2210": {
    "family": "TouristBrown",
@@ -364,74 +370,81 @@
    ]
   },
   "2301": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2301.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2302": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2302.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2303": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2303.eps",
    "eps_crosswalk": "same",
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2304": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2304.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2305": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2305.eps",
    "eps_crosswalk": "same",
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2306": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2306.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2307": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2307.eps",
    "eps_crosswalk": "same",
+   "example": true,
+   "fallback": "placeholder",
    "family": "TouristBrown",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family TouristBrown: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2308": {
    "family": "TouristBrown",
@@ -498,14 +511,15 @@
    ]
   },
   "2601.1": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2601.1.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirLocal",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirLocal: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2602.1": {
    "family": "DirLocal",
@@ -516,83 +530,90 @@
    ]
   },
   "2602.2": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2602.2.eps",
    "eps_crosswalk": "same",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirLocal",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirLocal: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2603": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2603.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirLocal",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirLocal: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2604": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2604R.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirLocal",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirLocal: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2605": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2605.eps",
    "eps_crosswalk": "unverified",
    "eps_variants": [
     "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2605V.eps"
    ],
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirLocal",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirLocal: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2606": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2606.eps",
    "eps_crosswalk": "unverified",
    "eps_variants": [
     "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2606V.eps"
    ],
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirLocal",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirLocal: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2607": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2607.eps",
    "eps_crosswalk": "unverified",
    "eps_variants": [
     "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2607V.eps"
    ],
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirLocal",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirLocal: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2608": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2608.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirLocal",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirLocal: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2609": {
    "family": "DirLocal",
@@ -603,14 +624,15 @@
    ]
   },
   "2610": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2610V.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirLocal",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirLocal: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2610.1": {
    "family": "DirLocal",
@@ -621,14 +643,15 @@
    ]
   },
   "2610.2": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "signs-for-cyclists-and-pedestrians-eps.zip/signs-for-cyclists-and-pedestrians-eps/2610.2.eps",
    "eps_crosswalk": "same",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirLocal",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirLocal: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2701": {
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2701.eps",
@@ -641,44 +664,47 @@
    ]
   },
   "2702": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2702.eps",
    "eps_crosswalk": "unverified",
    "eps_variants": [
     "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2702L.eps",
     "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2702V.eps"
    ],
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2703": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2703.eps",
    "eps_crosswalk": "unverified",
    "eps_variants": [
     "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2703V.eps"
    ],
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2704": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2704.eps",
    "eps_crosswalk": "unverified",
    "eps_variants": [
     "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2704V.eps"
    ],
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2705": {
    "family": "DirMotorway",
@@ -689,14 +715,15 @@
    ]
   },
   "2706": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2706.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2707": {
    "family": "DirMotorway",
@@ -707,40 +734,43 @@
    ]
   },
   "2708": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2708.eps",
    "eps_crosswalk": "same",
    "eps_variants": [
     "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2708R.eps"
    ],
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2710": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2710.eps",
    "eps_crosswalk": "same",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2711": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "information-signs-eps.zip/information-signs-eps/2711.eps",
    "eps_crosswalk": "unverified",
    "eps_variants": [
     "information-signs-eps.zip/information-signs-eps/2711L.eps"
    ],
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2712": {
    "family": "DirMotorway",
@@ -751,16 +781,18 @@
    ]
   },
   "2713": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2713.eps",
    "eps_crosswalk": "same",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2713.1": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "information-signs-eps.zip/information-signs-eps/2713.1.eps",
    "eps_crosswalk": "same",
    "eps_variants": [
@@ -768,12 +800,12 @@
     "information-signs-eps.zip/information-signs-eps/2713.1VP.eps",
     "information-signs-eps.zip/information-signs-eps/2713.1VT.eps"
    ],
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2714": {
    "family": "DirMotorway",
@@ -792,14 +824,15 @@
    ]
   },
   "2716": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "direction-and-tourist-signs-eps.zip/direction-and-tourist-signs-eps/2716.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2717": {
    "family": "DirMotorway",
@@ -823,34 +856,37 @@
    ]
   },
   "2902": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2902.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2902.1": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2902.1.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2903": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2903.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2904": {
    "family": "DirMotorway",
@@ -893,14 +929,15 @@
    ]
   },
   "2910": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2910.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2911": {
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2911.eps",
@@ -938,14 +975,15 @@
    ]
   },
   "2915": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2915.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2920": {
    "family": "DirMotorway",
@@ -956,94 +994,103 @@
    ]
   },
   "2921": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2921.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2922": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2922.eps",
    "eps_crosswalk": "same",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2924": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2924.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2925": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2925.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2926": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2926.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2927": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2927.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2928": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2928.eps",
    "eps_crosswalk": "same",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2929": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2929.eps",
    "eps_crosswalk": "unverified",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "2002-legacy",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2930": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2930.eps",
    "eps_crosswalk": "same",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "2931": {
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2931.eps",
@@ -1056,14 +1103,15 @@
    ]
   },
   "2932": {
+   "basis": "example layout from the official GOV.UK image (route, direction or tourist); to be generated per site",
    "eps": "motorway-signs-eps.zip/motorway-signs-eps/2932.eps",
    "eps_crosswalk": "same",
+   "example": true,
+   "fallback": "placeholder",
    "family": "DirMotorway",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family DirMotorway: wording-led or composite, kept procedural"
-   ]
+   "source": "eps",
+   "superseded": false
   },
   "3000": {
    "family": "SignalHead",
@@ -3985,5 +4033,5 @@
   }
  },
  "generated_by": "tools/eps/map.py",
- "rule": "\"eps\" | \"procedural\" | \"placeholder\".\n  eps          a fixed pictogram face whose GOV.UK EPS is the same diagram in SI 2016 (or the same 2002 diagram\n               for a 2002-legacy row), with no conflict, no raster, and a visual-review pass. The procedural face\n               is kept as the offline fallback (\"fallback\": \"procedural\" or \"placeholder\").\n  procedural   drawn by tools/atlas (variable text, composites, plates whose wording we set, gaps, conflicts).\n  placeholder  no drawing yet (hatched placeholder face)."
+ "rule": "\"eps\" | \"procedural\" | \"placeholder\".\n  eps          a fixed pictogram face whose GOV.UK EPS is the same diagram in SI 2016 (or the same 2002 diagram\n               for a 2002-legacy row), with no conflict, no raster, and a visual-review pass. The procedural face\n               is kept as the offline fallback (\"fallback\": \"procedural\" or \"placeholder\").\n               An eps face may also be an example layout (\"example\": true): official GOV.UK art for a route,\n               direction or tourist sign, standing in until a per-site generated face replaces it (review\n               verdict \"example\"; owner, 2026-11-23: \"Yes, add the 48 as example faces now\").\n  procedural   drawn by tools/atlas (variable text, composites, plates whose wording we set, gaps, conflicts).\n  placeholder  no drawing yet (hatched placeholder face)."
 }
