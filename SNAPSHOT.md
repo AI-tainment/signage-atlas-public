@@ -1,6 +1,8 @@
 # Public snapshot notes
 
-Single-commit snapshot of the Signage Atlas tracked tree (source: merged private main 758b3f0), prepared for a possible public release.
+Single-commit snapshot of the Signage Atlas tracked tree (source: private main 44c22ec,
+merge 0fc1da9 of eps/exact-colours-20261126 @ 35bac77 onto 758b3f0, plus the README
+count fix), prepared for a possible public release.
 
 ## Left out, and why
 

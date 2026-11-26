@@ -44,10 +44,36 @@ the GridForge source review; no zip was downloaded again.
 
 Ghostscript `pdfwrite` with `-dEPSCrop` turns each EPS into a one-page PDF, `pdftocairo -svg` writes SVG, then
 the SVG is normalised: viewBox from the EPS bounding box at origin 0 0, every number rounded to 2 dp,
-`rgb(%)` colours snapped to the atlas sign palette (`countries/uk/country.json`, distance <= 110; an off-palette
-colour would be kept and reported: none occurred), default attributes, comments, metadata and the XML prolog
-removed, display size 160 px on the long side. The Illustrator `%%For` / `%%Title` header lines never reach
-the SVG.
+`rgb(%)` colours converted to exact 8-bit hex, then the explicit owner rule table in
+`tools/eps/colour_rules.py` is applied. There is **no atlas-palette substitution**.
+Colour fallbacks: owner decision card relayed by Studio Manager, 2026-11-26 09:19 GMT.
+Default attributes, comments, metadata and the XML prolog are removed, display size 160 px on the long
+side. The Illustrator `%%For` / `%%Title` header lines never reach the SVG.
+
+The pdfwrite step uses Art's colour conversion from `art/sign-pipeline-20261126` @ `4d859a4`:
+`-sColorConversionStrategy=RGB -dProcessColorModel=/DeviceRGB -sOutputICCProfile=default_rgb.icc`
+(Ghostscript's default RGB ICC, the same family as the png16m device). SVG fills then match
+Ghostscript's png16m reference exactly or within 1 per 8-bit channel (blue `#0079C1`, brown
+`#794400`). Without that step, pdftocairo's CMYK preview diverged (blue `#1476C6`, brown `#713907`).
+
+After that exact conversion, three owner fallbacks rewrite only named colours
+(owner decision card relayed by Studio Manager, 2026-11-26 09:19 GMT).
+They are not a general palette snap; the table is in `tools/eps/colour_rules.py` and is unit-tested.
+
+| Rule | From | To | Scope | Source |
+|---|---|---|---|---|
+| Official red | `#FF0000` | `#E31837` | every face (66 published signs emit this process red) | DfT "Road traffic sign images for reproduction" colour palette, Pantone 186, RGB 227 24 55 (`https://www.gov.uk/guidance/traffic-sign-images`, updated 17 January 2018); owner decision card relayed by Studio Manager, 2026-11-26 09:19 GMT |
+| Process black | `#221F1F` (ICC) and `#231F20` (pre-ICC) | `#000000` | every face (25 published signs) | Owner decision card relayed by Studio Manager, 2026-11-26 09:19 GMT: CMYK K100 preview is not a designed grey; SI / TSM intend black |
+| 4003 discs | `#5A5B5D` (ICC) and `#514E4F` (pre-ICC) | `#000000` | 4003.2 and 4003.5 only | Owner decision card relayed by Studio Manager, 2026-11-26 09:19 GMT, per SI 2016 Sch 14 Pt 2 (black circular heads) |
+
+Main colours otherwise stay as the ICC converter emits them: official blue, brown,
+greens, white, `#ED1C24` (10 faces), and true `#000000`. The pre-ICC darker reds
+`#E51636` and `#E51635` are not kept as those hexes — after the ICC step they
+come out as `#E31837` on 10 faces (2601.1, 2606, 2930, 4003.3, 642, 667.2, 668.2,
+811, 811A, 816) and `#E31836` on 2602.2. That is Ghostscript-faithful conversion
+(within 1 per channel of official red), not a colour-rule mapping, and no extra
+mapping is added. Off-palette colours after the rules are reported in
+`convert-report.json` as `off_palette`, never further recoloured.
 
 Tool versions recorded in `convert-report.json` (Debian 13 apt packages): Ghostscript 10.05.1,
 pdftocairo / pdffonts (poppler-utils) 25.03.0. Contact sheets and face QA also use `rsvg-convert`
@@ -117,9 +143,21 @@ falls back to the procedural face, then to the placeholder, so it still works of
   the 48 route, direction and tourist placeholders that have a GOV.UK EPS (DirMotorway 25, TouristBrown 13,
   DirLocal 10). They are stored as `source: "eps"` with `"example": true` (an example layout, not a per-site
   generated sign). The wiki labels them "Example layout (official GOV.UK image) — to be generated per site",
-  alongside the Crown copyright / OGL v3.0 attribution. Contact sheets: `qa/renders/eps/r4/` (gitignored).
+  alongside the Crown copyright / OGL v3.0 attribution. Contact sheets: `qa/renders/eps/r4/` (gitignored). A design for official-art font slots (not implemented) is in `docs/EPS-FONT-SLOTS.md`; per-face fit issues are listed in `qa/EDGE-CASES-EXACT-COLOUR.md` section (d).
+
+- **Exact EPS colours (owner decision card relayed by Studio Manager, 2026-11-26 09:19 GMT):**
+  drop the atlas-palette colour snap entirely. Main colours (blue, brown, greens, white,
+  `#ED1C24`, true black) stay as the pinned converter emits them, now via Art's Ghostscript
+  RGB + default_rgb.icc step so fills match the png16m reference. The ICC step itself
+  turns former `#E51636` into `#E31837` on 10 faces and former `#E51635` into `#E31836`
+  on 2602.2 — not a rule, and no extra mapping is added. Three explicit fallbacks, only,
+  are then applied (see `tools/eps/colour_rules.py`): process `#FF0000` → official DfT red
+  `#E31837` (Pantone 186) on the 66 signs that emit it; CMYK process black → `#000000` on
+  the 25 listed faces; 4003.2 / 4003.5 backing discs → `#000000` per SI 2016. See
+  `qa/EDGE-CASES-EXACT-COLOUR.md`.
 
 ## Converter versions
+
 
 `tools/eps/build.py` refuses to convert with anything but Ghostscript 10.05.1 and pdftocairo 25.03.0
 (`--any-tools` overrides, with a warning), since other versions may not be byte-identical. `validate.py`

@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """Deterministic EPS -> SVG for GOV.UK traffic-sign artwork.
 
-Pipeline: Ghostscript (EPS, -dEPSCrop) -> PDF -> pdftocairo -svg -> normalise.
+Pipeline: Ghostscript (EPS, -dEPSCrop, pdfwrite in DeviceRGB with default_rgb.icc)
+-> PDF -> pdftocairo -svg -> normalise, then the explicit owner colour-rule table.
+The ICC step is Art's fix from art/sign-pipeline-20261126 @ 4d859a4, so SVG fills
+match Ghostscript's png16m reference exactly or within 1 per 8-bit channel.
 Normalising: viewBox from the EPS bounding box at origin 0 0 (2 dp), every number rounded to 2 dp,
-rgb(%) colours snapped to the atlas sign palette (countries/uk/country.json; an off-palette colour is
-kept and reported). Near-neutral colours (low chroma) only snap to black, white or grey, so a dark grey
-cannot land on brown: Euclidean RGB can put (81,78,79) closer to brown than to black (found on 4003.2 /
-4003.5 aspect backings, 2026-11-25; the raw EPS is process black, not brown). Default attributes, ids
-and XML prolog removed, no metadata. Same input -> same bytes.
+rgb(%) colours converted to exact 8-bit hex, then tools/eps/colour_rules.py is applied
+(owner, 2026-11-26: official red, process black, 4003 discs only — not a general
+palette snap). Other colours stay as the converter emitted them. Off-palette colours
+are reported after the rules. Default attributes, ids and XML prolog removed, no
+metadata. Same input -> same bytes.
 
 Checks per file (returned in the report dict): embedded fonts in the intermediate PDF (pdffonts),
 <image> / <text> elements in the SVG, off-palette colours.
@@ -26,16 +29,10 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from eps import paths  # noqa: E402
+from eps import colour_rules, paths  # noqa: E402
 
 SIGN_PALETTE = ("red", "blue", "motorway_blue", "white", "black", "grey", "amber", "green", "brown",
                 "primary_green", "yellow", "fluorescent_yellow")
-SNAP = 110.0  # max RGB distance for a palette snap
-# Near-neutral inks (max-min RGB at or below this) may only snap to black, white or grey.
-# Without this, a dark grey such as pdftocairo's (81, 78, 79) is closer to brown #73451F
-# (d≈59.5) than to black #141414 (d≈102.8) and was wrongly snapped to brown.
-CHROMA_NEUTRAL = 16.0
-NEUTRAL_PALETTE = ("black", "white", "grey")
 
 
 # r12 (F7): the converter versions the byte-identical cache was made with. Other versions may round or
@@ -45,6 +42,40 @@ PINNED_TOOLS = {"ghostscript": "10.05.1", "pdftocairo": "25.03.0"}
 ATTRIBUTION = ("Crown copyright. GOV.UK traffic sign artwork (EPS), used under the Open Government Licence v3.0 "
                "(nationalarchives.gov.uk/doc/open-government-licence/version/3/). Converted locally by "
                "signage-atlas tools/eps; keep this notice with any copy.")
+
+# Colour conversion that matches Ghostscript's png16m reference raster.
+# Ported from tools/sign_pipeline/convert_raw.py in art/sign-pipeline-20261126
+# @ 4d859a4 (Art). Do not reimplement: same flags, same ICC lookup.
+COLOUR_METHOD = (
+    "gs pdfwrite -sColorConversionStrategy=RGB -dProcessColorModel=/DeviceRGB "
+    "-sOutputICCProfile=default_rgb.icc (Ghostscript default RGB ICC, same "
+    "family as the png16m device), then pdftocairo -svg. No palette snap. "
+    "Chosen so SVG fills match the GS png16m raster exactly or within 1 per "
+    "8-bit channel (blue #0079C1, brown #794400, green #00703C / #006F3C)."
+)
+
+
+def default_rgb_icc() -> Path:
+    """Return the default_rgb.icc path Ghostscript can read under -dSAFER.
+
+    Do not Path.resolve() this: on this image the file is also visible under
+    /usr/share/color/icc/ghostscript/, and -dSAFER refuses that path
+    (Permission denied / rangecheck in .installpagedevice). The path under
+    /usr/share/ghostscript/<ver>/iccprofiles/ is readable and is the same ICC.
+    """
+    ver = PINNED_TOOLS["ghostscript"]
+    candidates = [
+        Path(f"/usr/share/ghostscript/{ver}/iccprofiles/default_rgb.icc"),
+    ]
+    root = Path("/usr/share/ghostscript")
+    if root.exists():
+        candidates.extend(sorted(root.glob("*/iccprofiles/default_rgb.icc")))
+    for p in candidates:
+        if p.is_file():
+            return p
+    raise FileNotFoundError(
+        "Ghostscript default_rgb.icc not found under /usr/share/ghostscript"
+    )
 
 
 def version_problems(found: dict) -> list[str]:
@@ -72,18 +103,15 @@ def palette() -> list[tuple[str, tuple[int, int, int]]]:
 _PAL = None
 
 
-def snap(rgb: tuple[float, float, float]) -> tuple[str, str | None]:
+def rgb_hex(rgb: tuple[float, float, float]) -> str:
+    """Exact 8-bit hex of a pdftocairo RGB triple in 0–255. No palette substitution."""
+    return "#%02X%02X%02X" % tuple(round(c) for c in rgb)
+
+
+def is_palette(hexv: str) -> bool:
     global _PAL
     _PAL = _PAL or palette()
-    pal = _PAL
-    if max(rgb) - min(rgb) <= CHROMA_NEUTRAL:
-        pal = [kv for kv in _PAL if kv[0] in NEUTRAL_PALETTE]
-    best = min(pal, key=lambda kv: sum((a - b) ** 2 for a, b in zip(kv[1], rgb)))
-    d = sum((a - b) ** 2 for a, b in zip(best[1], rgb)) ** 0.5
-    if d <= SNAP:
-        return "#%02X%02X%02X" % best[1], None
-    raw = "#%02X%02X%02X" % tuple(round(c) for c in rgb)
-    return raw, raw
+    return hexv.upper() in {"#%02X%02X%02X" % c for _, c in _PAL}
 
 
 _NUM = re.compile(r"-?\d+\.\d+|-?\d+")
@@ -95,17 +123,21 @@ def _r(m: re.Match) -> str:
     return "0" if s in ("-0", "") else s
 
 
-def normalise(svg: str, report: dict) -> str:
+def normalise(svg: str, report: dict, face_id: str | None = None) -> str:
     svg = re.sub(r"<\?xml[^>]*\?>\s*", "", svg)
     svg = re.sub(r"<!--.*?-->", "", svg, flags=re.S)
     svg = re.sub(r"<metadata.*?</metadata>", "", svg, flags=re.S)
     off = set()
+    used = set()
 
     def col(m: re.Match) -> str:
         rgb = tuple(float(x) * 2.55 for x in m.groups())
-        hexv, bad = snap(rgb)
-        if bad:
-            off.add(bad)
+        raw = rgb_hex(rgb)
+        hexv = colour_rules.apply(raw, face_id)
+        if hexv != raw:
+            used.add(colour_rules.applied_rule(raw, face_id))
+        if not is_palette(hexv):
+            off.add(hexv)
         return hexv
     svg = re.sub(r"rgb\(\s*([\d.]+)%\s*,\s*([\d.]+)%\s*,\s*([\d.]+)%\s*\)", col, svg)
     for attr in (' fill-opacity="1"', ' stroke-opacity="1"', ' fill-rule="nonzero"', ' stroke-miterlimit="10"'):
@@ -123,6 +155,7 @@ def normalise(svg: str, report: dict) -> str:
                  f'role="img" data-source="eps"><desc>{ATTRIBUTION}</desc>', svg, count=1)
     svg = "\n".join(line.rstrip() for line in svg.strip().splitlines() if line.strip()) + "\n"
     report["off_palette"] = sorted(off)
+    report["colour_rules"] = sorted(x for x in used if x)
     report["images"] = len(re.findall(r"<image\b", svg))
     report["text"] = len(re.findall(r"<text\b", svg))
     report["bytes"] = len(svg.encode())
@@ -131,10 +164,21 @@ def normalise(svg: str, report: dict) -> str:
 
 def convert(eps: Path) -> tuple[str, dict]:
     report: dict = {}
+    face_id = eps.stem
     with tempfile.TemporaryDirectory(prefix="sa-eps-") as td:
         pdf = Path(td) / "a.pdf"
-        r = subprocess.run(["gs", "-q", "-dSAFER", "-dBATCH", "-dNOPAUSE", "-dEPSCrop", "-sDEVICE=pdfwrite",
-                            "-o", str(pdf), str(eps)], capture_output=True, text=True)
+        icc = default_rgb_icc()
+        report["colour_method"] = COLOUR_METHOD
+        report["output_icc"] = str(icc)
+        r = subprocess.run(
+            ["gs", "-q", "-dSAFER", "-dBATCH", "-dNOPAUSE", "-dEPSCrop",
+             "-sDEVICE=pdfwrite",
+             "-sColorConversionStrategy=RGB",
+             "-dProcessColorModel=/DeviceRGB",
+             f"-sOutputICCProfile={icc}",
+             "-o", str(pdf), str(eps)],
+            capture_output=True, text=True,
+        )
         if r.returncode or not pdf.exists():
             raise RuntimeError(f"gs failed on {eps.name}: {r.stderr.strip()[:200]}")
         fonts = subprocess.run(["pdffonts", str(pdf)], capture_output=True, text=True).stdout.splitlines()[2:]
@@ -143,7 +187,7 @@ def convert(eps: Path) -> tuple[str, dict]:
         if r.returncode:
             raise RuntimeError(f"pdftocairo failed on {eps.name}: {r.stderr.strip()[:200]}")
         svg = r.stdout
-    return normalise(svg, report), report
+    return normalise(svg, report, face_id=face_id), report
 
 
 def main(argv: list[str] | None = None) -> int:

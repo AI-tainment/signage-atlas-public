@@ -483,17 +483,77 @@ class FaceQa(unittest.TestCase):
         self.assertEqual(convert.version_problems({"ghostscript": "10.05.1", "pdftocairo": "pdftocairo version 25.03.0"}), [])
         self.assertEqual(len(convert.version_problems({"ghostscript": "10.02.1", "pdftocairo": "pdftocairo version 24.02.0"})), 2)
 
-    def test_near_neutral_grey_snaps_to_black_not_brown(self):
+    def test_exact_colours_are_not_palette_snapped(self):
         from eps import convert
         convert._PAL = None
-        # 4003.2 unsapped aspect backing: pdftocairo rgb(81,78,79), chroma 3
-        hexv, bad = convert.snap((81.0, 78.0, 79.0))
-        self.assertEqual(hexv, "#141414")
-        self.assertIsNone(bad)
-        # Official tourist brown from 2201.eps must still snap to brown
-        hexv, bad = convert.snap((113.0, 57.0, 7.0))
-        self.assertEqual(hexv, "#73451F")
-        self.assertIsNone(bad)
+        # Hex conversion itself is exact, not a palette snap
+        self.assertEqual(convert.rgb_hex((81.0, 78.0, 79.0)), "#514E4F")
+        self.assertFalse(convert.is_palette("#514E4F"))
+        self.assertEqual(convert.rgb_hex((113.0, 57.0, 7.0)), "#713907")
+
+    def test_owner_colour_rules(self):
+        import shutil, tempfile, re
+        from pathlib import Path
+        from eps import colour_rules, convert
+        apply = colour_rules.apply
+        # Lock the approved table: fail if any mapping is added, removed or changed.
+        approved = (
+            ("official-red", "#FF0000", "#E31837", None),
+            ("process-black", "#221F1F", "#000000", None),
+            ("process-black-pre-icc", "#231F20", "#000000", None),
+            ("4003-discs", "#5A5B5D", "#000000", frozenset({"4003.2", "4003.5"})),
+            ("4003-discs-pre-icc", "#514E4F", "#000000", frozenset({"4003.2", "4003.5"})),
+        )
+        got = tuple((r["id"], r["src"], r["dst"], r["faces"]) for r in colour_rules.RULES)
+        self.assertEqual(got, approved)
+        self.assertEqual(len(colour_rules.RULES), 5)
+        # Official red (DfT Pantone 186, R227 G24 B55)
+        self.assertEqual(colour_rules.DFT_RED, "#E31837")
+        self.assertEqual(apply("#FF0000"), "#E31837")
+        self.assertEqual(apply("#ff0000"), "#E31837")
+        # No rule rewrites these hexes. After the ICC step the old #E51636 /
+        # #E51635 inks already come out as #E31837 (10 faces) and #E31836
+        # (2602.2); that is the converter, not a mapping, so #E31836 stays.
+        for h in ("#ED1C24", "#E51636", "#E51635", "#E31836", "#0079C1",
+                  "#794400", "#FFFFFF", "#000000", "#006F3C", "#549433"):
+            self.assertEqual(apply(h), h, h)
+        # Process black: ICC output and the pre-ICC hex
+        self.assertEqual(apply("#221F1F"), "#000000")
+        self.assertEqual(apply("#231F20"), "#000000")
+        # 4003 discs only on those two faces
+        self.assertEqual(apply("#5A5B5D", "4003.2"), "#000000")
+        self.assertEqual(apply("#5A5B5D", "4003.5"), "#000000")
+        self.assertEqual(apply("#514E4F", "4003.2"), "#000000")
+        self.assertEqual(apply("#5A5B5D", "4003.1"), "#5A5B5D")
+        self.assertEqual(apply("#5A5B5D"), "#5A5B5D")
+        self.assertEqual(apply("#514E4F", "4003.1"), "#514E4F")
+        # Live pipeline
+        if not shutil.which("gs") or not shutil.which("pdftocairo"):
+            self.skipTest("gs / pdftocairo absent")
+        icc = convert.default_rgb_icc()
+        self.assertTrue(icc.is_file(), icc)
+        self.assertTrue(str(icc).startswith("/usr/share/ghostscript/"))
+        d = Path(tempfile.mkdtemp())
+        (d / "black.eps").write_text(
+            "%!PS-Adobe-3.0 EPSF-3.0\n%%BoundingBox: 0 0 10 10\n"
+            "%%DocumentProcessColors: Cyan Magenta Yellow Black\n"
+            "0 0 0 1 setcmykcolor 0 0 10 10 rectfill showpage\n"
+        )
+        svg, rep = convert.convert(d / "black.eps")
+        fills = sorted(set(re.findall(r"#[0-9A-Fa-f]{6}", svg)))
+        self.assertEqual(fills, ["#000000"], svg)
+        self.assertNotIn("#141414", fills)
+        self.assertNotIn("#73451F", fills)
+        self.assertIn("process-black", rep.get("colour_rules", []))
+        self.assertIn("ColorConversionStrategy=RGB", rep.get("colour_method", ""))
+        (d / "red.eps").write_text(
+            "%!PS-Adobe-3.0 EPSF-3.0\n%%BoundingBox: 0 0 10 10\n"
+            "1 0 0 setrgbcolor 0 0 10 10 rectfill showpage\n"
+        )
+        svg, rep = convert.convert(d / "red.eps")
+        fills = sorted(set(re.findall(r"#[0-9A-Fa-f]{6}", svg)))
+        self.assertEqual(fills, ["#E31837"], svg)
+        self.assertIn("official-red", rep.get("colour_rules", []))
 
     def test_deploy_guard_requires_attribution(self):
         import tempfile
