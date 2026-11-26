@@ -24,12 +24,13 @@ ADVANCE = {
     "0": 4.6, "1": 3.4, "2": 5.0, "3": 5.0, "4": 5.2, "5": 5.0,
     "6": 5.2, "7": 4.8, "8": 5.2, "9": 5.2,
     "'": 2.0, '"': 3.4, ".": 2.2, "&": 5.6,
+    "(": 3.0, ")": 3.0,
 }
 
 SHEET_CHARS = (
     "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     "abcdefghijklmnopqrstuvwxyz"
-    "0123456789%.-&!'\""
+    "0123456789%.-&!'\"()"
 )
 
 
@@ -218,14 +219,15 @@ def char(ch: str, cx: float, cy: float, cap_h: float, fill: str, part: int = 2) 
     if ch == "C":
         return _open_c(fill, xm, ym, (w - t) / 2, (h - t) / 2, t, 72)
     if ch == "D":
-        # Stem, short top/bottom bars, rounded bowl on the right (never a box, which reads "O").
-        rx = w * 0.42 - t / 2
+        # Stem plus a full-height rounded bowl that joins the stem. Short
+        # top/bottom bars made a square inner counter that reads as P,
+        # especially at small published sizes (818.1 "Dual").
+        # Overlap the stem slightly so the joins stay solid.
+        xa = x0 + t * 0.85
         ry = (h - t) / 2
-        xa = x1 - t / 2 - rx
+        rx = min(x1 - t / 2 - xa, ry * 1.60)
         return (
             bar(x0, y0, x0 + t, y1)
-            + bar(x0, y0, xa + t * 0.02, y0 + t)
-            + bar(x0, y1 - t, xa + t * 0.02, y1)
             + (GEOM.append(("arc", xa, ym, rx, ry, t, 180.0, 180.0)) or "" if GEOM is not None else "")
             + _arc(fill, f"M {xa:.4f} {y0 + t / 2:.4f} A {rx:.4f} {ry:.4f} 0 0 1 {xa:.4f} {y1 - t / 2:.4f}", t)
         )
@@ -489,6 +491,14 @@ def char(ch: str, cx: float, cy: float, cap_h: float, fill: str, part: int = 2) 
             + bar(x0, base - t, x1, base)
             + _slant(fill, x1 - _half_w(t, w, xh), top_x + t, x0 + _half_w(t, w, xh), base - t, t)
         )
+    if ch in "()":
+        # Original stand-in parentheses (SI legends such as 818.4 "(B 3033)").
+        # Tall shallow arcs, opening inward; not a C and not a Transport copy.
+        rx = (w - t) * 0.85
+        ry = (h - t) / 2
+        if ch == "(":
+            return _open_c(fill, xm + rx * 0.55, ym, rx, ry, t, gap=155, gap_center=0)
+        return _open_c(fill, xm - rx * 0.55, ym, rx, ry, t, gap=155, gap_center=180)
 
     # Missing glyph: a 1-sw stem, never a filled cell.
     return bar(xm - t * 0.5, y0, xm + t * 0.5, y1)
@@ -647,7 +657,7 @@ def legend_10pct(cx: float, cy: float, cap_h: float, fill: str) -> str:
 
 
 def glyph_sheet_svg(cap_h: float = 0.55, fill: str = "#141414") -> str:
-    """A–Z a–z 0–9 % . - & ! on a grid. Used by the validator."""
+    """A–Z a–z 0–9 and punctuation on a grid. Used by the validator."""
     cols = 13
     cell = 1.15
     rows_n = math.ceil(len(SHEET_CHARS) / cols)

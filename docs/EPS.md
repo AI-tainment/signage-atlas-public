@@ -103,6 +103,13 @@ falls back to the procedural face, then to the placeholder, so it still works of
 - **781 (09:24):** "use the official unless it has dynamic text". SI 2016 diagram 781 (tsrgd2016.pdf PDF
   p64 = printed p63, Sch 2 Pt 6 item 5) has no text on the sign; its variants are the number of bells (by
   road width) and the bell colour. So 781 uses the EPS (`pass-si2016`).
+- **783 (09:42 rule, recorded after r2; eye-checked 2026-11-25):** goes to EPS. SI 2016 diagram 783
+  (tsrgd2016.pdf PDF p215 = printed p214, Sch 11 Pt 2 item 68) is a blue plate with white lettering (the
+  earlier r12 note that the EPS is blue where the atlas expects white was a misread — the SI diagram is
+  also blue). SI shows two alternative types (LONG LOW VEHICLES and LARGE OR SLOW VEHICLES). The GOV.UK
+  EPS is the LONG LOW type and matches the left-hand SI diagram, so it is used (`pass-si2016`); the
+  procedural fallback remains the LARGE OR SLOW type.
+
 - **Still excluded:** 969, 958.1 and 959.1 (the EPS differs from SI 2016: extra P sign / missing time panel).
   No owner-held EPS questions remain (the long-standing held rows 2911, 953.2, 818.2 and MARKER are a
   separate decision list and stay procedural).

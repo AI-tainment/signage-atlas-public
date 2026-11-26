@@ -1,6 +1,6 @@
 # Public snapshot notes
 
-Single-commit snapshot of the Signage Atlas tracked tree (source: merged private main 1f664e2), prepared for a possible public release.
+Single-commit snapshot of the Signage Atlas tracked tree (source: merged private main 758b3f0), prepared for a possible public release.
 
 ## Left out, and why
 
@@ -16,7 +16,7 @@ Single-commit snapshot of the Signage Atlas tracked tree (source: merged private
   `qa/UNVERIFIED-SOURCES.md`, `qa/DECISIONS-PENDING.md` and the SI evidence crops it cites
   (`qa/renders/r6/evidence/`).
 
-- **Raw GOV.UK EPS and zips** (`.cache/`): not included. The 156 converted official faces in use (108 fixed pictograms and 48 example layouts) ARE
+- **Raw GOV.UK EPS and zips** (`.cache/`): not included. The 164 converted official faces in use (116 fixed pictograms and 48 example layouts) ARE
   included in `site/faces-eps/uk/signs/`, each with a Crown copyright / Open Government Licence v3.0
   notice in its `<desc>` (see `LICENCE.md` and `docs/EPS.md`).
 

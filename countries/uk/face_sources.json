@@ -1124,7 +1124,7 @@
   "3000.2": {
    "family": "SignalHead",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -1148,7 +1148,7 @@
   "3001.2": {
    "family": "SignalHead",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -1156,7 +1156,7 @@
   "3013": {
    "family": "SignalHead",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -1164,7 +1164,7 @@
   "3013.1": {
    "family": "SignalHead",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -1172,7 +1172,7 @@
   "3013.2": {
    "family": "SignalHead",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -1180,7 +1180,7 @@
   "3013.3": {
    "family": "SignalHead",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -1188,7 +1188,7 @@
   "3013.4": {
    "family": "SignalHead",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -1196,7 +1196,7 @@
   "3013.5": {
    "family": "SignalHead",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -1240,81 +1240,88 @@
    ]
   },
   "4003.1": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
    "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.1.eps",
    "eps_crosswalk": "same",
+   "fallback": "procedural",
    "family": "PedHead",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family PedHead: wording-led or composite, kept procedural",
-    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
-   ]
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p453 (printed 452), Sch 14 Pt 2 item 13",
+   "source": "eps",
+   "superseded": true
   },
   "4003.2": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
    "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.2.eps",
    "eps_crosswalk": "same",
+   "fallback": "procedural",
    "family": "PedHead",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family PedHead: wording-led or composite, kept procedural",
-    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
-   ]
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p454 (printed 453), Sch 14 Pt 2 item 15",
+   "source": "eps",
+   "superseded": true
   },
   "4003.3": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
    "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.3.eps",
    "eps_crosswalk": "same",
+   "fallback": "procedural",
    "family": "PedHead",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family PedHead: wording-led or composite, kept procedural",
-    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
-   ]
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p455 (printed 454), Sch 14 Pt 2 item 16",
+   "source": "eps",
+   "superseded": true
   },
   "4003.4": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
    "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.4.eps",
    "eps_crosswalk": "same",
+   "fallback": "procedural",
    "family": "PedHead",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family PedHead: wording-led or composite, kept procedural",
-    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
-   ]
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p456 (printed 455), Sch 14 Pt 2 item 17",
+   "source": "eps",
+   "superseded": true
   },
   "4003.5": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
    "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.5.eps",
    "eps_crosswalk": "same",
+   "fallback": "procedural",
    "family": "PedHead",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family PedHead: wording-led or composite, kept procedural",
-    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
-   ]
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p457 (printed 456), Sch 14 Pt 2 item 19",
+   "source": "eps",
+   "superseded": true
   },
   "4003.6": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
    "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.6.eps",
    "eps_crosswalk": "same",
+   "fallback": "procedural",
    "family": "PedHead",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family PedHead: wording-led or composite, kept procedural",
-    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
-   ]
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p458 (printed 457), Sch 14 Pt 2 item 20",
+   "source": "eps",
+   "superseded": true
   },
   "4003.7": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
    "eps": "pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.7.eps",
    "eps_crosswalk": "same",
+   "fallback": "procedural",
    "family": "PedHead",
    "row_status": "current",
-   "source": "placeholder",
-   "why_not_eps": [
-    "family PedHead: wording-led or composite, kept procedural",
-    "visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural"
-   ]
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p459 (printed 458), Sch 14 Pt 2 item 21",
+   "source": "eps",
+   "superseded": true
   },
   "4007": {
    "family": "PedHead",
@@ -3221,14 +3228,16 @@
    "superseded": true
   },
   "783": {
+   "basis": "same diagram number in SI 2016 (crosswalk same; visual review pass)",
    "eps": "level-crossing-signs-eps.zip/level-crossing-signs-eps/783.eps",
    "eps_crosswalk": "same",
+   "fallback": "procedural",
    "family": "WarnTriangle",
    "row_status": "current",
-   "source": "procedural",
-   "why_not_eps": [
-    "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering. r12: colour verified only: the 2002 EPS ground is blue where the atlas expects white; not used (wording verdict stands)."
-   ]
+   "si2016_verdict": "pass-si2016",
+   "si_page": "tsrgd2016.pdf PDF p215 (printed 214), Sch 11 Pt 2 item 68",
+   "source": "eps",
+   "superseded": true
   },
   "784": {
    "family": "WarnTriangle",
@@ -3346,7 +3355,7 @@
   "811B": {
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -3364,7 +3373,7 @@
   "816.1": {
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -3374,7 +3383,7 @@
    "eps_crosswalk": "same",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "family InfoBlue: wording-led or composite, kept procedural",
     "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
@@ -3407,7 +3416,7 @@
    ],
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "family InfoBlue: wording-led or composite, kept procedural",
     "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
@@ -3434,7 +3443,7 @@
    ],
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "family InfoBlue: wording-led or composite, kept procedural",
     "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
@@ -3445,7 +3454,7 @@
    "eps_crosswalk": "same",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "family InfoBlue: wording-led or composite, kept procedural",
     "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
@@ -3529,7 +3538,7 @@
    "eps_crosswalk": "same",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "family InfoBlue: wording-led or composite, kept procedural",
     "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
@@ -3621,7 +3630,7 @@
   "873": {
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -3748,7 +3757,7 @@
   "954.5": {
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -3802,7 +3811,7 @@
    "eps_crosswalk": "same",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "family InfoBlue: wording-led or composite, kept procedural",
     "visual review: fail: EPS lacks the time panel that SI 2016 shows (Reviewer r1 F1)."
@@ -3821,7 +3830,7 @@
    "eps_crosswalk": "same",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "family InfoBlue: wording-led or composite, kept procedural",
     "visual review: fail: EPS lacks the time panel that SI 2016 shows (Reviewer r1 F1)."
@@ -3851,7 +3860,7 @@
    "eps_crosswalk": "same",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "family InfoBlue: wording-led or composite, kept procedural",
     "visual review: variable: value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example"
@@ -3862,7 +3871,7 @@
    "eps_crosswalk": "same",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "family InfoBlue: wording-led or composite, kept procedural",
     "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
@@ -3873,7 +3882,7 @@
    "eps_crosswalk": "same",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "family InfoBlue: wording-led or composite, kept procedural",
     "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
@@ -3882,7 +3891,7 @@
   "962.2": {
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "no GOV.UK EPS for this diagram number"
    ]
@@ -3892,7 +3901,7 @@
    "eps_crosswalk": "same",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "family InfoBlue: wording-led or composite, kept procedural",
     "visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering"
@@ -3955,7 +3964,7 @@
    "eps_crosswalk": "same",
    "family": "InfoBlue",
    "row_status": "current",
-   "source": "placeholder",
+   "source": "procedural",
    "why_not_eps": [
     "family InfoBlue: wording-led or composite, kept procedural",
     "visual review: fail: EPS adds a P (parking) sign that the SI 2016 diagram does not show (Reviewer r1 F1)."

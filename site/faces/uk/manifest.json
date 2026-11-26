@@ -1555,11 +1555,11 @@
       "path": "signs/3000.2.svg",
       "kind": "signs",
       "id": "3000.2",
-      "name": "Traffic light signals for the control of vehicular traffic consisting solely of pedal cycles and electric scooters being used in a trial",
-      "glyph": false,
-      "renderer": "family:SignalHead",
-      "bytes": 2462,
-      "sha256": "7c8a4c618f45172110bca1b767ac22f9566cdf89e3ece8b2aefcca972a6124b9"
+      "name": "Light signals for pedal cycles only",
+      "glyph": true,
+      "renderer": "3000.2",
+      "bytes": 7096,
+      "sha256": "3d12778fd55c24cfede6ba9a8aa7359fa1dedabab15a927c02f5a0d963e74fd2"
     },
     "signs/3000.7": {
       "path": "signs/3000.7.svg",
@@ -1586,70 +1586,70 @@
       "kind": "signs",
       "id": "3001.2",
       "name": "Green arrow to show the direction for vehicular traffic to take for inclusion in traffic light signals as described in Part 1",
-      "glyph": false,
-      "renderer": "family:SignalHead",
-      "bytes": 2501,
-      "sha256": "059ccc08ca27215df255acd82e568b7f86a45e2aad96793748b91cc5c3c60760"
+      "glyph": true,
+      "renderer": "3001.2",
+      "bytes": 1594,
+      "sha256": "c01f94aa889f8e3f9a747c51b9f0498dfb946fc7e92d7dae40a31f7ae713aedb"
     },
     "signs/3013": {
       "path": "signs/3013.svg",
       "kind": "signs",
       "id": "3013",
-      "name": "Light signal for control of tramcars (diagram shows the light signal fully illuminated- see items 3 to 7 for the illumination of the signal to convey particular descriptions)",
-      "glyph": false,
-      "renderer": "family:SignalHead",
-      "bytes": 2280,
-      "sha256": "5a903e779d37379918112f98fdd775618e69582b7aea9723a647e659fcf971ee"
+      "name": "Tram signal (stop)",
+      "glyph": true,
+      "renderer": "3013",
+      "bytes": 3291,
+      "sha256": "8e3a45839911939751c5367c237a6085362a689794049ac168846b718c5a2d2e"
     },
     "signs/3013.1": {
       "path": "signs/3013.1.svg",
       "kind": "signs",
       "id": "3013.1",
-      "name": "Tramcar must not proceed beyond the stop line",
-      "glyph": false,
-      "renderer": "family:SignalHead",
-      "bytes": 2533,
-      "sha256": "c47ddf77a42b2b13bfd6f0ef51bf64a7e01d2eb7e30defa73c874889810de03b"
+      "name": "Tram signal \u2014 stop",
+      "glyph": true,
+      "renderer": "3013.1",
+      "bytes": 1353,
+      "sha256": "75442bd937d7c07fb5bb71d803b920cc9267ad4ff25de53f890551bd27863faf"
     },
     "signs/3013.2": {
       "path": "signs/3013.2.svg",
       "kind": "signs",
       "id": "3013.2",
-      "name": "Tramcar may proceed beyond the stopline and proceed straight ahead",
-      "glyph": false,
-      "renderer": "family:SignalHead",
-      "bytes": 2683,
-      "sha256": "0c64dc7fee13c2f73187e3a095e439dfa061bfee27c2f19b2ab722ee77137e10"
+      "name": "Tram signal \u2014 ahead",
+      "glyph": true,
+      "renderer": "3013.2",
+      "bytes": 1326,
+      "sha256": "c32d31af2c3afd8a290f5f92b5cc21ca48dc6387ab64609e5ee8d7586d4a4bf2"
     },
     "signs/3013.3": {
       "path": "signs/3013.3.svg",
       "kind": "signs",
       "id": "3013.3",
-      "name": "Tramcar may proceed beyond the stopline and proceed to the left",
-      "glyph": false,
-      "renderer": "family:SignalHead",
-      "bytes": 2673,
-      "sha256": "1ae54bedf1da0db2eb4b1b8b2b8fdab7673c5fd0863ee3fdc6936297ae45ba4f"
+      "name": "Tram signal \u2014 left",
+      "glyph": true,
+      "renderer": "3013.3",
+      "bytes": 1357,
+      "sha256": "3b4ef33f9c330363756444e37d44d93e6bc2ee273b2d1e1ec1b514c285dc6614"
     },
     "signs/3013.4": {
       "path": "signs/3013.4.svg",
       "kind": "signs",
       "id": "3013.4",
-      "name": "Tramcar may proceed beyond the stopline and proceed to the right",
-      "glyph": false,
-      "renderer": "family:SignalHead",
-      "bytes": 2607,
-      "sha256": "fff9b0cea9e659f3baa70e11984c912ee2a780153c1cf49837a8c8ae66b34813"
+      "name": "Tram signal \u2014 right",
+      "glyph": true,
+      "renderer": "3013.4",
+      "bytes": 1429,
+      "sha256": "8ea048f2edd4c882a2936298b81961083a304876bd4d1c95c7719f0d7e979b16"
     },
     "signs/3013.5": {
       "path": "signs/3013.5.svg",
       "kind": "signs",
       "id": "3013.5",
-      "name": "Tramcar must not proceed beyond the stop line except that, as respects a tramcar which is so close to the stop line that it cannot safely be stopped without proceeding beyond the stop line, it conveys the same indication as the aspect which was shown immediately before it",
-      "glyph": false,
-      "renderer": "family:SignalHead",
-      "bytes": 2670,
-      "sha256": "382d8637d76596d9083c3696652eeba569654f955dfc9ea68d8caf5c3c51ef84"
+      "name": "Tram signal \u2014 stop except as shown",
+      "glyph": true,
+      "renderer": "3013.5",
+      "bytes": 1598,
+      "sha256": "a20d1cd794abb398ef6d114953fd280be937e786973c35f07e3ae835659828da"
     },
     "signs/3014": {
       "path": "signs/3014.svg",
@@ -1695,71 +1695,71 @@
       "path": "signs/4003.1.svg",
       "kind": "signs",
       "id": "4003.1",
-      "name": "Nearside light signals and instructions for pedestrians at a pedestrian facility controlled by traffic light signals",
-      "glyph": false,
-      "renderer": "family:PedHead",
-      "bytes": 2427,
-      "sha256": "94ce4e9b811d136049278e7ccfb5e67abe3f9898533d55fe86d09f1e726cd92f"
+      "name": "Nearside pedestrian signal",
+      "glyph": true,
+      "renderer": "4003.1",
+      "bytes": 8803,
+      "sha256": "5cef799197766629e36283342bdcba9e6c574d3461d4347bf1728860bf3b66e9"
     },
     "signs/4003.2": {
       "path": "signs/4003.2.svg",
       "kind": "signs",
       "id": "4003.2",
-      "name": "Farside light signals for equestrian traffic",
-      "glyph": false,
-      "renderer": "family:PedHead",
-      "bytes": 2576,
-      "sha256": "ef583d6a9ed79d5717b36c67d80370c3f893248f62ab429ae24f32c1ad463276"
+      "name": "Farside equestrian signal",
+      "glyph": true,
+      "renderer": "4003.2",
+      "bytes": 3955,
+      "sha256": "62638dd6f3b7ff355df43269769bcfab81c9dd90a9fe8beca21f4dd00e1bbec5"
     },
     "signs/4003.3": {
       "path": "signs/4003.3.svg",
       "kind": "signs",
       "id": "4003.3",
-      "name": "Instructions to horse riders above the push button control for calling up equestrian traffic phases at traffic light signals",
-      "glyph": false,
-      "renderer": "family:PedHead",
-      "bytes": 2566,
-      "sha256": "fcd858c60cbed8e852d68e5bd90adb7f9105130002c05ab73124137fab464e63"
+      "name": "Instructions to horse riders at the push-button",
+      "glyph": true,
+      "renderer": "4003.3",
+      "bytes": 23478,
+      "sha256": "a66c5a392781d6f85b72d5c0fa3f7fc3b940aaad6c2756cd2fd2c5b203942a70"
     },
     "signs/4003.4": {
       "path": "signs/4003.4.svg",
       "kind": "signs",
       "id": "4003.4",
-      "name": "Nearside light signals and instructions for horse riders at an equestrian traffic crossing facility controlled by traffic light signals",
-      "glyph": false,
-      "renderer": "family:PedHead",
-      "bytes": 2500,
-      "sha256": "8fcb7c381b71b0ca044f5089267089886233c7cabeda72cc0410e4288b6f589e"
+      "name": "Nearside equestrian signal",
+      "glyph": true,
+      "renderer": "4003.4",
+      "bytes": 12105,
+      "sha256": "80851539c509990df9fed658a8eb62b3783deee09c005b14dd2e1de122d79fa2"
     },
     "signs/4003.5": {
       "path": "signs/4003.5.svg",
       "kind": "signs",
       "id": "4003.5",
-      "name": "Farside light signals for pedestrians, drivers of electric scooters being used in a trial and cyclists at a Toucan crossing",
-      "glyph": false,
-      "renderer": "family:PedHead",
-      "bytes": 2563,
-      "sha256": "f5726daaccc068b264d7b7f759236262426cc7f0d9868d87135a0ea42153c3f8"
+      "name": "Farside Toucan signal",
+      "glyph": true,
+      "renderer": "4003.5",
+      "bytes": 4849,
+      "sha256": "38d7d834e4496cc205cdc633ba610b1b694b3d48b52bcad5858a073c7ba81322"
     },
     "signs/4003.6": {
       "path": "signs/4003.6.svg",
       "kind": "signs",
       "id": "4003.6",
-      "name": "(a) instructions to pedestrians, drivers of electric scooters being used in a trial and cyclists above the push button control for calling up pedestrian and cycle phases at a Toucan crossing; or (b) instructions to cyclists above the push button control for calling up cycle phases at a crossing controlled by the traffic light signals provided for at item 3 or 4",
-      "glyph": false,
-      "renderer": "family:PedHead",
-      "bytes": 2480,
-      "sha256": "4de3505690c2100ac03db885657055109a8210c1d540eb9b4f59740a6b056402"
+      "name": "Instructions at a Toucan crossing",
+      "glyph": true,
+      "renderer": "4003.6",
+      "bytes": 11138,
+      "sha256": "5b529004e1d20b0cd7d690611126a44288d9f0d5912f77b5fe388b9d004aa999"
     },
     "signs/4003.7": {
       "path": "signs/4003.7.svg",
       "kind": "signs",
       "id": "4003.7",
-      "name": "Nearside light signals and instructions for pedestrians, drivers of electric scooters being used in a trial and cyclists at a Toucan crossing",
-      "glyph": false,
-      "renderer": "family:PedHead",
-      "bytes": 2425,
-      "sha256": "6762d9fca66ca3f81f72da9a880b09b2e5c6aee61bed4f474e98c668ada56e32"
+      "name": "Nearside Toucan signal",
+      "glyph": true,
+      "renderer": "4003.7",
+      "bytes": 17019,
+      "sha256": "dac150e5a996ae63ee30fd1f54a2536373056e209bf50e75a538b631720d4529"
     },
     "signs/4007": {
       "path": "signs/4007.svg",
@@ -2058,8 +2058,8 @@
       "name": "High vehicles use the middle of the road at an arch bridge",
       "glyph": true,
       "renderer": "531.2",
-      "bytes": 9322,
-      "sha256": "21ba2ea156fa0ac83e6ad93b1dd50905f48d17a2bb59e6d7867f1796b8e2f933"
+      "bytes": 9170,
+      "sha256": "3a176b7b80724ee380a2a3ea3ad26736ce7caca8c5189ac51de88721d33aa534"
     },
     "signs/532.2": {
       "path": "signs/532.2.svg",
@@ -2498,8 +2498,8 @@
       "name": "Dual carriageway",
       "glyph": true,
       "renderer": "608",
-      "bytes": 3477,
-      "sha256": "a6580eb8bb1bbd220eef83a91a34f1a2f8593727d9dcdc87c58328d22e01f609"
+      "bytes": 3323,
+      "sha256": "cfaf7524dce0ff23681762b064cbc037ecf25fc30b5e9f99219521c8f33572b3"
     },
     "signs/609": {
       "path": "signs/609.svg",
@@ -2638,8 +2638,8 @@
       "name": "Pedestrian zone (except buses)",
       "glyph": true,
       "renderer": "618.3",
-      "bytes": 25988,
-      "sha256": "3a5939c542c5de651cd0b4b3a51104afdfeec9b0a95b7d20a03f64cbc97073ce"
+      "bytes": 25834,
+      "sha256": "57cec91e5215d538d86a4a486c2a92108e2b168d39e10ba9d9a7687f0428c211"
     },
     "signs/618.3A": {
       "path": "signs/618.3A.svg",
@@ -2648,8 +2648,8 @@
       "name": "Pedestrian zone (except loading)",
       "glyph": true,
       "renderer": "618.3A",
-      "bytes": 16031,
-      "sha256": "6d3c2b96f9bf388f6672865ae2fd7bed987df7e3a1970d1121a0240e0f91a3ed"
+      "bytes": 15877,
+      "sha256": "5b186dc317111974d541b6599a8c8ba697741cef67286a9858ec0d3dd3468a3e"
     },
     "signs/618.3B": {
       "path": "signs/618.3B.svg",
@@ -2658,8 +2658,8 @@
       "name": "Pedestrian and waiting zone",
       "glyph": true,
       "renderer": "618.3B",
-      "bytes": 24629,
-      "sha256": "a3e0b2e9570342ae5e0278a8aebb39115197d1433c24ba94bbca634838d17457"
+      "bytes": 24475,
+      "sha256": "ca00ef2df36875e0683cdff88f30f8241d995bcff358696c1294edbf0b677e7e"
     },
     "signs/618.3C": {
       "path": "signs/618.3C.svg",
@@ -2668,8 +2668,8 @@
       "name": "Pedestrian and cycle zone",
       "glyph": true,
       "renderer": "618.3C",
-      "bytes": 30281,
-      "sha256": "468f9f4ad1ad4650a5d95fee57859a879ff125cdc6485a7297b9ff0b9a37e0fa"
+      "bytes": 30127,
+      "sha256": "ff16c3e185c9a9740325d5400b37fc51646ff86dd59d24d4bae173e5d34c7633"
     },
     "signs/618.4": {
       "path": "signs/618.4.svg",
@@ -2678,8 +2678,8 @@
       "name": "End of pedestrian zone",
       "glyph": true,
       "renderer": "618.4",
-      "bytes": 20110,
-      "sha256": "eccd8f6e482b91815076934f7eaacb7225eab8b115b8b7db9baee0e7f538df7a"
+      "bytes": 19960,
+      "sha256": "4aafcf70ad506055de91ff3917d18eb3d090b42f87bf29922dafb0107fd50453"
     },
     "signs/619": {
       "path": "signs/619.svg",
@@ -2808,8 +2808,8 @@
       "name": "No vehicles over maximum gross weight shown",
       "glyph": true,
       "renderer": "626.2A",
-      "bytes": 9288,
-      "sha256": "34450d854777628db2dd5d79a044036d206b42332dcb517c5c8cd4d4cfb3f4ce"
+      "bytes": 9136,
+      "sha256": "f822453a85e34da6deb3e06bd1cbfb8679dc4d90c079d0e4e0e1fafd86196d7c"
     },
     "signs/627.1": {
       "path": "signs/627.1.svg",
@@ -3188,8 +3188,8 @@
       "name": "Parking place (voucher)",
       "glyph": true,
       "renderer": "660.7",
-      "bytes": 29401,
-      "sha256": "3dc66c449c6ae9952e25578b531effcfbb65b21f4083ca7fe55f56dff34d426e"
+      "bytes": 29249,
+      "sha256": "55cb5d3993ce3d52ce597c585f902488a5d25c5bf01bd93c2e5ace13fef255fd"
     },
     "signs/661.1": {
       "path": "signs/661.1.svg",
@@ -3208,8 +3208,8 @@
       "name": "'Pay and Display' ticket-regulated parking place",
       "glyph": true,
       "renderer": "661.2A",
-      "bytes": 7927,
-      "sha256": "ca4fabc88981d11b5d36c8608780f2bd9e1db297e5f344d123b18c7e0d95af0f"
+      "bytes": 7775,
+      "sha256": "3b29cce89032ac75f8545bbe7239df36bf4fda99325c4e20b7023d08ecf9fdc0"
     },
     "signs/661.3A": {
       "path": "signs/661.3A.svg",
@@ -3218,8 +3218,8 @@
       "name": "Location of 'Pay and Display' ticket machine",
       "glyph": true,
       "renderer": "661.3A",
-      "bytes": 8126,
-      "sha256": "b913c3b4254c69afdded788ce51dbadbf589bd2c14629ca331c66e17eb2cd554"
+      "bytes": 7974,
+      "sha256": "e50fc5ad83ea950d4d28e80a2f98aa20c7b360f34e30e9d34635955d9b3a993d"
     },
     "signs/661.4": {
       "path": "signs/661.4.svg",
@@ -3238,8 +3238,8 @@
       "name": "Period during which waiting is limited and display of a disc is required at a parking place in a disc zone",
       "glyph": true,
       "renderer": "662",
-      "bytes": 12317,
-      "sha256": "f77aac76e9af9709012c987a7076d2c1db12c4ed5a7ee6b25438734fcdac75a8"
+      "bytes": 12163,
+      "sha256": "7d256479f4ad19e80e607630e9e2fc6a2619a2aab5aee3ee0f8cc38e76c65a6d"
     },
     "signs/667": {
       "path": "signs/667.svg",
@@ -3358,8 +3358,8 @@
       "name": "End of 20 mph zone",
       "glyph": true,
       "renderer": "675",
-      "bytes": 10805,
-      "sha256": "fb9d916a1697c6ae42183316db2f53391ad00896a054d14cd9924deec312fa64"
+      "bytes": 10655,
+      "sha256": "a8ab88379cc8cd1f7286a8af634acb3d5210da687d40a84c543b922a6a38f386"
     },
     "signs/675A": {
       "path": "signs/675A.svg",
@@ -3368,8 +3368,8 @@
       "name": "End of 20 mph zone, new limit begins",
       "glyph": true,
       "renderer": "675A",
-      "bytes": 10805,
-      "sha256": "fb9d916a1697c6ae42183316db2f53391ad00896a054d14cd9924deec312fa64"
+      "bytes": 10655,
+      "sha256": "a8ab88379cc8cd1f7286a8af634acb3d5210da687d40a84c543b922a6a38f386"
     },
     "signs/675B": {
       "path": "signs/675B.svg",
@@ -3378,8 +3378,8 @@
       "name": "In relation to England, end of a 20 mph speed limit zone with indication that national speed limits apply",
       "glyph": true,
       "renderer": "675B",
-      "bytes": 8679,
-      "sha256": "749a61b19b2bd79c4980e1f712790a94a4d4eb649c5a7d110f6c179cda1737f7"
+      "bytes": 8529,
+      "sha256": "2bd6188edf5c069fa9936bc95ade75c00e617609d9f43be449fd9803b94ddc66"
     },
     "signs/770": {
       "path": "signs/770.svg",
@@ -3528,8 +3528,8 @@
       "name": "Long, low, large or slow vehicles must telephone before crossing",
       "glyph": true,
       "renderer": "783",
-      "bytes": 11469,
-      "sha256": "57a06f61fa2f26659f30c739f2566a821905ccd96450d3c51111fc0ef9a5647c"
+      "bytes": 11315,
+      "sha256": "282022ff4c4fb77065fdb4b9c3facf0c049073ed988e8ba8e756e93576177ac3"
     },
     "signs/784": {
       "path": "signs/784.svg",
@@ -3558,8 +3558,8 @@
       "name": "Waiting place for long or low vehicles",
       "glyph": true,
       "renderer": "786",
-      "bytes": 8539,
-      "sha256": "bcb022bfd4805e002db9c7d8de17881c4b448bf9dea27a1fcf27d321c766c553"
+      "bytes": 8385,
+      "sha256": "bf0c3f921bf47a1be43f28f51d68e86041988b4d76aff6f4dccb7fe2bd65fb4c"
     },
     "signs/787": {
       "path": "signs/787.svg",
@@ -3646,10 +3646,10 @@
       "kind": "signs",
       "id": "811B",
       "name": "Beginning and end of section of road where traffic has priority over vehicles from the opposite direction",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2418,
-      "sha256": "50bc52237c305931408220aca5633c9fb70028138df67095b52b773b3acceecc"
+      "glyph": true,
+      "renderer": "811B",
+      "bytes": 4422,
+      "sha256": "0fccf49e5dc4362f531bcfdc34d757f37b323fa06bcee0a42a0bcbbee637b386"
     },
     "signs/816": {
       "path": "signs/816.svg",
@@ -3665,21 +3665,21 @@
       "path": "signs/816.1.svg",
       "kind": "signs",
       "id": "816.1",
-      "name": "Alternative to the sign shown at item 5 with a street nameplate",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2266,
-      "sha256": "ddb9c9bd4972ef987b8c437c9b0d54159eb033feefddb08f3af21c4ec6c7272f"
+      "name": "No through road with street name",
+      "glyph": true,
+      "renderer": "816.1",
+      "bytes": 5816,
+      "sha256": "c572300487f8ab95bc9dbe7b5ba5568fbd5d54b023e3359460ee553b9b6313be"
     },
     "signs/818.1": {
       "path": "signs/818.1.svg",
       "kind": "signs",
       "id": "818.1",
-      "name": "Section of dual carriageway road ahead",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2305,
-      "sha256": "79661e0b52e0b973a237fe877a6c3b7ae0500c76d078257bc266933c97d03c51"
+      "name": "Dual carriageway ahead",
+      "glyph": true,
+      "renderer": "818.1",
+      "bytes": 6085,
+      "sha256": "8dfcf9b6232291ed62e5c92d7e0cd9aa146a91d83f53d7a0900666559d20e550"
     },
     "signs/818.2": {
       "path": "signs/818.2.svg",
@@ -3705,11 +3705,11 @@
       "path": "signs/818.4.svg",
       "kind": "signs",
       "id": "818.4",
-      "name": "Nature and location of a prohibition, restriction or requirement with indication of alternative route",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2378,
-      "sha256": "296942f151029da56d47afaaab7d298f746e42e1b6f4657233c91a3573272cb8"
+      "name": "Advance warning of restriction or prohibition ahead",
+      "glyph": true,
+      "renderer": "818.4",
+      "bytes": 18830,
+      "sha256": "7eb8b393af408e8e040d8c76ae13620e1814e321e5956e48b647d3ca0087c109"
     },
     "signs/818.5": {
       "path": "signs/818.5.svg",
@@ -3725,21 +3725,21 @@
       "path": "signs/820.svg",
       "kind": "signs",
       "id": "820",
-      "name": "Route unsuitable for type of vehicle indicated",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2072,
-      "sha256": "71fa98629e43e677005347fcc90dfdbc90aeb406f6522ec15cdf80c5378585ec"
+      "name": "Route unsuitable for the vehicle shown",
+      "glyph": true,
+      "renderer": "820",
+      "bytes": 6657,
+      "sha256": "7d3a0218ccc4d611bbb8e0e225a7bc5b65c927c4a6f92a04fdc81c4c1837407b"
     },
     "signs/821": {
       "path": "signs/821.svg",
       "kind": "signs",
       "id": "821",
-      "name": "Road ahead only wide enough for one line of vehicles, and providing information about passing places",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2110,
-      "sha256": "65d3800d4ba2af463e218398c91e3ab6cb1de2ca8faef2acf03ddc75585b9024"
+      "name": "Single-track road",
+      "glyph": true,
+      "renderer": "821",
+      "bytes": 7125,
+      "sha256": "39c86762cf7f365ac34a21dec1443c605a25c669e9325fa9629f63931d9494de"
     },
     "signs/822": {
       "path": "signs/822.svg",
@@ -3795,11 +3795,11 @@
       "path": "signs/829.1.svg",
       "kind": "signs",
       "id": "829.1",
-      "name": "Potential danger temporarily ahead and consequent need to proceed with caution",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2417,
-      "sha256": "788998c5390260313f37e51b9f22f171aa1114a3ff534b6df3df78e3e7dba940"
+      "name": "Temporary hazard \u2014 reduce speed",
+      "glyph": true,
+      "renderer": "829.1",
+      "bytes": 2559,
+      "sha256": "1258de0d7884f5d51cc96c0e73090922e62db404f7a757e377b071fde4a298cd"
     },
     "signs/832": {
       "path": "signs/832.svg",
@@ -3885,11 +3885,11 @@
       "path": "signs/873.svg",
       "kind": "signs",
       "id": "873",
-      "name": "Additional traffic joining from the left or right ahead (diagram shows blue background \u2013 for use on motorways)",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2098,
-      "sha256": "4f728e80984a3c47e0ef6006e3d356c46f8e29959fcc23e914a36bce3698b0c4"
+      "name": "Lane destination (all-purpose road)",
+      "glyph": true,
+      "renderer": "873",
+      "bytes": 7624,
+      "sha256": "70487618ff3d63e5a25487b96f89144cb9aebb31d444d5cebc4fabf5133e6d4b"
     },
     "signs/878": {
       "path": "signs/878.svg",
@@ -4005,11 +4005,11 @@
       "path": "signs/954.5.svg",
       "kind": "signs",
       "id": "954.5",
-      "name": "Classes of vehicle excluded from restriction or prohibition conveyed by associated sign . Where the word \u2018cycles\u2019 is used on the sign, this also represents, where relevant, electric scooters being used in a trial",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2522,
-      "sha256": "ea7ea8496aee2d83aa8e89fcf40c9fd4fe901de0c97c23fbf0cef36cba32d8c1"
+      "name": "Except buses and cycles",
+      "glyph": true,
+      "renderer": "954.5",
+      "bytes": 4212,
+      "sha256": "a0630e04fc003543583aaad0498f57a731e96d4036fb2bf1e8b989b8c881d7ba"
     },
     "signs/955": {
       "path": "signs/955.svg",
@@ -4055,11 +4055,11 @@
       "path": "signs/958.1.svg",
       "kind": "signs",
       "id": "958.1",
-      "name": "With-flow mandatory cycle lane ahead, with indication of times of operation",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2404,
-      "sha256": "19a26e82d22b2ab4341cebe9f4ab9c2e3051328ccf26895ed3731e7341117c0f"
+      "name": "With-flow cycle lane ahead",
+      "glyph": true,
+      "renderer": "958.1",
+      "bytes": 11675,
+      "sha256": "39ffed94f469007f3456bafc761b73bdcd0e42d87895a26ea34c6bd63a3121d4"
     },
     "signs/959": {
       "path": "signs/959.svg",
@@ -4075,11 +4075,11 @@
       "path": "signs/959.1.svg",
       "kind": "signs",
       "id": "959.1",
-      "name": "With-flow cycle lane with indication of times of operation",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2365,
-      "sha256": "15c8f5286517f17b57f0a779c85c5e19a661ec1fb0d46291c7d06b41bcbbb7e6"
+      "name": "With-flow pedal cycle lane",
+      "glyph": true,
+      "renderer": "959.1",
+      "bytes": 11341,
+      "sha256": "19f4953da40cb768bbf8a096cc0d32f08fbd8d5fa65e627cbecf8cb99242f515"
     },
     "signs/959B": {
       "path": "signs/959B.svg",
@@ -4105,51 +4105,51 @@
       "path": "signs/960.1.svg",
       "kind": "signs",
       "id": "960.1",
-      "name": "One-way road with a mandatory contraflow cycle lane",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2190,
-      "sha256": "8e9166cc0be6c3c5bb6f085163bdd9184827f1ca84bcdfb38a9ff448054d9a8c"
+      "name": "Contra-flow cycle lane",
+      "glyph": true,
+      "renderer": "960.1",
+      "bytes": 7496,
+      "sha256": "56a01b4f06e10331471a4348e0308ec4892769787703d69e63c839236059cbd9"
     },
     "signs/962": {
       "path": "signs/962.svg",
       "kind": "signs",
       "id": "962",
-      "name": "Bus lane or lanes on a road at junction ahead, with indication of times of operation",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2126,
-      "sha256": "eb66d8e65dac55ea4f82e801a88933c559d7f6bad60f78ccd4a4bfe06e3da8ea"
+      "name": "Bus lane on road at junction ahead",
+      "glyph": true,
+      "renderer": "962",
+      "bytes": 11133,
+      "sha256": "2689bf3e61de98c055f194861f54c0b518422cecc7a739eee639e5e2118c0c98"
     },
     "signs/962.1": {
       "path": "signs/962.1.svg",
       "kind": "signs",
       "id": "962.1",
-      "name": "Cycle lane on a road at junction ahead or, if applicable, a cycle track crossing road, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial, with indication of times of operation",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2379,
-      "sha256": "b241e32921f9d1a93f485378fff609f11ef6c484b825c5d9503809e55ec1fa8f"
+      "name": "Cycle lane at a junction ahead",
+      "glyph": true,
+      "renderer": "962.1",
+      "bytes": 11604,
+      "sha256": "c96ed6f23dad45a43158d1bda4ab6bfca65496521ebc2708fe39b971a76d4ffb"
     },
     "signs/962.2": {
       "path": "signs/962.2.svg",
       "kind": "signs",
       "id": "962.2",
-      "name": "Contraflow bus lane ahead on a road at a junction which pedal cycles and electric scooters being used in a trial may also use",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2530,
-      "sha256": "51cb0c9c2ea27be81f8355c89ba52182722063d5ed733e524ed257d66e33d76a"
+      "name": "Contra-flow bus lane at a junction ahead",
+      "glyph": true,
+      "renderer": "962.2",
+      "bytes": 14204,
+      "sha256": "82a7cdbdf1d2b9b2c407737214ea949dd26d088e09519675744165952b4a6076"
     },
     "signs/963": {
       "path": "signs/963.svg",
       "kind": "signs",
       "id": "963",
-      "name": "Direction in which pedestrians should look for approaching traffic when crossing a bus lane",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2116,
-      "sha256": "5e0dfaf92f94d9954c429e74ebcabe311388b55340f8a9bc53e6e07209e9ac23"
+      "name": "Look left / look right",
+      "glyph": true,
+      "renderer": "963",
+      "bytes": 8605,
+      "sha256": "421cb6539154db278a9162dc7880747f77ab10ef6f1fd88c35f31cbc5051d122"
     },
     "signs/964": {
       "path": "signs/964.svg",
@@ -4206,10 +4206,10 @@
       "kind": "signs",
       "id": "969",
       "name": "Parking place reserved for buses",
-      "glyph": false,
-      "renderer": "family:InfoBlue",
-      "bytes": 2032,
-      "sha256": "8e9adfe5669de81e1a077d7d982d3c15b4276e7d1168af977378290ee0ea010e"
+      "glyph": true,
+      "renderer": "969",
+      "bytes": 10385,
+      "sha256": "b50d122ae2307c2bc0feb3ca1cb287901e6a390aed916432a32c5ac19a5b63ff"
     },
     "signs/974": {
       "path": "signs/974.svg",

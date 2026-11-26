@@ -192,6 +192,38 @@
    "note": "Example layout (official GOV.UK image) \u2014 to be generated per site. Owner ruling 2026-11-23: \"Yes, add the 48 as example faces now\" (the 48 route, direction and tourist placeholders that have a GOV.UK EPS). Contact-sheet check 2026-11-23 (r4).",
    "verdict": "example"
   },
+  "3000.2": {
+   "note": "Art generator traces (batches 11-12, HANDOFF_TO_BUILD.md). Reviewer has not graded them yet. Signal head or pedestrian/equestrian equipment assembly.",
+   "verdict": "pending-reviewer"
+  },
+  "3001.2": {
+   "note": "Art generator traces (batches 11-12, HANDOFF_TO_BUILD.md). Reviewer has not graded them yet. Signal head or pedestrian/equestrian equipment assembly.",
+   "verdict": "pending-reviewer"
+  },
+  "3013": {
+   "note": "Art generator traces (batches 11-12, HANDOFF_TO_BUILD.md). Reviewer has not graded them yet. Signal head or pedestrian/equestrian equipment assembly.",
+   "verdict": "pending-reviewer"
+  },
+  "3013.1": {
+   "note": "Art generator traces (batches 11-12, HANDOFF_TO_BUILD.md). Reviewer has not graded them yet. Signal head or pedestrian/equestrian equipment assembly.",
+   "verdict": "pending-reviewer"
+  },
+  "3013.2": {
+   "note": "Art generator traces (batches 11-12, HANDOFF_TO_BUILD.md). Reviewer has not graded them yet. Signal head or pedestrian/equestrian equipment assembly.",
+   "verdict": "pending-reviewer"
+  },
+  "3013.3": {
+   "note": "Art generator traces (batches 11-12, HANDOFF_TO_BUILD.md). Reviewer has not graded them yet. Signal head or pedestrian/equestrian equipment assembly.",
+   "verdict": "pending-reviewer"
+  },
+  "3013.4": {
+   "note": "Art generator traces (batches 11-12, HANDOFF_TO_BUILD.md). Reviewer has not graded them yet. Signal head or pedestrian/equestrian equipment assembly.",
+   "verdict": "pending-reviewer"
+  },
+  "3013.5": {
+   "note": "Art generator traces (batches 11-12, HANDOFF_TO_BUILD.md). Reviewer has not graded them yet. Signal head or pedestrian/equestrian equipment assembly.",
+   "verdict": "pending-reviewer"
+  },
   "4002.1": {
    "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
    "verdict": "composite"
@@ -201,32 +233,39 @@
    "verdict": "composite"
   },
   "4003.1": {
-   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
-   "verdict": "composite"
+   "note": "Official GOV.UK EPS from the pinned pedestrian-cycle-equestrian zip, used under the 09:42 rule. Eye-checked against SI 2016: nearside pedestrian signal \u2014 black plate, red standing figure, green walking figure, \"Push button / Wait for signal\", and a white square push-button. Matches the default SI diagram. Art generator traces remain the procedural fallback.",
+   "si_page": "tsrgd2016.pdf PDF p453 (printed 452), Sch 14 Pt 2 item 13",
+   "verdict": "pass-si2016"
   },
   "4003.2": {
-   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
-   "verdict": "composite"
+   "note": "Official GOV.UK EPS used under the 09:42 rule (replaces the Art trace, which was a single green horse). Eye-checked against SI 2016 item 15: two-aspect farside equestrian signals, red horse-and-rider over green horse-and-rider, on black backings. Colours match the SI (black, not brown). A convert.py snap bug had mapped the unsapped dark grey rgb(81,78,79) from pdftocairo to brown because Euclidean RGB is closer to brown than to black; the raw EPS is process black, not brown. That snap is now chroma-aware. The SI draws two separate circular heads; the official EPS places the same two aspects on one rectangular black plate. Symbols, colours and stacking match. Art traces remain the procedural fallback.",
+   "si_page": "tsrgd2016.pdf PDF p454 (printed 453), Sch 14 Pt 2 item 15",
+   "verdict": "pass-si2016"
   },
   "4003.3": {
-   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
-   "verdict": "composite"
+   "note": "Official GOV.UK EPS used under the 09:42 rule. Eye-checked against SI 2016: \"EQUESTRIANS / push button and wait for signal opposite\", blue WAIT panel, wait (red horse) and cross with care (green horse) legend, and a circular push-button. Matches the default SI diagram. Art traces remain the procedural fallback.",
+   "si_page": "tsrgd2016.pdf PDF p455 (printed 454), Sch 14 Pt 2 item 16",
+   "verdict": "pass-si2016"
   },
   "4003.4": {
-   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
-   "verdict": "composite"
+   "note": "Official GOV.UK EPS used under the 09:42 rule. Eye-checked against SI 2016: nearside equestrian signal \u2014 black plate, red horse-and-rider, green horse-and-rider, \"Push button / Wait for signal\", and a white square push-button. Matches the default SI diagram. Art traces remain the procedural fallback.",
+   "si_page": "tsrgd2016.pdf PDF p456 (printed 455), Sch 14 Pt 2 item 17",
+   "verdict": "pass-si2016"
   },
   "4003.5": {
-   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
-   "verdict": "composite"
+   "note": "Official GOV.UK EPS used under the 09:42 rule (replaces the Art trace, which was a single green bicycle). Eye-checked against SI 2016 item 19: three-aspect farside Toucan \u2014 red standing figure (top left), green walker (bottom left), green cycle (bottom right), on black backings. Colours match the SI (same chroma-aware snap fix as 4003.2; the raw EPS is process black, not brown). The SI draws three separate circular heads in that L arrangement; the official EPS uses one L-shaped black plate. Symbols, colours and configuration match (cycle aspect to the right of the green pedestrian aspect). Art traces remain the procedural fallback.",
+   "si_page": "tsrgd2016.pdf PDF p457 (printed 456), Sch 14 Pt 2 item 19",
+   "verdict": "pass-si2016"
   },
   "4003.6": {
-   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
-   "verdict": "composite"
+   "note": "Official GOV.UK EPS used under the 09:42 rule. Eye-checked against SI 2016: Toucan / cycle push-button instructions \u2014 \"push button and wait for signal opposite\", blue WAIT panel, and a circular push-button, with no wait/cross-with-care pictogram panel (unlike 4003.3). Matches the default SI diagram. Art traces remain the procedural fallback.",
+   "si_page": "tsrgd2016.pdf PDF p458 (printed 457), Sch 14 Pt 2 item 20",
+   "verdict": "pass-si2016"
   },
   "4003.7": {
-   "note": "signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural",
-   "verdict": "composite"
+   "note": "Official GOV.UK EPS used under the 09:42 rule. Eye-checked against SI 2016: nearside Toucan signal \u2014 black plate with the cycle symbol to the left of the pedestrian symbol (red cycle and figure on the top row, green cycle and walking figure below), \"Push button / Wait for signal\", and a white square push-button. Matches the default SI diagram (not the reversed-symbols variant). Art traces remain the procedural fallback.",
+   "si_page": "tsrgd2016.pdf PDF p459 (printed 458), Sch 14 Pt 2 item 21",
+   "verdict": "pass-si2016"
   },
   "504.1": {
    "note": "EPS shows the same sign as the SI 2016 diagram caption and the atlas face (contact sheet)",
@@ -795,8 +834,9 @@
    "verdict": "pass"
   },
   "783": {
-   "note": "wording-led plate or composite; wording stays in our own primitive lettering. r12: colour verified only: the 2002 EPS ground is blue where the atlas expects white; not used (wording verdict stands).",
-   "verdict": "wording"
+   "note": "Owner ruling (09:42, recorded after r2): 783 goes to EPS. Eye check against SI 2016: the sign is a blue plate with white lettering (the r12 note that the EPS is blue where the atlas expects white was a misread \u2014 the SI 2016 diagram is also blue). SI shows two alternative types: LONG LOW VEHICLES and LARGE OR SLOW VEHICLES. The GOV.UK EPS is the LONG LOW type and matches the left-hand SI diagram; it is used (fixed path lettering). The procedural fallback remains the LARGE OR SLOW type.",
+   "si_page": "tsrgd2016.pdf PDF p215 (printed 214), Sch 11 Pt 2 item 68",
+   "verdict": "pass-si2016"
   },
   "786": {
    "note": "wording-led plate or composite; wording stays in our own primitive lettering",

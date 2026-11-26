@@ -108,12 +108,6 @@
    ],
    "note": "wording plate; border clearance to fix"
   },
-  "783": {
-   "findings": [
-    "overlap: legend 'phone' overlaps 'before crossing'"
-   ],
-   "note": "TODO verify-first 783; line spacing in our primitive font"
-  },
   "818.5": {
    "findings": [
     "inset: legend ink within 3px of the border at 256px (min 4px)"

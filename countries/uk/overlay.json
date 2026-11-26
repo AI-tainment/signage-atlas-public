@@ -185,20 +185,20 @@
       "renderer": "675"
     },
     "823": {
-      "name": "Countdown marker — 300 yards to motorway exit",
-      "what": "Countdown marker — 300 yards to motorway exit",
+      "name": "Countdown marker \u2014 300 yards to motorway exit",
+      "what": "Countdown marker \u2014 300 yards to motorway exit",
       "glyph": true,
       "renderer": "823"
     },
     "824": {
-      "name": "Countdown marker — 200 yards to motorway exit",
-      "what": "Countdown marker — 200 yards to motorway exit",
+      "name": "Countdown marker \u2014 200 yards to motorway exit",
+      "what": "Countdown marker \u2014 200 yards to motorway exit",
       "glyph": true,
       "renderer": "824"
     },
     "825": {
-      "name": "Countdown marker — 100 yards to motorway exit",
-      "what": "Countdown marker — 100 yards to motorway exit",
+      "name": "Countdown marker \u2014 100 yards to motorway exit",
+      "what": "Countdown marker \u2014 100 yards to motorway exit",
       "glyph": true,
       "renderer": "825"
     },
@@ -857,7 +857,7 @@
     },
     "774": {
       "name": "Level crossing without barrier",
-      "what": "St Andrew’s cross at an open railway crossing.",
+      "what": "St Andrew\u2019s cross at an open railway crossing.",
       "glyph": true,
       "renderer": "774"
     },
@@ -908,12 +908,12 @@
       "what": "Drivers of long low, large or slow vehicles must telephone to obtain permission before using a railway or tramway level crossing (Alternative types)"
     },
     "784": {
-      "name": "Level-crossing countdown — 2 stripes",
-      "what": "Level-crossing countdown — 2 stripes"
+      "name": "Level-crossing countdown \u2014 2 stripes",
+      "what": "Level-crossing countdown \u2014 2 stripes"
     },
     "785": {
-      "name": "Level-crossing countdown — 1 stripe",
-      "what": "Level-crossing countdown — 1 stripe"
+      "name": "Level-crossing countdown \u2014 1 stripe",
+      "what": "Level-crossing countdown \u2014 1 stripe"
     },
     "786": {
       "name": "Place where large, slow or long low vehicles should wait near a railway or tramway level crossing while the driver obtains permission by telephone to cross or confirms he or she has crossed (Alternative types)",
@@ -955,8 +955,10 @@
       "renderer": "952"
     },
     "954.5": {
-      "name": "Classes of vehicle excluded from restriction or prohibition conveyed by associated sign . Where the word ‘cycles’ is used on the sign, this also represents, where relevant, electric scooters being used in a trial (Alternative types)",
-      "what": "Classes of vehicle excluded from restriction or prohibition conveyed by associated sign . Where the word ‘cycles’ is used on the sign, this also represents, where relevant, electric scooters being used in a trial (Alternative types)"
+      "name": "Classes of vehicle excluded from restriction or prohibition conveyed by associated sign . Where the word \u2018cycles\u2019 is used on the sign, this also represents, where relevant, electric scooters being used in a trial (Alternative types)",
+      "what": "Classes of vehicle excluded from restriction or prohibition conveyed by associated sign . Where the word \u2018cycles\u2019 is used on the sign, this also represents, where relevant, electric scooters being used in a trial (Alternative types)",
+      "glyph": true,
+      "renderer": "954.5"
     },
     "955": {
       "name": "Route to be used by pedal cycles only",
@@ -982,7 +984,9 @@
     },
     "958.1": {
       "name": "With-flow mandatory cycle lane ahead, with indication of times of operation",
-      "what": "With-flow mandatory cycle lane ahead, with indication of times of operation"
+      "what": "With-flow mandatory cycle lane ahead, with indication of times of operation",
+      "glyph": true,
+      "renderer": "958.1"
     },
     "959": {
       "name": "With-flow bus and cycle lane (pre-2016 number)",
@@ -992,7 +996,9 @@
     },
     "959.1": {
       "name": "With-flow cycle lane with indication of times of operation",
-      "what": "With-flow cycle lane with indication of times of operation"
+      "what": "With-flow cycle lane with indication of times of operation",
+      "glyph": true,
+      "renderer": "959.1"
     },
     "960": {
       "name": "Contra-flow bus lane",
@@ -1002,23 +1008,33 @@
     },
     "960.1": {
       "name": "One-way road with a mandatory contraflow cycle lane",
-      "what": "One-way road with a mandatory contraflow cycle lane"
+      "what": "One-way road with a mandatory contraflow cycle lane",
+      "glyph": true,
+      "renderer": "960.1"
     },
     "962": {
       "name": "Bus lane or lanes on a road at junction ahead, with indication of times of operation (Alternative types)",
-      "what": "Bus lane or lanes on a road at junction ahead, with indication of times of operation (Alternative types)"
+      "what": "Bus lane or lanes on a road at junction ahead, with indication of times of operation (Alternative types)",
+      "glyph": true,
+      "renderer": "962"
     },
     "962.1": {
       "name": "Cycle lane on a road at junction ahead or, if applicable, a cycle track crossing road, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial, with indication of times of operation",
-      "what": "Cycle lane on a road at junction ahead or, if applicable, a cycle track crossing road, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial, with indication of times of operation"
+      "what": "Cycle lane on a road at junction ahead or, if applicable, a cycle track crossing road, or a way that would be a cycle track but for it being accessible, under a temporary statutory provision, by electric scooters being used in a trial, with indication of times of operation",
+      "glyph": true,
+      "renderer": "962.1"
     },
     "962.2": {
       "name": "Contraflow bus lane ahead on a road at a junction which pedal cycles and electric scooters being used in a trial may also use (Alternative types)",
-      "what": "Contraflow bus lane ahead on a road at a junction which pedal cycles and electric scooters being used in a trial may also use (Alternative types)"
+      "what": "Contraflow bus lane ahead on a road at a junction which pedal cycles and electric scooters being used in a trial may also use (Alternative types)",
+      "glyph": true,
+      "renderer": "962.2"
     },
     "963": {
       "name": "Direction in which pedestrians should look for approaching traffic when crossing a bus lane (Alternative types)",
-      "what": "Direction in which pedestrians should look for approaching traffic when crossing a bus lane (Alternative types)"
+      "what": "Direction in which pedestrians should look for approaching traffic when crossing a bus lane (Alternative types)",
+      "glyph": true,
+      "renderer": "963"
     },
     "964": {
       "name": "End of with-flow bus lane",
@@ -1044,7 +1060,9 @@
     },
     "969": {
       "name": "Parking place reserved for buses",
-      "what": "Parking place reserved for buses"
+      "what": "Parking place reserved for buses",
+      "glyph": true,
+      "renderer": "969"
     },
     "974": {
       "name": "Stopping by vehicles other than buses prohibited during the period indicated",
@@ -1225,12 +1243,12 @@
       "what": "Location of fire rendezvous point (Alternative types)"
     },
     "2713": {
-      "name": "Direction to nearest emergency telephone on same side of the road(diagram shows blue background – for use on motorways) (Alternative types)",
-      "what": "Direction to nearest emergency telephone on same side of the road(diagram shows blue background – for use on motorways) (Alternative types)"
+      "name": "Direction to nearest emergency telephone on same side of the road(diagram shows blue background \u2013 for use on motorways) (Alternative types)",
+      "what": "Direction to nearest emergency telephone on same side of the road(diagram shows blue background \u2013 for use on motorways) (Alternative types)"
     },
     "2713.1": {
-      "name": "Distance ahead to emergency telephone in a parking place or emergency lay‑by (Alternative types)",
-      "what": "Distance ahead to emergency telephone in a parking place or emergency lay‑by (Alternative types)"
+      "name": "Distance ahead to emergency telephone in a parking place or emergency lay\u2011by (Alternative types)",
+      "what": "Distance ahead to emergency telephone in a parking place or emergency lay\u2011by (Alternative types)"
     },
     "2714": {
       "name": "Side of emergency telephone box (Alternative types)",
@@ -1369,8 +1387,8 @@
       "what": "The number of a primary route (SI 2002 caption, checked against the page image, r4)."
     },
     "2032": {
-      "name": "Primary route (2032) or non‑primary route (2130) forming part of a ring road",
-      "what": "Primary route (2032) or non‑primary route (2130) forming part of a ring road"
+      "name": "Primary route (2032) or non\u2011primary route (2130) forming part of a ring road",
+      "what": "Primary route (2032) or non\u2011primary route (2130) forming part of a ring road"
     },
     "2033": {
       "name": "Primary-route direction to parking",
@@ -1465,8 +1483,8 @@
       "what": "Non-primary distance and destination"
     },
     "2130": {
-      "name": "Primary route (2032) or non‑primary route (2130) forming part of a ring road",
-      "what": "Primary route (2032) or non‑primary route (2130) forming part of a ring road"
+      "name": "Primary route (2032) or non\u2011primary route (2130) forming part of a ring road",
+      "what": "Primary route (2032) or non\u2011primary route (2130) forming part of a ring road"
     },
     "2201": {
       "name": "Distance ahead to a tourist attraction",
@@ -1624,11 +1642,15 @@
     },
     "816.1": {
       "name": "Alternative to the sign shown at item 5 with a street nameplate",
-      "what": "Alternative to the sign shown at item 5 with a street nameplate"
+      "what": "Alternative to the sign shown at item 5 with a street nameplate",
+      "glyph": true,
+      "renderer": "816.1"
     },
     "818.1": {
       "name": "Section of dual carriageway road ahead",
-      "what": "Section of dual carriageway road ahead"
+      "what": "Section of dual carriageway road ahead",
+      "glyph": true,
+      "renderer": "818.1"
     },
     "818.2": {
       "name": "Worded warning sign",
@@ -1642,15 +1664,21 @@
     },
     "818.4": {
       "name": "Nature and location of a prohibition, restriction or requirement with indication of alternative route",
-      "what": "Nature and location of a prohibition, restriction or requirement with indication of alternative route"
+      "what": "Nature and location of a prohibition, restriction or requirement with indication of alternative route",
+      "glyph": true,
+      "renderer": "818.4"
     },
     "820": {
       "name": "Route unsuitable for type of vehicle indicated (Alternative types)",
-      "what": "Route unsuitable for type of vehicle indicated (Alternative types)"
+      "what": "Route unsuitable for type of vehicle indicated (Alternative types)",
+      "glyph": true,
+      "renderer": "820"
     },
     "821": {
       "name": "Road ahead only wide enough for one line of vehicles, and providing information about passing places (Alternative types)",
-      "what": "Road ahead only wide enough for one line of vehicles, and providing information about passing places (Alternative types)"
+      "what": "Road ahead only wide enough for one line of vehicles, and providing information about passing places (Alternative types)",
+      "glyph": true,
+      "renderer": "821"
     },
     "822": {
       "name": "Passing place on narrow road",
@@ -1658,7 +1686,9 @@
     },
     "829.1": {
       "name": "Potential danger temporarily ahead and consequent need to proceed with caution",
-      "what": "Potential danger temporarily ahead and consequent need to proceed with caution"
+      "what": "Potential danger temporarily ahead and consequent need to proceed with caution",
+      "glyph": true,
+      "renderer": "829.1"
     },
     "832": {
       "name": "Location of traffic survey",
@@ -1693,8 +1723,10 @@
       "what": "Appropriate traffic lanes at junction ahead"
     },
     "873": {
-      "name": "Additional traffic joining from the left or right ahead (diagram shows blue background – for use on motorways)",
-      "what": "Additional traffic joining from the left or right ahead (diagram shows blue background – for use on motorways)"
+      "name": "Additional traffic joining from the left or right ahead (diagram shows blue background \u2013 for use on motorways)",
+      "what": "Additional traffic joining from the left or right ahead (diagram shows blue background \u2013 for use on motorways)",
+      "glyph": true,
+      "renderer": "873"
     },
     "3000.2": {
       "name": "Traffic light signals for the control of vehicular traffic consisting solely of pedal cycles and electric scooters being used in a trial (Alternative types)",
@@ -1851,6 +1883,10 @@
       "what": "Yellow or fluorescent yellow globe to indicate presence of a Parallel, or Zebra crossing",
       "glyph": true,
       "renderer": "4007"
+    },
+    "811B": {
+      "glyph": true,
+      "renderer": "811B"
     }
   }
 }

@@ -483,6 +483,18 @@ class FaceQa(unittest.TestCase):
         self.assertEqual(convert.version_problems({"ghostscript": "10.05.1", "pdftocairo": "pdftocairo version 25.03.0"}), [])
         self.assertEqual(len(convert.version_problems({"ghostscript": "10.02.1", "pdftocairo": "pdftocairo version 24.02.0"})), 2)
 
+    def test_near_neutral_grey_snaps_to_black_not_brown(self):
+        from eps import convert
+        convert._PAL = None
+        # 4003.2 unsapped aspect backing: pdftocairo rgb(81,78,79), chroma 3
+        hexv, bad = convert.snap((81.0, 78.0, 79.0))
+        self.assertEqual(hexv, "#141414")
+        self.assertIsNone(bad)
+        # Official tourist brown from 2201.eps must still snap to brown
+        hexv, bad = convert.snap((113.0, 57.0, 7.0))
+        self.assertEqual(hexv, "#73451F")
+        self.assertIsNone(bad)
+
     def test_deploy_guard_requires_attribution(self):
         import tempfile
         from eps import convert, deploy_guard

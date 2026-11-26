@@ -56,8 +56,8 @@
   },
   "counts": {
     "signs": 390,
-    "glyphs": 221,
-    "fallback": 169,
+    "glyphs": 253,
+    "fallback": 137,
     "current": 220,
     "non_tsrgd": 5
   },

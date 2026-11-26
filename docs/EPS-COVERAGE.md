@@ -10,18 +10,25 @@
 | atlas faces no eps | 119 |
 | eps replacing placeholder | 61 |
 | eps example | 48 |
-| superseded hand traced | 95 |
+| superseded hand traced | 103 |
 | conflicts 2016 | 0 |
-| si2016 eye checked | 21 |
+| si2016 eye checked | 29 |
 | not yet verified | 0 |
-| source = eps | 156 |
-| source = placeholder | 108 |
-| source = procedural | 126 |
+| source = eps | 164 |
+| source = placeholder | 76 |
+| source = procedural | 150 |
 
-## Atlas faces now EPS-sourced (fixed pictogram) (108)
+## Atlas faces now EPS-sourced (fixed pictogram) (116)
 
 | Face | Family | Row | Fallback | EPS |
 |---|---|---|---|---|
+| 4003.1 | PedHead | current | procedural | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.1.eps |
+| 4003.2 | PedHead | current | procedural | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.2.eps |
+| 4003.3 | PedHead | current | procedural | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.3.eps |
+| 4003.4 | PedHead | current | procedural | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.4.eps |
+| 4003.5 | PedHead | current | procedural | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.5.eps |
+| 4003.6 | PedHead | current | procedural | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.6.eps |
+| 4003.7 | PedHead | current | procedural | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.7.eps |
 | 504.1 | WarnTriangle | current | procedural | warning-signs-eps.zip/504.1.eps |
 | 505.1 | WarnTriangle | current | procedural | warning-signs-eps.zip/505.1.eps |
 | 506.1 | WarnTriangle | current | procedural | warning-signs-eps.zip/506.1.eps |
@@ -104,6 +111,7 @@
 | 779 | WarnTriangle | current | procedural | level-crossing-signs-eps.zip/level-crossing-signs-eps/779.eps |
 | 781 | WarnTriangle | current | placeholder | level-crossing-signs-eps.zip/level-crossing-signs-eps/781.eps |
 | 782 | WarnTriangle | current | procedural | level-crossing-signs-eps.zip/level-crossing-signs-eps/782.eps |
+| 783 | WarnTriangle | current | procedural | level-crossing-signs-eps.zip/level-crossing-signs-eps/783.eps |
 | 801 | InfoBlue | current | procedural | information-signs-eps.zip/information-signs-eps/801.eps |
 | 804.1 | InfoBlue | current | placeholder | on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/804.1.eps |
 | 804.2 | InfoBlue | current | placeholder | on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/804.2.eps |
@@ -184,10 +192,17 @@
 | 2930 | DirMotorway | current | motorway-signs-eps.zip/motorway-signs-eps/2930.eps |
 | 2932 | DirMotorway | current | motorway-signs-eps.zip/motorway-signs-eps/2932.eps |
 
-## SI 2016 eye-check verdicts (EPS vs the SI 2016 page) (21)
+## SI 2016 eye-check verdicts (EPS vs the SI 2016 page) (29)
 
 | Face | Verdict | Source now | SI page | Finding |
 |---|---|---|---|---|
+| 4003.1 | pass-si2016 | eps | tsrgd2016.pdf PDF p453 (printed 452), Sch 14 Pt 2 item 13 | Official GOV.UK EPS from the pinned pedestrian-cycle-equestrian zip, used under the 09:42 rule. Eye-checked against SI 2016: nearside pedestrian signal — black plate, red standing figure, green walking figure, "Push button / Wait for signal", and a white square push-button. Matches the default SI diagram. Art generator traces remain the procedural fallback. |
+| 4003.2 | pass-si2016 | eps | tsrgd2016.pdf PDF p454 (printed 453), Sch 14 Pt 2 item 15 | Official GOV.UK EPS used under the 09:42 rule (replaces the Art trace, which was a single green horse). Eye-checked against SI 2016 item 15: two-aspect farside equestrian signals, red horse-and-rider over green horse-and-rider, on black backings. Colours match the SI (black, not brown). A convert.py snap bug had mapped the unsapped dark grey rgb(81,78,79) from pdftocairo to brown because Euclidean RGB is closer to brown than to black; the raw EPS is process black, not brown. That snap is now chroma-aware. The SI draws two separate circular heads; the official EPS places the same two aspects on one rectangular black plate. Symbols, colours and stacking match. Art traces remain the procedural fallback. |
+| 4003.3 | pass-si2016 | eps | tsrgd2016.pdf PDF p455 (printed 454), Sch 14 Pt 2 item 16 | Official GOV.UK EPS used under the 09:42 rule. Eye-checked against SI 2016: "EQUESTRIANS / push button and wait for signal opposite", blue WAIT panel, wait (red horse) and cross with care (green horse) legend, and a circular push-button. Matches the default SI diagram. Art traces remain the procedural fallback. |
+| 4003.4 | pass-si2016 | eps | tsrgd2016.pdf PDF p456 (printed 455), Sch 14 Pt 2 item 17 | Official GOV.UK EPS used under the 09:42 rule. Eye-checked against SI 2016: nearside equestrian signal — black plate, red horse-and-rider, green horse-and-rider, "Push button / Wait for signal", and a white square push-button. Matches the default SI diagram. Art traces remain the procedural fallback. |
+| 4003.5 | pass-si2016 | eps | tsrgd2016.pdf PDF p457 (printed 456), Sch 14 Pt 2 item 19 | Official GOV.UK EPS used under the 09:42 rule (replaces the Art trace, which was a single green bicycle). Eye-checked against SI 2016 item 19: three-aspect farside Toucan — red standing figure (top left), green walker (bottom left), green cycle (bottom right), on black backings. Colours match the SI (same chroma-aware snap fix as 4003.2; the raw EPS is process black, not brown). The SI draws three separate circular heads in that L arrangement; the official EPS uses one L-shaped black plate. Symbols, colours and configuration match (cycle aspect to the right of the green pedestrian aspect). Art traces remain the procedural fallback. |
+| 4003.6 | pass-si2016 | eps | tsrgd2016.pdf PDF p458 (printed 457), Sch 14 Pt 2 item 20 | Official GOV.UK EPS used under the 09:42 rule. Eye-checked against SI 2016: Toucan / cycle push-button instructions — "push button and wait for signal opposite", blue WAIT panel, and a circular push-button, with no wait/cross-with-care pictogram panel (unlike 4003.3). Matches the default SI diagram. Art traces remain the procedural fallback. |
+| 4003.7 | pass-si2016 | eps | tsrgd2016.pdf PDF p459 (printed 458), Sch 14 Pt 2 item 21 | Official GOV.UK EPS used under the 09:42 rule. Eye-checked against SI 2016: nearside Toucan signal — black plate with the cycle symbol to the left of the pedestrian symbol (red cycle and figure on the top row, green cycle and walking figure below), "Push button / Wait for signal", and a white square push-button. Matches the default SI diagram (not the reversed-symbols variant). Art traces remain the procedural fallback. |
 | 526 | outdated | procedural | tsrgd2016.pdf PDF p45 (diagram 529) | EPS is a different 2002 sign ("Keep in low gear" style plate, not the opening bridge); 2016 renumbered the opening bridge to 529. Procedural face kept. |
 | 530 | outdated | procedural | tsrgd2016.pdf PDF p56 (diagram 530A) | EPS is metric 4.4 m only and carries an embedded raster; 2016 530A requires both units (metric and imperial). Procedural face kept. |
 | 530A | matches-2016 | procedural | tsrgd2016.pdf PDF p56 | EPS matches the 2016 530A layout, but the height is set per site; procedural face kept (EPS shows one example value). |
@@ -198,6 +213,7 @@
 | 777 | pass-si2016 | eps | tsrgd2016.pdf PDF p448 (Sch 14 Pt 2 item 8) | EPS matches the SI 2016 diagram (Reviewer page check r1). Fixed wording: the owner ruled (r12) that EPS lettering drawn as paths is acceptable, so the EPS is used; our primitive-font face stays as the offline fallback. |
 | 778 | pass-si2016 | eps | tsrgd2016.pdf PDF p139 | SI 2016 shows a steam locomotive on the plate; the EPS matches. EPS used (procedural fallback redrawn to match). |
 | 781 | pass-si2016 | eps | tsrgd2016.pdf PDF p64 (printed 63), Sch 2 Pt 6 item 5 | Load gauge with bells under overhead cables. The owner ruled (r12): use the official face unless it has dynamic text. SI 2016 shows no text on the sign (the figures are drawing dimensions); its variants are the number of bells (by road width) and bell colour, not wording. So the EPS is used; a site with a different bell count would need the procedural face. |
+| 783 | pass-si2016 | eps | tsrgd2016.pdf PDF p215 (printed 214), Sch 11 Pt 2 item 68 | Owner ruling (09:42, recorded after r2): 783 goes to EPS. Eye check against SI 2016: the sign is a blue plate with white lettering (the r12 note that the EPS is blue where the atlas expects white was a misread — the SI 2016 diagram is also blue). SI shows two alternative types: LONG LOW VEHICLES and LARGE OR SLOW VEHICLES. The GOV.UK EPS is the LONG LOW type and matches the left-hand SI diagram; it is used (fixed path lettering). The procedural fallback remains the LARGE OR SLOW type. |
 | 811 | pass-si2016 | eps | tsrgd2016.pdf PDF p186 (diagram 811A) | EPS matches 2016 811A (priority over oncoming vehicles); the row is the pre-2016 number renumbered to 811A. No per-site wording: EPS used. |
 | 811A | pass-si2016 | eps | tsrgd2016.pdf PDF p186 | 2016 diagram; takes the 811 EPS, eye-checked against the 2016 page (same face). |
 | 823 | pass-si2016 | eps | tsrgd2016.pdf PDF p195 | Countdown marker; EPS matches the SI 2016 diagram (Reviewer page check r1); no wording. EPS used. |
@@ -215,7 +231,7 @@
 | Face | Family | EPS | Why |
 |---|---|---|---|
 
-## EPS match, kept procedural/placeholder (no conflict) (115)
+## EPS match, kept procedural/placeholder (no conflict) (107)
 
 | Face | Family | Source | EPS | Why |
 |---|---|---|---|---|
@@ -227,13 +243,6 @@
 | 2931 | DirMotorway | procedural | motorway-signs-eps.zip/motorway-signs-eps/2931.eps | family DirMotorway: wording-led or composite, kept procedural |
 | 4002.1 | PedHead | procedural | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4002.1.eps | family PedHead: wording-led or composite, kept procedural; visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural |
 | 4003 | PedHead | procedural | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.eps | family PedHead: wording-led or composite, kept procedural; visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural |
-| 4003.1 | PedHead | placeholder | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.1.eps | family PedHead: wording-led or composite, kept procedural; visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural |
-| 4003.2 | PedHead | placeholder | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.2.eps | family PedHead: wording-led or composite, kept procedural; visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural |
-| 4003.3 | PedHead | placeholder | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.3.eps | family PedHead: wording-led or composite, kept procedural; visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural |
-| 4003.4 | PedHead | placeholder | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.4.eps | family PedHead: wording-led or composite, kept procedural; visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural |
-| 4003.5 | PedHead | placeholder | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.5.eps | family PedHead: wording-led or composite, kept procedural; visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural |
-| 4003.6 | PedHead | placeholder | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.6.eps | family PedHead: wording-led or composite, kept procedural; visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural |
-| 4003.7 | PedHead | placeholder | pedestrian-cycle-equestrian-eps.zip/pedestrian,-cycle,-equestrian-eps/4003.7.eps | family PedHead: wording-led or composite, kept procedural; visual review: composite: signal head or equipment assembly (aspects, push-button unit), not a fixed sign face; stays procedural |
 | 513.1 | WarnTriangle | procedural | warning-signs-eps.zip/513.1.eps | visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 513.2 | WarnTriangle | procedural | speed-limit-signs-eps.zip/speed-limit-signs-eps/513.2.eps | variable value or wording set per site (caption); EPS shows one example |
 | 523.1 | WarnTriangle | procedural | warning-signs-eps.zip/523.1.eps | visual review: variable: value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example |
@@ -303,17 +312,16 @@
 | 675 | Prohibitory | procedural | speed-limit-signs-eps.zip/speed-limit-signs-eps/675.eps | variable value or wording set per site (caption); EPS shows one example; visual review: matches-2016: EPS matches 2016 675A; the value is set per site, so the procedural face is kept. |
 | 773 | WarnTriangle | procedural | level-crossing-signs-eps.zip/level-crossing-signs-eps/773.eps | visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 775 | WarnTriangle | procedural | level-crossing-signs-eps.zip/level-crossing-signs-eps/775.eps | visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
-| 783 | WarnTriangle | procedural | level-crossing-signs-eps.zip/level-crossing-signs-eps/783.eps | visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering. r12: colour verified only: the 2002 EPS ground is blue where the atlas expects white; not used (wording verdict stands). |
 | 786 | WarnTriangle | procedural | level-crossing-signs-eps.zip/level-crossing-signs-eps/786.eps | visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 787 | WarnTriangle | procedural | level-crossing-signs-eps.zip/level-crossing-signs-eps/787.eps | visual review: variable: SI 2016 alternative types (telephone / emergency telephone): the EPS shows the plain handset, the atlas draws the SOS alternative; procedural kept |
 | 788 | WarnTriangle | procedural | level-crossing-signs-eps.zip/level-crossing-signs-eps/788.eps | visual review: variable: SI 2016 alternative types (telephone / emergency telephone): the EPS shows the plain handset, the atlas draws the SOS alternative; procedural kept |
 | 811.1 | Plate | procedural | traffic-calming-eps.zip/traffic-calming-eps/811.1.eps | family Plate: wording-led or composite, kept procedural |
-| 818.1 | InfoBlue | placeholder | information-signs-eps.zip/information-signs-eps/818.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
+| 818.1 | InfoBlue | procedural | information-signs-eps.zip/information-signs-eps/818.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 818.3 | InfoBlue | placeholder | low-bridge-signs-eps.zip/low-bridge-signs-eps/low-bridge-signs-eps/818.3.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
-| 818.4 | InfoBlue | placeholder | on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/818.4.EPS | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
-| 820 | InfoBlue | placeholder | information-signs-eps.zip/information-signs-eps/820.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
-| 821 | InfoBlue | placeholder | information-signs-eps.zip/information-signs-eps/821.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
-| 829.1 | InfoBlue | placeholder | information-signs-eps.zip/information-signs-eps/829.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
+| 818.4 | InfoBlue | procedural | on-street-parking-eps.zip/on-street-parking-eps/on-street-parking-eps/818.4.EPS | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
+| 820 | InfoBlue | procedural | information-signs-eps.zip/information-signs-eps/820.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
+| 821 | InfoBlue | procedural | information-signs-eps.zip/information-signs-eps/821.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
+| 829.1 | InfoBlue | procedural | information-signs-eps.zip/information-signs-eps/829.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 832 | InfoBlue | placeholder | information-signs-eps.zip/information-signs-eps/832.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 878 | Prohibitory | procedural | speed-limit-signs-eps.zip/speed-limit-signs-eps/878.eps | visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 880 | Prohibitory | procedural | speed-limit-signs-eps.zip/speed-limit-signs-eps/880.eps | variable value or wording set per site (caption); EPS shows one example |
@@ -324,14 +332,14 @@
 | 954 | Mandatory | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/954.eps | visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 954.2 | Mandatory | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/954.2.eps | visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 958 | InfoBlue | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/958.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
-| 958.1 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/958.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: fail: EPS lacks the time panel that SI 2016 shows (Reviewer r1 F1). |
-| 959.1 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/959.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: fail: EPS lacks the time panel that SI 2016 shows (Reviewer r1 F1). |
+| 958.1 | InfoBlue | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/958.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: fail: EPS lacks the time panel that SI 2016 shows (Reviewer r1 F1). |
+| 959.1 | InfoBlue | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/959.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: fail: EPS lacks the time panel that SI 2016 shows (Reviewer r1 F1). |
 | 960 | InfoBlue | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/960.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: variable: value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example |
-| 960.1 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/960.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: variable: value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example |
-| 962 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/962.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
-| 962.1 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/962.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
-| 963 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/963T.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
-| 969 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/969.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: fail: EPS adds a P (parking) sign that the SI 2016 diagram does not show (Reviewer r1 F1). |
+| 960.1 | InfoBlue | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/960.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: variable: value, orientation or combination set per site (gradient %, arrow direction, mode list); EPS shows one example |
+| 962 | InfoBlue | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/962.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
+| 962.1 | InfoBlue | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/962.1.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
+| 963 | InfoBlue | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/963T.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
+| 969 | InfoBlue | procedural | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/969.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: fail: EPS adds a P (parking) sign that the SI 2016 diagram does not show (Reviewer r1 F1). |
 | 974 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/974.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 | 975 | InfoBlue | placeholder | bus-and-cycle-signs-eps.zip/bus-and-cycle-signs-eps/975.eps | family InfoBlue: wording-led or composite, kept procedural; visual review: wording: wording-led plate or composite; wording stays in our own primitive lettering |
 
@@ -401,16 +409,16 @@
 | 2914 | DirMotorway | placeholder |
 | 2920 | DirMotorway | placeholder |
 | 3000 | SignalHead | procedural |
-| 3000.2 | SignalHead | placeholder |
+| 3000.2 | SignalHead | procedural |
 | 3000.7 | SignalHead | placeholder |
 | 3001 | SignalHead | placeholder |
-| 3001.2 | SignalHead | placeholder |
-| 3013 | SignalHead | placeholder |
-| 3013.1 | SignalHead | placeholder |
-| 3013.2 | SignalHead | placeholder |
-| 3013.3 | SignalHead | placeholder |
-| 3013.4 | SignalHead | placeholder |
-| 3013.5 | SignalHead | placeholder |
+| 3001.2 | SignalHead | procedural |
+| 3013 | SignalHead | procedural |
+| 3013.1 | SignalHead | procedural |
+| 3013.2 | SignalHead | procedural |
+| 3013.3 | SignalHead | procedural |
+| 3013.4 | SignalHead | procedural |
+| 3013.5 | SignalHead | procedural |
 | 3014 | SignalHead | procedural |
 | 4002 | PedHead | placeholder |
 | 4007 | PedHead | procedural |
@@ -440,18 +448,18 @@
 | 780.2 | WarnTriangle | placeholder |
 | 784 | WarnTriangle | placeholder |
 | 785 | WarnTriangle | placeholder |
-| 811B | InfoBlue | placeholder |
-| 816.1 | InfoBlue | placeholder |
+| 811B | InfoBlue | procedural |
+| 816.1 | InfoBlue | procedural |
 | 818.2 | InfoBlue | procedural |
 | 818.5 | Prohibitory | procedural |
 | 837 | InfoBlue | placeholder |
 | 857 | InfoBlue | placeholder |
 | 872 | InfoBlue | placeholder |
-| 873 | InfoBlue | placeholder |
-| 954.5 | InfoBlue | placeholder |
+| 873 | InfoBlue | procedural |
+| 954.5 | InfoBlue | procedural |
 | 959 | InfoBlue | procedural |
 | 959B | InfoBlue | procedural |
-| 962.2 | InfoBlue | placeholder |
+| 962.2 | InfoBlue | procedural |
 | BELISHA | PedHead | procedural |
 | GANTRY_ADS | DirMotorway | procedural |
 | MARKER | Marker | procedural |

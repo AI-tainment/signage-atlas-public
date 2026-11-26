@@ -4,7 +4,10 @@
 Pipeline: Ghostscript (EPS, -dEPSCrop) -> PDF -> pdftocairo -svg -> normalise.
 Normalising: viewBox from the EPS bounding box at origin 0 0 (2 dp), every number rounded to 2 dp,
 rgb(%) colours snapped to the atlas sign palette (countries/uk/country.json; an off-palette colour is
-kept and reported), default attributes, ids and XML prolog removed, no metadata. Same input -> same bytes.
+kept and reported). Near-neutral colours (low chroma) only snap to black, white or grey, so a dark grey
+cannot land on brown: Euclidean RGB can put (81,78,79) closer to brown than to black (found on 4003.2 /
+4003.5 aspect backings, 2026-11-25; the raw EPS is process black, not brown). Default attributes, ids
+and XML prolog removed, no metadata. Same input -> same bytes.
 
 Checks per file (returned in the report dict): embedded fonts in the intermediate PDF (pdffonts),
 <image> / <text> elements in the SVG, off-palette colours.
@@ -28,6 +31,11 @@ from eps import paths  # noqa: E402
 SIGN_PALETTE = ("red", "blue", "motorway_blue", "white", "black", "grey", "amber", "green", "brown",
                 "primary_green", "yellow", "fluorescent_yellow")
 SNAP = 110.0  # max RGB distance for a palette snap
+# Near-neutral inks (max-min RGB at or below this) may only snap to black, white or grey.
+# Without this, a dark grey such as pdftocairo's (81, 78, 79) is closer to brown #73451F
+# (d≈59.5) than to black #141414 (d≈102.8) and was wrongly snapped to brown.
+CHROMA_NEUTRAL = 16.0
+NEUTRAL_PALETTE = ("black", "white", "grey")
 
 
 # r12 (F7): the converter versions the byte-identical cache was made with. Other versions may round or
@@ -67,7 +75,10 @@ _PAL = None
 def snap(rgb: tuple[float, float, float]) -> tuple[str, str | None]:
     global _PAL
     _PAL = _PAL or palette()
-    best = min(_PAL, key=lambda kv: sum((a - b) ** 2 for a, b in zip(kv[1], rgb)))
+    pal = _PAL
+    if max(rgb) - min(rgb) <= CHROMA_NEUTRAL:
+        pal = [kv for kv in _PAL if kv[0] in NEUTRAL_PALETTE]
+    best = min(pal, key=lambda kv: sum((a - b) ** 2 for a, b in zip(kv[1], rgb)))
     d = sum((a - b) ** 2 for a, b in zip(best[1], rgb)) ** 0.5
     if d <= SNAP:
         return "#%02X%02X%02X" % best[1], None
